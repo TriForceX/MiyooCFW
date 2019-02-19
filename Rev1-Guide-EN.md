@@ -8,7 +8,7 @@ https://steward-fu.github.io/website/handheld.htm
 
 **You can click the next video to see the basics of the console modifications.**
 
-[![click here](https://img.youtube.com/vi/FjQquL3W99U/maxresdefault.jpg)](https://youtu.be/FjQquL3W99U)
+[![click here](https://i.imgur.com/I3S12VG.png)](https://youtu.be/FjQquL3W99U)
 
 
 ## 1) Materials
@@ -24,14 +24,19 @@ https://steward-fu.github.io/website/handheld.htm
 3. SPI flashing
 3. Burn image to SD card
 
-## 3.1) Hardware Mode (hwmod)
-1. Unscrew the 4 screws to release the case.
-2. Check the display area. If the LCD connector is not on the display, it is Rev2.
+## 3.1) Hardware Mod (hwmod)
+1. Unscrew the 6 screws to release the case.\
+![image 1](https://i.imgur.com/LHmhgJN.png)
+2. Check the display area. If the LCD connector is not on the display, it is Rev2.\
+![image 2](https://i.imgur.com/KuanR5A.png)
 3. Remove resistors R75, R76, R78.
-4. DM, DP solder joint (lead to ground).
-   - Amendment
+4. DM, DP solder joint (lead to ground).\
+![image 3](https://i.imgur.com/B2DWSGW.png)
+   - Amendment\
+![image 4](https://i.imgur.com/lieDKbu.png)
    - After revision
-5. Ground the jumper wire on the 2nd pin of the SPI IC chip.
+5. Ground the jumper wire on the 2nd pin of the SPI IC chip.\
+![image 5](https://i.imgur.com/F0CPt0b.png)
 
 ## 3.2) Building SPI Flashing Environment
 1. Install Debian or Ubuntu on your PC.
@@ -64,8 +69,8 @@ https://steward-fu.github.io/website/handheld.htm
 7. Wait until 100% is completed.
 8. Disconnect the New BitBoy from the PC and turn off the power.
 9. Assemble the New Bittboy main body and turn on the power.
-10. If the following screen is displayed, it is success.
- 
+10. If the following screen is displayed, it is success.\
+![image 6](https://i.imgur.com/JxTEsDV.png)
 
 # 3.4) Burning an Image to an SD Card
 1. Download the latest MiOS image from Steward-fu's github. https://github.com/steward-fu/miyoo_rel
@@ -75,8 +80,9 @@ https://steward-fu.github.io/website/handheld.htm
 2. Remove all partitions of SD card and format it with FAT32 etc. (I used Windows Disk Management)
 3. Download `win32diskimager` and install it.
    https://sourceforge.net/projects/win32diskimager/
-4. Execute `win32diskimager`, select SD driver, load MiOS image and press **"Write"** button to proceed.
-5. Once the image is burned, insert SD into New Bittboy and turn it on. If it boots like below, it is a success.
- 
+4. Execute `win32diskimager`, select SD driver, load MiOS image and press **"Write"** button to proceed.\
+![image 7](https://i.imgur.com/ut0wzto.png)
+5. Once the image is burned, insert SD into New Bittboy and turn it on. If it boots like below, it is a success.\
+![image 8](https://i.imgur.com/l0ZXpH7.png)
 
 **Enjoy!** :grin:

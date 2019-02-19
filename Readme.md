@@ -18,6 +18,9 @@ Name | Link
 Miyoo Development | [Visit](https://github.com/steward-fu/miyoo_dev)
 Miyoo Release | [Visit](https://github.com/steward-fu/miyoo_rel)
 Discord Server | [Join](https://discord.gg/5qbZKsm)
+Main Homepage | [Join](https://jutleys.wixsite.com/bittboynew4u)
+
+_You can buy the New BittBoy with a %20 OFF [clicking here](http://retromimi.com/?aff=5) and using the code **happy2019** on checkout_
 
 # Special Thanks
 

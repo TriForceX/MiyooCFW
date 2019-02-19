@@ -6,8 +6,8 @@ The next guide was made to help anyone to setup a **custom firmware** to this co
 
 The current guides are in the next languages:
 
-- [English Guide (View Here)](#)
-- [Korean Guide (View Here)](#)
+- [English Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev1-Guide-EN.md)
+- [Korean Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev1-Guide-KO.md)
 
 # Resources
 

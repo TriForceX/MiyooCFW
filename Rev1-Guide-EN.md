@@ -25,7 +25,7 @@ https://steward-fu.github.io/website/handheld.htm
 3. Burn image to SD card
 
 ## 3.1) Hardware Mode (hwmod)
-1. Use the screw to release the case.
+1. Unscrew the 4 screws to release the case.
 2. Check the display area. If the LCD connector is not on the display, it is Rev2.
 3. Remove resistors R75, R76, R78.
 4. DM, DP solder joint (lead to ground).

@@ -34,7 +34,7 @@ https://steward-fu.github.io/website/handheld.htm
 5. Ground the jumper wire on the 2nd pin of the SPI IC chip.
 
 ## 3.2) Building SPI Flashing Environment
-1. Install Devian or Ubuntu on your PC.
+1. Install Debian or Ubuntu on your PC.
 2. Run the terminal using an account with root privileges.
 3. Enter in the following order:
    ```

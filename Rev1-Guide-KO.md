@@ -6,7 +6,7 @@
 
 https://steward-fu.github.io/website/handheld.htm
 
-**다음 비디오를 클릭하면 콘솔 수정의 기본 사항을 볼 수 있습니다.**
+**다음 영상으로 SPI플레싱 방법을 쉽게 확인할 수 있습니다.**
 
 [![click here](https://i.imgur.com/I3S12VG.png)](https://youtu.be/FjQquL3W99U)
 

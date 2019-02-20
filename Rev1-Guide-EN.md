@@ -1,4 +1,4 @@
-# New Bitbooy Rev 1 Custom Firmware
+# New Bittboy Rev 1 Custom Firmware
 
 Before working with us, we would like to express our gratitude to **Steward-fu** and the **Bittboy Discord Channel** for developing.
 
@@ -32,9 +32,9 @@ https://steward-fu.github.io/website/handheld.htm
 3. Remove resistors R75, R76, R78.
 4. DM, DP solder joint (lead to ground).\
 ![image 3](https://i.imgur.com/B2DWSGW.png)
-   - Amendment\
+   - before work\
 ![image 4](https://i.imgur.com/lieDKbu.png)
-   - After revision
+   - After work
 5. Ground the jumper wire on the 2nd pin of the SPI IC chip.\
 ![image 5](https://i.imgur.com/F0CPt0b.png)
 
@@ -53,7 +53,7 @@ https://steward-fu.github.io/website/handheld.htm
    ```
 
 ## 3.3) SPI Flashing
-1. Connect New BitBoy to PC with USB.
+1. Connect New BittBoy to PC with USB.
 2. Turn on the power while holding the jumper wire as shown in the picture.
 3. Download the latest spi image from Steward-fu's github. https://github.com/steward-fu/miyoo_rel
    ```
@@ -67,7 +67,7 @@ https://steward-fu.github.io/website/handheld.htm
    ex> sudo sunxi-fel -p spiflash-write 0 miyoo_spi_hwmod_1bit_ghostkey_20190216.bin
    ```
 7. Wait until 100% is completed.
-8. Disconnect the New BitBoy from the PC and turn off the power.
+8. Disconnect the New BittBoy from the PC and turn off the power.
 9. Assemble the New Bittboy main body and turn on the power.
 10. If the following screen is displayed, it is success.\
 ![image 6](https://i.imgur.com/JxTEsDV.png)

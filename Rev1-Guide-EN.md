@@ -67,7 +67,7 @@ https://steward-fu.github.io/website/handheld.htm
    ex> sudo ./sunxi-fel -p spiflash-write 0 miyoo_spi_hwmod_1bit_ghostkey_20190216.bin
    ```
 7. Wait until 100% is completed.
-8. Disconnect the New BitBoy from the PC and turn off the power.
+8. Disconnect the New BittBoy from the PC and turn off the power.
 9. Assemble the New Bittboy main body and turn on the power.
 10. If the following screen is displayed, it is success.\
 ![image 6](https://i.imgur.com/JxTEsDV.png)

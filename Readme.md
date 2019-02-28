@@ -1,6 +1,6 @@
 # New Bittboy CFW
 
-The next guide was made to help anyone to setup a **custom firmware** to this console. For now this guide is for the **1st revision** of the console.
+The next guide was made to help anyone to setup a **custom firmware** to this console. The guide for **1st revision** of the console is complete, but the guide for the **2nd revision** is still beta. You can always follow the development in our **Discord** server.
 
 # Rev2 vs Rev1 Differences
 
@@ -21,6 +21,8 @@ The current guides are in the next languages:
 
 - [Rev1 English Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev1-Guide-EN.md)
 - [Rev1 Korean Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev1-Guide-KO.md)
+- [Rev2 English Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev2-Guide-EN.md)
+- [Rev2 Korean Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev2-Guide-KO.md)
 
 # Resources
 

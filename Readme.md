@@ -2,12 +2,25 @@
 
 The next guide was made to help anyone to setup a **custom firmware** to this console. For now this guide is for the **1st revision** of the console.
 
-# Information
+# Rev2 vs Rev1 Differences
+
+**Note:** The 1st console revision was present from _Nov 30, 2018_ to _Jan 07, 2019_ and the 2nd revisión from _Jan 10_ to the current date.
+
+- Now are *Three Options* to display mode (I: Full, II: Pixel Perfect + Frame, III: Full Non Streched)
+- Changed the screen (The 2nd internal mini-screen is not present)
+- Changed the button colors (Asian markets only)
+- Changed the button scan code sequence 
+- Doesn't require _Hardware modifications_ for CFW (Changed 4bit)
+- Can *Dual boot* system 
+- CPU is now consistent 
+- Battery is consistent
+
+# Custom Firmware Setup
 
 The current guides are in the next languages:
 
-- [English Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev1-Guide-EN.md)
-- [Korean Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev1-Guide-KO.md)
+- [Rev1 English Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev1-Guide-EN.md)
+- [Rev1 Korean Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev1-Guide-KO.md)
 
 # Resources
 
@@ -15,10 +28,10 @@ Here you have some of the main resources:
 
 Name | Link
 :------------: | :------------:
-Miyoo Development | [Visit](https://github.com/steward-fu/miyoo_dev)
-Miyoo Release | [Visit](https://github.com/steward-fu/miyoo_rel)
-Discord Server | [Join](https://discord.gg/5qbZKsm)
-Main Homepage | [Join](https://jutleys.wixsite.com/bittboynew4u)
+Miyoo Development Repository | [Visit](https://github.com/steward-fu/miyoo_dev)
+Miyoo Release Repository | [Visit](https://github.com/steward-fu/miyoo_rel)
+Community & Support Discord | [Join](https://discord.gg/5qbZKsm)
+Main Homepage | [Visit](https://jutleys.wixsite.com/bittboynew4u)
 
 _You can buy the New BittBoy with a %20 OFF [clicking here](http://retromimi.com/?aff=5) and using the code **happy2019** on checkout_
 
@@ -27,6 +40,7 @@ _You can buy the New BittBoy with a %20 OFF [clicking here](http://retromimi.com
 The next people is contributing to all of this on the **Discord** server:
 
 - Steward
+- Tony Jih
 - Sauce
 - Augen(히힛마스터)
 - Bitboy

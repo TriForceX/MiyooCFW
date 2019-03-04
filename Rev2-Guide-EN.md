@@ -2,7 +2,9 @@
 
 Before working with us, we would like to express our gratitude to **Steward-fu** and the **Bittboy Discord Channel** for developing.
 
-**This is still a beta and is still in development.**
+**This is still a beta and is still in development. You can click the next video to see how to do.**
+
+[![click here](https://i.imgur.com/H13STVz.png)](https://youtu.be/i62_J6SAN9s)
 
 ## 1) Materials
 1. New Bittboy - rev2 (lastest version)

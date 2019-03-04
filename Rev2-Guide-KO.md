@@ -2,7 +2,9 @@
 
 작업하기 앞서 저희에게 펌웨어를 개발해 주신 **Steward-fu**와 **bittboy** 디스코드 체널 여러분께 무한한 감사를 표합니다.
 
-**아직 베타 버전이며 아직 개발 중입니다.**
+**아직 베타 버전이며 아직 개발 중입니다. 다음 동영상을 클릭하면 할 수 있습니다.**
+
+[![click here](https://i.imgur.com/H13STVz.png)](https://youtu.be/i62_J6SAN9s)
 
 ## 1) Materials
 1. New Bittboy - rev2 (최신 버전)

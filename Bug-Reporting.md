@@ -7,12 +7,12 @@ This list aims to let the users and developers a complete list of bugs and issue
 Playable | Type | Game | Issue
 :------------: | :------------: | :------------ | :------------
 No | GBC | Shantae | Flashing graphics and low fps
-No | NES | SLion King | Screen flickering
-No | NES | SAladdin | Freezes after the menu
-Yes | NES | SCastlevania III | Audio problems
+No | NES | Lion King | Screen flickering
+No | NES | Aladdin | Freezes after the menu
+Yes | NES | Castlevania III | Audio problems
 Yes | GB | Pokémon Red & Blue | Audio problems
 No | NES | Super Pang | Doesn't start
-No | NES | SBattletoads | Freezes after start cutscene
+No | NES | Battletoads | Freezes after start cutscene
 Yes | GBC | Infinity | Doesn't sound quite correct
 Yes | NES | Lagrange Point | Sound problems due inexistence of VRC7 chip
 Yes | GBC | Zelda Oracle Series | Freezes when change to lowercase in character creation

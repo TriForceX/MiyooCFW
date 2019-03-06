@@ -44,11 +44,12 @@ _You can buy the New BittBoy with a %20 OFF [clicking here](http://retromimi.com
 The next people is contributing to all of this on the **Discord** server:
 
 - Steward
-- Tony Jih
 - Sauce
-- Augen(히힛마스터)
 - Jutleys
-- TacoSalad
-- Superpuissant
 - Pingflood
+- TriForce
+- Superpuissant
+- Augen(히힛마스터)
+- Tony Jih
+- TacoSalad
 - Dmm1138

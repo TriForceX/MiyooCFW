@@ -47,7 +47,7 @@ The next people is contributing to all of this on the **Discord** server:
 - Tony Jih
 - Sauce
 - Augen(히힛마스터)
-- Bitboy
+- Jutleys
 - TacoSalad
 - Superpuissant
 - Pingflood

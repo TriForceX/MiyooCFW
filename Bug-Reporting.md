@@ -35,8 +35,6 @@ Revision | Issue
 1 | Doing Left + Down + B make Start button pressed in emulators
 1 | Doing Left + Down + A causes lag and make TA button pressed in emulators
 2 | SMS emulator button mixup when fire a missile in after burner. The volume changes
-2 | Button ghost key issue: Right + A and TA = Volume down (same as select and A)
-2 | Button ghost key issue: Left + B + A + TA = Start
-2 | Button ghost key issue: Up + B + TB = R button
-2 | Button ghost key issue: Down + A + TA = R button
-2 | Button ghost key issue: Right + B + TB = Left
+1 & 2 | Ghost keys when press more than 3 keys
+1 & 2 | Need to double click DOWN key when start the game of sdlpal_v1 & v2
+1 & 2 | Take about 5 seconds back to 60fps in sms emulator

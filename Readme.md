@@ -34,7 +34,7 @@ Miyoo Development Repository | [Visit](https://github.com/steward-fu/miyoo_dev)
 Miyoo Release Repository | [Visit](https://github.com/steward-fu/miyoo_rel)
 Bug Reporting List | [View](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Bug-Reporting.md)
 Game Ports Available | [Visit](https://gameblabla.nl/files/ipk/bittboy)
-Community & Support Discord | [Join](https://discord.gg/5qbZKsm)
+Community & Support Discord | [Join](https://discord.me/retrogamehandhelds)
 Main Homepage | [Visit](https://jutleys.wixsite.com/bittboynew4u)
 
 _You can buy the New BittBoy with a %20 OFF [clicking here](http://retromimi.com/?aff=5) and using the code **happy2019** on checkout_.

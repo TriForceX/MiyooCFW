@@ -24,6 +24,13 @@ The current guides are in the next languages:
 - [Rev2 English Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev2-Guide-EN.md)
 - [Rev2 Korean Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev2-Guide-KO.md)
 
+# Custom Firmware Update
+
+The next guide are to update the version of an already installed custom firmware:
+
+- [English Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Update-CFW-EN.md)
+- [Korean Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Update-CFW-KO.md)
+
 # Resources
 
 Here you have some of the main resources:

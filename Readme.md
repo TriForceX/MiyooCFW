@@ -41,6 +41,7 @@ Miyoo Development Repository | [Visit](https://github.com/steward-fu/miyoo_dev)
 Miyoo Release Repository | [Visit](https://github.com/steward-fu/miyoo_rel)
 Bug Reporting List | [View](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Bug-Reporting.md)
 Game Ports Available | [Visit](https://gameblabla.nl/files/ipk/bittboy)
+More Bittboy Resources | [Visit](https://mega.nz/#F!Mtx2TQgY!NemldbLY3j-3DrSgntLFXQ!U4wy1KLb)
 Community & Support Discord | [Join](https://discord.me/retrogamehandhelds)
 Main Homepage | [Visit](https://jutleys.wixsite.com/bittboynew4u)
 

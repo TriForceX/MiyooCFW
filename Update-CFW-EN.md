@@ -5,14 +5,15 @@ This guide is to update the version of an already installed custom firmware. Thi
 **Note: Before start make sure you have installed _7-Zip_ Tool.** _(You can download [here](https://www.7-zip.org/download.html))_
 
 ## 1) Steps
-1. Extract the content of the zip file.
-2. Right click on the **.img** file and then > 7-Zip > Open Archive.
+1. Download CFW v3.4 image [(Get here)](https://drive.google.com/file/d/1OR7o-nWS-M83uQJANjuYMfEY07h9GD2u/view?usp=sharing)
+2. Extract the content of the zip file.
+3. Right click on the **.img** file and then > 7-Zip > Open Archive.
 ![image 1](https://i.imgur.com/Z0V3nlk.jpg)
-3. Left click on the file **"3.fat"** Then > Open.
+4. Left click on the file **"3.fat"** Then > Open.
 ![image 2](https://i.imgur.com/XS7mu45.jpg)
-4. Select all the files (Except the "roms" folder).
+5. Select all the files (Except the "roms" folder).
 ![image 3](https://i.imgur.com/mAIGkef.jpg)
-5. Copy all the files on the **"main"** partition of the SD – just select the files, then drag and drop.
+6. Copy all the files on the **"main"** partition of the SD – just select the files, then drag and drop.
 ![image 4](https://i.imgur.com/Zyc2EWR.jpg)
 ![image 5](https://i.imgur.com/9Xp74zn.jpg)
 

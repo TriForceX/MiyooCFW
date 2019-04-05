@@ -2,7 +2,7 @@
 
 The next guide was made to help anyone to setup a **custom firmware** to this console. The guide for **1st revision** of the console is complete, but the guide for the **2nd revision** is still beta. You can always follow the development in our **Discord** server.
 
-# Rev2 vs Rev1 Differences
+# Console Revisions Differences
 
 There are 3 current revisions of the console, you can see the differences in the next list:
 

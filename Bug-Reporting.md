@@ -38,3 +38,9 @@ Revision | Issue
 1 & 2 | Ghost keys when press more than 3 keys
 1 & 2 | Need to double click DOWN key when start the game of sdlpal_v1 & v2
 1 & 2 | Take about 5 seconds back to 60fps in sms emulator
+
+# Homebrews & Ports
+Game | Issue
+:------------: | :------------
+Quake v1.09 | Fall into the lava in front of the portal to hard (in lobby)
+Quake v1.09 | Jump the water to the fourth episode(in lobby)

@@ -4,16 +4,23 @@ The next guide was made to help anyone to setup a **custom firmware** to this co
 
 # Rev2 vs Rev1 Differences
 
-**Note:** The 1st console revision was present from _Nov 30, 2018_ to _Jan 07, 2019_ and the 2nd revisión from _Jan 10_ to the current date.
+There are 3 current revisions of the console, you can see the differences in the next list:
 
-- Now are *Three Options* to display mode (I: Full, II: Pixel Perfect + Frame, III: Full Non Streched)
-- Changed the screen (The 2nd internal mini-screen is not present)
-- Changed the button colors (Asian markets only)
-- Changed the button scan code sequence 
-- Doesn't require _Hardware modifications_ for CFW (Changed 4bit)
-- Can *Dual boot* system 
-- CPU is now consistent 
-- Battery is consistent
+Rev | Release | Notes
+:------------: | :------------: | :------------
+1 | Nov 30, 2018 | Two display options (I: Normal, II: Fullscreen)
+1 | Nov 30, 2018 | Soft click on **Start** and **Select** buttons
+1 | Nov 30, 2018 | Internal 2nd display (Not used)
+1 | Nov 30, 2018 | 1bit hardware
+1 | Nov 30, 2018 | CFW requires hardware modifications
+2 | Jan 10, 2019 | Three display options (I: Normal, II: Pixel Perfect, III: Fullscreen)
+2 | Jan 10, 2019 | Changed screen (Still IPS)
+2 | Jan 10, 2019 | Clicky **Start** and **Select** buttons
+2 | Jan 10, 2019 | 4bit hardware
+2 | Jan 10, 2019 | Changed the button scan code sequence
+2 | Jan 10, 2019 | Can run Stock Firmware and Custom Firmware
+2.5 | March 05, 2019 | Removed internal chip storage, no stock firmware
+2.5 | March 05, 2019 | Only runs CFW from SD Card
 
 # Custom Firmware Setup
 
@@ -56,9 +63,10 @@ The next people is contributing to all of this on the **Discord** server:
 - Sauce
 - Jutleys
 - Pingflood
+- Hi-ban
 - TriForce
 - Superpuissant
 - Augen(히힛마스터)
-- TacoSalad
+- TakoSalad
 - Dmm1138
 - Alexai

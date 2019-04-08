@@ -1,6 +1,6 @@
 # Update Custom Firmware
 
-This guide is to update the version of an already installed custom firmware. This work for **rev1** and **rev2** consoles.
+This guide is to update the version of an already installed custom firmware. This work for **rev1** and **rev2(.5)** consoles.
 
 **Note: Before start make sure you have installed _7-Zip_ Tool.** _(You can download [here](https://www.7-zip.org/download.html))_
 

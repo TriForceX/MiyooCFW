@@ -1,23 +1,23 @@
-# 사용자 정의 펌웨어 업데이트
+# 커스텀 펌웨어 업데이트
 
-이 설명서는 이미 설치된 사용자 정의 펌웨어의 버전을 업데이트하는 것입니다. **rev1** 및 **rev2** 콘솔에 대한이 작업.
+이 설명서는 이미 설치된 New Bittboy**rev1** 및 **rev2(.5)** 의 커스텀 펌웨어의 버전을 업데이트하는 작업입니다.
 
-**참고 : 시작하기 전에 7-Zip 도구를 설치했는지 확인하십시오.** (여기에서 다운로드 할 수 [있습니다](https://www.7-zip.org/download.html))
+**참고 : 시작하기 전에 "7-Zip" 유틸리티를 설치해야 합니다.** (여기에서 다운로드 할 수 [있습니다](https://www.7-zip.org/download.html))
 
 ## 1) 단계
-1. CFW v3.4 이미지 다운로드 [(여기에 와서)](https://drive.google.com/file/d/1OR7o-nWS-M83uQJANjuYMfEY07h9GD2u/view?usp=sharing)
-2. zip 파일의 내용을 추출하십시오.
-3. **.img** 파일을 마우스 오른쪽 버튼으로 클릭 한 다음 > 7-Zip > 아카이브 열기를 클릭하십시오.
+1. CFW v3.4 이미지 다운로드 [(다운로드 링크)](https://drive.google.com/file/d/1OR7o-nWS-M83uQJANjuYMfEY07h9GD2u/view?usp=sharing)
+2. .7z 파일을 압축 풀어줍니다.
+3. **.img** 파일을 마우스 오른쪽 버튼으로 클릭 한 다음 > 7-Zip > "압축파일 열기"를 클릭합니다.
 ![image 1](https://i.imgur.com/Z0V3nlk.jpg)
-4. **"3.fat"** 파일을 마우스 왼쪽 단추로 누른 다음 열기를 누릅니다.
+4. **"3.fat"** 파일을 더블클릭 하거나 마우스 오른쪽 버튼을 누른 다음 "열기(O)"를 클릭니다.
 ![image 2](https://i.imgur.com/XS7mu45.jpg)
-5. 모든 파일을 선택하십시오 ("roms" 폴더 제외).
+5. 모든 파일을 선택합니다. ("roms" 폴더 제외).
 ![image 3](https://i.imgur.com/mAIGkef.jpg)
-6. SD의 **"주"** 파티션에있는 모든 파일을 복사하십시오. 파일을 선택한 다음 드래그 앤 드롭하십시오.
+6. SD카드의 **"main"** 에 선택한 모든 파일을 복사합니다. (7-Zip에서 선택한 모든 파일을 드레그엔 드롭을 합니다.)
 ![image 4](https://i.imgur.com/Zyc2EWR.jpg)
 ![image 5](https://i.imgur.com/9Xp74zn.jpg)
 
 ## 2) 노트
-교체 할 것인지 묻는 메시지가 표시되면 모두에 대해 예를 선택하십시오. 
+교체 할 것인지 묻는 메시지가 표시되면 덮어씁니다.
 
-창을 닫은 다음 새 Bittboy에 SD를 넣습니다.
+모든 작업이 완료 되었습니다. SD를 New Bittboy에 삽입하고 부팅 확인합니다 :)

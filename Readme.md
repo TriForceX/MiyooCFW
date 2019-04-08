@@ -1,33 +1,16 @@
 # New Bittboy CFW
 
-The next guide was made to help anyone to setup a **custom firmware** to this console. The guide for **1st revision** of the console is complete, but the guide for the **2nd revision** is still beta. You can always follow the development in our **Discord** server.
-
-# Console Revisions Differences
-
-There are 3 current revisions of the console, you can see the differences in the next list:
-
-Rev | Release | Notes
-:------------: | :------------: | :------------
-1 | Nov 30, 2018 | Two display options (I: Normal, II: Fullscreen)
-1 | Nov 30, 2018 | Soft click on **Start** and **Select** buttons
-1 | Nov 30, 2018 | Internal 2nd display (Not used)
-1 | Nov 30, 2018 | 1bit hardware
-1 | Nov 30, 2018 | CFW requires hardware modifications
-2 | Jan 10, 2019 | Three display options (I: Normal, II: Pixel Perfect, III: Fullscreen)
-2 | Jan 10, 2019 | Changed screen (Still IPS)
-2 | Jan 10, 2019 | Clicky **Start** and **Select** buttons
-2 | Jan 10, 2019 | 4bit hardware
-2 | Jan 10, 2019 | Changed the button scan code sequence
-2 | Jan 10, 2019 | Can run Stock Firmware and Custom Firmware
-2.5 | March 05, 2019 | Removed internal chip storage, no stock firmware
-2.5 | March 05, 2019 | Only runs CFW from SD Card
+The next guide was made to help anyone to setup a **Custom Firmware** to this console. You will find guide for **1st** and **2nd** revisions of the console, also the guide to **update** it. You can always follow the development in our [Discord](https://discord.me/retrogamehandhelds) server.
 
 # Custom Firmware Setup
 
-The current guides are in the next languages:
+The next guides are for console revision 1:
 
 - [Rev1 English Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev1-Guide-EN.md)
 - [Rev1 Korean Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev1-Guide-KO.md)
+
+The next guides are for console revision 2 and 2.5:
+
 - [Rev2 English Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev2-Guide-EN.md)
 - [Rev2 Korean Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev2-Guide-KO.md)
 
@@ -37,6 +20,26 @@ The next guide are to update the version of an already installed custom firmware
 
 - [English Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Update-CFW-EN.md)
 - [Korean Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Update-CFW-KO.md)
+
+# Console Revisions Differences
+
+There are 3 current revisions of the console, you can see the differences in the next list:
+
+Rev | Release | Notes
+:------------: | :------------: | :------------
+1 | Nov 30, 2018 | Two display options (I: Normal, II: Full)
+1 | Nov 30, 2018 | Soft **Start** and **Select** click buttons
+1 | Nov 30, 2018 | Internal 2nd display (Not used)
+1 | Nov 30, 2018 | 1bit hardware
+1 | Nov 30, 2018 | CFW requires hardware modifications
+2 | Jan 10, 2019 | Three display options (I: Normal, II: Pixel Perfect, III: Full)
+2 | Jan 10, 2019 | Changed screen (Still IPS, removed 2nd display)
+2 | Jan 10, 2019 | Clicky **Start** and **Select** buttons
+2 | Jan 10, 2019 | 4bit hardware
+2 | Jan 10, 2019 | Changed the button scan code sequence
+2 | Jan 10, 2019 | Can run Stock Firmware and Custom Firmware
+2.5 | March 05, 2019 | Removed internal chip storage, no stock firmware
+2.5 | March 05, 2019 | Only runs **CFW** from SD Card
 
 # Resources
 

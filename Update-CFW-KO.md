@@ -5,7 +5,7 @@
 **참고 : 시작하기 전에 "7-Zip" 유틸리티를 설치해야 합니다.** (여기에서 다운로드 할 수 [있습니다](https://www.7-zip.org/download.html))
 
 ## 1) 단계
-1. CFW v3.4 이미지 다운로드 [(다운로드 링크)](https://drive.google.com/file/d/1OR7o-nWS-M83uQJANjuYMfEY07h9GD2u/view?usp=sharing)
+1. CFW v3.5 이미지 다운로드 [(다운로드 링크)](https://drive.google.com/file/d/1M1cu1Yrx6gz0r6bEruIWFrwwRJlZWcpz/view?usp=sharing)
 2. .7z 파일을 압축 풀어줍니다.
 3. **.img** 파일을 마우스 오른쪽 버튼으로 클릭 한 다음 > 7-Zip > "압축파일 열기"를 클릭합니다.
 ![image 1](https://i.imgur.com/Z0V3nlk.jpg)

@@ -5,7 +5,7 @@ This guide is to update the version of an already installed custom firmware. Thi
 **Note: Before start make sure you have installed _7-Zip_ Tool.** _(You can download [here](https://www.7-zip.org/download.html))_
 
 ## 1) Steps
-1. Download CFW v3.4 image [(Get here)](https://drive.google.com/file/d/1OR7o-nWS-M83uQJANjuYMfEY07h9GD2u/view?usp=sharing)
+1. Download CFW v3.5 image [(Get here)](https://drive.google.com/file/d/1M1cu1Yrx6gz0r6bEruIWFrwwRJlZWcpz/view?usp=sharing)
 2. Extract the content of the zip file.
 3. Right click on the **.img** file and then > 7-Zip > Open Archive.
 ![image 1](https://i.imgur.com/Z0V3nlk.jpg)

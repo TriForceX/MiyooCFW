@@ -51,6 +51,7 @@ https://steward-fu.github.io/website/handheld.htm
    cd f1c100s_sunxi-tools
    make clean && make
    ```
+   **참고**: 잘못된 사용 권한이 있다고 표시되는 경우 `sudo make install`
 
 ## 3.3) SPI플레싱
 1. USB로 뉴 비트보이(New Bittboy)와 PC를 연결합니다.
@@ -59,6 +60,7 @@ https://steward-fu.github.io/website/handheld.htm
    ```
    SPI이미지 파일명 예시 >miyoo_spi_hwmod_1bit_ghostkey_20190216.bin
    ```
+   **참고**: Christian Haitian 저장소에서 대체 이미지 / 커널을 업데이트 할 수 있습니다 [여기에](https://github.com/christianhaitian/BittBoyV1).
 4. 다운받은 SPI이미지를 홈으로 이동합니다.
 5. 터미널을 실행합니다.
 6. 다음과 같이 입력합니다.

@@ -51,6 +51,7 @@ https://steward-fu.github.io/website/handheld.htm
    cd f1c100s_sunxi-tools
    make clean && make
    ```
+   **Note:** If says you have invalid permissions use `sudo make install`
 
 ## 3.3) SPI Flashing
 1. Connect New BittBoy to PC with USB.
@@ -59,6 +60,7 @@ https://steward-fu.github.io/website/handheld.htm
    ```
    SPI Image File Name Example > miyoo_spi_hwmod_1bit_ghostkey_20190216.bin
    ```
+   **Note:** You can get an alternative more updated image/kernel from Christian Haitian repository [here](https://github.com/christianhaitian/BittBoyV1).
 4. Move downloaded SPI image to home.
 5. Run the terminal.
 6. Type the following:

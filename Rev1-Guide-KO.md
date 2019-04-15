@@ -60,7 +60,6 @@ https://steward-fu.github.io/website/handheld.htm
    ```
    SPI이미지 파일명 예시 >miyoo_spi_hwmod_1bit_ghostkey_20190216.bin
    ```
-   **참고**: Christian Haitian 저장소에서 대체 이미지 / 커널을 업데이트 할 수 있습니다 [여기에](https://github.com/christianhaitian/BittBoyV1).
 4. 다운받은 SPI이미지를 홈으로 이동합니다.
 5. 터미널을 실행합니다.
 6. 다음과 같이 입력합니다.
@@ -79,6 +78,7 @@ https://steward-fu.github.io/website/handheld.htm
    ```
    MiOS이미지 파일명 예시 >MiOS_v1.0_20190203.zip, MiOS_v1.0_20190203.z01, MiOS_v1.0_20190203.z02 ...
    ```
+   **참고**: Christian Haitian 저장소에서 대체 이미지 / 커널을 업데이트 할 수 있습니다 [여기에](https://github.com/christianhaitian/BittBoyV1).
 2. SD카드의 파티션을 모두 제거하고 FAT32등으로 포맷합니다..(필자는 윈도우 디스크관리를 이용했습니다.)
 3. `win32diskimager`를 다운받고 설치합니다. https://sourceforge.net/projects/win32diskimager/
 4. `win32diskimager`를 실행하고 SD드라이버를 선택 후 MiOS이미지를 불러온 후 "Write"버튼을 눌러 진행합니다.\

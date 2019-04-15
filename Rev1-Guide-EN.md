@@ -60,7 +60,6 @@ https://steward-fu.github.io/website/handheld.htm
    ```
    SPI Image File Name Example > miyoo_spi_hwmod_1bit_ghostkey_20190216.bin
    ```
-   **Note:** You can get an alternative more updated image/kernel from Christian Haitian repository [here](https://github.com/christianhaitian/BittBoyV1).
 4. Move downloaded SPI image to home.
 5. Run the terminal.
 6. Type the following:
@@ -79,6 +78,7 @@ https://steward-fu.github.io/website/handheld.htm
    ```
    MiOS image file name example > MiOS_v1.0_20190203.zip, MiOS_v1.0_20190203.z01, MiOS_v1.0_20190203.z02 ...
    ```
+   **Note:** You can get an alternative more updated image/kernel from Christian Haitian repository [here](https://github.com/christianhaitian/BittBoyV1).
 2. Remove all partitions of SD card and format it with FAT32 etc. (I used Windows Disk Management)
 3. Download `win32diskimager` and install it.
    https://sourceforge.net/projects/win32diskimager/

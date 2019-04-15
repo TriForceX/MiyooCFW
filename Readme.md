@@ -49,6 +49,7 @@ Name | Link
 :------------: | :------------:
 Miyoo Development Repository | [Visit](https://github.com/steward-fu/miyoo_dev)
 Miyoo Release Repository | [Visit](https://github.com/steward-fu/miyoo_rel)
+Modding Guides | [View](https://github.com/TriForceX/New-Bittboy-CFW/tree/master/modding)
 Bug Reporting List | [View](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Bug-Reporting.md)
 Game Ports Available | [Visit](https://gameblabla.nl/files/ipk/bittboy)
 More Bittboy Resources | [Visit](https://mega.nz/#F!Mtx2TQgY!NemldbLY3j-3DrSgntLFXQ!U4wy1KLb)

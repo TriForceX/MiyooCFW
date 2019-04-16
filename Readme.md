@@ -53,19 +53,16 @@ Modding Guides | [View](https://github.com/TriForceX/New-Bittboy-CFW/tree/master
 Bug Reporting List | [View](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Bug-Reporting.md)
 Game Ports Available | [Visit](https://gameblabla.nl/files/ipk/bittboy)
 More Bittboy Resources | [Visit](https://mega.nz/#F!Mtx2TQgY!NemldbLY3j-3DrSgntLFXQ!U4wy1KLb)
-Community & Support Discord | [Join](https://discord.me/retrogamehandhelds)
-Bittboy Fansite | [Visit](https://jutleys.wixsite.com/bittboynew4u)
-
-_You can buy the New BittBoy with a %20 OFF [clicking here](http://retromimi.com/?aff=5) and using the code **happy2019** on checkout_.
+Community & Support Facebook | [Join](https://www.facebook.com/groups/bittboy)
+Bittboy Official Site| [Visit](https://www.bittboy.com)
 
 # Special Thanks
 
-The next people is contributing to all of this on the **Discord** server:
+The next people is contributing to all development of this **Bittboy** related stuff:
 
 - Steward
 - Tony Jih
 - Sauce
-- Jutleys
 - Pingflood
 - Hi-ban
 - TriForce

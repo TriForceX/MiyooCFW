@@ -40,6 +40,9 @@ Rev | Release | Notes
 2 | Jan 10, 2019 | Can run Stock Firmware and Custom Firmware
 2.5 | March 05, 2019 | Removed internal chip storage, no stock firmware
 2.5 | March 05, 2019 | Only runs **CFW** from SD Card
+3 | April 23, 2019 | Fixed Ghost Key issues
+3 | April 23, 2019 | Added tempered glass screen protector
+3 | April 23, 2019 | Added rumble/vibration features
 
 # Resources
 

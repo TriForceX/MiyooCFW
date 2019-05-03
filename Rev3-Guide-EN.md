@@ -1,4 +1,4 @@
-# New Bittboy Rev 2 Custom Firmware
+# New Bittboy Rev 3 Custom Firmware
 
 Before working with us, we would like to express our gratitude to **Steward-fu** and the **Bittboy Discord Channel** for developing.
 
@@ -7,9 +7,9 @@ Before working with us, we would like to express our gratitude to **Steward-fu**
 [![click here](https://i.imgur.com/H13STVz.png)](https://youtu.be/i62_J6SAN9s)
 
 ## 1) Materials
-1. New Bittboy - rev2 or rev2.5
+1. New Bittboy - rev3
 2. SD card of 8GB or more
-3. Lastest CFW v3.6 Image [(Download)](https://drive.google.com/file/d/1zhBiZ0h5erD3O5vMnUTguemfVN-WdeTc/view?usp=sharing)
+3. Lastest CFW v3.6 Image [(Download)](https://drive.google.com/file/d/1FfOG3tV1G2yrHfAkGuJHkrBxv6xMMWLg/view?usp=sharing)
 4. Install win32diskimager [(Download)](https://sourceforge.net/projects/win32diskimager)
 
 ## 2) Setup

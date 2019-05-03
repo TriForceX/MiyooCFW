@@ -1,4 +1,4 @@
-# New Bittboy Rev 2 Custom Firmware
+# New Bittboy Rev 3 Custom Firmware
 
 작업하기 앞서 저희에게 펌웨어를 개발해 주신 **Steward-fu**와 **bittboy** 디스코드 체널 여러분께 무한한 감사를 표합니다.
 
@@ -7,9 +7,9 @@
 [![click here](https://i.imgur.com/H13STVz.png)](https://youtu.be/i62_J6SAN9s)
 
 ## 1) 준비물
-1. New Bittboy - rev2 or rev2.5
+1. New Bittboy - rev3
 2. 8기가 이상의 SD카드
-3. 최신 CFW v3.6 이미지 [(다운로드)](https://drive.google.com/file/d/1zhBiZ0h5erD3O5vMnUTguemfVN-WdeTc/view?usp=sharing)
+3. 최신 CFW v3.6 이미지 [(다운로드)](https://drive.google.com/file/d/1FfOG3tV1G2yrHfAkGuJHkrBxv6xMMWLg/view?usp=sharing)
 4. Win32diskimager [(다운로드)](https://sourceforge.net/projects/win32diskimager)
 
 ## 2) 설치

@@ -40,9 +40,12 @@ Rev | Release | Notes
 2 | Jan 10, 2019 | Can run Stock Firmware and Custom Firmware
 2.5 | March 05, 2019 | Removed internal chip storage, no stock firmware
 2.5 | March 05, 2019 | Only runs **CFW** from SD Card
+2.5 | March 05, 2019 | Clear color shell
 3 | April 23, 2019 | Fixed Ghost Key issues
-3 | April 23, 2019 | Added tempered glass screen protector
+3 | April 23, 2019 | Added tempered glass screen
 3 | April 23, 2019 | Added rumble/vibration features
+3 | April 23, 2019 | Micro USB port is flush with the shell
+3 | April 23, 2019 | Lightning symbol on battery LED
 
 # Resources
 
@@ -57,8 +60,9 @@ Bug Reporting List | [View](https://github.com/TriForceX/NewBittboyCFW/wiki/Bug-
 Homebrew & Emulators Wiki | [View](https://github.com/TriForceX/NewBittboyCFW/wiki)
 Game Ports Available | [Visit](https://gameblabla.nl/files/ipk/bittboy)
 More Bittboy Resources | [Visit](https://mega.nz/#F!Mtx2TQgY!NemldbLY3j-3DrSgntLFXQ!U4wy1KLb)
-Community & Support Facebook | [Join](https://www.facebook.com/groups/bittboy)
-Bittboy Official Site| [Visit](https://www.bittboy.com)
+Support Discord Chat Server | [Join](https://discord.me/retrogamehandhelds)
+Bittboy Official Facebook | [Visit](https://www.facebook.com/groups/bittboy)
+Bittboy Official Site | [Visit](https://www.bittboy.com)
 
 # Special Thanks
 

@@ -9,10 +9,10 @@ One mistake can destroy the board forever. Only those who have knowledge of sold
 **Warning**\
 The PCB v1 method of modification will operate normally immediately after booting, but soon the TA will be pressed.
 
-## 1) Rear PCB
+## 1) Rear PCB (Cut red lines)
 ![image 1](https://i.imgur.com/zYQsJPi.jpg)
 
-## 2) Front PCB
+## 2) Front PCB (Cut red lines)
 ![image 2](https://i.imgur.com/CrXiQ8H.jpg)
 
 ## 3) Operational Test

@@ -9,10 +9,10 @@
 **주의**\
 PCB v1의 방법으로 개조 할 시 부팅 후 당장 정상 작동하지만 얼마 지나지않아 TA가 눌리는 현상이 일어납니다.
 
-## 1) 후면 PCB
+## 1) 후면 PCB (빨간색 선을 자르다)
 ![image 1](https://i.imgur.com/zYQsJPi.jpg)
 
-## 2) 전면
+## 2) 전면 (빨간색 선을 자르다)
 ![image 2](https://i.imgur.com/CrXiQ8H.jpg)
 
 ## 3) 작동 테스트

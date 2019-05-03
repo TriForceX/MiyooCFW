@@ -14,6 +14,11 @@ The next guides are for console revision 2 and 2.5:
 - [Rev2 English Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev2-Guide-EN.md)
 - [Rev2 Korean Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev2-Guide-KO.md)
 
+The next guides are for console revision 3:
+
+- [Rev3 English Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev3-Guide-EN.md)
+- [Rev3 Korean Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev3-Guide-KO.md)
+
 # Custom Firmware Update
 
 The next guide are to update the version of an already installed custom firmware:
@@ -46,6 +51,7 @@ Rev | Release | Notes
 3 | April 23, 2019 | Added rumble/vibration features
 3 | April 23, 2019 | Micro USB port is flush with the shell
 3 | April 23, 2019 | Lightning symbol on battery LED
+3 | April 23, 2019 | Changed screen (Still IPS but different model)
 
 # Resources
 
@@ -78,5 +84,8 @@ The next people is contributing to all development of this **Bittboy** related s
 - Augen(히힛마스터)
 - TakoSalad
 - Christian Haitian
+- 2TMAU5
+- da1writer
+- Jutleys
 - Dmm1138
 - Alexai

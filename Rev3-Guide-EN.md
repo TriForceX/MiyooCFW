@@ -4,7 +4,7 @@ Before working with us, we would like to express our gratitude to **Steward-fu**
 
 **This is still a beta and is still in development. You can click the next video to see how to do.**
 
-[![click here](https://i.imgur.com/H13STVz.png)](https://youtu.be/i62_J6SAN9s)
+[![click here](https://i.imgur.com/82oLK3l.png)](https://youtu.be/cCNKwWwQIXI)
 
 ## 1) Materials
 1. New Bittboy - rev3

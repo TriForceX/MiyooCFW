@@ -1,6 +1,6 @@
 # New Bittboy CFW
 
-The next guide was made to help anyone to setup a **Custom Firmware** to this console. You will find guide for **1st** and **2nd** revisions of the console, also the guide to **update** it. You can always follow the development in our [Discord](https://discord.me/retrogamehandhelds) server.
+The next guide was made to help anyone to setup a **Custom Firmware** to this console. You will find guide for **1st**, **2nd** and **3rd** revisions of the console, also the guide to **update** it. You can always follow the development in our [Discord](https://discord.me/retrogamehandhelds) server.
 
 # Custom Firmware Setup
 

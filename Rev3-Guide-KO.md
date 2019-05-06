@@ -4,7 +4,7 @@
 
 **아직 베타 버전이며 아직 개발 중입니다. 다음 동영상을 클릭하면 할 수 있습니다.**
 
-[![click here](https://i.imgur.com/H13STVz.png)](https://youtu.be/i62_J6SAN9s)
+[![click here](https://i.imgur.com/82oLK3l.png)](https://youtu.be/cCNKwWwQIXI)
 
 ## 1) 준비물
 1. New Bittboy - rev3

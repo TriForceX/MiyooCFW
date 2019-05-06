@@ -59,16 +59,15 @@ Here you have some of the main resources:
 
 Name | Link
 :------------: | :------------:
-Miyoo Development Repository | [Visit](https://github.com/steward-fu/miyoo_dev)
-Miyoo Release Repository | [Visit](https://github.com/steward-fu/miyoo_rel)
-Modding Guides | [View](https://github.com/TriForceX/New-Bittboy-CFW/tree/master/modding)
-Bug Reporting List | [View](https://github.com/TriForceX/NewBittboyCFW/wiki/Bug-Reporting)
 Homebrew & Emulators Wiki | [View](https://github.com/TriForceX/NewBittboyCFW/wiki)
 Game Ports Available | [Visit](https://gameblabla.nl/files/ipk/bittboy)
-More Bittboy Resources | [Visit](https://mega.nz/#F!Mtx2TQgY!NemldbLY3j-3DrSgntLFXQ!U4wy1KLb)
-Support Discord Chat Server | [Join](https://discord.me/retrogamehandhelds)
+Bug Reporting List | [View](https://github.com/TriForceX/NewBittboyCFW/wiki/Bug-Reporting)
+Modding Guides | [View](https://github.com/TriForceX/New-Bittboy-CFW/tree/master/modding)
 Bittboy Official Facebook | [Visit](https://www.facebook.com/groups/bittboy)
 Bittboy Official Site | [Visit](https://www.bittboy.com)
+Bittboy Resources | [Visit](https://mega.nz/#F!Mtx2TQgY!NemldbLY3j-3DrSgntLFXQ!U4wy1KLb)
+Bittboy Source Code | [Src](https://github.com/steward-fu/miyoo_src) - [Dev](https://github.com/steward-fu/miyoo_dev) - [Rel](https://github.com/steward-fu/miyoo_rel)
+Support Discord Chat Server | [Join](https://discord.me/retrogamehandhelds)
 
 # Special Thanks
 

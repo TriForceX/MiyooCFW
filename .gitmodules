@@ -4,3 +4,6 @@
 [submodule "miyoo_dev"]
 	path = miyoo_dev
 	url = https://github.com/steward-fu/miyoo_dev
+[submodule "miyoo_src"]
+	path = miyoo_src
+	url = https://github.com/steward-fu/miyoo_src

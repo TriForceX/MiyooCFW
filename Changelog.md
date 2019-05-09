@@ -2,6 +2,18 @@
 
 The next list is all the changes registered on the **custom firmware** version updates.
 
+## 3.7 Beta _(May 09, 2019)_
+
+- Borders and palette files for gambatte and ohboy moved (fixes these not being available in the emulator's setting)
+- Config file for picodrive included. Default mapping B=A, A=B, TA=C, can be configured in the emulator's settings menu. (Fixes issue with all 3 buttons not being mapped by default)
+- Emulator titles renamed
+- Emulator list sorting changed. Sort order can be configured by renaming the files within 'gmenu2x\sections\emulators'. All files begin with a number (eg '01-gambatte'), change numbering to change display order.
+- Set default ROM path for some emulators, see emulator info below
+- 2 emulator executables renamed to work with skin icons ('\emus\gambatte\gambatte-bittboy' to 'gambatte','\emus\gpsp_gameblabla\gpsp' to 'gpsp_gameblabla')
+- Icon files for emulators renamed to correctly load when skin is changed (fixes skins using default skin icons rather than their own for many emulators)
+- Removed non-functional emulator shortcut files in 'gmenu2x\sections\emulators'
+- Removed Older Sega Master System emulator. SMS Plus GX is now the default emulator for SMS and Game Gear.
+
 ## 3.6 _(May 02, 2019)_
 
 - Support for V2 & V3 users

@@ -52,6 +52,7 @@ Rev | Release | Notes
 3 | April 23, 2019 | Micro USB port is flush with the shell
 3 | April 23, 2019 | Lightning symbol on battery LED
 3 | April 23, 2019 | Changed screen (Still IPS but different model)
+3 | April 23, 2019 | Bar code added at the rear top of the console
 
 # Resources
 
@@ -59,32 +60,40 @@ Here you have some of the main resources:
 
 Name | Link
 :------------: | :------------:
-Homebrew & Emulators Wiki | [View](https://github.com/TriForceX/NewBittboyCFW/wiki)
-Game Ports Available | [Visit](https://gameblabla.nl/files/ipk/bittboy)
-Bug Reporting List | [View](https://github.com/TriForceX/NewBittboyCFW/wiki/Bug-Reporting)
+Bittboy Official | [Site](https://www.bittboy.com) - [Buy](https://www.retromimi.com) - [Social](https://www.facebook.com/groups/bittboy)
+Bittboy CFW Source Code | [Src](https://github.com/steward-fu/miyoo_src) - [Dev](https://github.com/steward-fu/miyoo_dev) - [Rel](https://github.com/steward-fu/miyoo_rel)
 Modding Guides | [View](https://github.com/TriForceX/New-Bittboy-CFW/tree/master/modding)
-Bittboy Official Facebook | [Visit](https://www.facebook.com/groups/bittboy)
-Bittboy Official Site | [Visit](https://www.bittboy.com)
+Homebrew & Emulators Wiki | [View](https://github.com/TriForceX/NewBittboyCFW/wiki)
+Bug Reporting List | [View](https://github.com/TriForceX/NewBittboyCFW/wiki/Bug-Reporting)
 Bittboy Resources | [Visit](https://mega.nz/#F!Mtx2TQgY!NemldbLY3j-3DrSgntLFXQ!U4wy1KLb)
-Bittboy Source Code | [Src](https://github.com/steward-fu/miyoo_src) - [Dev](https://github.com/steward-fu/miyoo_dev) - [Rel](https://github.com/steward-fu/miyoo_rel)
+Other Resources | [Visit](https://gameblabla.nl/files/ipk/bittboy)
 Support Discord Chat Server | [Join](https://discord.me/retrogamehandhelds)
 
 # Special Thanks
 
 The next people is contributing to all development of this **Bittboy** related stuff:
 
-- Steward
-- Tony Jih
-- Sauce
-- Pingflood
-- Hi-ban
-- TriForce
-- Superpuissant
-- Augen(히힛마스터)
-- TakoSalad
-- Christian Haitian
-- 2TMAU5
-- da1writer
-- Jutleys
-- Dmm1138
-- Alexai
+- Main developers:
+  - Steward
+  - Tony Jih
+  - Sauce
+  - Pingflood
+  - Hi-ban
+  - Superpuissant
+  - Christian Haitian
+
+- Theme developers:
+  - 2TMAU5
+  - da1writer
+  - Fontes
+  
+- Hardware & testing:
+  - Augen(히힛마스터)
+  - TakoSalad
+  - Scooterpsu
+  - TriForce
+
+- Other support:
+  - Jutleys
+  - Dmm1138
+  - Alexai

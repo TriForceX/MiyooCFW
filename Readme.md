@@ -60,8 +60,8 @@ Here you have some of the main resources:
 
 Name | Link
 :------------: | :------------:
-Bittboy Official | [Site](https://www.bittboy.com) - [Buy](https://www.retromimi.com) - [Social](https://www.facebook.com/groups/bittboy)
-Bittboy CFW Source Code | [Src](https://github.com/steward-fu/miyoo_src) - [Dev](https://github.com/steward-fu/miyoo_dev) - [Rel](https://github.com/steward-fu/miyoo_rel)
+Bittboy Official | [Site](https://www.bittboy.com) - [Social](https://www.facebook.com/groups/bittboy)
+Bittboy CFW Source Code | [Source](https://github.com/steward-fu/miyoo) - [Release](https://github.com/steward-fu/miyoo/releases)
 Modding Guides | [View](https://github.com/TriForceX/New-Bittboy-CFW/tree/master/modding)
 Homebrew & Emulators Wiki | [View](https://github.com/TriForceX/NewBittboyCFW/wiki)
 Bug Reporting List | [View](https://github.com/TriForceX/NewBittboyCFW/wiki/Bug-Reporting)

@@ -73,26 +73,26 @@ Support Discord Chat Server | [Join](https://discord.me/retrogamehandhelds)
 The next people is contributing to all development of this **Bittboy** related stuff:
 
 - Main developers:
-  - Steward
+  - steward
   - Tony Jih
-  - Sauce
-  - Pingflood
-  - Hi-ban
-  - Superpuissant
-  - Christian Haitian
+  - sauce
+  - pingflood
+  - H1BAN
+  - superpuissant
+  - Christian_Haitian
 
 - Theme developers:
   - 2TMAU5
   - da1writer
   - Fontes
   
-- Hardware & testing:
+- Support & testing:
   - Augen(히힛마스터)
   - TakoSalad
-  - Scooterpsu
+  - scooterpsu
   - TriForce
 
-- Other support:
+- Other:
   - Jutleys
   - Dmm1138
   - Alexai

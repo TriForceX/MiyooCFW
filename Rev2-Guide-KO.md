@@ -9,7 +9,7 @@
 ## 1) 준비물
 1. New Bittboy - rev2 or rev2.5
 2. 8기가 이상의 SD카드
-3. 최신 CFW v3.6 이미지 [(다운로드)](https://drive.google.com/file/d/1cl86owJAbVtHya4XFL9Gna-U1BV-D7TK/view?usp=sharing) 또는 CFW v3.7 Beta 이미지 [(다운로드)](https://drive.google.com/file/d/1BIjYXsaLb-a_qAzs54ivF2NF-XoU9ga8/view?usp=sharing)
+3. 최신 CFW v3.6 이미지 [(다운로드)](https://www.dropbox.com/s/ae8msnhtchwljux/Bittboy_V2only_v3.6_beta_08-05-19.img.7z?dl=0) 또는 CFW v3.7 Beta 2 이미지 [(다운로드)](https://www.dropbox.com/s/x9f8d1pcl0ao037/Bittboy_V2only_v3.7_beta_13-05-19.img.7z?dl=0)
 4. Win32diskimager [(다운로드)](https://sourceforge.net/projects/win32diskimager)
 
 ## 2) 설치

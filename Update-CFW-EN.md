@@ -5,7 +5,7 @@ This guide is to update the version of an already installed custom firmware. Thi
 **Note: Before start make sure you have installed _7-Zip_ Tool.** _(You can download [here](https://www.7-zip.org/download.html))_
 
 ## 1) Steps
-1. Download CFW v3.6 image for Bittboy rev2/2.5 [(here)](https://drive.google.com/file/d/1zhBiZ0h5erD3O5vMnUTguemfVN-WdeTc/view?usp=sharing) or Bittboy rev3 [(here)](https://drive.google.com/file/d/1FfOG3tV1G2yrHfAkGuJHkrBxv6xMMWLg/view?usp=sharing)
+1. Download CFW image for Bittboy rev2/2.5 [(here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev2-Guide-EN.md) or Bittboy rev3 [(here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev3-Guide-EN.md)
 2. Extract the content of the zip file.
 3. Right click on the **.img** file and then > 7-Zip > Open Archive.
 ![image 1](https://i.imgur.com/Z0V3nlk.jpg)

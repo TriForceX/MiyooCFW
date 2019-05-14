@@ -62,10 +62,9 @@ Name | Link
 :------------: | :------------:
 Bittboy Official | [Site](https://www.bittboy.com) - [Social](https://www.facebook.com/groups/bittboy)
 Bittboy CFW Source Code | [Source](https://github.com/steward-fu/miyoo) - [Release](https://github.com/steward-fu/miyoo/releases)
-Homebrew, Emulators and Mods | [View](https://github.com/TriForceX/NewBittboyCFW/wiki)
+Bittboy Resources | [Visit](https://www.dropbox.com/sh/04vuy4vwbz7tdn1/AADNJWp3jVL-siCksUOROBGca?dl=0&lst=)
 Bug Reporting List | [View](https://github.com/TriForceX/NewBittboyCFW/wiki/Bug-Reporting)
-Bittboy Resources | [Visit](https://mega.nz/#F!Mtx2TQgY!NemldbLY3j-3DrSgntLFXQ!U4wy1KLb)
-Other Resources | [Visit](https://gameblabla.nl/files/ipk/bittboy)
+Homebrew, Emulators and Mods | [View](https://github.com/TriForceX/NewBittboyCFW/wiki)
 Support Discord Chat Server | [Join](https://discord.me/retrogamehandhelds)
 
 # Special Thanks

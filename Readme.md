@@ -46,7 +46,7 @@ Rev | Release | Notes
 2.5 | March 05, 2019 | Removed internal chip storage, no stock firmware
 2.5 | March 05, 2019 | Only runs **CFW** from SD Card
 2.5 | March 05, 2019 | Clear color shell
-3 | April 23, 2019 | Fixed Ghost Key issues
+3 | April 23, 2019 | Improved Ghost Key issues (Not fixed at all)
 3 | April 23, 2019 | Added tempered glass screen
 3 | April 23, 2019 | Added rumble/vibration features
 3 | April 23, 2019 | Micro USB port is flush with the shell

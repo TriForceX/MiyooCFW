@@ -14,7 +14,7 @@ The next guides are for console revision 2 and 2.5:
 - [Rev2 English Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev2-Guide-EN.md)
 - [Rev2 Korean Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev2-Guide-KO.md)
 
-The next guides are for console revision 3 (And small workaround for 3.5):
+The next guides are for console revision 3 (and small workaround for 3.5):
 
 - [Rev3 English Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev3-Guide-EN.md)
 - [Rev3 Korean Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev3-Guide-KO.md)
@@ -54,7 +54,7 @@ Rev | Release | Notes
 3 | April 23, 2019 | Changed screen (Still IPS but different model)
 3 | April 23, 2019 | Barcode (20190410 004) added at the rear top of the console
 3 | April 23, 2019 | Processor changed to Allwinner F1C100s (Not F1C500s anymore)
-3.5 | May 14, 2019 | Changed circuit board Barcode 20190424 005
+3.5 | May 14, 2019 | Changed circuit board
 3.5 | May 14, 2019 | Barcode changed to 20190424 005
 
 # Resources
@@ -94,6 +94,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - TakoSalad
   - scooterpsu
   - TriForce
+  - Mystic_Morgan
 
 - Other:
   - Jutleys

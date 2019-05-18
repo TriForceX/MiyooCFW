@@ -2,7 +2,7 @@
 
 The next list is all the changes registered on the **custom firmware** version updates.
 
-## 3.8 Beta 1 _(May 13, 2019)_
+## 3.8 Beta _(May 13, 2019)_
 - LYNX: New Emulator Added! Atari Lynx (Handy Emulator) - Thanks Sauce +Place ROMs in /roms/LYNX/ 
 - DOS: Now boots to LaunchBox for MS-DOS SE 2.0 +Included Commander Keen shareware episode 1 "Marooned on Mars" +See wiki for information on usage and adding additional games 
 - GAMEBOY: Included additional gambatte palettes - Thanks MrRobotSK 

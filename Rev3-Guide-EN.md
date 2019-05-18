@@ -9,7 +9,9 @@ Before working with us, we would like to express our gratitude to **Steward-fu**
 ## 1) Materials
 1. New Bittboy - rev3 or rev3.5
 2. SD card of 8GB or more
-3. Lastest CFW v3.8 Beta Image [(Download)](https://mega.nz/#!d4olHIrK!lVYn1_cJ7Gvi253OGHfT0SfNC-PstS4aNAHr4Lrfzy4)
+3. Lastest CFW v3.8 Beta Image
+    - Bittboy rev3 [(Download)](https://mega.nz/#!d4olHIrK!lVYn1_cJ7Gvi253OGHfT0SfNC-PstS4aNAHr4Lrfzy4)
+    - Bittboy rev3.5 [(Download)](https://mega.nz/#!YpgFnAxI!tojZEMKdbCjL9ejOI44u5S64GsptWlsEudHqIi-iK6I)
 4. Install win32diskimager [(Download)](https://sourceforge.net/projects/win32diskimager)
 
 ## 2) Setup

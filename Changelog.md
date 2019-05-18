@@ -2,6 +2,22 @@
 
 The next list is all the changes registered on the **custom firmware** version updates.
 
+## 3.8 Beta 1 _(May 13, 2019)_
+- LYNX: New Emulator Added! Atari Lynx (Handy Emulator) - Thanks Sauce +Place ROMs in /roms/LYNX/ 
+- DOS: Now boots to LaunchBox for MS-DOS SE 2.0 +Included Commander Keen shareware episode 1 "Marooned on Mars" +See wiki for information on usage and adding additional games 
+- GAMEBOY: Included additional gambatte palettes - Thanks MrRobotSK 
+- GBA: Modfied GPSP control mapping screen text 
+- NEOGEO: Enabled gmenu ROM selector. Fixed issue causing the emulator to quit unless a game was first selected using the internal gngeo ROM selector 
+- NEOGEO: ROM selector will display game name rather than zip file name (added alias file) - Thanks scooterpsu 
+- SNES: SNES button mapping now correctly matches SNES controller face button layout - Thanks scooterpsu 
+- SOD: Corrected loading of included shareware datafiles - Thanks scooterpsu 
+- SOD: Added new version of Spear of Destiny with support for retail/full datafiles - Thanks scooterpsu +See wiki for retail version setup information - 
+- WOLF3D: Added new version of Wolfenstein 3D with support for retail/full datafiles - Thanks scooterpsu +See wiki for retail version setup information - 
+- MPLAYER: Configuration updated with new features - Thanks scooterpsu: +Control volume and backlight brightness without exiting +Non-4:3 video is no longer stretched +Automatically resume videos where you left off
+- SKIN: (From CFW3.7) Added 'Grid Theme' - Thanks 2TMAU5 +When using this skin, set 'Section Bar Position' to 'Bottom' and select a wallpaper with a name beginning with 
+- GRID' from within the skin section of gmenu *SKIN: Corrected loading of some missing icons in oldboy skin (where available) 
+- GMENU: Default backlight timeout increased from 30 to 90 seconds
+
 ## 3.7 Beta 2 _(May 13, 2019)_
 - New kernel added fix screen issue (v3 owners only) got where the top portion of the screen would show up on the bottom thank's to da1writer & Steward
 - Added new gambatte release from Hiban thanks.

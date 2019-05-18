@@ -7,9 +7,9 @@
 [![click here](https://i.imgur.com/82oLK3l.png)](https://youtu.be/cCNKwWwQIXI)
 
 ## 1) 준비물
-1. New Bittboy - rev3
+1. New Bittboy - rev3 or rev3.5
 2. 8기가 이상의 SD카드
-3. 최신 CFW v3.6 이미지 [(다운로드)](https://www.dropbox.com/s/xr1rdi4hflc9vvc/Bittboy_V3only_v3.6_beta_02-05-19.img.7z?dl=0) 또는 CFW v3.7 Beta 2 이미지 [(다운로드)](https://www.dropbox.com/s/3jmza8l3g7nxisi/Bittboy_V3only_v3.7_beta_13-05-19.img.7z?dl=0)
+3. 최신 CFW v3.8 Beta 이미지 [(다운로드)](https://mega.nz/#!d4olHIrK!lVYn1_cJ7Gvi253OGHfT0SfNC-PstS4aNAHr4Lrfzy4)
 4. Win32diskimager [(다운로드)](https://sourceforge.net/projects/win32diskimager)
 
 ## 2) 설치
@@ -18,15 +18,5 @@
 3. 이미지가 구워지면 뉴 비트보이(New Bittboy)에 SD를 삽입하고 전원을 킵니다. 부팅에 성공하면 작업이 완료됩니다.(최초 부팅은 약 1분정도 소요될 수 있습니다.)
 
 **참고:** main파티션(기본 저장공간)을 확장할 수 있습니다. _Partition Magic_ 또는 유사한 앱을 사용하여 전체 공간을 늘릴 수 있습니다.
-
-## 3) rev3.5에 대한 해결 방법
-
-최신 Bittboy는 변경 사항 _ (다시) _와 함께 제공되므로 rev3.5 (바코드 20190424 005)입니다. 이렇게 rev3를위한 심상은 이것에 작동하지 않을 것이다, 너는 까만 스크린을 얻을 것이다.
-
-이제는 해결할 수있는 작은 해결 방법이 있습니다. (보장되지 않음)
-
-1. 모든 단계를 따라 avobe에서 CFW를 설치하십시오.
-2. 작업이 끝나면 **zimage** 파일을 재고있는 것으로 교체하십시오 (콘솔에 미리 설치되어 제공됨). 또한 다운로드 할 수 있습니다 [(다운로드)](https://www.dropbox.com/s/izc6066a9fpxtl8/zImage?dl=0).
-3. 콘솔을 켭니다.
 
 **Enjoy!** :grin:

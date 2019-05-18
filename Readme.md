@@ -14,7 +14,7 @@ The next guides are for console revision 2 and 2.5:
 - [Rev2 English Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev2-Guide-EN.md)
 - [Rev2 Korean Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev2-Guide-KO.md)
 
-The next guides are for console revision 3 (and small workaround for 3.5):
+The next guides are for console revision 3 and 3.5:
 
 - [Rev3 English Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev3-Guide-EN.md)
 - [Rev3 Korean Guide (View Here)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev3-Guide-KO.md)
@@ -67,6 +67,7 @@ Name | Link
 Bittboy Official | [Site](https://www.bittboy.com) - [Social](https://www.facebook.com/groups/bittboy)
 Bittboy Custom Firmware | [Source](https://github.com/steward-fu/miyoo) - [Release](https://github.com/steward-fu/miyoo/releases)
 Bittboy Buildroot | [Source](https://github.com/bittboy/buildroot)
+Bittboy CFW Changelog | [View](https://github.com/TriForceX/NewBittboyCFW/blob/master/Changelog.md)
 Bittboy Resources | [Visit](https://www.dropbox.com/sh/04vuy4vwbz7tdn1/AADNJWp3jVL-siCksUOROBGca?dl=0&lst=)
 Bug Reporting List | [View](https://github.com/TriForceX/NewBittboyCFW/wiki/Bug-Reporting)
 Homebrew, Emulators and Mods | [View](https://github.com/TriForceX/NewBittboyCFW/wiki)
@@ -96,6 +97,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - scooterpsu
   - TriForce
   - Mystic_Morgan
+  - MrRobotSK
 
 - Other:
   - Jutleys

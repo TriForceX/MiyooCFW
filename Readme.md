@@ -4,9 +4,9 @@
 
 ![bittboy-cfw](https://user-images.githubusercontent.com/16083854/58907092-64e1f300-86db-11e9-9745-5ae543f67730.png)
 
-[![Download](https://img.shields.io/badge/Custom%20Firmware-v3.8-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
+[![Download](https://img.shields.io/badge/Custom%20Firmware-v3.9-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
 [![Stars](https://img.shields.io/github/stars/TriForceX/NewBittboyCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/NewBittboyCFW/stargazers)
-[![Issues](https://img.shields.io/github/issues/TriForceX/NewBittboyCFW.svg?label=Known%20Issues)](https://github.com/TriForceX/NewBittboyCFW/issues)
+[![Issues](https://img.shields.io/github/issues/TriForceX/NewBittboyCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/NewBittboyCFW/issues)
 
 # Information
 
@@ -81,6 +81,8 @@ The next people is contributing to all development of this **Bittboy** related s
   - pingflood
   - H1BAN
   - superpuissant
+  - scooterpsu
+  - vamastah
   - Christian_Haitian
 
 - Theme developers:
@@ -91,7 +93,6 @@ The next people is contributing to all development of this **Bittboy** related s
 - Support & testing:
   - Augen(히힛마스터)
   - TakoSalad
-  - scooterpsu
   - TriForce
   - Mystic_Morgan
   - MrRobotSK

@@ -9,9 +9,9 @@
 ## 1) 준비물
 1. New Bittboy - rev3 or rev3.5
 2. 8기가 이상의 SD카드
-3. 최신 CFW v3.8 Beta 이미지
-    - Bittboy rev3 [(Download)](https://www.dropbox.com/s/a8472errduh2z70/Bittboy_V3_only_v3.8_beta_18-05-19.img.7z?dl=0)
-    - Bittboy rev3.5 [(Download)](https://www.dropbox.com/s/udw2zfgrdbp8il3/Bittboy_V3.5_only_v3.8_beta_21-05-19_bootlogo.img.7z?dl=0)
+3. 최신 CFW v3.9 이미지
+    - Bittboy rev3 [(Download)](https://www.dropbox.com/s/h0fo0vvey6evq7c/Bittboy-V3_only_v3.9_10-06-19.img.7z?dl=0)
+    - Bittboy rev3.5 [(Download)](https://www.dropbox.com/s/vug4juozh3gyfh3/Bittboy-V3.5only_v3.9_10-06-19.img.7z?dl=0)
 4. Win32diskimager [(다운로드)](https://sourceforge.net/projects/win32diskimager)
 
 ## 2) 설치

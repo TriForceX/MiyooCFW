@@ -2,6 +2,18 @@
 
 The next list is all the changes registered on the **custom firmware** version updates.
 
+## 3.9 _(Jun 10, 2019)_
+- PokéMini: New Emulator Added! Pokemon Mini (pokemini emulator) - Thanks scooterpsu
+- GamBatte: Updated and sorted the included palettes - Thanks 2TMAU5 (See wiki for information on using more of the included palettes)
+- SMS/GG: SMS Plus GX emulator updated with input remapping support - Thanks sauce
+- SNES: Optimised SNES9X - Thanks scooterpsu (Save location updated from '.snes96_snapshots' to '.snes9x4d'. If upgrading move old save files)
+- Heretic: Shareware datafile included (To play full version, copy HERTIC.WAD to 'games\hheretic')
+- Hexen: Fix - Game now runs fullscreen - thanks scooterpsu
+- Hexen: Shareware datafile included (To play full version, copy HEXEN.WAD to 'games\hhexen')
+- Strife: New Game Added! Chocolate Strife - Thanks scooterpsu (Requires the retail STRIFE1.WAD datafile to be copied to 'games\ccdoom')
+- Skin: New default skin: Grid theme. Updated with new font, additional wallpapers and other improvements - Thanks 2TMAU5
+
+
 ## 3.8 Beta _(May 13, 2019)_
 - LYNX: New Emulator Added! Atari Lynx (Handy Emulator) - Thanks Sauce +Place ROMs in /roms/LYNX/ 
 - DOS: Now boots to LaunchBox for MS-DOS SE 2.0 +Included Commander Keen shareware episode 1 "Marooned on Mars" +See wiki for information on usage and adding additional games 

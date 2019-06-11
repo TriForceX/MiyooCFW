@@ -16,7 +16,7 @@
 4. Win32diskimager [(다운로드)](https://sourceforge.net/projects/win32diskimager)
 
 ## 2) 설치
-![bittboy-guide](https://user-images.githubusercontent.com/16083854/59290036-94e24680-8c45-11e9-8236-3d211464b6c7.png)
+![bittboy-guide-v2](https://user-images.githubusercontent.com/16083854/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png)
 
 1. SD 카드의 모든 파티션을 제거하고 _FAT32_로 포맷합니다. (Partition_Wizard 또는 Windows 디스크 관리 사용).
 2. _Win32diskimager_를 실행하고, SD카드 리더기 드라이버를 선택한 후 **. IMG ** 파일을로드하고 ** "Write" ** 버튼을 눌러 계속 진행합니다.

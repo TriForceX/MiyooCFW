@@ -14,7 +14,7 @@ Before working with us, we would like to express our gratitude to **Steward-fu**
 4. Install win32diskimager [(Download)](https://sourceforge.net/projects/win32diskimager)
 
 ## 2) Setup
-![bittboy-guide](https://user-images.githubusercontent.com/16083854/59290036-94e24680-8c45-11e9-8236-3d211464b6c7.png)
+![bittboy-guide-v2](https://user-images.githubusercontent.com/16083854/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png)
 
 1. Remove all partitions of SD card and format it with _FAT32_. (Using Partition Wizard or Windows Disk Management).
 2. Execute _win32diskimager_, select SD driver, load the **.IMG** file and press **Write** button to proceed.

@@ -5,7 +5,7 @@
 **참고 : 시작하기 전에 "7-Zip" 유틸리티를 설치해야 합니다.** (여기에서 다운로드 할 수 [있습니다](https://www.7-zip.org/download.html))
 
 ## 1) 단계
-1. Bittboy rev2 / 2.5 용 CFW 이미지 다운로드 [(다운로드 링크)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev2-Guide-KO.md) 또는 Bittboy rev3 [(다운로드 링크)](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev3-Guide-KO.md)
+1. Bittboy 또는 Pocket Go 용 CFW 이미지 다운로드 [(바로 여기에)](https://github.com/TriForceX/NewBittboyCFW#setup)
 2. .7z 파일을 압축 풀어줍니다.
 3. **.img** 파일을 마우스 오른쪽 버튼으로 클릭 한 다음 > 7-Zip > "압축파일 열기"를 클릭합니다.
 ![image 1](https://i.imgur.com/Z0V3nlk.jpg)

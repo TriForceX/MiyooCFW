@@ -1,6 +1,6 @@
 # New Bittboy Rev 2 Custom Firmware
 
-작업하기 앞서 저희에게 펌웨어를 개발해 주신 **Steward-fu**와 **bittboy** 디스코드 체널 여러분께 무한한 감사를 표합니다.
+이 작업을하기 전에 **Steward-fu**와 메인 페이지 특별 감사에 언급 된 사람들에게 감사를 표합니다 [바로 여기에](https://github.com/TriForceX/NewBittboyCFW#special-thanks).
 
 **아직 베타 버전이며 아직 개발 중입니다. 다음 동영상을 클릭하면 할 수 있습니다.**
 
@@ -11,7 +11,7 @@
 2. 8기가 이상의 SD카드
 3. 최신 CFW v3.9 이미지 [(다운로드)](https://www.dropbox.com/s/tboslhr720wzhoe/Bittboy_V2_V2.5_only_v3.9_10-06-19.img.7z?dl=0)
 4. Partition Wizard [(다운로드)](https://www.partitionwizard.com/download.html)
-4. Win32diskimager [(다운로드)](https://sourceforge.net/projects/win32diskimager)
+5. Win32diskimager [(다운로드)](https://sourceforge.net/projects/win32diskimager)
 
 ## 2) 설치
 ![bittboy-guide-v2](https://user-images.githubusercontent.com/16083854/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png)

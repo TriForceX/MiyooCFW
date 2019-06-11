@@ -1,6 +1,6 @@
 # 뉴 비트보이(New Bittboy) rev1 커스텀 펌웨어
 
-작업하기 앞서 저희에게 펌웨어를 개발해 주신 **Steward-fu**와 **bittboy** 디스코드 체널 여러분께 무한한 감사를 표합니다.
+이 작업을하기 전에 **Steward-fu**와 메인 페이지 특별 감사에 언급 된 사람들에게 감사를 표합니다 [바로 여기에](https://github.com/TriForceX/NewBittboyCFW#special-thanks).
 
 **대부분의 사진자료는 Steward-fu의 사진자료를 활용하였습니다.**
 

@@ -1,10 +1,11 @@
-# New Bittboy CFW
+# New Bittboy & Pocket Go CFW
 
 > The custom firmware allows you to play a wide variety of consoles/computers thanks to numerous emulators available to it as well some ports of games. The next guide was made to help anyone to setup it to the console.
 
 ![bittboy-cfw](https://user-images.githubusercontent.com/16083854/58907092-64e1f300-86db-11e9-9745-5ae543f67730.png)
 
-[![Download](https://img.shields.io/badge/Custom%20Firmware-v3.9-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
+[![Bittboy-CFW](https://img.shields.io/badge/Bittboy%20CFW-v3.9-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
+[![PocketGo-CFW](https://img.shields.io/badge/Pocket%20Go-v1.0-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
 [![Stars](https://img.shields.io/github/stars/TriForceX/NewBittboyCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/NewBittboyCFW/stargazers)
 [![Issues](https://img.shields.io/github/issues/TriForceX/NewBittboyCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/NewBittboyCFW/issues)
 
@@ -21,13 +22,22 @@ or the [Korean guide](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/U
 
 Revision | Language
 :------------: | :------------:
+Pocket Go v1 | [English](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/PocketGo-Guide-EN.md) - [Korean](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/PocketGo-Guide-KO.md)
 New Bittboy v3 & 3.5 | [English](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev3-Guide-EN.md) - [Korean](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev3-Guide-KO.md)
 New Bittboy v2 & 2.5 | [English](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev2-Guide-EN.md) - [Korean](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev2-Guide-KO.md)
 New Bittboy v1 | [English](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev1-Guide-EN.md) - [Korean](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev1-Guide-KO.md)
 
 # Console Revisions Differences
 
-There are 3 current revisions of the console, you can see the differences in the next list:
+This lists are for Bittboy devices differences, the next one is for **Pocket Go**:
+
+Rev | Release | Notes
+:------------: | :------------: | :------------
+1 | May 10, 2019 | Added shoulder buttons (L & R)
+1 | May 10, 2019 | Added physical volume control
+1 | May 10, 2019 | Changed form factor to landscape
+
+The next list are for **New Bittboy**, which has 3 main revisions:
 
 Rev | Release | Notes
 :------------: | :------------: | :------------

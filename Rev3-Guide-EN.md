@@ -1,6 +1,6 @@
 # New Bittboy Rev 3 Custom Firmware
 
-Before working with us, we would like to express our gratitude to **Steward-fu** and the **Bittboy Discord Channel** for developing.
+Before working with this, we would like to express our gratitude to **Steward-fu** and the people mentioned on main page special thanks [here](https://github.com/TriForceX/NewBittboyCFW#special-thanks).
 
 **This is still a beta and is still in development. You can click the next video to see how to do.**
 
@@ -13,7 +13,7 @@ Before working with us, we would like to express our gratitude to **Steward-fu**
     - Bittboy rev3 [(Download)](https://www.dropbox.com/s/h0fo0vvey6evq7c/Bittboy-V3_only_v3.9_10-06-19.img.7z?dl=0)
     - Bittboy rev3.5 [(Download)](https://www.dropbox.com/s/vug4juozh3gyfh3/Bittboy-V3.5only_v3.9_10-06-19.img.7z?dl=0)
 4. Install Partition Wizard [(Download)](https://www.partitionwizard.com/download.html)
-4. Install win32diskimager [(Download)](https://sourceforge.net/projects/win32diskimager)
+5. Install win32diskimager [(Download)](https://sourceforge.net/projects/win32diskimager)
 
 ## 2) Setup
 ![bittboy-guide-v2](https://user-images.githubusercontent.com/16083854/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png)

@@ -1,6 +1,6 @@
 # New Bittboy Rev 1 Custom Firmware
 
-Before working with us, we would like to express our gratitude to **Steward-fu** and the **Bittboy Discord Channel** for developing.
+Before working with us, we would like to express our gratitude to **Steward-fu** and the people mentioned on main page special thanks [here](https://github.com/TriForceX/NewBittboyCFW#special-thanks).
 
 **The photographs in the section were made using Steward-fu's photographic materials.**
 
@@ -9,7 +9,6 @@ https://steward-fu.github.io/website/handheld.htm
 **You can click the next video to see the basics of the console modifications.**
 
 [![click here](https://i.imgur.com/I3S12VG.png)](https://youtu.be/FjQquL3W99U)
-
 
 ## 1) Materials
 1. New Bittboy - rev1 (early version)

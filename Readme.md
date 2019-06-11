@@ -2,10 +2,10 @@
 
 > The custom firmware allows you to play a wide variety of consoles/computers thanks to numerous emulators available to it as well some ports of games. The next guide was made to help anyone to setup it to the console.
 
-![bittboy-cfw](https://user-images.githubusercontent.com/16083854/58907092-64e1f300-86db-11e9-9745-5ae543f67730.png)
+![bittboy-pocket-go](https://user-images.githubusercontent.com/16083854/59302103-2ca15e00-8c61-11e9-94df-096dde69e481.png)
 
 [![Bittboy-CFW](https://img.shields.io/badge/Bittboy%20CFW-v3.9-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
-[![PocketGo-CFW](https://img.shields.io/badge/Pocket%20Go-v1.0-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
+[![PocketGo-CFW](https://img.shields.io/badge/Pocket%20Go%20CFW-v1.0-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
 [![Stars](https://img.shields.io/github/stars/TriForceX/NewBittboyCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/NewBittboyCFW/stargazers)
 [![Issues](https://img.shields.io/github/issues/TriForceX/NewBittboyCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/NewBittboyCFW/issues)
 

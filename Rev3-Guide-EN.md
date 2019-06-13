@@ -10,18 +10,21 @@ Before working with this, we would like to express our gratitude to **Steward-fu
 1. New Bittboy - rev3 or rev3.5
 2. SD card of 8GB or more
 3. Lastest CFW v3.9 Image
-    - Bittboy rev3 [(Download)](https://www.dropbox.com/s/h0fo0vvey6evq7c/Bittboy-V3_only_v3.9_10-06-19.img.7z?dl=0)
-    - Bittboy rev3.5 [(Download)](https://www.dropbox.com/s/vug4juozh3gyfh3/Bittboy-V3.5only_v3.9_10-06-19.img.7z?dl=0)
+   - Bittboy rev3 [(Download)](https://www.dropbox.com/s/h0fo0vvey6evq7c/Bittboy-V3_only_v3.9_10-06-19.img.7z?dl=0)
+   - Bittboy rev3.5 [(Download)](https://www.dropbox.com/s/vug4juozh3gyfh3/Bittboy-V3.5only_v3.9_10-06-19.img.7z?dl=0)
 4. Install Partition Wizard [(Download)](https://www.partitionwizard.com/download.html)
 5. Install win32diskimager [(Download)](https://sourceforge.net/projects/win32diskimager)
+6. Install 7zip [(Download)](https://www.7-zip.org/download.html)
 
 ## 2) Setup
 ![bittboy-guide-v2](https://user-images.githubusercontent.com/16083854/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png)
 
-1. Remove all partitions of SD card and format it with _FAT32_. (Using Partition Wizard or Windows Disk Management).
-2. Execute _win32diskimager_, select SD driver, load the **.IMG** file and press **Write** button to proceed.
-3. Once the image is burned, insert the SD into New Bittboy and turn it on. If it boots it is a success.
-
-**Note:** You can expand you main drive to reclaim the full space use _Partition Magic_ or similar app.
+1. If you are using the included SD you need to remove all partitions using Partition Wizard, SD Card Formatter or Windows Disk Management.
+   **Note:** SD Card need to be in_FAT 32_ format.
+2. If the CFW file is compressed on **.7zip** just extract using _7zip_ before proceed.
+3. Execute _win32diskimager_, select SD card, load the **.IMG** file and press **Write** button to proceed.
+4. Once the image is burned on the SD card, open Partition Wizard and choose Disk Management.
+5. Then right click on the _main_ partition and choose extend (Set it to the maximum) and apply.
+6. Insert the SD into New Bittboy and turn it on. If it boots it is a success.
 
 **Enjoy!** :grin:

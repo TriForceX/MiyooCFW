@@ -29,7 +29,7 @@ New Bittboy v1 | [English](https://github.com/TriForceX/New-Bittboy-CFW/blob/mas
 
 # Console Revisions Differences
 
-This lists are for Bittboy devices differences, the next one is for **Pocket Go**:
+This lists are for devices differences, the next one is for **Pocket Go**:
 
 Rev | Release | Notes
 :------------: | :------------: | :------------
@@ -43,12 +43,12 @@ Rev | Release | Notes
 :------------: | :------------: | :------------
 3.5 | May 14, 2019 | Changed circuit board
 3.5 | May 14, 2019 | Barcode changed to 20190424 005
+3 | April 23, 2019 | New non-registered key combos
 3 | April 23, 2019 | Fixed Ghost Key issues
-3 | April 23, 2019 | Wrong non-registered key combos
 3 | April 23, 2019 | Added tempered glass screen
 3 | April 23, 2019 | Added rumble/vibration features
 3 | April 23, 2019 | Micro USB port is flush with the shell
-3 | April 23, 2019 | Lightning symbol on battery LED
+3 | April 23, 2019 | Bigger lightning symbol on battery LED
 3 | April 23, 2019 | Changed screen (Still IPS but different model)
 3 | April 23, 2019 | Barcode (20190410 004) added at the rear top of the console
 3 | April 23, 2019 | Processor changed to Allwinner F1C100s (Not F1C500s anymore)
@@ -92,6 +92,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - H1BAN
   - superpuissant
   - scooterpsu
+  - CountDuckula
   - vamastah
   - Christian_Haitian
 
@@ -107,6 +108,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - Mystic_Morgan
   - MrRobotSK
   - WenTao
+  - dElAvA
 
 - Other:
   - Jutleys

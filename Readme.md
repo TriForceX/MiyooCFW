@@ -43,6 +43,7 @@ Rev | Release | Notes
 :------------: | :------------: | :------------
 3.5 | May 14, 2019 | Changed circuit board
 3.5 | May 14, 2019 | Barcode changed to 20190424 005
+3.5 | May 14, 2019 | Glass screen is thinner
 3 | April 23, 2019 | New non-registered key combos
 3 | April 23, 2019 | Fixed Ghost Key issues
 3 | April 23, 2019 | Added tempered glass screen
@@ -52,6 +53,7 @@ Rev | Release | Notes
 3 | April 23, 2019 | Changed screen (Still IPS but different model)
 3 | April 23, 2019 | Barcode (20190410 004) added at the rear top of the console
 3 | April 23, 2019 | Processor changed to Allwinner F1C100s (Not F1C500s anymore)
+3 | April 23, 2019 | Changed color shell (Slightly darker than the rev1)
 2.5 | March 05, 2019 | Removed internal chip storage, no stock firmware
 2.5 | March 05, 2019 | Only runs **CFW** from SD Card
 2.5 | March 05, 2019 | Clear color shell

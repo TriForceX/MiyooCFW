@@ -7,7 +7,7 @@ Before working with this, we would like to express our gratitude to **Steward-fu
 ## 1) Materials
 1. Pocket Go v1
 2. SD card of 8GB or more
-3. Lastest CFW v1.0 Image [(Download)](https://www.dropbox.com/s/m2j56qx2utt9d6z/PocketGo.V1.0_CFW_10-06-2019.img.7z?dl=0)
+3. Lastest CFW v3.9 Image [(Download)](https://www.dropbox.com/s/m2j56qx2utt9d6z/PocketGo.V1.0_CFW_10-06-2019.img.7z?dl=0)
 4. Install Partition Wizard [(Download)](https://www.partitionwizard.com/download.html)
 5. Install win32diskimager [(Download)](https://sourceforge.net/projects/win32diskimager)
 6. Install 7zip [(Download)](https://www.7-zip.org/download.html)

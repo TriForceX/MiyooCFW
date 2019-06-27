@@ -2,7 +2,7 @@
 
 The next list is all the changes registered on the **custom firmware** version updates.
 
-## Bittboy CFW 3.9 / PocketGo CFW 1.0 _(Jun 10, 2019)_ 
+## v3.9 _(Jun 10, 2019)_ 
 - PokéMini: New Emulator Added! Pokemon Mini (pokemini emulator) - Thanks scooterpsu
 - GamBatte: Updated and sorted the included palettes - Thanks 2TMAU5 (See wiki for information on using more of the included palettes)
 - SMS/GG: SMS Plus GX emulator updated with input remapping support - Thanks sauce
@@ -14,7 +14,7 @@ The next list is all the changes registered on the **custom firmware** version u
 - Skin: New default skin: Grid theme. Updated with new font, additional wallpapers and other improvements - Thanks 2TMAU5
 
 
-## Bittboy CFW 3.8 Beta _(May 13, 2019)_
+## v3.8 Beta _(May 13, 2019)_
 - LYNX: New Emulator Added! Atari Lynx (Handy Emulator) - Thanks Sauce +Place ROMs in /roms/LYNX/ 
 - DOS: Now boots to LaunchBox for MS-DOS SE 2.0 +Included Commander Keen shareware episode 1 "Marooned on Mars" +See wiki for information on usage and adding additional games 
 - GAMEBOY: Included additional gambatte palettes - Thanks MrRobotSK 
@@ -30,13 +30,13 @@ The next list is all the changes registered on the **custom firmware** version u
 - GRID' from within the skin section of gmenu *SKIN: Corrected loading of some missing icons in oldboy skin (where available) 
 - GMENU: Default backlight timeout increased from 30 to 90 seconds
 
-## Bittboy CFW 3.7 Beta 2 _(May 13, 2019)_
+## v3.7 Beta 2 _(May 13, 2019)_
 - New kernel added fix screen issue (v3 owners only) got where the top portion of the screen would show up on the bottom thank's to da1writer & Steward
 - Added new gambatte release from Hiban thanks.
 - To shut down safely: From the main menu hold the 'R' button and press 'A' to shut down. Flick the power switch once the screen goes black'
 and maybe extend default screen timeout before it goes off
 
-## Bittboy CFW 3.7 Beta 1 _(May 09, 2019)_
+## v3.7 Beta 1 _(May 09, 2019)_
 
 - Borders and palette files for gambatte and ohboy moved (fixes these not being available in the emulator's setting)
 - Config file for picodrive included. Default mapping B=A, A=B, TA=C, can be configured in the emulator's settings menu. (Fixes issue with all 3 buttons not being mapped by default)
@@ -48,7 +48,7 @@ and maybe extend default screen timeout before it goes off
 - Removed non-functional emulator shortcut files in 'gmenu2x\sections\emulators'
 - Removed Older Sega Master System emulator. SMS Plus GX is now the default emulator for SMS and Game Gear.
 
-## Bittboy CFW 3.6 _(May 02, 2019)_
+## v3.6 _(May 02, 2019)_
 
 - Support for V2 & V3 users
 - Added Fontes amazing skin thanks Fontes
@@ -67,7 +67,7 @@ and maybe extend default screen timeout before it goes off
 - Fat32 corruption fix implemented thanks to scooterpsu
 - Added new icons for Fontes theme thanks to Fontes for the missing disk icons
 
-## Bittboy CFW 3.5 _(April 11, 2019)_
+## v3.5 _(April 11, 2019)_
 
 - Updated gpsp_20190409.zip Support rumble feature thanks steward
 - Added gambatte_sdl_20190409.zip Support rumble feature thanks steward
@@ -75,7 +75,7 @@ and maybe extend default screen timeout before it goes off
 - Added gpsp_gameblabla_v2_remapping.zip thanks sauce
 - Added custom_pallets_pack_v1 to stewards gambattle release.
 
-## Bittboy CFW 3.4 _(March 28, 2019)_
+## v3.4 _(March 28, 2019)_
 
 - Added pang game Porting from RS97 source thanks steward
 - Updated gmenu2x Fix suspend issue (issue: GMenu2X is always in work mode when PoweroffTimeout value is equal to zero) thanks steward
@@ -85,7 +85,7 @@ and maybe extend default screen timeout before it goes off
 - Updated new gambattle release thanks Hi-ban
 - Added how to update beta releases pdf guide inc with the beta releases thanks to Alexai
 
-## Bittboy CFW 3.3 _(March 23, 2019)_
+## v3.3 _(March 23, 2019)_
 
 - Added hheretic port thanks steward
 - Added hhexen port thanks steward
@@ -94,7 +94,7 @@ and maybe extend default screen timeout before it goes off
 - Updated skin megaskinKCH2019 thanks cut1001
 - Updated gmenu2x fix backlight issue and change poweroff timeout setting thanks steward.
 
-## Bittboy CFW 3.2 _(March 20, 2019)_
+## v3.2 _(March 20, 2019)_
 
 - Added mame4all arcade emulator thanks steward
 - Update mame4all Updated cheat.dat & Fix rom list issue (issue: cursor disappaear when too mamy roms put in folder thanks steward
@@ -105,7 +105,7 @@ and maybe extend default screen timeout before it goes off
 - Added liero thanks steward
 - Updated mame4all bug fixes thanks steward
 
-## Bittboy CFW 3.1 _(March 14, 2019)_
+## v3.1 _(March 14, 2019)_
 
 - Fixed quake not starting changed set cpu 702mhz 
 - Added wonderswan emulator back thanks sauce 
@@ -115,7 +115,7 @@ and maybe extend default screen timeout before it goes off
 - Added wizwrite thanks steward 
 - Added new game tombstone thanks steward 
 
-## Bittboy CFW 3.0 _(March 08, 2019)_
+## v3.0 _(March 08, 2019)_
 
 - Supports V1 & V2 (V1 users must Hard mod only)
 - 1 image to flash for both V1 & V2 now
@@ -129,7 +129,7 @@ and maybe extend default screen timeout before it goes off
 - Added sharware files for quake
 - Added shareware files fore quake 2
 
-## Bittboy CFW 2.0 _(March 06, 2019)_
+## v2.0 _(March 06, 2019)_
 
 - Latest framebuffer fix thanks to steward
 - Latest zImage fix thanks to steward
@@ -146,7 +146,7 @@ and maybe extend default screen timeout before it goes off
 - Added openbor update fixed color issue thanks steward
 - New zimage fixed headfone sound problems thanks steward.
 
-## Bittboy CFW 1.0 _(February 25, 2019)_
+## v1.0 _(February 25, 2019)_
 
 - Latest framebuffer fix thanks to steward
 - Latest zImage fix thanks to steward

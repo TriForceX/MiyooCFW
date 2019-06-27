@@ -7,7 +7,7 @@
 ## 1) 준비물
 1. Pocket Go v1
 2. 8기가 이상의 SD카드
-3. 최신 CFW v1.0 이미지 [(다운로드)](https://www.dropbox.com/s/m2j56qx2utt9d6z/PocketGo.V1.0_CFW_10-06-2019.img.7z?dl=0)
+3. 최신 CFW v3.9 이미지 [(다운로드)](https://www.dropbox.com/s/m2j56qx2utt9d6z/PocketGo_V1_CFW_v3.9_10-06-2019.img.7z?dl=0)
 4. Partition Wizard [(다운로드)](https://www.partitionwizard.com/download.html)
 5. Win32diskimager [(다운로드)](https://sourceforge.net/projects/win32diskimager)
 6. 7zip [(다운로드)](https://www.7-zip.org/download.html)

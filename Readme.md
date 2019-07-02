@@ -87,16 +87,16 @@ Support Discord Chat Server | [Join](https://discord.me/retrogamehandhelds)
 The next people is contributing to all development of this **Bittboy** related stuff:
 
 - Main developers:
-  - steward
-  - Tony Jih
-  - sauce
-  - pingflood
-  - H1BAN
+  - [steward](https://github.com/steward-fu)
+  - [Tony Jih](https://github.com/tonyjih)
+  - [sauce](https://github.com/gameblabla)
+  - [pingflood](https://boards.dingoonity.org/profile/pingflood)
+  - [H1BAN](https://github.com/hi-ban)
   - superpuissant
-  - scooterpsu
+  - [scooterpsu](https://github.com/scooterpsu)
   - CountDuckula
-  - vamastah
-  - Christian_Haitian
+  - [vamastah](https://github.com/szymor)
+  - [Christian_Haitian](https://github.com/christianhaitian)
 
 - Theme developers:
   - 2TMAU5
@@ -104,9 +104,9 @@ The next people is contributing to all development of this **Bittboy** related s
   - Fontes
   
 - Support & testing:
-  - Augen(히힛마스터)
+  - [Augen(히힛마스터)](https://github.com/AugenKOR)
   - TakoSalad
-  - TriForce
+  - [TriForce](https://github.com/TriForceX)
   - Mystic_Morgan
   - MrRobotSK
   - WenTao
@@ -119,4 +119,4 @@ The next people is contributing to all development of this **Bittboy** related s
   
 # License
 
-> **OpenDingux** for Miyoo/Bittboy handheld was ported by [@steward-fu](https://github.com/steward-fu) and **GMenuNX** by [@pingflood](https://boards.dingoonity.org/profile/pingflood/) is a fork of **GMenu2X** developed by [Massimiliano Torromeo](mailto:massimiliano.torromeo@gmail.com). This project is licensed under GPLv2 as free software. You are free to use, modify and redistribute them following the terms in LICENSE.txt
+> **OpenDingux** for Miyoo/Bittboy handheld was ported by [@steward-fu](https://github.com/steward-fu) and **GMenuNX** by [@pingflood](https://boards.dingoonity.org/profile/pingflood) is a fork of **GMenu2X** developed by [Massimiliano Torromeo](mailto:massimiliano.torromeo@gmail.com). This project is licensed under GPLv2 as free software. You are free to use, modify and redistribute them following the terms in License.txt

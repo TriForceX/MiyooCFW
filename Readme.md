@@ -7,7 +7,7 @@
 [![CFW](https://img.shields.io/badge/Custom%20Firmware-v3.9-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
 [![Stars](https://img.shields.io/github/stars/TriForceX/NewBittboyCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/NewBittboyCFW/stargazers)
 [![Issues](https://img.shields.io/github/issues/TriForceX/NewBittboyCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/NewBittboyCFW/issues)
-[![License](https://img.shields.io/github/license/TriForceX/NewBittboyCFW.svg?label=License&logoColor=yellow)](https://github.com/TriForceX/NewBittboyCFW#license)
+[![License](https://img.shields.io/github/license/TriForceX/NewBittboyCFW.svg?label=License&color=yellow)](https://github.com/TriForceX/NewBittboyCFW#license)
 
 # Information
 

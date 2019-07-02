@@ -7,6 +7,7 @@
 [![CFW](https://img.shields.io/badge/Custom%20Firmware-v3.9-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
 [![Stars](https://img.shields.io/github/stars/TriForceX/NewBittboyCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/NewBittboyCFW/stargazers)
 [![Issues](https://img.shields.io/github/issues/TriForceX/NewBittboyCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/NewBittboyCFW/issues)
+[![License](https://img.shields.io/github/license/TriForceX/NewBittboyCFW.svg?label=License&logoColor=yellow)](https://github.com/TriForceX/NewBittboyCFW#license)
 
 # Information
 
@@ -55,7 +56,7 @@ Rev | Release | Notes
 3 | April 23, 2019 | Changed color shell (Slightly darker than the rev1)
 2.5 | March 05, 2019 | Removed internal chip storage, no stock firmware
 2.5 | March 05, 2019 | Only runs **CFW** from SD Card
-2.5 | March 05, 2019 | Clear color shell
+2.5 | March 05, 2019 | Changed color shell to gray
 2 | Jan 10, 2019 | Three display options (I: Normal, II: Pixel Perfect, III: Full)
 2 | Jan 10, 2019 | Changed screen (Still IPS, removed 2nd display)
 2 | Jan 10, 2019 | Clicky **Start** and **Select** buttons
@@ -115,3 +116,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - Jutleys
   - Dmm1138
   - Alexai
+  
+# License
+
+> **OpenDingux** for Miyoo/Bittboy handheld was ported by [@steward-fu](https://github.com/steward-fu) and **GMenuNX** by [@pingflood](https://boards.dingoonity.org/profile/pingflood/) is a fork of **GMenu2X** developed by [Massimiliano Torromeo](mailto:massimiliano.torromeo@gmail.com). This project is licensed under GPLv2 as free software. You are free to use, modify and redistribute them following the terms in LICENSE.txt

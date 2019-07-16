@@ -13,6 +13,7 @@
 4. Partition Wizard [(다운로드)](https://www.partitionwizard.com/download.html)
 5. Win32diskimager [(다운로드)](https://sourceforge.net/projects/win32diskimager)
 6. 7zip [(다운로드)](https://www.7-zip.org/download.html)
+7. 선택적 설치 SD Card Formatter [(다운로드)](https://www.sdcard.org/downloads/formatter)
 
 ## 2) 설치
 ![bittboy-guide-v2](https://user-images.githubusercontent.com/16083854/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png)
@@ -24,5 +25,7 @@
 4. 이미지가 SD 카드에 구워지면 파티션 마법사를 열고 디스크 관리를 선택하십시오.
 5. _main_ 파티션을 마우스 오른쪽 단추로 클릭하고 extend (최대로 설정)를 선택하고 적용하십시오.
 6. SD를 새 Bittboy에 넣고 켭니다. 부팅하면 성공합니다.
+
+**노트:** Windows 7 또는 8의 "기본"파티션에 액세스하는 데 문제가있는 경우 [여기를 클릭하십시오](https://user-images.githubusercontent.com/16083854/61264146-7d710e80-a759-11e9-99e4-de446c032818.jpg)
 
 **Enjoy!** :grin:

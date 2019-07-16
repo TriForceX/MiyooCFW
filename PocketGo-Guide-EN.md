@@ -11,6 +11,7 @@ Before working with this, we would like to express our gratitude to **Steward-fu
 4. Install Partition Wizard [(Download)](https://www.partitionwizard.com/download.html)
 5. Install win32diskimager [(Download)](https://sourceforge.net/projects/win32diskimager)
 6. Install 7zip [(Download)](https://www.7-zip.org/download.html)
+7. Optional Install SD Card Formatter [(Download)](https://www.sdcard.org/downloads/formatter)
 
 ## 2) Setup
 ![pocketgo-guide](https://user-images.githubusercontent.com/16083854/59299539-e0ebb600-8c5a-11e9-91bb-f9386ec71d1c.png)
@@ -22,5 +23,7 @@ Before working with this, we would like to express our gratitude to **Steward-fu
 4. Once the image is burned on the SD card, open Partition Wizard and choose Disk Management.
 5. Then right click on the _main_ partition and choose extend (Set it to the maximum) and apply.
 6. Insert the SD into New Bittboy and turn it on. If it boots it is a success.
+
+**Note:** If you have problems to access the "main" partition on Windows 7 or 8 please read [here](https://user-images.githubusercontent.com/16083854/61264146-7d710e80-a759-11e9-99e4-de446c032818.jpg)
 
 **Enjoy!** :grin:

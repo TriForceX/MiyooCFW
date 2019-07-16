@@ -19,7 +19,7 @@
 ![bittboy-guide-v2](https://user-images.githubusercontent.com/16083854/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png)
 
 1. 포함 된 SD를 사용하는 경우 _Partition Wizard_, _SD Card Formatter_ 또는 _Windows Disk Management_를 사용하여 모든 파티션을 제거해야합니다.
-   ** 참고 : ** SD 카드는 in_FAT 32_ 형식이어야합니다.
+   ** 참고 : ** SD 카드는 _FAT 32_ 형식이어야합니다.
 2. CFW 파일이 ** .7zip ** 압축 된 경우 진행하기 전에 _7zip_을 사용하여 압축을 풀면됩니다.
 3. _win32diskimager_를 실행하고, SD 카드를 선택하고, **. IMG ** 파일을로드 한 다음 ** 쓰기 ** 버튼을 눌러 계속 진행하십시오.
 4. 이미지가 SD 카드에 구워지면 파티션 마법사를 열고 디스크 관리를 선택하십시오.

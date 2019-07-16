@@ -4,8 +4,8 @@
 
 ![bittboy-pocket-go](https://user-images.githubusercontent.com/16083854/59302103-2ca15e00-8c61-11e9-94df-096dde69e481.png)
 
-[![CFW-Clean](https://img.shields.io/badge/CFW%20Clean-Unavailable-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
 [![CFW-Package](https://img.shields.io/badge/CFW%20Package-v3.9-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
+[![CFW-Clean](https://img.shields.io/badge/CFW%20Clean-Unavailable-inactive.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
 [![Stars](https://img.shields.io/github/stars/TriForceX/NewBittboyCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/NewBittboyCFW/stargazers)
 [![Issues](https://img.shields.io/github/issues/TriForceX/NewBittboyCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/NewBittboyCFW/issues)
 [![License](https://img.shields.io/github/license/TriForceX/NewBittboyCFW.svg?label=License&color=yellow)](https://github.com/TriForceX/NewBittboyCFW#license)

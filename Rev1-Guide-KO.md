@@ -10,6 +10,8 @@ https://steward-fu.github.io/website/handheld.htm
 
 [![click here](https://i.imgur.com/I3S12VG.png)](https://youtu.be/FjQquL3W99U)
 
+**노트:** 이 가이드와 링크는 구식 일 수 있습니다 [여기를 클릭하십시오](https://github.com/TriForceX/NewBittboyCFW/issues/32)
+
 ## 1) 준비물
 1. New Bittboy - rev1(초기 버전)
 2. 8기가 이상의 SD카드

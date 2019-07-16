@@ -10,6 +10,8 @@ https://steward-fu.github.io/website/handheld.htm
 
 [![click here](https://i.imgur.com/I3S12VG.png)](https://youtu.be/FjQquL3W99U)
 
+**Note:** This guide and its links may be outdated, if you want read more about this [click here](https://github.com/TriForceX/NewBittboyCFW/issues/32)
+
 ## 1) Materials
 1. New Bittboy - rev1 (early version)
 2. SD card of 8GB or more

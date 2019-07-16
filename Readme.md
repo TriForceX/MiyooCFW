@@ -4,7 +4,8 @@
 
 ![bittboy-pocket-go](https://user-images.githubusercontent.com/16083854/59302103-2ca15e00-8c61-11e9-94df-096dde69e481.png)
 
-[![CFW](https://img.shields.io/badge/Custom%20Firmware-v3.9-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
+[![CFW-Clean](https://img.shields.io/badge/CFW%20Clean-Unavailable-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
+[![CFW-Package](https://img.shields.io/badge/CFW%20Package-v3.9-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
 [![Stars](https://img.shields.io/github/stars/TriForceX/NewBittboyCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/NewBittboyCFW/stargazers)
 [![Issues](https://img.shields.io/github/issues/TriForceX/NewBittboyCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/NewBittboyCFW/issues)
 [![License](https://img.shields.io/github/license/TriForceX/NewBittboyCFW.svg?label=License&color=yellow)](https://github.com/TriForceX/NewBittboyCFW#license)
@@ -41,10 +42,10 @@ The next list are for **New Bittboy**, which has 3 main revisions:
 
 Rev | Release | Notes
 :------------: | :------------: | :------------
-3.5 | May 14, 2019 | Changed circuit board
-3.5 | May 14, 2019 | Barcode changed to 20190424 005
+3.5 | May 14, 2019 | Changed circuit board (see [here](https://user-images.githubusercontent.com/16083854/61262811-a5aa3e80-a754-11e9-97b5-e9f2d4c8cda2.png))
+3.5 | May 14, 2019 | Barcode changed to 20190424 005 (recent models doesn't have)
 3.5 | May 14, 2019 | Glass screen is thinner
-3 | April 23, 2019 | New non-registered key combos
+3 | April 23, 2019 | New non-registered key combos detected
 3 | April 23, 2019 | Fixed Ghost Key issues
 3 | April 23, 2019 | Added tempered glass screen
 3 | April 23, 2019 | Added rumble/vibration features
@@ -53,6 +54,7 @@ Rev | Release | Notes
 3 | April 23, 2019 | Changed screen (Still IPS but different model)
 3 | April 23, 2019 | Barcode (20190410 004) added at the rear top of the console
 3 | April 23, 2019 | Processor changed to Allwinner F1C100s (Not F1C500s anymore)
+3 | April 23, 2019 | Box design changed (see [here](https://user-images.githubusercontent.com/16083854/61263177-fa01ee00-a755-11e9-8f16-fca6ae217a80.jpg))
 3 | April 23, 2019 | Changed color shell (Slightly darker than the rev1)
 2.5 | March 05, 2019 | Removed internal chip storage, no stock firmware
 2.5 | March 05, 2019 | Only runs **CFW** from SD Card
@@ -90,7 +92,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - [steward](https://github.com/steward-fu)
   - [Tony Jih](https://github.com/tonyjih)
   - [sauce](https://github.com/gameblabla)
-  - [pingflood](https://boards.dingoonity.org/profile/pingflood)
+  - [pingflood](https://github.com/pingflood)
   - [H1BAN](https://github.com/hi-ban)
   - superpuissant
   - [scooterpsu](https://github.com/scooterpsu)
@@ -119,4 +121,4 @@ The next people is contributing to all development of this **Bittboy** related s
   
 # License
 
-> **OpenDingux** for Miyoo/Bittboy handheld was ported by [@steward-fu](https://github.com/steward-fu) and **GMenuNX** by [@pingflood](https://boards.dingoonity.org/profile/pingflood) is a fork of **GMenu2X** developed by [Massimiliano Torromeo](mailto:massimiliano.torromeo@gmail.com). This project is licensed under GPLv2 as free software. You are free to use, modify and redistribute them following the terms in License.txt
+> **OpenDingux** for Miyoo/Bittboy handheld was ported by [@steward-fu](https://github.com/steward-fu) and **GMenuNX** by [@pingflood](https://github.com/pingflood) is a fork of **GMenu2X** developed by [Massimiliano Torromeo](mailto:massimiliano.torromeo@gmail.com). This project is licensed under GPLv2 as free software. You are free to use, modify and redistribute them following the terms in License.txt

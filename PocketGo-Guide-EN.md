@@ -7,11 +7,13 @@ Before working with this, we would like to express our gratitude to **Steward-fu
 ## 1) Materials
 1. Pocket Go v1
 2. SD card of 8GB or more
-3. Lastest CFW v3.9 Image [(Download)](https://www.dropbox.com/s/m2j56qx2utt9d6z/PocketGo_V1_CFW_v3.9_10-06-2019.img.7z?dl=0)
+3. Lastest CFW v1.1 Image [(Download)](https://www.dropbox.com/s/8denesg11ytmeez/PocketGo_CFW_v1.1_16-07-2019.img.7z?dl=0)
 4. Install Partition Wizard [(Download)](https://www.partitionwizard.com/download.html)
 5. Install win32diskimager [(Download)](https://sourceforge.net/projects/win32diskimager)
 6. Install 7zip [(Download)](https://www.7-zip.org/download.html)
 7. Optional Install SD Card Formatter [(Download)](https://www.sdcard.org/downloads/formatter)
+
+**Note:** If you want update only, download the CFW v1.1 Update Only package [(here)](https://www.dropbox.com/s/pklsh6lub9ch0xq/PocketGo_CFW_v1.1_Update_Only_16-07-2019.zip?dl=0). Extract the contents to 'main' drive and replace when asked.
 
 ## 2) Setup
 ![pocketgo-guide](https://user-images.githubusercontent.com/16083854/59299539-e0ebb600-8c5a-11e9-91bb-f9386ec71d1c.png)

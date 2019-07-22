@@ -4,7 +4,7 @@
 
 ![bittboy-pocket-go](https://user-images.githubusercontent.com/16083854/59302103-2ca15e00-8c61-11e9-94df-096dde69e481.png)
 
-[![Bittboy-CFW](https://img.shields.io/badge/Bittboy%20CFW-v3.9-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
+[![Bittboy-CFW](https://img.shields.io/badge/Bittboy%20CFW-v4.0-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
 [![Pocketgo-CFW](https://img.shields.io/badge/PocketGo%20CFW-v1.1-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
 [![Stars](https://img.shields.io/github/stars/TriForceX/NewBittboyCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/NewBittboyCFW/stargazers)
 [![Issues](https://img.shields.io/github/issues/TriForceX/NewBittboyCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/NewBittboyCFW/issues)

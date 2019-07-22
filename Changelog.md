@@ -2,6 +2,16 @@
 
 The next list is all the changes registered on the **custom firmware** version updates.
 
+## Bittboy CFW 4.0 _(July 17, 2019)_
+- Minor update, installation simply unzip and overwrite into the main folder do not delete anything only overwrite
+- GAMEBOY: New gambatte version (20190621) - Thanks surkow and hi-ban
+  - Adds an 'auto' palette setting. Palette with the same name as the loaded rom will be automatically loaded
+  - See pastebin link below for more information on using this feature
+- GB(Rumble): (fix) Included correct rumble version of gambatte - Thanks steward
+  - This version of gambatte supports rumble (on games that originally supported rumble), but has less features than the main gambatte port
+- MIDNIGHTWILD: New Game Port! MidnightWild (Arduboy game) - Thanks crait
+- NES: Updated FCEUX emulator - Thanks Scooterpsu
+
 ## PocketGo CFW 1.1 _(July 16, 2019)_
 - COMMANDER: Updated with improved button mapping - Thanks scooterpsu
 - GAMEBOY: Updated gambatte (20190621) - Thanks surkow and hi-ban

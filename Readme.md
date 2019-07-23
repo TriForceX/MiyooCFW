@@ -12,21 +12,44 @@
 
 # Information
 
-- Check emulators, apps and mods in our **wiki** [here](https://github.com/TriForceX/NewBittboyCFW/wiki)
+- Check emulators, apps, mods and other guides in our **wiki** [here](https://github.com/TriForceX/NewBittboyCFW/wiki)
 - Check the version details history in our changelog [here](https://github.com/TriForceX/NewBittboyCFW/blob/master/Changelog.md)
 - Join our **Discord** chat server for more support [here](https://discord.me/retrogamehandhelds)
 
 # Setup
 
-The next guides are to install custom firmware, download links are provide inside. If you want just **Update** your custom firmware you can use the [English guide](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Update-CFW-EN.md)
-or the [Korean guide](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Update-CFW-KO.md).
+The next guides are to install custom firmware, download links are provide inside. If you want just **Update** your custom firmware you can use the [English guide](https://github.com/TriForceX/NewBittboyCFW/blob/master/Update-CFW-EN.md)
+or the [Korean guide](https://github.com/TriForceX/NewBittboyCFW/blob/master/Update-CFW-KO.md).
 
 Revision | Language
 :------------: | :------------:
-Pocket Go v1 | [English](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/PocketGo-Guide-EN.md) - [Korean](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/PocketGo-Guide-KO.md)
-New Bittboy v3 & 3.5 | [English](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev3-Guide-EN.md) - [Korean](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev3-Guide-KO.md)
-New Bittboy v2 & 2.5 | [English](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev2-Guide-EN.md) - [Korean](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev2-Guide-KO.md)
-New Bittboy v1 | [English](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev1-Guide-EN.md) - [Korean](https://github.com/TriForceX/New-Bittboy-CFW/blob/master/Rev1-Guide-KO.md)
+Pocket Go v1 | [English](https://github.com/TriForceX/NewBittboyCFW/blob/master/PocketGo-Guide-EN.md) - [Korean](https://github.com/TriForceX/NewBittboyCFW/blob/master/PocketGo-Guide-KO.md)
+New Bittboy v3 & 3.5 | [English](https://github.com/TriForceX/NewBittboyCFW/blob/master/Rev3-Guide-EN.md) - [Korean](https://github.com/TriForceX/NewBittboyCFW/blob/master/Rev3-Guide-KO.md)
+New Bittboy v2 & 2.5 | [English](https://github.com/TriForceX/NewBittboyCFW/blob/master/Rev2-Guide-EN.md) - [Korean](https://github.com/TriForceX/NewBittboyCFW/blob/master/Rev2-Guide-KO.md)
+New Bittboy v1 | [English](https://github.com/TriForceX/NewBittboyCFW/blob/master/Rev1-Guide-EN.md) - [Korean](https://github.com/TriForceX/NewBittboyCFW/blob/master/Rev1-Guide-KO.md)
+
+# Resources
+
+Here you have some of the main resources:
+
+Name | Link
+:------------: | :------------:
+Bittboy Official | [Site](https://www.bittboy.com) - [Social](https://www.facebook.com/groups/bittboy)
+Bittboy Main CFW | [Source](https://github.com/steward-fu/miyoo) - [Release](https://github.com/steward-fu/miyoo/releases)
+Bittboy Resources | [Visit](https://www.dropbox.com/sh/04vuy4vwbz7tdn1/AADNJWp3jVL-siCksUOROBGca?dl=0&lst=)
+Support Discord Chat Server | [Join](https://discord.me/retrogamehandhelds)
+
+# Beta Testing
+
+Here you have a list some of the beta or custom files, to access them go to **Beta Testing** folder [here](https://www.dropbox.com/sh/04vuy4vwbz7tdn1/AADNJWp3jVL-siCksUOROBGca?dl=0&lst=). This section is for advanced users, no guides are provided for this (just some notes from chats in TXT files).
+
+Title | File | Notes
+:------------: | :------------: | :------------
+Auto Start Mod | GMenu2x_AutoStart.zip | Loads the last games/app/rom you were playing at startup
+Screen Tearing Partial Fix | PG_Driver_Baidu.zip | Improved driver for PocketGo and Bittboy v3/v2.5/v2
+Rumble NES Mod | FCEUX_Rumble.zip | Modified NES Emulator FCEUX to support rumble
+FS Corruption Fix | FS_Corruption_Daemon.zip | Daemon file to fix file system corruptions
+
 
 # Console Revisions Differences
 
@@ -71,19 +94,6 @@ Rev | Release | Notes
 1 | Nov 30, 2018 | 1bit hardware
 1 | Nov 30, 2018 | CFW requires hardware modifications
 
-# Resources
-
-Here you have some of the main resources:
-
-Name | Link
-:------------: | :------------:
-Bittboy Official | [Site](https://www.bittboy.com) - [Social](https://www.facebook.com/groups/bittboy)
-Bittboy Custom Firmware | [Source](https://github.com/steward-fu/miyoo) - [Release](https://github.com/steward-fu/miyoo/releases)
-Bittboy Buildroot | [Source](https://github.com/bittboy/buildroot)
-Bittboy Resources | [Visit](https://www.dropbox.com/sh/04vuy4vwbz7tdn1/AADNJWp3jVL-siCksUOROBGca?dl=0&lst=)
-Emulators, Apps and Mods | [Visit](https://github.com/TriForceX/NewBittboyCFW/wiki)
-Support Discord Chat Server | [Join](https://discord.me/retrogamehandhelds)
-
 # Special Thanks
 
 The next people is contributing to all development of this **Bittboy** related stuff:
@@ -99,6 +109,9 @@ The next people is contributing to all development of this **Bittboy** related s
   - CountDuckula
   - [vamastah](https://github.com/szymor)
   - [Christian_Haitian](https://github.com/christianhaitian)
+  - [BytePorter](https://github.com/byteporter)
+  - [JamesOFarrell](https://github.com/jamesofarrell)
+  - Crait
 
 - Theme developers:
   - 2TMAU5

@@ -10,14 +10,14 @@ Before working with this, we would like to express our gratitude to **Steward-fu
 1. New Bittboy - rev3 or rev3.5
 2. SD card of 8GB or more
 3. Lastest CFW v3.9 Image (To update CFW v4.0 see below)
-   - Bittboy rev3 [(Download)](https://www.dropbox.com/s/h0fo0vvey6evq7c/Bittboy-V3_only_v3.9_10-06-19.img.7z?dl=0)
-   - Bittboy rev3.5 [(Download)](https://www.dropbox.com/s/vug4juozh3gyfh3/Bittboy-V3.5only_v3.9_10-06-19.img.7z?dl=0)
+   - Bittboy rev3 [(Download)](https://www.dropbox.com/s/h0fo0vvey6evq7c/Bittboy-V3_only_v3.9_10-06-19.img.7z?dl=1)
+   - Bittboy rev3.5 [(Download)](https://www.dropbox.com/s/vug4juozh3gyfh3/Bittboy-V3.5only_v3.9_10-06-19.img.7z?dl=1)
 4. Install Partition Wizard [(Download)](https://www.partitionwizard.com/download.html)
 5. Install win32diskimager [(Download)](https://sourceforge.net/projects/win32diskimager)
 6. Install 7zip [(Download)](https://www.7-zip.org/download.html)
 7. Optional Install SD Card Formatter [(Download)](https://www.sdcard.org/downloads/formatter)
 
-**Update to CFW v4.0:** You need to have the lastest CFW 3.9 installed, then download the update [(here)](https://www.dropbox.com/s/97c5b0060x1kvnw/Bittboy_CFW4.0_Update_Only.zip?dl=0). Extract the contents to 'main' drive and replace when asked.
+**Update to CFW v4.0:** You need to have the lastest CFW 3.9 installed, then download the update [(here)](https://www.dropbox.com/s/97c5b0060x1kvnw/Bittboy_CFW4.0_Update_Only.zip?dl=1). Extract the contents to 'main' drive and replace when asked.
 
 ## 2) Setup
 ![bittboy-guide-v2](https://user-images.githubusercontent.com/16083854/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png)

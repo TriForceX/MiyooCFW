@@ -7,13 +7,13 @@
 ## 1) 준비물
 1. Pocket Go v1
 2. 8기가 이상의 SD카드
-3. 최신 CFW v1.1 이미지 [(다운로드)](https://www.dropbox.com/s/8denesg11ytmeez/PocketGo_CFW_v1.1_16-07-2019.img.7z?dl=0)
+3. 최신 CFW v1.1 이미지 [(다운로드)](https://www.dropbox.com/s/8denesg11ytmeez/PocketGo_CFW_v1.1_16-07-2019.img.7z?dl=1)
 4. Partition Wizard [(다운로드)](https://www.partitionwizard.com/download.html)
 5. Win32diskimager [(다운로드)](https://sourceforge.net/projects/win32diskimager)
 6. 7zip [(다운로드)](https://www.7-zip.org/download.html)
 7. 선택적 설치 SD Card Formatter [(다운로드)](https://www.sdcard.org/downloads/formatter)
 
-**노트:** 업데이트 만하려면 CFW v1.1 업데이트 만 다운로드하십시오. [(다운로드)](https://www.dropbox.com/s/pklsh6lub9ch0xq/PocketGo_CFW_v1.1_Update_Only_16-07-2019.zip?dl=0). 내용을 'main' 드라이브에 추출하고 묻는다면 바꿉니다.
+**노트:** 업데이트 만하려면 CFW v1.1 업데이트 만 다운로드하십시오. [(다운로드)](https://www.dropbox.com/s/pklsh6lub9ch0xq/PocketGo_CFW_v1.1_Update_Only_16-07-2019.zip?dl=1). 내용을 'main' 드라이브에 추출하고 묻는다면 바꿉니다.
 
 ## 2) 설치
 ![pocketgo-guide](https://user-images.githubusercontent.com/16083854/59299539-e0ebb600-8c5a-11e9-91bb-f9386ec71d1c.png)

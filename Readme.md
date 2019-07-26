@@ -66,7 +66,7 @@ The next list are for **New Bittboy**, which has 3 main revisions:
 Rev | Release | Notes
 :------------: | :------------: | :------------
 3.5 | May 14, 2019 | Changed circuit board (see [here](https://user-images.githubusercontent.com/16083854/61262811-a5aa3e80-a754-11e9-97b5-e9f2d4c8cda2.png))
-3.5 | May 14, 2019 | Barcode changed to 20190424 005 (recent models doesn't have)
+3.5 | May 14, 2019 | Barcode changed to 20190424 005 (recent models doesn't include)
 3.5 | May 14, 2019 | Glass screen is thinner
 3 | April 23, 2019 | New non-registered key combos detected
 3 | April 23, 2019 | Fixed Ghost Key issues
@@ -111,7 +111,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - [Christian_Haitian](https://github.com/christianhaitian)
   - [BytePorter](https://github.com/byteporter)
   - [JamesOFarrell](https://github.com/jamesofarrell)
-  - Crait
+  - crait
 
 - Theme developers:
   - 2TMAU5

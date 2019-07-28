@@ -41,12 +41,13 @@ Support Discord Chat Server | [Join](https://discord.me/retrogamehandhelds)
 
 # Beta Testing
 
-Here you have a list some of the beta or custom files, to access them go to **Beta Testing** folder [here](https://www.dropbox.com/sh/04vuy4vwbz7tdn1/AADNJWp3jVL-siCksUOROBGca?dl=0&lst=). This section is for advanced users, no guides are provided for this (just some notes from chats in TXT files).
+Here you have a list some of the beta or custom files, to access them go to **Beta Testing** folder [here](https://www.dropbox.com/sh/04vuy4vwbz7tdn1/AADNJWp3jVL-siCksUOROBGca?dl=0&lst=). This section is for advanced users, no guides are provided for this (just some notes from chats in _TXT_ files).
 
 Title | File | Notes
 :------------: | :------------: | :------------
 Auto Start Mod | GMenu2x_AutoStart.zip | Loads the last games/app/rom you were playing at startup
-Screen Tearing Partial Fix | PG_Driver_Baidu.zip | Improved driver for PocketGo and Bittboy v3/v2.5/v2
+Screen Tearing Fix 1 | Screen_Tearing_1.zip | Improved driver for PocketGo and Bittboy v3/v2.5/v2
+Screen Tearing Fix 2 | Screen_Tearing_2.7z | Same as the first version but fix the screen distortion
 Rumble NES Mod | FCEUX_Rumble.zip | Modified NES Emulator FCEUX to support rumble
 FS Corruption Fix | FS_Corruption_Daemon.zip | Daemon file to fix file system corruptions
 
@@ -112,6 +113,8 @@ The next people is contributing to all development of this **Bittboy** related s
   - [BytePorter](https://github.com/byteporter)
   - [JamesOFarrell](https://github.com/jamesofarrell)
   - crait
+  - koroneo
+  - Roast
 
 - Theme developers:
   - 2TMAU5

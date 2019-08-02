@@ -5,7 +5,7 @@
 ![bittboy-pocket-go](https://user-images.githubusercontent.com/16083854/59302103-2ca15e00-8c61-11e9-94df-096dde69e481.png)
 
 [![Bittboy-CFW](https://img.shields.io/badge/Bittboy%20CFW-v4.0-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
-[![Pocketgo-CFW](https://img.shields.io/badge/PocketGo%20CFW-v1.1-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
+[![Pocketgo-CFW](https://img.shields.io/badge/PocketGo%20CFW-v1.2-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
 [![Stars](https://img.shields.io/github/stars/TriForceX/NewBittboyCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/NewBittboyCFW/stargazers)
 [![Issues](https://img.shields.io/github/issues/TriForceX/NewBittboyCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/NewBittboyCFW/issues)
 [![License](https://img.shields.io/github/license/TriForceX/NewBittboyCFW.svg?label=License&color=yellow)](https://github.com/TriForceX/NewBittboyCFW#license)
@@ -37,6 +37,7 @@ Name | Link
 Bittboy Official | [Site](https://www.bittboy.com) - [Social](https://www.facebook.com/groups/bittboy)
 Bittboy Main CFW | [Source](https://github.com/steward-fu/miyoo) - [Release](https://github.com/steward-fu/miyoo/releases)
 Bittboy Resources | [Visit](https://www.dropbox.com/sh/04vuy4vwbz7tdn1/AADNJWp3jVL-siCksUOROBGca?dl=0&lst=)
+Bittboy Wiki | [View](https://github.com/TriForceX/NewBittboyCFW/wiki)
 Support Discord Chat Server | [Join](https://discord.me/retrogamehandhelds)
 
 # Beta Testing
@@ -112,9 +113,11 @@ The next people is contributing to all development of this **Bittboy** related s
   - [Christian_Haitian](https://github.com/christianhaitian)
   - [BytePorter](https://github.com/byteporter)
   - [JamesOFarrell](https://github.com/jamesofarrell)
+  - dee
   - crait
   - koroneo
-  - Roast
+  - Roast风格
+  - [SantX27](https://github.com/SantX27)
 
 - Theme developers:
   - 2TMAU5

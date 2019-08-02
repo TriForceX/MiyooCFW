@@ -2,6 +2,21 @@
 
 The next list is all the changes registered on the **custom firmware** version updates.
 
+## PocketGo CFW 1.2 _(August 01, 2019)_
+- Merged with latest GmenuNX release new features and better future support thanks ping_flood
+- Replaced the NXHope logo with image from Hi-Ban pocketgo logo thanks Hi-ban & scooterpsu
+- New daemon from jamesofarrell thanks, see wiki for more info
+- Replacement kernel from dee with shoulder button hotkeys (Start+button) removed thanks dee
+- Latest screen tearing fix & for some people experiencing distortion thanks koroneo & Roast
+- Added SD sync patch fixes the forced shutdown corruption problem thanks SantX27 
+- Gambatte has been updated Changes:below thanks Hi-Ban
+  - Added an option to switch between mono and stereo sound. Default option (and recommended one) is Mono
+  - Removed L/R menu hotkeys for most devices. Now only the power/suspend button calls the menu
+- Added new fceux nes emulator much better performance thanks to koroneo
+- Added fontigrid theme for new gmenuNX support thanks s4i
+- Added ST-SDL Terminal Emulator by Benob, Ported by SantX27
+- FBA added new fba release for arcade games thanks to koroneo, see wiki for more info
+
 ## Bittboy CFW 4.0 _(July 17, 2019)_
 - Minor update, installation simply unzip and overwrite into the main folder do not delete anything only overwrite
 - GAMEBOY: New gambatte version (20190621) - Thanks surkow and hi-ban

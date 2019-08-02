@@ -50,7 +50,9 @@ Auto Start Mod | GMenu2x_AutoStart.zip | Loads the last games/app/rom you were p
 Screen Tearing Fix 1 | Screen_Tearing_1.zip | Improved driver for PocketGo and Bittboy v3/v2.5/v2
 Screen Tearing Fix 2 | Screen_Tearing_2.7z | Same as the first version but fix the screen distortion
 Rumble NES Mod | FCEUX_Rumble.zip | Modified NES Emulator FCEUX to support rumble
+Improved NES 2 | FCEUX_Improved_2.zip | Lastest beta update of modified/improved NES Emulator FCEUX
 FS Corruption Fix | FS_Corruption_Daemon.zip | Daemon file to fix file system corruptions
+NES Sound Player | NSF_Player.zip | Simple NES Emulator FCEUX shortcut to play NSF sound files
 
 
 # Console Revisions Differences

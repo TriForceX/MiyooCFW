@@ -42,7 +42,7 @@ Support Discord Chat Server | [Join](https://discord.me/retrogamehandhelds)
 
 # Beta Testing
 
-Here you have a list some of the beta or custom files, to access them go to **Beta Testing** folder [here](https://www.dropbox.com/sh/04vuy4vwbz7tdn1/AADNJWp3jVL-siCksUOROBGca?dl=0&lst=). This section is for advanced users, no guides are provided for this (just some notes from chats in _TXT_ files).
+Here you have a list some of the beta or custom files, to access them go to **Beta Testing** folder [here](https://www.dropbox.com/sh/q4maj1bkf7o02rd/AABMW7-zNTWxnBoi_qdFFSs0a?dl=0&lst=). This section is for advanced users, no guides are provided for this (just some notes from chats in **.txt** files).
 
 File | Notes
 :------------: | :------------

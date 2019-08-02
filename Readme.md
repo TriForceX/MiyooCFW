@@ -44,15 +44,17 @@ Support Discord Chat Server | [Join](https://discord.me/retrogamehandhelds)
 
 Here you have a list some of the beta or custom files, to access them go to **Beta Testing** folder [here](https://www.dropbox.com/sh/04vuy4vwbz7tdn1/AADNJWp3jVL-siCksUOROBGca?dl=0&lst=). This section is for advanced users, no guides are provided for this (just some notes from chats in _TXT_ files).
 
-Title | File | Notes
-:------------: | :------------: | :------------
-Auto Start Mod | GMenu2x_AutoStart.zip | Loads the last games/app/rom you were playing at startup
-Screen Tearing Fix 1 | Screen_Tearing_1.zip | Improved driver for PocketGo and Bittboy v3/v2.5/v2
-Screen Tearing Fix 2 | Screen_Tearing_2.7z | Same as the first version but fix the screen distortion
-Rumble NES Mod | FCEUX_Rumble.zip | Modified NES Emulator FCEUX to support rumble
-Improved NES 2 | FCEUX_Improved_2.zip | Lastest beta update of modified/improved NES Emulator FCEUX
-FS Corruption Fix | FS_Corruption_Daemon.zip | Daemon file to fix file system corruptions
-NES Sound Player | NSF_Player.zip | Simple NES Emulator FCEUX shortcut to play NSF sound files
+File | Notes
+:------------: | :------------
+GMenu2x_AutoStart | Loads the last games/app/rom you were playing at startup
+Screen_Tearing_1 | Improved driver for PocketGo and Bittboy v3/v2.5/v2
+Screen_Tearing_2 | Same as the first version but fix the screen distortion
+Screen_Tearing_3 | Improved driver for Bittboy v3.5 only
+FCEUX_Rumble | Modified NES Emulator FCEUX to support rumble
+FCEUX_Improved_1 | First version of modified/improved NES Emulator FCEUX
+FCEUX_Improved_2 | Lastest update of modified/improved NES Emulator FCEUX
+FS_Corruption_Daemon | Daemon file to fix file system corruptions
+NSF_Player | Simple NES Emulator FCEUX shortcut to play NSF sound files
 
 
 # Console Revisions Differences

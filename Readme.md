@@ -55,6 +55,7 @@ FCEUX_Improved_1 | First version of modified/improved NES Emulator FCEUX
 FCEUX_Improved_2 | Lastest update of modified/improved NES Emulator FCEUX
 FS_Corruption_Daemon | Daemon file to fix file system corruptions
 NSF_Player | Simple NES Emulator FCEUX shortcut to play NSF sound files
+Switch_PWM_Scripts | Scripts to improve the background sound noise
 
 
 # Console Revisions Differences

@@ -4,6 +4,8 @@
 
 **아직 베타 버전이며 아직 개발 중입니다.**
 
+[![click here](https://user-images.githubusercontent.com/16083854/62875006-380c1680-bcf0-11e9-9953-3f3f996926c1.png)](https://www.youtube.com/watch?v=YFdZEh4gAM8)
+
 ## 1) 준비물
 1. Pocket Go v1
 2. 8기가 이상의 SD카드

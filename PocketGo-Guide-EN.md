@@ -4,6 +4,8 @@ Before working with this, we would like to express our gratitude to **Steward-fu
 
 **This is still a beta and is still in development.**
 
+[![click here](https://user-images.githubusercontent.com/16083854/62875006-380c1680-bcf0-11e9-9953-3f3f996926c1.png)](https://www.youtube.com/watch?v=YFdZEh4gAM8)
+
 ## 1) Materials
 1. Pocket Go v1
 2. SD card of 8GB or more

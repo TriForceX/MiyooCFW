@@ -2,18 +2,20 @@
 
 The next list is all the changes registered on the **custom firmware** version updates.
 
-## Bittboy CFW 4.1 _(August 08, 2019)_
+## Bittboy CFW 4.1 _(August 08 & 13, 2019)_
 
 - New full image release due to some major changes to rootfs this is a full install and no upgrade available this time thank you all enjoy.
 - Merged with latest GmenuNX release new features and better future support thanks ping_flood.
-- Latest screen tearing fix & for some people experiencing distortion, thanks Roast
-- added sd sync patch fixes the forced shutdown corruption problem thanks SantX27 
+- Latest screen tearing fix & for some people experiencing distortion, thanks Roast (Only for Bittboy v3 and v3.5)
+- Added sd sync patch fixes the forced shutdown corruption problem thanks SantX27 
 - Gambatte has been updated Changes:below thanks Hi-Ban
   - Added an option to switch between mono and stereo sound. Default option (and recommended one) is Mono.
   - Removed L/R menu hotkeys for most devices. Now only the power/suspend button calls the menu.
-- added new fceux nes emulator much better performance thanks to koroneo
-- added fontigrid theme for new gmenuNX support thanks s4i
-- added ST-SDL Terminal Emulator by Benob, Ported by SantX27 thanks.
+- Added new fceux nes emulator much better performance thanks to koroneo
+- Added new game Midnight Wild game thank's to @crait 
+- Added comic-book theme for new gmenuNX ported by Jutleys to bittboy thanks to segich & simpleasy
+- Added fontigrid theme for new gmenuNX support thanks s4i
+- Added ST-SDL Terminal Emulator by Benob, Ported by SantX27 thanks.
 - FBA added new fba release for arcade games thanks to Hank, see wiki for more info
 - New daemon from jamesofarrell, see wiki for more info
 

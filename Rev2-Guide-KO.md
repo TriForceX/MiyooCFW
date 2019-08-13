@@ -9,13 +9,11 @@
 ## 1) 준비물
 1. New Bittboy - rev2 or rev2.5
 2. 8기가 이상의 SD카드
-3. 최신 CFW v3.9 이미지 [(다운로드)](https://www.dropbox.com/s/tboslhr720wzhoe/Bittboy_V2_V2.5_only_v3.9_10-06-19.img.7z?dl=1) (CFW v4.0을 업데이트하려면 아래를 참조하십시오)
+3. 최신 CFW v4.1 이미지 [(다운로드)](https://www.dropbox.com/s/ybeq1y8rbfrk9r7/Bittboy_V2_V2.5_only_v4.1_13-08-19.img.7z?dl=1)
 4. Partition Wizard [(다운로드)](https://www.partitionwizard.com/download.html)
 5. Win32diskimager [(다운로드)](https://sourceforge.net/projects/win32diskimager)
 6. 7zip [(다운로드)](https://www.7-zip.org/download.html)
 7. 선택적 설치 SD Card Formatter [(다운로드)](https://www.sdcard.org/downloads/formatter)
-
-**CFW v4.0 업데이트:** 최신 CFW 3.9를 설치하고 업데이트를 다운로드해야합니다 [(다운로드)](https://www.dropbox.com/s/97c5b0060x1kvnw/Bittboy_CFW4.0_Update_Only.zip?dl=1). 내용을 'main' 드라이브에 추출하고 묻는다면 바꿉니다.
 
 ## 2) 설치
 ![bittboy-guide-v2](https://user-images.githubusercontent.com/16083854/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png)

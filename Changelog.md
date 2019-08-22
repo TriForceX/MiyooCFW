@@ -2,6 +2,36 @@
 
 The next list is all the changes registered on the **custom firmware** version updates.
 
+## Bittboy CFW 4.2 / PocketGo CFW 1.3 _(August 21, 2019)_
+
+- Gmenunx hold select & L will change volume up or down hold select & R will change backlight up down.
+- Added latest fceux nes emulator (miyoofcfceu_20190807_by_koroneo) much better performance thanks to koroneo
+- Added uae4all amiga emulator thanks to jamesofarrell
+- Added vectrex emulator You need to have a copy of Minestorm in .vecxemu and name the file rom.dat.Otherwise it won't run as Minestorm also contains worth of 1kb of BIOS functions used by most games thanks to sauce.
+- Added Circuit Dude game thanks to @crait
+- Added chocolate-doom-modlaunch doom mods (Copy Doom 2 retail wad to /games/ccdoom (in main partition) with the filename Doom2.wad.) thanks to scooterpsu
+- Updated gpsp_gameblabla_v3_rumble_mapping.zip thanks to sauce this is now the main GPSP emulator.
+- Added comic-book skin HUGE THANKS TO Segich & SimplEasy FOR ARTWORK
+- Updated SORR to v5.1 & now you can exit properly in game menu :)
+- Updated fontigrid theme for new emulators & games thanks s4i
+- Updated ST-SDL Terminal Emulator changed some of the key mappings in order to type faster, like Start is Enter and Select is Tab, also Reset now closes the program by Benob, Ported by SantX27 thanks.
+- New miyoo_daemon 0.0.3 added battery detection. Once the battery gets below 3.55v the screen will flash every minute or so. The value can be adjusted by creating /mnt/.batterylow.conf. The default value is 3550.thanks to jamesofarrell
+- updated edits to the bootup we have now hidden terminal screens on boot and when switching games etc so it looks clean the colors can be changed also see below default terminal color is same as bootlogo color.
+- changed init script to silent output.
+- Added custom terminal colors. Edit "/main/kernel/colors" to update them"
+- Added screentearing fix for bittboy v2/2.5
+- New FB Driver for v3 v3.5 & pocketgo (version bug fixes) thanks to jamesofarrell
+- New Zimage for all devices  (hold menu instead of select when adjusting brightness in game it stops the conflict in same games when you need to use select + something)
+  - Disable Bootlogo
+  - Disable Android specific code
+  - Enable Squashfs support
+  - Disable the kernel's NTFS code.
+  - Set the block scheduler to deadline.
+  - Disable Make rodata strictly non-executable
+  - Enable experemental FPU code
+  - Enable BLK_DEV_LOOP for OPK support
+
+
 ## Bittboy CFW 4.1 _(August 08 & 13, 2019)_
 
 - New full image release due to some major changes to rootfs this is a full install and no upgrade available this time thank you all enjoy.

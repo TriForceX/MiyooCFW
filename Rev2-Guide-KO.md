@@ -9,7 +9,7 @@
 ## 1) 준비물
 1. New Bittboy - rev2 or rev2.5
 2. 8기가 이상의 SD카드
-3. 최신 CFW v4.1 이미지 [(다운로드)](https://www.dropbox.com/s/ybeq1y8rbfrk9r7/Bittboy_V2_V2.5_only_v4.1_13-08-19.img.7z?dl=1)
+3. 최신 CFW v4.2 이미지 [(다운로드)](https://www.dropbox.com/s/zbl978o51hp05du/Bittboy_v2_v2.5_Only_CFW_v4.2_21-08-19.img.7z?dl=1)
 4. Partition Wizard [(다운로드)](https://www.partitionwizard.com/download.html)
 5. Win32diskimager [(다운로드)](https://sourceforge.net/projects/win32diskimager)
 6. 7zip [(다운로드)](https://www.7-zip.org/download.html)

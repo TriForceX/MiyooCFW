@@ -4,8 +4,8 @@
 
 ![bittboy-pocket-go](https://user-images.githubusercontent.com/16083854/59302103-2ca15e00-8c61-11e9-94df-096dde69e481.png)
 
-[![Bittboy-CFW](https://img.shields.io/badge/Bittboy%20CFW-v4.1-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
-[![Pocketgo-CFW](https://img.shields.io/badge/PocketGo%20CFW-v1.2-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
+[![Bittboy-CFW](https://img.shields.io/badge/Bittboy%20CFW-v4.2-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
+[![Pocketgo-CFW](https://img.shields.io/badge/PocketGo%20CFW-v1.3-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
 [![Stars](https://img.shields.io/github/stars/TriForceX/NewBittboyCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/NewBittboyCFW/stargazers)
 [![Issues](https://img.shields.io/github/issues/TriForceX/NewBittboyCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/NewBittboyCFW/issues)
 [![License](https://img.shields.io/github/license/TriForceX/NewBittboyCFW.svg?label=License&color=yellow)](https://github.com/TriForceX/NewBittboyCFW#license)
@@ -18,8 +18,7 @@
 
 # Setup
 
-The next guides are to install custom firmware, download links are provide inside. If you want just **Update** your custom firmware you can use the [English guide](https://github.com/TriForceX/NewBittboyCFW/blob/master/Update-CFW-EN.md)
-or the [Korean guide](https://github.com/TriForceX/NewBittboyCFW/blob/master/Update-CFW-KO.md).
+The next guides are to install custom firmware, download links are provide inside. If you want just **Update** your Custom Firmware you can read [here](https://github.com/TriForceX/NewBittboyCFW/wiki/Custom-Firmware-Update).
 
 Revision | Language
 :------------: | :------------:
@@ -38,7 +37,7 @@ Bittboy Official | [Site](https://www.bittboy.com) - [Social](https://www.facebo
 Bittboy Main CFW | [Source](https://github.com/steward-fu/miyoo) - [Release](https://github.com/steward-fu/miyoo/releases)
 Bittboy Resources | [Visit](https://www.dropbox.com/sh/04vuy4vwbz7tdn1/AADNJWp3jVL-siCksUOROBGca?dl=0&lst=)
 Bittboy Wiki | [View](https://github.com/TriForceX/NewBittboyCFW/wiki)
-Support Discord Chat Server | [Join](https://discord.me/retrogamehandhelds)
+Support Discord Chat Server | [Join](https://discord.gznetwork.com)
 
 # Beta Testing
 
@@ -47,9 +46,10 @@ Here you have a list some of the beta or custom files, to access them go to **Be
 File | Notes
 :------------: | :------------
 GMenu2x_AutoStart | Loads the last games/app/rom you were playing at startup
-Screen_Tearing_1 | Improved driver for PocketGo and Bittboy v3/v2.5/v2
+Screen_Tearing_1 | Improved driver for PocketGo and Bittboy v3
 Screen_Tearing_2 | Same as the first version but fix the screen distortion
 Screen_Tearing_3 | Improved driver for Bittboy v3.5 only
+Screen_Tearing_4 | Improved driver for Bittboy v2/v2.5 only
 FCEUX_Rumble | Modified NES Emulator FCEUX to support rumble
 FCEUX_Improved_1 | First version of modified/improved NES Emulator FCEUX
 FCEUX_Improved_2 | Lastest update of modified/improved NES Emulator FCEUX
@@ -73,7 +73,7 @@ The next list are for **New Bittboy**, which has 3 main revisions:
 Rev | Release | Notes
 :------------: | :------------: | :------------
 3.5 | May 14, 2019 | Changed circuit board (see [here](https://user-images.githubusercontent.com/16083854/61262811-a5aa3e80-a754-11e9-97b5-e9f2d4c8cda2.png))
-3.5 | May 14, 2019 | Barcode changed to 20190424 005 (recent models doesn't include)
+3.5 | May 14, 2019 | Barcode changed to 20190424 005 (newers no longer include it)
 3.5 | May 14, 2019 | Glass screen is thinner
 3 | April 23, 2019 | New non-registered key combos detected
 3 | April 23, 2019 | Fixed Ghost Key issues
@@ -142,6 +142,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - dElAvA
 
 - Other:
+  - Vincent
   - Jutleys
   - Dmm1138
   - Alexai

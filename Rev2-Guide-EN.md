@@ -9,7 +9,7 @@ Before working with this, we would like to express our gratitude to **Steward-fu
 ## 1) Materials
 1. New Bittboy - rev2 or rev2.5
 2. SD card of 8GB or more
-3. Lastest CFW v4.1 Image [(Download)](https://www.dropbox.com/s/ybeq1y8rbfrk9r7/Bittboy_V2_V2.5_only_v4.1_13-08-19.img.7z?dl=1)
+3. Lastest CFW v4.2 Image [(Download)](https://www.dropbox.com/s/zbl978o51hp05du/Bittboy_v2_v2.5_Only_CFW_v4.2_21-08-19.img.7z?dl=1)
 4. Install Partition Wizard [(Download)](https://www.partitionwizard.com/download.html)
 5. Install win32diskimager [(Download)](https://sourceforge.net/projects/win32diskimager)
 6. Install 7zip [(Download)](https://www.7-zip.org/download.html)

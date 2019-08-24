@@ -19,7 +19,6 @@ The next list is all the changes registered on the **custom firmware** version u
 - updated edits to the bootup we have now hidden terminal screens on boot and when switching games etc so it looks clean the colors can be changed also see below default terminal color is same as bootlogo color.
 - changed init script to silent output.
 - Added custom terminal colors. Edit "/main/kernel/colors" to update them"
-- Added screentearing fix for bittboy v2/2.5
 - New FB Driver for v3 v3.5 & pocketgo (version bug fixes) thanks to jamesofarrell
 - New Zimage for all devices  (hold menu instead of select when adjusting brightness in game it stops the conflict in same games when you need to use select + something)
   - Disable Bootlogo

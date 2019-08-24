@@ -49,6 +49,7 @@ GMenu2x_AutoStart | Loads the last games/app/rom you were playing at startup
 Screen_Tearing_1 | Improved driver for PocketGo and Bittboy v3
 Screen_Tearing_2 | Same as the first version but fix the screen distortion
 Screen_Tearing_3 | Improved driver for Bittboy v3.5 only
+Screen_Tearing_4 | Improved driver for Bittboy v2 only
 FCEUX_Rumble | Modified NES Emulator FCEUX to support rumble
 FCEUX_Improved_1 | First version of modified/improved NES Emulator FCEUX
 FCEUX_Improved_2 | Lastest update of modified/improved NES Emulator FCEUX

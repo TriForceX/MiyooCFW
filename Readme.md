@@ -12,9 +12,10 @@
 
 # Information
 
-- Check emulators, apps, mods and other guides in our **wiki** [here](https://github.com/TriForceX/NewBittboyCFW/wiki)
+- Check main guides for setup in our **wiki** [here](https://github.com/TriForceX/NewBittboyCFW/wiki)
+- Get some **homebrews** and **ports** by the community [here](https://github.com/TriForceX/NewBittboyCFW#aaa)
 - Check the version details history in our changelog [here](https://github.com/TriForceX/NewBittboyCFW/blob/master/Changelog.md)
-- Join our **Discord** chat server for more support [here](https://discord.me/retrogamehandhelds)
+- Join our **Discord** chat server for more support [here](https://discord.gznetwork.com)
 
 # Setup
 
@@ -33,15 +34,38 @@ Here you have some of the main resources:
 
 Name | Link
 :------------: | :------------:
-Bittboy Official | [Site](https://www.bittboy.com) - [Social](https://www.facebook.com/groups/bittboy)
-Bittboy Main CFW | [Source](https://github.com/steward-fu/miyoo) - [Release](https://github.com/steward-fu/miyoo/releases)
-Bittboy Resources | [Visit](https://www.dropbox.com/sh/04vuy4vwbz7tdn1/AADNJWp3jVL-siCksUOROBGca?dl=0&lst=)
-Bittboy Wiki | [View](https://github.com/TriForceX/NewBittboyCFW/wiki)
-Support Discord Chat Server | [Join](https://discord.gznetwork.com)
+Official Sites | [Bittboy](https://www.bittboy.com) - [PocketGo](https://pocket-go.com)
+Main Wiki Guides | [View](https://github.com/TriForceX/NewBittboyCFW/wiki)
+Resources & Backups | [View](https://www.dropbox.com/sh/04vuy4vwbz7tdn1/AADNJWp3jVL-siCksUOROBGca?dl=0&lst=)
+Support Chat Server| [Join Discord](https://discord.gznetwork.com)
+
+# Homebrews & Ports
+
+The next list is the current homebrews and ports available _(click the user name for more info)_.
+
+Download | Dev / Port by
+:------: | :------:
+[Circuit Dude (PocketGo)](http://www.crait.net/download.php?file=CircuitDudePG.zip) | [@crait](http://www.crait.net)
+[Circuit Dude (Bittboy)](http://www.crait.net/download.php?file=CircuitDudeBB.zip) | [@crait](http://www.crait.net)
+[Hydra Castle Labyrinth](https://github.com/szymor/hydracastlelabyrinth/releases/download/bittboy-r1/hcl.zip) | [@szymor](https://github.com/szymor/hydracastlelabyrinth)
+[Homing Fever](https://github.com/szymor/HomingFever/releases/download/v0.1.1r2-bittboy/fever.zip) | [@szymor](https://github.com/szymor/HomingFever)
+[l\'Abbaye des Morts](https://github.com/szymor/abbayedesmorts-gpl/releases/download/bittboy-r1/abbaye.zip) | [@szymor](https://github.com/szymor/abbayedesmorts-gpl)
+[Shifty Pills](https://github.com/szymor/Shifty-Pills/releases/download/bittboy-r1/shifty.zip) | [@szymor](https://github.com/szymor/Shifty-Pills)
+[Shisen-Seki (四川石)](https://github.com/szymor/shisen-seki/releases/download/bittboy-r1/shisen.zip) | [@szymor](https://github.com/szymor/shisen-seki)
+
+# Tools
+
+The next list is the current tools available _(click the user name for more info)_.
+
+Download | Dev / Port by
+:------: | :------:
+[I/O Tester](https://www.dropbox.com/s/g4beydsz5yc9r1f/iotester-bittboy.zip?dl=1) | [@pingflood](https://github.com/pingflood/iotester)
+[Calculator for Bittboy](https://github.com/szymor/bittboy-calc/releases/download/v0.1/calc.zip) | [@szymor](https://github.com/szymor/bittboy-calc)
+[Simple Menu](https://www.dropbox.com/s/v4hz77g61w5l5h5/simplemenu-25-08-2019.zip?dl=1) | [@fgl82](https://github.com/fgl82/simplemenu)
 
 # Beta Testing
 
-Here you have a list some of the beta or custom files, to access them go to **Beta Testing** folder [here](https://www.dropbox.com/sh/q4maj1bkf7o02rd/AABMW7-zNTWxnBoi_qdFFSs0a?dl=0&lst=). This section is for advanced users, no guides are provided for this (just some notes from chats in **.txt** files).
+Here you have a list some of the beta or custom files, to access them go to **Beta Testing** folder [here](https://www.dropbox.com/sh/q4maj1bkf7o02rd/AABMW7-zNTWxnBoi_qdFFSs0a?dl=0&lst=). This section is for advanced users, no guides are provided for this (please read the **.txt** files before using them).
 
 File | Notes
 :------------: | :------------
@@ -56,7 +80,6 @@ FCEUX_Improved_2 | Lastest update of modified/improved NES Emulator FCEUX
 FS_Corruption_Daemon | Daemon file to fix file system corruptions
 NSF_Player | Simple NES Emulator FCEUX shortcut to play NSF sound files
 Switch_PWM_Scripts | Scripts to improve the background sound noise
-
 
 # Console Revisions Differences
 
@@ -119,7 +142,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - [BytePorter](https://github.com/byteporter)
   - [JamesOFarrell](https://github.com/jamesofarrell)
   - dee
-  - crait
+  - [crait](http://www.crait.net)
   - koroneo
   - Roast风格
   - [SantX27](https://github.com/SantX27)

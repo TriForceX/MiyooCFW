@@ -13,7 +13,7 @@
 # Information
 
 - Check main guides for setup in our **wiki** [here](https://github.com/TriForceX/NewBittboyCFW/wiki)
-- Get some **homebrews** and **ports** by the community [here](https://github.com/TriForceX/NewBittboyCFW#aaa)
+- Get some **homebrews** and **ports** by the community [here](https://github.com/TriForceX/NewBittboyCFW#homebrews-and-ports)
 - Check the version details history in our changelog [here](https://github.com/TriForceX/NewBittboyCFW/blob/master/Changelog.md)
 - Join our **Discord** chat server for more support [here](https://discord.gznetwork.com)
 
@@ -39,7 +39,7 @@ Main Wiki Guides | [View](https://github.com/TriForceX/NewBittboyCFW/wiki)
 Resources & Backups | [View](https://www.dropbox.com/sh/04vuy4vwbz7tdn1/AADNJWp3jVL-siCksUOROBGca?dl=0&lst=)
 Support Chat Server| [Join Discord](https://discord.gznetwork.com)
 
-# Homebrews & Ports
+# Homebrews and Ports
 
 The next list is the current homebrews and ports available _(click the user name for more info)_.
 

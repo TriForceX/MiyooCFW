@@ -1,6 +1,6 @@
 # Pocket Go v1 Custom Firmware
 
-이 작업을하기 전에 **Steward-fu**와 메인 페이지 특별 감사에 언급 된 사람들에게 감사를 표합니다 [바로 여기에](https://github.com/TriForceX/NewBittboyCFW#special-thanks).
+이 작업을하기 전에 **Steward-fu**와 메인 페이지 특별 감사에 언급 된 사람들에게 감사를 표합니다 [바로 여기에](https://github.com/TriForceX/MiyooCFW#special-thanks).
 
 **아직 베타 버전이며 아직 개발 중입니다.**
 

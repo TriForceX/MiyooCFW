@@ -1,6 +1,6 @@
 # New Bittboy Rev 1 Custom Firmware
 
-Before working with us, we would like to express our gratitude to **Steward-fu** and the people mentioned on main page special thanks [here](https://github.com/TriForceX/NewBittboyCFW#special-thanks).
+Before working with us, we would like to express our gratitude to **Steward-fu** and the people mentioned on main page special thanks [here](https://github.com/TriForceX/MiyooCFW#special-thanks).
 
 **The photographs in the section were made using Steward-fu's photographic materials.**
 
@@ -10,7 +10,7 @@ https://steward-fu.github.io/website/handheld.htm
 
 [![click here](https://i.imgur.com/I3S12VG.png)](https://youtu.be/FjQquL3W99U)
 
-**Note:** This guide and its links may be outdated, if you want read more about this [click here](https://github.com/TriForceX/NewBittboyCFW/issues/32)
+**Note:** This guide and its links may be outdated, if you want read more about this [click here](https://github.com/TriForceX/MiyooCFW/issues/32)
 
 ## 1) Materials
 1. New Bittboy - rev1 (early version)

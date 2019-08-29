@@ -4,29 +4,36 @@
 
 ![bittboy-pocket-go](https://user-images.githubusercontent.com/16083854/59302103-2ca15e00-8c61-11e9-94df-096dde69e481.png)
 
-[![Bittboy-CFW](https://img.shields.io/badge/Bittboy%20CFW-v4.2-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
-[![Pocketgo-CFW](https://img.shields.io/badge/PocketGo%20CFW-v1.3-brightgreen.svg)](https://github.com/TriForceX/NewBittboyCFW#setup)
-[![Stars](https://img.shields.io/github/stars/TriForceX/NewBittboyCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/NewBittboyCFW/stargazers)
-[![Issues](https://img.shields.io/github/issues/TriForceX/NewBittboyCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/NewBittboyCFW/issues)
-[![License](https://img.shields.io/github/license/TriForceX/NewBittboyCFW.svg?label=License&color=yellow)](https://github.com/TriForceX/NewBittboyCFW#license)
+[![Wiki](https://img.shields.io/badge/Setup%20%26%20Guides-Wiki-blueviolet.svg)](https://github.com/TriForceX/MiyooCFW/wiki)
+[![Stars](https://img.shields.io/github/stars/TriForceX/MiyooCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/MiyooCFW/stargazers)
+[![Issues](https://img.shields.io/github/issues/TriForceX/MiyooCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/MiyooCFW/issues)
+[![License](https://img.shields.io/github/license/TriForceX/MiyooCFW.svg?label=License&color=yellow)](https://github.com/TriForceX/MiyooCFW#license)
+
+- The **Miyoo CFW** is only the base CFW with the lastest developer updates.
+- The **Community CFW** is the full package with the lastest community updates _(homebrews, emulators, etc...)_
+
+Miyoo | Commuity
+:-----: | :-----:
+[![Bittbot-CFW](https://img.shields.io/badge/Bittboy%20CFW-Unavailable-inactive.svg)](https://github.com/TriForceX/MiyooCFW#setup) | [![Bittboy-CFW](https://img.shields.io/badge/Bittboy%20CFW-v4.2-brightgreen.svg)](https://github.com/TriForceX/MiyooCFW#setup)
+[![PocketGo-CFW](https://img.shields.io/badge/PocketGo%20CFW-Unavailable-inactive.svg)](https://github.com/TriForceX/MiyooCFW#setup) | [![Pocketgo-CFW](https://img.shields.io/badge/PocketGo%20CFW-v1.3-brightgreen.svg)](https://github.com/TriForceX/MiyooCFW#setup)
 
 # Information
 
-- Check main guides for setup in our **wiki** [here](https://github.com/TriForceX/NewBittboyCFW/wiki)
-- Get some **homebrews** and **ports** by the community [here](https://github.com/TriForceX/NewBittboyCFW#homebrews-and-ports)
-- Check the version details history in our changelog [here](https://github.com/TriForceX/NewBittboyCFW/blob/master/Changelog.md)
+- Check main guides for setup in our **wiki** [here](https://github.com/TriForceX/MiyooCFW/wiki)
+- Get some **homebrews** and **ports** by the community [here](https://github.com/TriForceX/MiyooCFW#homebrews-and-ports)
+- Check the version details history in our changelog [here](https://github.com/TriForceX/MiyooCFW/blob/master/Changelog.md)
 - Join our **Discord** chat server for more support [here](https://discord.gznetwork.com)
 
 # Setup
 
-The next guides are to install custom firmware, download links are provide inside. If you want just **Update** your Custom Firmware you can read [here](https://github.com/TriForceX/NewBittboyCFW/wiki/Custom-Firmware-Update).
+The next guides are to install custom firmware, download links are provide inside. If you want just **Update** your Custom Firmware you can read [here](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Update).
 
 Revision | Language
 :------------: | :------------:
-Pocket Go v1 | [English](https://github.com/TriForceX/NewBittboyCFW/blob/master/PocketGo-Guide-EN.md) - [Korean](https://github.com/TriForceX/NewBittboyCFW/blob/master/PocketGo-Guide-KO.md)
-New Bittboy v3 & 3.5 | [English](https://github.com/TriForceX/NewBittboyCFW/blob/master/Rev3-Guide-EN.md) - [Korean](https://github.com/TriForceX/NewBittboyCFW/blob/master/Rev3-Guide-KO.md)
-New Bittboy v2 & 2.5 | [English](https://github.com/TriForceX/NewBittboyCFW/blob/master/Rev2-Guide-EN.md) - [Korean](https://github.com/TriForceX/NewBittboyCFW/blob/master/Rev2-Guide-KO.md)
-New Bittboy v1 | [English](https://github.com/TriForceX/NewBittboyCFW/blob/master/Rev1-Guide-EN.md) - [Korean](https://github.com/TriForceX/NewBittboyCFW/blob/master/Rev1-Guide-KO.md)
+Pocket Go v1 | [English](https://github.com/TriForceX/MiyooCFW/blob/master/PocketGo-Guide-EN.md) - [Korean](https://github.com/TriForceX/MiyooCFW/blob/master/PocketGo-Guide-KO.md)
+New Bittboy v3 & 3.5 | [English](https://github.com/TriForceX/MiyooCFW/blob/master/Rev3-Guide-EN.md) - [Korean](https://github.com/TriForceX/MiyooCFW/blob/master/Rev3-Guide-KO.md)
+New Bittboy v2 & 2.5 | [English](https://github.com/TriForceX/MiyooCFW/blob/master/Rev2-Guide-EN.md) - [Korean](https://github.com/TriForceX/MiyooCFW/blob/master/Rev2-Guide-KO.md)
+New Bittboy v1 | [English](https://github.com/TriForceX/MiyooCFW/blob/master/Rev1-Guide-EN.md) - [Korean](https://github.com/TriForceX/MiyooCFW/blob/master/Rev1-Guide-KO.md)
 
 # Resources
 
@@ -35,7 +42,7 @@ Here you have some of the main resources:
 Name | Link
 :------------: | :------------:
 Official Sites | [Bittboy](https://www.bittboy.com) - [PocketGo](https://pocket-go.com)
-Main Wiki Guides | [View](https://github.com/TriForceX/NewBittboyCFW/wiki)
+Main Wiki Guides | [View](https://github.com/TriForceX/MiyooCFW/wiki)
 Resources & Backups | [View](https://www.dropbox.com/sh/04vuy4vwbz7tdn1/AADNJWp3jVL-siCksUOROBGca?dl=0&lst=)
 Support Chat Server| [Join Discord](https://discord.gznetwork.com)
 
@@ -163,10 +170,10 @@ The next people is contributing to all development of this **Bittboy** related s
   - MrRobotSK
   - WenTao
   - dElAvA
+  - Jutleys
 
 - Other:
   - Vincent
-  - Jutleys
   - Dmm1138
   - Alexai
   

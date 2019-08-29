@@ -1,6 +1,6 @@
 # 뉴 비트보이(New Bittboy) rev1 커스텀 펌웨어
 
-이 작업을하기 전에 **Steward-fu**와 메인 페이지 특별 감사에 언급 된 사람들에게 감사를 표합니다 [바로 여기에](https://github.com/TriForceX/NewBittboyCFW#special-thanks).
+이 작업을하기 전에 **Steward-fu**와 메인 페이지 특별 감사에 언급 된 사람들에게 감사를 표합니다 [바로 여기에](https://github.com/TriForceX/MiyooCFW#special-thanks).
 
 **대부분의 사진자료는 Steward-fu의 사진자료를 활용하였습니다.**
 
@@ -10,7 +10,7 @@ https://steward-fu.github.io/website/handheld.htm
 
 [![click here](https://i.imgur.com/I3S12VG.png)](https://youtu.be/FjQquL3W99U)
 
-**노트:** 이 가이드와 링크는 구식 일 수 있습니다 [여기를 클릭하십시오](https://github.com/TriForceX/NewBittboyCFW/issues/32)
+**노트:** 이 가이드와 링크는 구식 일 수 있습니다 [여기를 클릭하십시오](https://github.com/TriForceX/MiyooCFW/issues/32)
 
 ## 1) 준비물
 1. New Bittboy - rev1(초기 버전)

@@ -1,6 +1,6 @@
 # Pocket Go v1 Custom Firmware
 
-Before working with this, we would like to express our gratitude to **Steward-fu** and the people mentioned on main page special thanks [here](https://github.com/TriForceX/NewBittboyCFW#special-thanks).
+Before working with this, we would like to express our gratitude to **Steward-fu** and the people mentioned on main page special thanks [here](https://github.com/TriForceX/MiyooCFW#special-thanks).
 
 **This is still a beta and is still in development.**
 

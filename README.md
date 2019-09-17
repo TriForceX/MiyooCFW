@@ -9,10 +9,10 @@
 [![Issues](https://img.shields.io/github/issues/TriForceX/MiyooCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/MiyooCFW/issues)
 [![License](https://img.shields.io/github/license/TriForceX/MiyooCFW.svg?label=License&color=yellow)](#license)
 
-- The **Miyoo CFW** is only the base CFW with the lastest developer updates.
-- The **Community CFW** is the full package with the lastest community updates _(homebrews, emulators, etc...)_
+- The **Miyoo CFW** is only the base/clean CFW with the lastest developer updates.
+- The **Community CFW** is the full package with all the lastest community updates _(homebrews, emulators, etc...)_
 
-Miyoo | Commuity
+Miyoo | Community
 :-----: | :-----:
 [![Bittbot-CFW](https://img.shields.io/badge/Bittboy%20CFW-Not%20Available-inactive.svg)](#setup) | [![Bittboy-CFW](https://img.shields.io/badge/Bittboy%20CFW-v4.2-brightgreen.svg)](#setup)
 [![PocketGo-CFW](https://img.shields.io/badge/PocketGo%20CFW-Not%20Available-inactive.svg)](#setup) | [![Pocketgo-CFW](https://img.shields.io/badge/PocketGo%20CFW-v1.3-brightgreen.svg)](#setup)

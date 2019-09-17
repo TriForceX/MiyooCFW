@@ -14,8 +14,8 @@
 
 Miyoo | Commuity
 :-----: | :-----:
-[![Bittbot-CFW](https://img.shields.io/badge/Bittboy%20CFW-Unavailable-inactive.svg)](https://github.com/TriForceX/MiyooCFW#setup) | [![Bittboy-CFW](https://img.shields.io/badge/Bittboy%20CFW-v4.2-brightgreen.svg)](https://github.com/TriForceX/MiyooCFW#setup)
-[![PocketGo-CFW](https://img.shields.io/badge/PocketGo%20CFW-Unavailable-inactive.svg)](https://github.com/TriForceX/MiyooCFW#setup) | [![Pocketgo-CFW](https://img.shields.io/badge/PocketGo%20CFW-v1.3-brightgreen.svg)](https://github.com/TriForceX/MiyooCFW#setup)
+[![Bittbot-CFW](https://img.shields.io/badge/Bittboy%20CFW-Not%20Available-inactive.svg)](https://github.com/TriForceX/MiyooCFW#setup) | [![Bittboy-CFW](https://img.shields.io/badge/Bittboy%20CFW-v4.2-brightgreen.svg)](https://github.com/TriForceX/MiyooCFW#setup)
+[![PocketGo-CFW](https://img.shields.io/badge/PocketGo%20CFW-Not%20Available-inactive.svg)](https://github.com/TriForceX/MiyooCFW#setup) | [![Pocketgo-CFW](https://img.shields.io/badge/PocketGo%20CFW-v1.3-brightgreen.svg)](https://github.com/TriForceX/MiyooCFW#setup)
 
 # Information
 
@@ -52,6 +52,7 @@ The next list is the current homebrews and ports available _(click the user name
 
 Download | Dev / Port by
 :------: | :------:
+[Hocoslamfy](https://www.dropbox.com/s/uqp4bl02q4vdzmw/hocoslamfy.zip?dl=1) | [@Nebuleon](https://github.com/Nebuleon/hocoslamfy)
 [Circuit Dude (PocketGo)](http://www.crait.net/download.php?file=CircuitDudePG.zip) | [@crait](http://www.crait.net)
 [Circuit Dude (Bittboy)](http://www.crait.net/download.php?file=CircuitDudeBB.zip) | [@crait](http://www.crait.net)
 [Hydra Castle Labyrinth](https://github.com/szymor/hydracastlelabyrinth/releases/download/bittboy-r1/hcl.zip) | [@szymor](https://github.com/szymor/hydracastlelabyrinth)
@@ -66,9 +67,10 @@ The next list is the current tools available _(click the user name for more info
 
 Download | Dev / Port by
 :------: | :------:
-[I/O Tester](https://www.dropbox.com/s/g4beydsz5yc9r1f/iotester-bittboy.zip?dl=1) | [@pingflood](https://github.com/pingflood/iotester)
+[Coverflow](https://github.com/peterthrees/Coverflow/blob/master/build/Coverflow/CoverflowV1.0.zip) [@peterthrees](https://github.com/peterthrees/Coverflow)
+[Simple Menu](https://github.com/fgl82/simplemenu/archive/1.0.zip) | [@fgl82](https://github.com/fgl82/simplemenu)
 [Calculator for Bittboy](https://github.com/szymor/bittboy-calc/releases/download/v0.1/calc.zip) | [@szymor](https://github.com/szymor/bittboy-calc)
-[Simple Menu](https://www.dropbox.com/s/v4hz77g61w5l5h5/simplemenu-25-08-2019.zip?dl=1) | [@fgl82](https://github.com/fgl82/simplemenu)
+[I/O Tester](https://www.dropbox.com/s/g4beydsz5yc9r1f/iotester-bittboy.zip?dl=1) | [@pingflood](https://github.com/pingflood/iotester)
 
 # Beta Testing
 

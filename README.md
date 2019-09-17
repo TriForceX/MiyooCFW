@@ -7,21 +7,21 @@
 [![Wiki](https://img.shields.io/badge/Setup%20%26%20Guides-Wiki-blueviolet.svg)](https://github.com/TriForceX/MiyooCFW/wiki)
 [![Stars](https://img.shields.io/github/stars/TriForceX/MiyooCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/MiyooCFW/stargazers)
 [![Issues](https://img.shields.io/github/issues/TriForceX/MiyooCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/MiyooCFW/issues)
-[![License](https://img.shields.io/github/license/TriForceX/MiyooCFW.svg?label=License&color=yellow)](https://github.com/TriForceX/MiyooCFW#license)
+[![License](https://img.shields.io/github/license/TriForceX/MiyooCFW.svg?label=License&color=yellow)](#license)
 
 - The **Miyoo CFW** is only the base CFW with the lastest developer updates.
 - The **Community CFW** is the full package with the lastest community updates _(homebrews, emulators, etc...)_
 
 Miyoo | Commuity
 :-----: | :-----:
-[![Bittbot-CFW](https://img.shields.io/badge/Bittboy%20CFW-Not%20Available-inactive.svg)](https://github.com/TriForceX/MiyooCFW#setup) | [![Bittboy-CFW](https://img.shields.io/badge/Bittboy%20CFW-v4.2-brightgreen.svg)](https://github.com/TriForceX/MiyooCFW#setup)
-[![PocketGo-CFW](https://img.shields.io/badge/PocketGo%20CFW-Not%20Available-inactive.svg)](https://github.com/TriForceX/MiyooCFW#setup) | [![Pocketgo-CFW](https://img.shields.io/badge/PocketGo%20CFW-v1.3-brightgreen.svg)](https://github.com/TriForceX/MiyooCFW#setup)
+[![Bittbot-CFW](https://img.shields.io/badge/Bittboy%20CFW-Not%20Available-inactive.svg)](#setup) | [![Bittboy-CFW](https://img.shields.io/badge/Bittboy%20CFW-v4.2-brightgreen.svg)](#setup)
+[![PocketGo-CFW](https://img.shields.io/badge/PocketGo%20CFW-Not%20Available-inactive.svg)](#setup) | [![Pocketgo-CFW](https://img.shields.io/badge/PocketGo%20CFW-v1.3-brightgreen.svg)](#setup)
 
 # Information
 
 - Check main guides for setup in our **wiki** [here](https://github.com/TriForceX/MiyooCFW/wiki)
-- Get some **homebrews** and **ports** by the community [here](https://github.com/TriForceX/MiyooCFW#homebrews-and-ports)
-- Check the version details history in our changelog [here](https://github.com/TriForceX/MiyooCFW/blob/master/Changelog.md)
+- Get some **homebrews** and **ports** by the community [here](#homebrews-and-ports)
+- Check the version details history in our changelog [here](https://github.com/TriForceX/MiyooCFW/blob/master/CHANGELOG.md)
 - Join our **Discord** chat server for more support [here](https://discord.gznetwork.com)
 
 # Setup
@@ -67,7 +67,7 @@ The next list is the current tools available _(click the user name for more info
 
 Download | Dev / Port by
 :------: | :------:
-[Coverflow](https://github.com/peterthrees/Coverflow/blob/master/build/Coverflow/CoverflowV1.0.zip) [@peterthrees](https://github.com/peterthrees/Coverflow)
+[Coverflow](https://github.com/peterthrees/Coverflow/blob/master/build/Coverflow/CoverflowV1.0.zip) | [@peterthrees](https://github.com/peterthrees/Coverflow)
 [Simple Menu](https://github.com/fgl82/simplemenu/archive/1.0.zip) | [@fgl82](https://github.com/fgl82/simplemenu)
 [Calculator for Bittboy](https://github.com/szymor/bittboy-calc/releases/download/v0.1/calc.zip) | [@szymor](https://github.com/szymor/bittboy-calc)
 [I/O Tester](https://www.dropbox.com/s/g4beydsz5yc9r1f/iotester-bittboy.zip?dl=1) | [@pingflood](https://github.com/pingflood/iotester)

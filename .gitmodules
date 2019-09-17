@@ -1,6 +1,3 @@
-[submodule "miyoo"]
-	path = miyoo
-	url = https://github.com/steward-fu/miyoo
 [submodule "buildroot"]
 	path = buildroot
 	url = https://github.com/bittboy/buildroot

@@ -156,6 +156,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - Roast风格
   - [SantX27](https://github.com/SantX27)
   - [fgl82](https://github.com/fgl82)
+  - [peterthrees](https://github.com/peterthrees)
 
 - Theme developers:
   - 2TMAU5

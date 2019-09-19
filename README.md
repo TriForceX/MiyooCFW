@@ -52,6 +52,9 @@ The next list is the current homebrews and ports available _(click the user name
 
 Download | Dev / Port by
 :------: | :------:
+[Xrick](https://github.com/jamesofarrell/miyoo_xrick/releases/download/0.0.1/xrick_0.0.1.zip) | [@jamesofarrell](https://github.com/jamesofarrell/miyoo_xrick)
+[Evil Australians](https://www.dropbox.com/s/h78bniyqpyoeb88/evilaustralians.zip?dl=1) | [@gameblabla](https://github.com/gameblabla/evilaustralians)
+[Yatka](https://github.com/szymor/yatka/releases/download/v0.1/yatka.zip) | [@szymor](https://github.com/szymor/yatka)
 [Hocoslamfy](https://www.dropbox.com/s/uqp4bl02q4vdzmw/hocoslamfy.zip?dl=1) | [@Nebuleon](https://github.com/Nebuleon/hocoslamfy)
 [Circuit Dude (PocketGo)](http://www.crait.net/download.php?file=CircuitDudePG.zip) | [@crait](http://www.crait.net)
 [Circuit Dude (Bittboy)](http://www.crait.net/download.php?file=CircuitDudeBB.zip) | [@crait](http://www.crait.net)

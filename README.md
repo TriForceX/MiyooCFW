@@ -71,7 +71,7 @@ The next list is the current tools available _(click the user name for more info
 Download | Dev / Port by
 :------: | :------:
 [Coverflow](https://github.com/peterthrees/Coverflow/blob/master/build/Coverflow/CoverflowV1.0.zip) | [@peterthrees](https://github.com/peterthrees/Coverflow)
-[Simple Menu](https://github.com/fgl82/simplemenu/archive/1.0.zip) | [@fgl82](https://github.com/fgl82/simplemenu)
+[Simple Menu](https://github.com/fgl82/simplemenu/releases/download/1.0/simplemenu-1.0.zip) | [@fgl82](https://github.com/fgl82/simplemenu)
 [Calculator for Bittboy](https://github.com/szymor/bittboy-calc/releases/download/v0.1/calc.zip) | [@szymor](https://github.com/szymor/bittboy-calc)
 [I/O Tester](https://www.dropbox.com/s/g4beydsz5yc9r1f/iotester-bittboy.zip?dl=1) | [@pingflood](https://github.com/pingflood/iotester)
 

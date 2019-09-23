@@ -9,10 +9,10 @@
 [![Issues](https://img.shields.io/github/issues/TriForceX/MiyooCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/MiyooCFW/issues)
 [![License](https://img.shields.io/github/license/TriForceX/MiyooCFW.svg?label=License&color=yellow)](#license)
 
-- The **Miyoo CFW** is only the base/clean CFW with the lastest developer updates.
-- The **Community CFW** is the full package with all the lastest community updates _(homebrews, emulators, etc...)_
+- The **Miyoo CFW** is the clean base CFW with the lastest developer updates.
+- The **Community CFW** is the full package with all the lastest community updates. _(homebrews, emulators, etc...)_
 
-Miyoo | Community
+Miyoo CFW | Community CFW
 :-----: | :-----:
 [![Bittbot-CFW](https://img.shields.io/badge/Bittboy%20CFW-Not%20Available-inactive.svg)](#setup) | [![Bittboy-CFW](https://img.shields.io/badge/Bittboy%20CFW-v4.2-brightgreen.svg)](#setup)
 [![PocketGo-CFW](https://img.shields.io/badge/PocketGo%20CFW-Not%20Available-inactive.svg)](#setup) | [![Pocketgo-CFW](https://img.shields.io/badge/PocketGo%20CFW-v1.3-brightgreen.svg)](#setup)
@@ -52,17 +52,18 @@ The next list is the current homebrews and ports available _(click the user name
 
 Download | Dev / Port by
 :------: | :------:
-[Xrick](https://github.com/jamesofarrell/miyoo_xrick/releases/download/0.0.1/xrick_0.0.1.zip) | [@jamesofarrell](https://github.com/jamesofarrell/miyoo_xrick)
+[REminiscence](https://github.com/jamesofarrell/REminiscence/releases/latest) | [@jamesofarrell](https://github.com/jamesofarrell/miyoo_xrick)
+[Xrick](https://github.com/jamesofarrell/miyoo_xrick/releases/latest) | [@jamesofarrell](https://github.com/jamesofarrell/miyoo_xrick)
 [Evil Australians](https://www.dropbox.com/s/h78bniyqpyoeb88/evilaustralians.zip?dl=1) | [@gameblabla](https://github.com/gameblabla/evilaustralians)
-[Yatka](https://github.com/szymor/yatka/releases/download/v0.1/yatka.zip) | [@szymor](https://github.com/szymor/yatka)
+[Yatka](https://github.com/szymor/yatka/releases/latest) | [@szymor](https://github.com/szymor/yatka)
 [Hocoslamfy](https://www.dropbox.com/s/uqp4bl02q4vdzmw/hocoslamfy.zip?dl=1) | [@Nebuleon](https://github.com/Nebuleon/hocoslamfy)
 [Circuit Dude (PocketGo)](http://www.crait.net/download.php?file=CircuitDudePG.zip) | [@crait](http://www.crait.net)
 [Circuit Dude (Bittboy)](http://www.crait.net/download.php?file=CircuitDudeBB.zip) | [@crait](http://www.crait.net)
-[Hydra Castle Labyrinth](https://github.com/szymor/hydracastlelabyrinth/releases/download/bittboy-r1/hcl.zip) | [@szymor](https://github.com/szymor/hydracastlelabyrinth)
-[Homing Fever](https://github.com/szymor/HomingFever/releases/download/v0.1.1r2-bittboy/fever.zip) | [@szymor](https://github.com/szymor/HomingFever)
-[l\'Abbaye des Morts](https://github.com/szymor/abbayedesmorts-gpl/releases/download/bittboy-r1/abbaye.zip) | [@szymor](https://github.com/szymor/abbayedesmorts-gpl)
-[Shifty Pills](https://github.com/szymor/Shifty-Pills/releases/download/bittboy-r1/shifty.zip) | [@szymor](https://github.com/szymor/Shifty-Pills)
-[Shisen-Seki (四川石)](https://github.com/szymor/shisen-seki/releases/download/bittboy-r1/shisen.zip) | [@szymor](https://github.com/szymor/shisen-seki)
+[Hydra Castle Labyrinth](https://github.com/szymor/hydracastlelabyrinth/releases/latest) | [@szymor](https://github.com/szymor/hydracastlelabyrinth)
+[Homing Fever](https://github.com/szymor/HomingFever/releases/latest) | [@szymor](https://github.com/szymor/HomingFever)
+[l\'Abbaye des Morts](https://github.com/szymor/abbayedesmorts-gpl/releases/latest) | [@szymor](https://github.com/szymor/abbayedesmorts-gpl)
+[Shifty Pills](https://github.com/szymor/Shifty-Pills/releases/latest) | [@szymor](https://github.com/szymor/Shifty-Pills)
+[Shisen-Seki (四川石)](https://github.com/szymor/shisen-seki/releases/latest) | [@szymor](https://github.com/szymor/shisen-seki)
 
 # Tools
 
@@ -71,8 +72,8 @@ The next list is the current tools available _(click the user name for more info
 Download | Dev / Port by
 :------: | :------:
 [Coverflow](https://github.com/peterthrees/Coverflow/blob/master/build/Coverflow/CoverflowV1.0.zip) | [@peterthrees](https://github.com/peterthrees/Coverflow)
-[Simple Menu](https://github.com/fgl82/simplemenu/releases/download/1.1/simplemenu-1.0.zip) | [@fgl82](https://github.com/fgl82/simplemenu)
-[Calculator for Bittboy](https://github.com/szymor/bittboy-calc/releases/download/v0.1/calc.zip) | [@szymor](https://github.com/szymor/bittboy-calc)
+[Simple Menu](https://github.com/fgl82/simplemenu/releases/latest) | [@fgl82](https://github.com/fgl82/simplemenu)
+[Calculator for Bittboy](https://github.com/szymor/bittboy-calc/releases/latest) | [@szymor](https://github.com/szymor/bittboy-calc)
 [I/O Tester](https://www.dropbox.com/s/g4beydsz5yc9r1f/iotester-bittboy.zip?dl=1) | [@pingflood](https://github.com/pingflood/iotester)
 
 # Beta Testing

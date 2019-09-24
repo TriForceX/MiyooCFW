@@ -2,6 +2,30 @@
 
 The next list is all the changes registered on the **custom firmware** version updates.
 
+## Community CFW 1.3.1 _(September 23, 2019)_
+
+- CFW version re-naming on New BittBoy to go with PocketGo v1.3.1
+- New game GNP 
+- Added PocketSNES snes emulator
+- Changes to rootfs files to save more memory
+- Correct version of bittboy circuitdude added
+- Correct version of bittboy midnightwild added
+- Profiled coleco shortcut to start screen
+- New game yatka tetris clone
+- New game xrick 2d platformer
+- New game hocoslamfy flappy bird clone
+- Added dingux-msx emulator
+- Changed back to older release of GPSP GBA emulator
+- New icons for default Font Grid theme added for the newer releases
+- New zimage 
+  - Fixes menu so you can press it in Outrun while pressing other keys
+  - This means the default shortcuts change changed, see wiki for more info
+- New miyoo_daemon v0.0.5
+- Added screenshot functionality
+  - Screenshots end up in main/screenshots
+- **Note**: The link to FBA was missing somehow on PocketGo and Bittboy latest versions so can easily be added manually. This will be fixed on the next CFW.
+
+
 ## Bittboy CFW 4.2 / PocketGo CFW 1.3 _(August 21, 2019)_
 
 - Gmenunx hold select & L will change volume up or down hold select & R will change backlight up down.

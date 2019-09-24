@@ -2,20 +2,21 @@
 
 > The custom firmware allows you to play a wide variety of consoles/computers thanks to numerous emulators available to it as well some ports of games. The next guide was made to help anyone to setup it to the console.
 
+<div align="center">
+
 ![bittboy-pocket-go](https://user-images.githubusercontent.com/16083854/59302103-2ca15e00-8c61-11e9-94df-096dde69e481.png)
 
+[![Miyoo-CFW](https://img.shields.io/badge/Miyoo%20CFW-Not%20Available-inactive.svg)](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup)
+[![Community-CFW](https://img.shields.io/badge/Community%20CFW-v1.3.1-brightgreen.svg)](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup)
 [![Wiki](https://img.shields.io/badge/Setup%20%26%20Guides-Wiki-blueviolet.svg)](https://github.com/TriForceX/MiyooCFW/wiki)
 [![Stars](https://img.shields.io/github/stars/TriForceX/MiyooCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/MiyooCFW/stargazers)
 [![Issues](https://img.shields.io/github/issues/TriForceX/MiyooCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/MiyooCFW/issues)
 [![License](https://img.shields.io/github/license/TriForceX/MiyooCFW.svg?label=License&color=yellow)](#license)
 
+</div>
+
 - The **Miyoo CFW** is the clean base CFW with the lastest developer updates.
 - The **Community CFW** is the full package with all the lastest community updates. _(homebrews, emulators, etc...)_
-
-Miyoo CFW | Community CFW
-:-----: | :-----:
-[![Bittbot-CFW](https://img.shields.io/badge/Bittboy%20CFW-Not%20Available-inactive.svg)](#setup) | [![Bittboy-CFW](https://img.shields.io/badge/Bittboy%20CFW-v4.2-brightgreen.svg)](#setup)
-[![PocketGo-CFW](https://img.shields.io/badge/PocketGo%20CFW-Not%20Available-inactive.svg)](#setup) | [![Pocketgo-CFW](https://img.shields.io/badge/PocketGo%20CFW-v1.3-brightgreen.svg)](#setup)
 
 # Information
 
@@ -26,14 +27,13 @@ Miyoo CFW | Community CFW
 
 # Setup
 
-The next guides are to install custom firmware, download links are provide inside. If you want just **Update** your Custom Firmware you can read [here](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Update).
+The next guides are to install and update the **custom firmware**, download links are provide inside.
 
-Revision | Language
-:------------: | :------------:
-Pocket Go v1 | [English](https://github.com/TriForceX/MiyooCFW/blob/master/PocketGo-Guide-EN.md) - [Korean](https://github.com/TriForceX/MiyooCFW/blob/master/PocketGo-Guide-KO.md)
-New BittBoy v3 & 3.5 | [English](https://github.com/TriForceX/MiyooCFW/blob/master/Rev3-Guide-EN.md) - [Korean](https://github.com/TriForceX/MiyooCFW/blob/master/Rev3-Guide-KO.md)
-New BittBoy v2 & 2.5 | [English](https://github.com/TriForceX/MiyooCFW/blob/master/Rev2-Guide-EN.md) - [Korean](https://github.com/TriForceX/MiyooCFW/blob/master/Rev2-Guide-KO.md)
-New BittBoy v1 | [English](https://github.com/TriForceX/MiyooCFW/blob/master/Rev1-Guide-EN.md) - [Korean](https://github.com/TriForceX/MiyooCFW/blob/master/Rev1-Guide-KO.md)
+- Guide for [Pocket Go](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#pocket-go)
+- Guide for [New BittBoy v3 & v3.5](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#new-bittboy-v3-and-v35)
+- Guide for [New BittBoy v2 & v2.5](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#new-bittboy-v2-and-v25)
+- Guide for [New BittBoy v1](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#new-bittboy-v1)
+- Guide for [Update Manually](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Update)
 
 # Resources
 

@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![bittboy-pocket-go](https://user-images.githubusercontent.com/16083854/59302103-2ca15e00-8c61-11e9-94df-096dde69e481.png)
+![bittboy-pocket-go](https://user-images.githubusercontent.com/16083854/65704515-0dd2a600-e05d-11e9-9e7a-40be78ec140f.png)
 
 [![Miyoo-CFW](https://img.shields.io/badge/Miyoo%20CFW-Not%20Available-inactive.svg)](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup)
 [![Community-CFW](https://img.shields.io/badge/Community%20CFW-v1.3.1-brightgreen.svg)](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup)
@@ -15,14 +15,14 @@
 
 </div>
 
-- The **Miyoo CFW** is the clean base CFW with the lastest developer updates.
+- The **Miyoo CFW** is the clean base CFW with the lastest developer updates
 - The **Community CFW** is the full package with all the lastest community updates. _(homebrews, emulators, etc...)_
 
 # Information
 
 - Check main guides for setup in our **wiki** [here](https://github.com/TriForceX/MiyooCFW/wiki)
 - Get some **homebrews** and **ports** by the community [here](#homebrews-and-ports)
-- Check the version details history in our changelog [here](https://github.com/TriForceX/MiyooCFW/blob/master/CHANGELOG.md)
+- Check the version details history in our **changelog** [here](https://github.com/TriForceX/MiyooCFW/blob/master/CHANGELOG.md)
 - Join our **Discord** chat server for more support [here](https://discord.gznetwork.com)
 
 # Setup
@@ -41,7 +41,7 @@ Here you have some of the main resources:
 
 Name | Link
 :------------: | :------------:
-Official Sites | [Bittboy](https://www.bittboy.com) - [PocketGo](https://pocket-go.com)
+Official Sites | [Bittboy](https://www.bittboy.com) - [Pocket Go](https://pocket-go.com)
 Main Wiki Guides | [View](https://github.com/TriForceX/MiyooCFW/wiki)
 Resources & Backups | [View](https://www.dropbox.com/sh/04vuy4vwbz7tdn1/AADNJWp3jVL-siCksUOROBGca?dl=0&lst=)
 Support Chat Server| [Join Discord](https://discord.gznetwork.com)
@@ -52,18 +52,18 @@ The next list is the current homebrews and ports available _(click the user name
 
 Download | Dev / Port by
 :------: | :------:
-[REminiscence](https://github.com/jamesofarrell/REminiscence/releases/latest) | [@jamesofarrell](https://github.com/jamesofarrell/miyoo_xrick)
-[Xrick](https://github.com/jamesofarrell/miyoo_xrick/releases/latest) | [@jamesofarrell](https://github.com/jamesofarrell/miyoo_xrick)
-[Evil Australians](https://www.dropbox.com/s/h78bniyqpyoeb88/evilaustralians.zip?dl=1) | [@gameblabla](https://github.com/gameblabla/evilaustralians)
-[Yatka](https://github.com/szymor/yatka/releases/latest) | [@szymor](https://github.com/szymor/yatka)
-[Hocoslamfy](https://www.dropbox.com/s/uqp4bl02q4vdzmw/hocoslamfy.zip?dl=1) | [@Nebuleon](https://github.com/Nebuleon/hocoslamfy)
-[Circuit Dude (PocketGo)](http://www.crait.net/download.php?file=CircuitDudePG.zip) | [@crait](http://www.crait.net)
-[Circuit Dude (Bittboy)](http://www.crait.net/download.php?file=CircuitDudeBB.zip) | [@crait](http://www.crait.net)
-[Hydra Castle Labyrinth](https://github.com/szymor/hydracastlelabyrinth/releases/latest) | [@szymor](https://github.com/szymor/hydracastlelabyrinth)
-[Homing Fever](https://github.com/szymor/HomingFever/releases/latest) | [@szymor](https://github.com/szymor/HomingFever)
-[l\'Abbaye des Morts](https://github.com/szymor/abbayedesmorts-gpl/releases/latest) | [@szymor](https://github.com/szymor/abbayedesmorts-gpl)
-[Shifty Pills](https://github.com/szymor/Shifty-Pills/releases/latest) | [@szymor](https://github.com/szymor/Shifty-Pills)
-[Shisen-Seki (四川石)](https://github.com/szymor/shisen-seki/releases/latest) | [@szymor](https://github.com/szymor/shisen-seki)
+[REminiscence](https://github.com/jamesofarrell/REminiscence/releases/latest) | [jamesofarrell](https://github.com/jamesofarrell/miyoo_xrick)
+[Xrick](https://github.com/jamesofarrell/miyoo_xrick/releases/latest) | [jamesofarrell](https://github.com/jamesofarrell/miyoo_xrick)
+[Evil Australians](https://www.dropbox.com/s/h78bniyqpyoeb88/evilaustralians.zip?dl=1) | [gameblabla](https://github.com/gameblabla/evilaustralians)
+[Yatka](https://github.com/szymor/yatka/releases/latest) | [szymor](https://github.com/szymor/yatka)
+[Hocoslamfy](https://www.dropbox.com/s/uqp4bl02q4vdzmw/hocoslamfy.zip?dl=1) | [Nebuleon](https://github.com/Nebuleon/hocoslamfy)
+[Circuit Dude (PocketGo)](http://www.crait.net/download.php?file=CircuitDudePG.zip) | [crait](http://www.crait.net)
+[Circuit Dude (Bittboy)](http://www.crait.net/download.php?file=CircuitDudeBB.zip) | [crait](http://www.crait.net)
+[Hydra Castle Labyrinth](https://github.com/szymor/hydracastlelabyrinth/releases/latest) | [szymor](https://github.com/szymor/hydracastlelabyrinth)
+[Homing Fever](https://github.com/szymor/HomingFever/releases/latest) | [szymor](https://github.com/szymor/HomingFever)
+[l\'Abbaye des Morts](https://github.com/szymor/abbayedesmorts-gpl/releases/latest) | [szymor](https://github.com/szymor/abbayedesmorts-gpl)
+[Shifty Pills](https://github.com/szymor/Shifty-Pills/releases/latest) | [szymor](https://github.com/szymor/Shifty-Pills)
+[Shisen-Seki (四川石)](https://github.com/szymor/shisen-seki/releases/latest) | [szymor](https://github.com/szymor/shisen-seki)
 
 # Tools
 
@@ -71,10 +71,10 @@ The next list is the current tools available _(click the user name for more info
 
 Download | Dev / Port by
 :------: | :------:
-[Coverflow](https://github.com/peterthrees/Coverflow/blob/master/build/Coverflow/CoverflowV1.0.zip) | [@peterthrees](https://github.com/peterthrees/Coverflow)
-[Simple Menu](https://github.com/fgl82/simplemenu/releases/latest) | [@fgl82](https://github.com/fgl82/simplemenu)
-[Calculator for Bittboy](https://github.com/szymor/bittboy-calc/releases/latest) | [@szymor](https://github.com/szymor/bittboy-calc)
-[I/O Tester](https://www.dropbox.com/s/g4beydsz5yc9r1f/iotester-bittboy.zip?dl=1) | [@pingflood](https://github.com/pingflood/iotester)
+[Coverflow](https://github.com/peterthrees/Coverflow/blob/master/build/Coverflow/CoverflowV1.0.zip) | [peterthrees](https://github.com/peterthrees/Coverflow)
+[Simple Menu](https://github.com/fgl82/simplemenu/releases/latest) | [fgl82](https://github.com/fgl82/simplemenu)
+[Calculator for BittBoy](https://github.com/szymor/bittboy-calc/releases/latest) | [szymor](https://github.com/szymor/bittboy-calc)
+[I/O Tester](https://www.dropbox.com/s/g4beydsz5yc9r1f/iotester-bittboy.zip?dl=1) | [pingflood](https://github.com/pingflood/iotester)
 
 # Beta Testing
 
@@ -82,28 +82,28 @@ Here you have a list some of the beta or custom files, to access them go to **Be
 
 File | Notes
 :------------: | :------------
-GMenu2x_AutoStart | Loads the last games/app/rom you were playing at startup
-Screen_Tearing_1 | Improved driver for PocketGo and Bittboy v3
-Screen_Tearing_2 | Same as the first version but fix the screen distortion
-Screen_Tearing_3 | Improved driver for Bittboy v3.5 only
-Screen_Tearing_4 | Improved driver for Bittboy v2 only
-FCEUX_Rumble | Modified NES Emulator FCEUX to support rumble
-FCEUX_Improved_1 | First version of modified/improved NES Emulator FCEUX
-FCEUX_Improved_2 | Lastest update of modified/improved NES Emulator FCEUX
-FS_Corruption_Daemon | Daemon file to fix file system corruptions
-NSF_Player | Simple NES Emulator FCEUX shortcut to play NSF sound files
-Switch_PWM_Scripts | Scripts to improve the background sound noise
+GMenu2x AutoStart | Loads the last game/app/rom you were playing at startup
+Screen Tearing 1 | Improved driver for Pocket Go and BittBoy v3
+Screen Tearing 2 | Same as the first version but fix the screen distortion
+Screen Tearing 3 | Improved driver for BittBoy v3.5 only
+Screen Tearing 4 | Improved driver for BittBoy v2 only
+FCEUX Rumble | Modified NES Emulator FCEUX to support rumble
+FCEUX Improved 1 | First version of modified/improved NES Emulator FCEUX
+FCEUX Improved 2 | Lastest update of modified/improved NES Emulator FCEUX
+FS Corruption Daemon | Daemon file to fix file system corruptions
+NSF Player | Simple NES Emulator FCEUX shortcut to play NSF sound files
+Switch PWM Scripts | Scripts to improve the background sound noise
 
 # Console Revisions Differences
 
-The next list is for devices **New Bittboy** and **Pocket Go** differences:
+The next list is for devices **New BittBoy** and **Pocket Go** differences:
 
 Rev | Release | Notes
 :------------: | :------------: | :------------
-PocketGo 1 | May 14, 2019 | Changed circuit board (see [here](https://user-images.githubusercontent.com/16083854/65437766-c351ef00-ddfa-11e9-902c-5b83677b436e.png))
-PocketGo 0.5 | May 10, 2019 | Added shoulder buttons (L & R)
-PocketGo 0.5 | May 10, 2019 | Added physical volume control
-PocketGo 0.5 | May 10, 2019 | New landscape form factor
+Pocket Go 1 | May 14, 2019 | Changed circuit board (see [here](https://user-images.githubusercontent.com/16083854/65437766-c351ef00-ddfa-11e9-902c-5b83677b436e.png))
+Pocket Go 0.5 | May 10, 2019 | Added shoulder buttons (L & R)
+Pocket Go 0.5 | May 10, 2019 | Added physical volume control
+Pocket Go 0.5 | May 10, 2019 | New landscape form factor
 BittBoy 3.5 | May 14, 2019 | Changed circuit board (see [here](https://user-images.githubusercontent.com/16083854/61262811-a5aa3e80-a754-11e9-97b5-e9f2d4c8cda2.png))
 BittBoy 3.5 | May 14, 2019 | Barcode changed to 20190424 005 (newers no longer include it)
 BittBoy 3.5 | May 14, 2019 | Glass screen is thinner
@@ -140,7 +140,7 @@ The next people is contributing to all development of this **Bittboy** related s
 - Main developers:
   - [steward](https://github.com/steward-fu)
   - [Tony Jih](https://github.com/tonyjih)
-  - [sauce](https://github.com/gameblabla)
+  - [gameblabla](https://github.com/gameblabla)
   - [pingflood](https://github.com/pingflood)
   - [H1BAN](https://github.com/hi-ban)
   - superpuissant
@@ -157,6 +157,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - [SantX27](https://github.com/SantX27)
   - [fgl82](https://github.com/fgl82)
   - [peterthrees](https://github.com/peterthrees)
+  - madjester
 
 - Theme developers:
   - 2TMAU5
@@ -185,4 +186,4 @@ The next people is contributing to all development of this **Bittboy** related s
 
 # License
 
-> **OpenDingux** for Miyoo/Bittboy handheld was ported by [@steward-fu](https://github.com/steward-fu) and **GMenuNX** by [@pingflood](https://github.com/pingflood) is a fork of **GMenu2X** developed by [Massimiliano Torromeo](mailto:massimiliano.torromeo@gmail.com). This project is licensed under GPLv2 as free software. You are free to use, modify and redistribute them following the terms in License.txt
+> **OpenDingux** for Miyoo/Bittboy handheld was ported by [steward-fu](https://github.com/steward-fu) and **GMenuNX** by [pingflood](https://github.com/pingflood) is a fork of **GMenu2X** developed by [Massimiliano Torromeo](mailto:massimiliano.torromeo@gmail.com). This project is licensed under GPLv2 as free software. You are free to use, modify and redistribute them following the terms in License.txt

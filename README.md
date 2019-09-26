@@ -180,6 +180,9 @@ The next people is contributing to all development of this **Bittboy** related s
   - Dmm1138
   - Alexai
   
+# Contributing
+> Theres many ways to contribute to this project, even if you don't know how to code. All kind of **support** or **testing** will be grateful. If you have plans to **contribute** in code, please **fork** the desired module from [here](https://github.com/MiyooCFW), create a branch with your changes and send us a **pull request** to upstream. For more info you can join our **Discord** chat [here](https://discord.gznetwork.com)
+
 # License
 
 > **OpenDingux** for Miyoo/Bittboy handheld was ported by [@steward-fu](https://github.com/steward-fu) and **GMenuNX** by [@pingflood](https://github.com/pingflood) is a fork of **GMenu2X** developed by [Massimiliano Torromeo](mailto:massimiliano.torromeo@gmail.com). This project is licensed under GPLv2 as free software. You are free to use, modify and redistribute them following the terms in License.txt

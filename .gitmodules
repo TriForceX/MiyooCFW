@@ -1,0 +1,15 @@
+[submodule "uboot"]
+	path = uboot
+	url = https://github.com/MiyooCFW/uboot
+[submodule "buildroot"]
+	path = buildroot
+	url = https://github.com/MiyooCFW/buildroot
+[submodule "gmenunx"]
+	path = gmenunx
+	url = https://github.com/MiyooCFW/gmenunx
+[submodule "daemon"]
+	path = daemon
+	url = https://github.com/MiyooCFW/daemon
+[submodule "kernel"]
+	path = kernel
+	url = https://github.com/MiyooCFW/kernel

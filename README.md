@@ -4,10 +4,10 @@
 
 <div align="center">
 
-![bittboy-pocket-go](https://user-images.githubusercontent.com/16083854/65704515-0dd2a600-e05d-11e9-9e7a-40be78ec140f.png)
+![bittboy-pocket-go](https://user-images.githubusercontent.com/16083854/66320756-c918fb80-e8f5-11e9-81fd-8d0577cb5b98.png)
 
 [![Miyoo-CFW](https://img.shields.io/badge/Miyoo%20CFW-Not%20Available-inactive.svg)](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup)
-[![Community-CFW](https://img.shields.io/badge/Community%20CFW-v1.3.1-brightgreen.svg)](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup)
+[![Community-CFW](https://img.shields.io/badge/Community%20CFW-v1.3.2-brightgreen.svg)](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup)
 [![Wiki](https://img.shields.io/badge/Setup%20%26%20Guides-Wiki-blueviolet.svg)](https://github.com/TriForceX/MiyooCFW/wiki)
 [![Stars](https://img.shields.io/github/stars/TriForceX/MiyooCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/MiyooCFW/stargazers)
 [![Issues](https://img.shields.io/github/issues/TriForceX/MiyooCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/MiyooCFW/issues)
@@ -163,6 +163,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - 2TMAU5
   - da1writer
   - Fontes
+  - s4i
   - Segich
   - SimplEasy
   

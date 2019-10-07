@@ -2,6 +2,17 @@
 
 The next list is all the changes registered on the **custom firmware** version updates.
 
+## Community CFW 1.3.2 / PocketGo Only _(October 05, 2019)_
+
+- Fixed fsck disk check was not working in v1.3.1
+- New image size now 680mb zipped download :)
+- Added new game reminiscence
+- Added new game evil australians
+- Added new game gnp
+- Updated yatka game tetris clone
+- Fixed FBA emulator not showing on home screen
+- Added new icons for newer releases
+
 ## Community CFW 1.3.1 _(September 23, 2019)_
 
 - CFW version re-naming on New BittBoy to go with PocketGo v1.3.1

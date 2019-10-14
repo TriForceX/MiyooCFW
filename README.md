@@ -52,6 +52,7 @@ The next list is the current homebrews and ports available _(click the user name
 
 Download | Dev / Port by
 :------: | :------:
+[Just4Qix](https://github.com/szymor/just4qix/releases/latest) | [szymor](https://github.com/szymor/just4qix)
 [REminiscence](https://github.com/jamesofarrell/REminiscence/releases/latest) | [jamesofarrell](https://github.com/jamesofarrell/miyoo_xrick)
 [Xrick](https://github.com/jamesofarrell/miyoo_xrick/releases/latest) | [jamesofarrell](https://github.com/jamesofarrell/miyoo_xrick)
 [Evil Australians](https://www.dropbox.com/s/h78bniyqpyoeb88/evilaustralians.zip?dl=1) | [gameblabla](https://github.com/gameblabla/evilaustralians)
@@ -83,13 +84,9 @@ Here you have a list some of the beta or custom files, to access them go to **Be
 File | Notes
 :------------: | :------------
 GMenu2x AutoStart | Loads the last game/app/rom you were playing at startup
-Screen Tearing 1 | Improved driver for Pocket Go and BittBoy v3
-Screen Tearing 2 | Same as the first version but fix the screen distortion
-Screen Tearing 3 | Improved driver for BittBoy v3.5 only
-Screen Tearing 4 | Improved driver for BittBoy v2 only
-FCEUX Rumble | Modified NES Emulator FCEUX to support rumble
-FCEUX Improved 1 | First version of modified/improved NES Emulator FCEUX
-FCEUX Improved 2 | Lastest update of modified/improved NES Emulator FCEUX
+Screen Tearing | Improved screen driver for Pocket Go and BittBoy
+FCEUX Rumble | Modified NES Emulator FCEUX with rumble support
+FCEUX Improved | Modified NES Emulator FCEUX with improved performance
 FS Corruption Daemon | Daemon file to fix file system corruptions
 NSF Player | Simple NES Emulator FCEUX shortcut to play NSF sound files
 Switch PWM Scripts | Scripts to improve the background sound noise
@@ -176,6 +173,8 @@ The next people is contributing to all development of this **Bittboy** related s
   - WenTao
   - dElAvA
   - Jutleys
+  - ToTo
+  - [Turtle](https://github.com/turtleletortue)
 
 - Other:
   - Vincent

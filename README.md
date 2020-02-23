@@ -65,6 +65,7 @@ Download | Dev / Port by
 [l\'Abbaye des Morts](https://github.com/szymor/abbayedesmorts-gpl/releases/latest) | [szymor](https://github.com/szymor/abbayedesmorts-gpl)
 [Shifty Pills](https://github.com/szymor/Shifty-Pills/releases/latest) | [szymor](https://github.com/szymor/Shifty-Pills)
 [Shisen-Seki (四川石)](https://github.com/szymor/shisen-seki/releases/latest) | [szymor](https://github.com/szymor/shisen-seki)
+[Bittboy MSX](https://github.com/pthalin/bittboy-msx/releases/latest) | [pthalin]https://github.com/pthalin)
 
 # Tools
 

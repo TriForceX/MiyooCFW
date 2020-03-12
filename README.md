@@ -8,7 +8,7 @@
 
 [![Custom-Firmware](https://img.shields.io/badge/Custom%20Firmware-v1.3.2-brightgreen.svg)](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup)
 [![Wiki](https://img.shields.io/badge/Setup%20%26%20Guides-Wiki-blueviolet.svg)](https://github.com/TriForceX/MiyooCFW/wiki)
-[![Discord](https://img.shields.io/badge/Discord-Join-7289DA.svg?logo=discord&longCache=true&style=flat)](https://discord.gznetwork.com)
+[![Discord](https://img.shields.io/badge/Discord%20Chat-Join-7289DA.svg?logo=discord&longCache=true&style=flat)](https://discord.gznetwork.com)
 [![Stars](https://img.shields.io/github/stars/TriForceX/MiyooCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/MiyooCFW/stargazers)
 [![Issues](https://img.shields.io/github/issues/TriForceX/MiyooCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/MiyooCFW/issues)
 [![License](https://img.shields.io/github/license/TriForceX/MiyooCFW.svg?label=License&color=yellow)](#license)
@@ -62,7 +62,7 @@ Download | Dev / Port by
 [l\'Abbaye des Morts](https://github.com/szymor/abbayedesmorts-gpl/releases/latest) | [szymor](https://github.com/szymor/abbayedesmorts-gpl)
 [Shifty Pills](https://github.com/szymor/Shifty-Pills/releases/latest) | [szymor](https://github.com/szymor/Shifty-Pills)
 [Shisen-Seki (四川石)](https://github.com/szymor/shisen-seki/releases/latest) | [szymor](https://github.com/szymor/shisen-seki)
-[Bittboy MSX](https://github.com/pthalin/bittboy-msx/releases/latest) | [pthalin](https://github.com/pthalin)
+[BittBoy MSX](https://github.com/pthalin/bittboy-msx/releases/latest) | [pthalin](https://github.com/pthalin)
 
 # Tools
 
@@ -89,11 +89,13 @@ FS Corruption Daemon | Daemon file to fix file system corruptions
 NSF Player | Simple NES Emulator FCEUX shortcut to play NSF sound files
 Switch PWM Scripts | Scripts to improve the background sound noise
 
+_**Note:** If you are looking for the **BittBoy v1** and **v2** main stuff _(stock firmware, drivers, schematics, etc...)_ you can take a look [here](https://www.dropbox.com/sh/qdnsr1zzlzvr7zx/AAAJozhBKGS0dMSBu2bmlwHfa?dl=0&lst=)._
+
 # Console Revisions Differences
 
 The next list is for devices **New BittBoy** and **Pocket Go** differences:
 
-_*Note:* Some people have been receiving consoles with parts of different versions, if any **CFW** does not work let us know in our **Discord** indicated above._
+_**Note:** Some people have been receiving consoles with parts of different versions, if any **CFW** does not work let us know in our **Discord** indicated above._
 
 Rev | Release | Notes
 :------------: | :------------: | :------------

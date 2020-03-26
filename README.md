@@ -63,6 +63,8 @@ Download | Dev / Port by
 [Shifty Pills](https://github.com/szymor/Shifty-Pills/releases/latest) | [szymor](https://github.com/szymor/Shifty-Pills)
 [Shisen-Seki (四川石)](https://github.com/szymor/shisen-seki/releases/latest) | [szymor](https://github.com/szymor/shisen-seki)
 [BittBoy MSX](https://github.com/pthalin/bittboy-msx/releases/latest) | [pthalin](https://github.com/pthalin)
+[Super Methane Brothers](https://github.com/szymor/methane-sdl/releases/latest) | [szymor](https://github.com/szymor/methane-sdl)
+[H.E.R.O.E.S](https://github.com/szymor/heroes-tron/releases/latest) | [szymor](https://github.com/szymor/heroes-tron)
 
 # Tools
 

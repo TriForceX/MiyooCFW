@@ -65,6 +65,7 @@ Download | Dev / Port by
 [BittBoy MSX](https://github.com/pthalin/bittboy-msx/releases/latest) | [pthalin](https://github.com/pthalin)
 [Super Methane Brothers](https://github.com/szymor/methane-sdl/releases/latest) | [szymor](https://github.com/szymor/methane-sdl)
 [H.E.R.O.E.S](https://github.com/szymor/heroes-tron/releases/latest) | [szymor](https://github.com/szymor/heroes-tron)
+[Wizznic](https://github.com/szymor/Wizznic/releases/latest) | [szymor](https://github.com/szymor/Wizznic)
 
 # Tools
 

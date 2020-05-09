@@ -66,6 +66,8 @@ Download | Dev / Port by
 [Super Methane Brothers](https://github.com/szymor/methane-sdl/releases/latest) | [szymor](https://github.com/szymor/methane-sdl)
 [H.E.R.O.E.S](https://github.com/szymor/heroes-tron/releases/latest) | [szymor](https://github.com/szymor/heroes-tron)
 [Wizznic](https://github.com/szymor/Wizznic/releases/latest) | [szymor](https://github.com/szymor/Wizznic)
+[PocketSNES](https://github.com/m45t3r/pocketsnes-miyoo/releases/latest) | [m45t3r](https://github.com/m45t3r/pocketsnes-miyoo)
+[snes9x4d](https://github.com/m45t3r/snes9x4d-miyoo/releases) | [m45t3r](https://github.com/m45t3r/snes9x4d-miyoo)
 
 # Tools
 
@@ -161,6 +163,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - [peterthrees](https://github.com/peterthrees)
   - madjester
   - [pthalin](https://github.com/pthalin)
+  - [m45t3r](https://github.com/m45t3r)
 
 - Theme developers:
   - 2TMAU5

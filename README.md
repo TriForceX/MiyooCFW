@@ -45,7 +45,7 @@ Support Chat Server| [Join Discord](https://discord.gznetwork.com)
 
 # Homebrews and Ports
 
-The next list is the current homebrews and ports available _(click the user name for more info)_.
+The next list is the current homebrews and ports **updated by the people** _(click the user name for more info)_. Note: Other stuff from the old cfw's is on the Wiki page.
 
 Download | Dev / Port by
 :------: | :------:
@@ -69,6 +69,7 @@ Download | Dev / Port by
 [PocketSNES](https://github.com/m45t3r/pocketsnes-miyoo/releases/latest) | [m45t3r](https://github.com/m45t3r/pocketsnes-miyoo)
 [snes9x4d](https://github.com/m45t3r/snes9x4d-miyoo/releases/latest) | [m45t3r](https://github.com/m45t3r/snes9x4d-miyoo)
 [Super Transball 2](https://github.com/szymor/stransball2/releases/latest) | [szymor](https://github.com/szymor/stransball2)
+[Gambatte-DMS](https://github.com/bardeci/dot-matrix-simulator/releases/latest) | [hi-ban](https://github.com/bardeci/dot-matrix-simulator)
 
 # Tools
 

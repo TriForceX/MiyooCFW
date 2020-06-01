@@ -67,7 +67,8 @@ Download | Dev / Port by
 [H.E.R.O.E.S](https://github.com/szymor/heroes-tron/releases/latest) | [szymor](https://github.com/szymor/heroes-tron)
 [Wizznic](https://github.com/szymor/Wizznic/releases/latest) | [szymor](https://github.com/szymor/Wizznic)
 [PocketSNES](https://github.com/m45t3r/pocketsnes-miyoo/releases/latest) | [m45t3r](https://github.com/m45t3r/pocketsnes-miyoo)
-[snes9x4d](https://github.com/m45t3r/snes9x4d-miyoo/releases) | [m45t3r](https://github.com/m45t3r/snes9x4d-miyoo)
+[snes9x4d](https://github.com/m45t3r/snes9x4d-miyoo/releases/latest) | [m45t3r](https://github.com/m45t3r/snes9x4d-miyoo)
+[Super Transball 2](https://github.com/szymor/stransball2/releases/latest) | [szymor](https://github.com/szymor/stransball2)
 
 # Tools
 
@@ -88,11 +89,12 @@ File | Notes
 :------------: | :------------
 GMenu2x AutoStart | Loads the last game/app/rom you were playing at startup
 Screen Tearing | Improved screen driver for Pocket Go and BittBoy
-FCEUX Rumble | Modified NES Emulator FCEUX with rumble support
-FCEUX Improved | Modified NES Emulator FCEUX with improved performance
+FCEUX Rumble | Modified NES emulator FCEUX with rumble support
+FCEUX Improved | Modified NES emulator FCEUX with improved performance
 FS Corruption Daemon | Daemon file to fix file system corruptions
-NSF Player | Simple NES Emulator FCEUX shortcut to play NSF sound files
+NSF Player | Simple NES emulator FCEUX shortcut to play NSF sound files
 Switch PWM Scripts | Scripts to improve the background sound noise
+Mame4All Improved | Untested Mame32 emulator with improved performance
 
 _**Note:** If you are looking for the **BittBoy v1** and **v2** main stuff _(stock firmware, drivers, schematics, etc...)_ you can take a look [here](https://www.dropbox.com/sh/qdnsr1zzlzvr7zx/AAAJozhBKGS0dMSBu2bmlwHfa?dl=0&lst=)._
 

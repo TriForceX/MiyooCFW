@@ -70,6 +70,7 @@ Download | Dev / Port by
 [snes9x4d](https://github.com/m45t3r/snes9x4d-miyoo/releases/latest) | [m45t3r](https://github.com/m45t3r/snes9x4d-miyoo)
 [Super Transball 2](https://github.com/szymor/stransball2/releases/latest) | [szymor](https://github.com/szymor/stransball2)
 [Gambatte-DMS](https://github.com/bardeci/dot-matrix-simulator/releases/latest) | [hi-ban](https://github.com/bardeci/dot-matrix-simulator)
+[GPSP v3 Rumble Mapping](https://www.dropbox.com/s/qkn0d63a6ar8zyg/gpsp_gameblabla_v3_rumble_mapping.zip?dl=1) | [gameblabla](https://github.com/gameblabla)
 
 # Tools
 

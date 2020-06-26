@@ -1,6 +1,6 @@
 # Miyoo Custom Firmware
 
-> The custom firmware for **New BittBoy**, **Pocket Go** and **Powkiddy Q90-V90** allows you to play a wide variety of consoles/computers thanks to numerous emulators available to it as well some ports of games. The next resources and guides was made to help anyone to setup it to the console.
+> The custom firmware for **New BittBoy**, **Pocket Go** and **PowKiddy Q90-V90** allows you to play a wide variety of consoles/computers thanks to numerous emulators available to it as well some ports of games. The next resources and guides was made to help anyone to setup it to the console.
 
 <div align="center">
 
@@ -26,7 +26,7 @@
 
 The next guides are to install and update the **custom firmware**, download links are provide inside.
 
-- Guide for [Pocket Go & Powkiddy Q90-V90](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#pocket-go)
+- Guide for [Pocket Go & PowKiddy Q90-V90](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#pocket-go)
 - Guide for [New BittBoy v3 & v3.5](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#new-bittboy-v3-and-v35)
 - Guide for [New BittBoy v2 & v2.5](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#new-bittboy-v2-and-v25)
 - Guide for [New BittBoy v1](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#new-bittboy-v1)
@@ -71,6 +71,7 @@ Download | Dev / Port by
 [Super Transball 2](https://github.com/szymor/stransball2/releases/latest) | [szymor](https://github.com/szymor/stransball2)
 [Gambatte-DMS](https://github.com/bardeci/dot-matrix-simulator/releases/latest) | [hi-ban](https://github.com/bardeci/dot-matrix-simulator)
 [GPSP v3 Rumble Mapping](https://www.dropbox.com/s/qkn0d63a6ar8zyg/gpsp_gameblabla_v3_rumble_mapping.zip?dl=1) | [gameblabla](https://github.com/gameblabla)
+[BittBoy J2ME (Experimental)](https://github.com/pthalin/bittboy-j2me/releases/latest) | [pthalin](https://github.com/pthalin)
 
 # Tools
 

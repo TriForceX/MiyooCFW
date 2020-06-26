@@ -1,6 +1,6 @@
 # Miyoo Custom Firmware
 
-> The custom firmware for **New BittBoy**, **Pocket Go** and **Powkiddy Q90** allows you to play a wide variety of consoles/computers thanks to numerous emulators available to it as well some ports of games. The next resources and guides was made to help anyone to setup it to the console.
+> The custom firmware for **New BittBoy**, **Pocket Go** and **Powkiddy Q90-V90** allows you to play a wide variety of consoles/computers thanks to numerous emulators available to it as well some ports of games. The next resources and guides was made to help anyone to setup it to the console.
 
 <div align="center">
 
@@ -26,7 +26,7 @@
 
 The next guides are to install and update the **custom firmware**, download links are provide inside.
 
-- Guide for [Pocket Go & Powkiddy Q90](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#pocket-go)
+- Guide for [Pocket Go & Powkiddy Q90-V90](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#pocket-go)
 - Guide for [New BittBoy v3 & v3.5](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#new-bittboy-v3-and-v35)
 - Guide for [New BittBoy v2 & v2.5](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#new-bittboy-v2-and-v25)
 - Guide for [New BittBoy v1](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#new-bittboy-v1)

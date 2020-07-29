@@ -13,3 +13,6 @@
 [submodule "kernel"]
 	path = kernel
 	url = https://github.com/MiyooCFW/kernel
+[submodule "logo"]
+	path = logo
+	url = https://github.com/MiyooCFW/logo

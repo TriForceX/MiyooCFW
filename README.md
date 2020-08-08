@@ -38,7 +38,6 @@ Here you have some of the main resources:
 
 Name | Link
 :------------: | :------------:
-Official Sites | [Bittboy](https://www.bittboy.com) - [Pocket Go](https://pocket-go.com)
 Main Wiki Guides | [View](https://github.com/TriForceX/MiyooCFW/wiki)
 Resources & Backups | [View](https://www.dropbox.com/sh/04vuy4vwbz7tdn1/AADNJWp3jVL-siCksUOROBGca?dl=0&lst=)
 Support Chat Server| [Join Discord](https://discord.gznetwork.com)

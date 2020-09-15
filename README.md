@@ -168,6 +168,9 @@ The next people is contributing to all development of this **Bittboy** related s
   - madjester
   - [pthalin](https://github.com/pthalin)
   - [m45t3r](https://github.com/m45t3r)
+  - Merisy
+  - [luali](https://github.com/lualiliu)
+  - [mysterioustrashninja](https://github.com/ericrkjones)
 
 - Theme developers:
   - 2TMAU5
@@ -176,6 +179,8 @@ The next people is contributing to all development of this **Bittboy** related s
   - s4i
   - Segich
   - SimplEasy
+  - Harsh Bhardwaj
+  - s4ilence
   
 - Support & testing:
   - [Augen(히힛마스터)](https://github.com/AugenKOR)
@@ -188,6 +193,8 @@ The next people is contributing to all development of this **Bittboy** related s
   - Jutleys
   - ToTo
   - [Turtle](https://github.com/turtleletortue)
+  - RichPKM
+  - James Dull
 
 - Other:
   - Vincent

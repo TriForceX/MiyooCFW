@@ -2,7 +2,67 @@
 
 The next list is all the changes registered on the **custom firmware** version updates.
 
-## Community CFW 1.3.2 / PocketGo Only _(October 05, 2019)_
+## Miyoo CFW 1.3.3 _(October 04, 2020)_
+
+- **New Apps & Games**
+  - New emulator Frodo2Go beta C64 emulator (note .d64 .t64 files only) thanks to pthalin.
+  - New emulator ngpcemu neogeo pocket thanks gameblabla.
+  - New emulator speccy spectrum thanks platformerAndroid.
+  - New emulator crocods cpc  thanks pthalin.
+  - New emulator added retro8 which is a PICO-8 emulator thanks to sauce.
+  - New emulator Game&Watch NOTE to start game press the (sleep wake button & Y to start it)huge thanks to Steward-Fu for making this possible.
+  - New emulator j2me java 0.0.2 emulator thanks pthalin.
+  - New emulator msx  1.3.0 thanks pthalin.
+  - New game heroes added thanks syzmor.
+  - New game methane added thanks szymor.
+  - New game stransball2 added thanks szymor.
+  - New game just4qix added thanks to szymor & triforce.
+  - New game MSX demo game The_Menace_from_Triton.permision given by author Santi Ontañón Villar thanks.
+  - New game MSX demo game called BlockPuzzle permision given by author David -turbor- Heremans thanks.
+  - New game added Western Bar cool shooting cowboy game (SELECT: exit game) thanks to Steward.
+  - New game added NS.Shaft cool 2d platform game (SELECT: exit game) thanks to Steward.
+  - New game MSX demo game we have got permission to add AlLIEN ATTACK PROMO DEMO ENHANCED EDITION by Marcos Daniel Blanco de Oliveira thanks.
+  - New skin ported Nsdark to work switch theme skin s4ilence updated by harsh bhardwaj thanks to both.
+  - New skin added New comicbook all artwork reworked by harsh bhardwaj thanks.
+  - New skin added RetroWave all artwork reworked by harsh bhardwaj thanks.
+  - New skin added Gameshow voted as the default theme by the community created by harsh bhardwaj thanks.
+
+- **Updated Apps & Games**
+  - Updated snes9x4d thanks m45t3r.
+  - Updated pocketsnes thanks m45t3r.
+  - Updated game Yatka to latest thanks szymor.
+  - Updated gpsp_gameblabla v3 rumble updated thanks gameblabla.
+  - Updated gpsp_rumble v4 thanks sauce Gameblabla
+  - Updated mame4all.dge to latest thanks gameblabla.
+  - Updated smsplusgx thanks gameblabla.
+  - Updated Sorr game from v1.3.2 would not start.
+  - Updated j2me java emulator to v0.0.3 with sound now thanks pthalin.
+  - Updated to latest gambatte-dms thanks bardeci.
+  - Updated msx emulator to v1.4.0 thanks pthalin.
+  - Updated missing icons to NSdark skin for new releases other skins will be updated later.
+  - Updated J2ME java emulator to bittboy-j2me_0.0.4. Fixed sound bug thanks pthalin.
+  - Updated bittboy-msx emulator to v1.4.1 Minor fix for better sound thanks pthalin.
+  - Updated speccy v0.1 remapped the buttons for pocketspeccy - so up a button,reset button quits now,CPU speed to 350 double the battery life,thanks platformerAndroid.
+  - Updated snesadvance.dat has been placed in .snes9x4d.
+  - Updated GPSP removed and replaced with GPSP Rumble as this is the better version of this emulator.
+  - Updated C64 Frodo2Go emulator New features: Keyboard  (Start) Menu (R) Joystick port switch with indicator (Select) thanks to pthalin.
+  - Updated C64 Frodo2Go v1.0.0 emulator New features: New: Snapshots with thumbnails (save/load of state) Add screenshot Massive code cleaning and optimization thanks to pthalin.
+  - Updated C64 Frodo2Go v1.0.1 emulator Found a memory leak that causes it to hang randomly fixed thanks to pthalin.
+  - Updated vectrex emulator updated as reported was corrupted in last cfw now fixed.
+  - Updated Yatka game see below for changes v0.7"SRS wall kicking system, new implementation of easy spin (the old did not conform to Tetris Guideline),more dynamic controls,key configuration possible via modification of settings file,three new randomizers,new skins thanks to szymor.
+  - Updated Fontigrid skin made by s4ilence updated by harsh bhardwaj thanks to both.
+
+- **Other Updates & Changes**
+  - New first boot logo changed to Miyoo CFW thanks Triforce & Dee.
+  - New 2nd boot logo for Powkiddy devices added thanks Hi-ban.
+  - libSDL_mixer-1.2.so.0.12.1 and timidity is installed in rootfs to allow the java app to have sound thanks dee & pthalin.
+  - File added to all devices rootfs so developers can use this file to identify the type of device at runtime thanks pthalin.
+  - V90 only L2 R2 buttons **will be activated in the next release**, for developers the Key Mapping is: L2 is Right ALT, R2 is Right SHIFT, thanks pthalin.
+  - Cfw-info is just a file that can tell the current used device to an app.
+  - New rom folders created for new emulators in roms.
+  - Renamed all missing game names descriptions of games when scrolling in menu.
+
+## Miyoo CFW 1.3.2 / PocketGo Only _(October 05, 2019)_
 
 - Fixed fsck disk check was not working in v1.3.1
 - New image size now 680mb zipped download :)
@@ -13,7 +73,7 @@ The next list is all the changes registered on the **custom firmware** version u
 - Fixed FBA emulator not showing on home screen
 - Added new icons for newer releases
 
-## Community CFW 1.3.1 _(September 23, 2019)_
+## Miyoo CFW 1.3.1 _(September 23, 2019)_
 
 - CFW version re-naming on New BittBoy to go with PocketGo v1.3.1
 - New game GNP 

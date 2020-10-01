@@ -6,7 +6,7 @@
 
 ![bittboy-pocket-go](https://user-images.githubusercontent.com/16083854/66320756-c918fb80-e8f5-11e9-81fd-8d0577cb5b98.png)
 
-[![Custom-Firmware](https://img.shields.io/badge/Custom%20Firmware-v1.3.2-brightgreen.svg)](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup)
+[![Custom-Firmware](https://img.shields.io/badge/Custom%20Firmware-v1.3.3-brightgreen.svg)](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup)
 [![Wiki](https://img.shields.io/badge/Setup%20%26%20Guides-Wiki-blueviolet.svg)](https://github.com/TriForceX/MiyooCFW/wiki)
 [![Discord](https://img.shields.io/badge/Discord%20Chat-Join-7289DA.svg?logo=discord&longCache=true&style=flat)](https://discord.gznetwork.com)
 [![Stars](https://img.shields.io/github/stars/TriForceX/MiyooCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/MiyooCFW/stargazers)
@@ -26,7 +26,7 @@
 
 The next guides are to install and update the **custom firmware**, download links are provide inside.
 
-- Guide for [Pocket Go & PowKiddy Q90-V90](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#pocket-go)
+- Guide for [Pocket Go & PowKiddy Q90-V90](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#pocket-go-and-powkiddy-q90-v90)
 - Guide for [New BittBoy v3 & v3.5](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#new-bittboy-v3-and-v35)
 - Guide for [New BittBoy v2 & v2.5](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#new-bittboy-v2-and-v25)
 - Guide for [New BittBoy v1](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#new-bittboy-v1)
@@ -108,6 +108,8 @@ _**Note:** Some people have been receiving consoles with parts of different vers
 
 Rev | Release | Notes
 :------------: | :------------: | :------------
+PowKiddy V90 | June 17, 2020 | New GBA SP form factor with extra L2 and R2 buttons
+PowKiddy Q90 | Dec 18, 2019 | New landscape form factor with analog stick
 Pocket Go 1 | May 14, 2019 | Changed circuit board (see [here](https://user-images.githubusercontent.com/16083854/65437766-c351ef00-ddfa-11e9-902c-5b83677b436e.png))
 Pocket Go 0.5 | May 10, 2019 | Added shoulder buttons (L & R)
 Pocket Go 0.5 | May 10, 2019 | Added physical volume control
@@ -148,7 +150,7 @@ The next people is contributing to all development of this **Bittboy** related s
 - Main developers:
   - [steward](https://github.com/steward-fu)
   - [Tony Jih](https://github.com/tonyjih)
-  - [gameblabla](https://github.com/gameblabla)
+  - [sauce](https://github.com/gameblabla)
   - [pingflood](https://github.com/pingflood)
   - [H1BAN](https://github.com/hi-ban)
   - superpuissant
@@ -171,6 +173,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - Merisy
   - [luali](https://github.com/lualiliu)
   - [mysterioustrashninja](https://github.com/ericrkjones)
+  - PlataformerAndroid
 
 - Theme developers:
   - 2TMAU5
@@ -181,6 +184,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - SimplEasy
   - Harsh Bhardwaj
   - s4ilence
+  - bhardwaj
   
 - Support & testing:
   - [Augen(히힛마스터)](https://github.com/AugenKOR)

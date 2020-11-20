@@ -39,7 +39,7 @@ Here you have some of the main resources:
 Name | Link
 :------------: | :------------:
 Main Wiki Guides | [View](https://github.com/TriForceX/MiyooCFW/wiki)
-Resources & Backups | [View](https://www.dropbox.com/sh/04vuy4vwbz7tdn1/AADNJWp3jVL-siCksUOROBGca?dl=0&lst=)
+Resources & Backups | [View](https://drive.google.com/drive/folders/1st2lTnB_mW5Xgd8_wUaYvz4rallH_jTw?usp=sharing)
 Support Chat Server| [Join Discord](https://discord.gznetwork.com)
 
 # Homebrews and Ports
@@ -80,11 +80,11 @@ Download | Dev / Port by
 [Coverflow](https://github.com/peterthrees/Coverflow/blob/master/build/Coverflow/CoverflowV1.0.zip) | [peterthrees](https://github.com/peterthrees/Coverflow)
 [Simple Menu](https://github.com/fgl82/simplemenu/releases/latest) | [fgl82](https://github.com/fgl82/simplemenu)
 [Calculator for BittBoy](https://github.com/szymor/bittboy-calc/releases/latest) | [szymor](https://github.com/szymor/bittboy-calc)
-[I/O Tester](https://www.dropbox.com/s/g4beydsz5yc9r1f/iotester-bittboy.zip?dl=1) | [pingflood](https://github.com/pingflood/iotester)
+[I/O Tester](https://drive.google.com/file/d/18W0MuuU9pSLyD9jyuE5tQDSbj1by0ZwR/view?usp=sharing) | [pingflood](https://github.com/pingflood/iotester)
 
 # Beta Testing
 
-Here you have a list some of the beta or custom files, to access them go to **Beta Testing** folder [here](https://www.dropbox.com/sh/q4maj1bkf7o02rd/AABMW7-zNTWxnBoi_qdFFSs0a?dl=0&lst=). This section is for advanced users, no guides are provided for this (please read the **.txt** files before using them).
+Here you have a list some of the beta or custom files, to access them go to **Beta Testing** folder [here](https://drive.google.com/drive/folders/1EHWsz39tHLFnLDsyzo3L8laIkBVPDxZt?usp=sharing). This section is for advanced users, no guides are provided for this (please read the **.txt** files before using them).
 
 File | Notes
 :------------: | :------------
@@ -97,7 +97,7 @@ NSF Player | Simple NES emulator FCEUX shortcut to play NSF sound files
 Switch PWM Scripts | Scripts to improve the background sound noise
 Mame4All Improved | Untested Mame32 emulator with improved performance
 
-_**Note:** If you are looking for the **BittBoy v1** and **v2** main stuff _(stock firmware, drivers, schematics, etc...)_ you can take a look [here](https://www.dropbox.com/sh/qdnsr1zzlzvr7zx/AAAJozhBKGS0dMSBu2bmlwHfa?dl=0&lst=)._
+_**Note:** If you are looking for the **BittBoy v1** and **v2** main stuff _(stock firmware, drivers, schematics, etc...)_ you can take a look [here](https://drive.google.com/drive/folders/1hcV3MmtmabOKl-PL3R7BqmDClY7Q7u7H?usp=sharing)._
 
 # Console Revisions Differences
 

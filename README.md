@@ -73,6 +73,11 @@ Download | Dev / Port by
 [Super Transball 2](https://github.com/szymor/stransball2/releases/latest) | [szymor](https://github.com/szymor/stransball2)
 [Gambatte-DMS](https://github.com/bardeci/dot-matrix-simulator/releases/latest) | [hi-ban](https://github.com/bardeci/dot-matrix-simulator)
 [BittBoy J2ME (Experimental)](https://github.com/pthalin/bittboy-j2me/releases/latest) | [pthalin](https://github.com/pthalin)
+[Fuse, ZX Spectrum](https://github.com/salvacam/fuse-od/releases/latest) | [salvacam](https://github.com/salvacam)
+[Speccy, ZX Spectrum](https://github.com/salvacam/speccy/releases/latest) | [salvacam](https://github.com/salvacam)
+[Amstrad CPC, Dingux-cap32](https://github.com/salvacam/dingux-cap32/releases/latest) | [salvacam](https://github.com/salvacam)
+[SZ81, ZX80 and ZX81](https://github.com/salvacam/sz81-miyoo/releases/latest) | [salvacam](https://github.com/salvacam)
+[ScummVM](https://github.com/salvacam/scummvm-rg350/releases/latest) | [salvacam](https://github.com/salvacam)
 
 # Tools
 
@@ -176,6 +181,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - [luali](https://github.com/lualiliu)
   - [mysterioustrashninja](https://github.com/ericrkjones)
   - PlataformerAndroid
+  - [salvacam](https://github.com/salvacam)
 
 - Theme developers:
   - 2TMAU5

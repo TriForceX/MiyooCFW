@@ -78,6 +78,8 @@ Download | Dev / Port by
 [Amstrad CPC, Dingux-cap32](https://github.com/salvacam/dingux-cap32/releases/latest) | [salvacam](https://github.com/salvacam)
 [SZ81, ZX80 and ZX81](https://github.com/salvacam/sz81-miyoo/releases/latest) | [salvacam](https://github.com/salvacam)
 [ScummVM](https://github.com/salvacam/scummvm-rg350/releases/latest) | [salvacam](https://github.com/salvacam)
+[Hermes](https://www.retroguru.com/hermes/hermes-v.latest-bittboy-pocketgo.zip) | [Retroguru](https://www.retroguru.com/hermes)
+[Worship Vector](https://github.com/szymor/Worship-Vector/releases/latest) | [szymor](https://github.com/szymor/Worship-Vector)
 
 # Tools
 

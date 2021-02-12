@@ -80,6 +80,7 @@ Download | Dev / Port by
 [ScummVM](https://github.com/salvacam/scummvm-rg350/releases/latest) | [salvacam](https://github.com/salvacam)
 [Hermes](https://www.retroguru.com/hermes/hermes-v.latest-bittboy-pocketgo.zip) | [Retroguru](https://www.retroguru.com/hermes)
 [Worship Vector](https://github.com/szymor/Worship-Vector/releases/latest) | [szymor](https://github.com/szymor/Worship-Vector)
+[Spout](https://github.com/szymor/spout/releases/latest) | [szymor](https://github.com/szymor/spout)
 
 # Tools
 

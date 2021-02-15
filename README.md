@@ -18,7 +18,7 @@
 # Information
 
 - Check main guides for setup in our **wiki** [here](https://github.com/TriForceX/MiyooCFW/wiki)
-- Get some **homebrews** and **ports** by the community [here](#homebrews-and-ports)
+- Get the latest **homebrews**, **emulators** and **tools** [here](#homebrews-and-ports)
 - Check the version details history in our **changelog** [here](https://github.com/TriForceX/MiyooCFW/blob/master/CHANGELOG.md)
 - Join our **Discord** chat server for more support [here](https://discord.gznetwork.com)
 
@@ -44,7 +44,7 @@ Support Chat Server| [Join Discord](https://discord.gznetwork.com)
 
 # Homebrews and Ports
 
-The next list is the current homebrews and ports **updated by the people** _(click the user name for more info)_. Note: Other stuff from the old cfw's is on the Wiki page.
+The next list is the latest homebrews games and ports available _(click the user name for more info)_. 
 
 Download | Dev / Port by
 :------: | :------:
@@ -64,24 +64,40 @@ Download | Dev / Port by
 [l\'Abbaye des Morts](https://github.com/szymor/abbayedesmorts-gpl/releases/latest) | [szymor](https://github.com/szymor/abbayedesmorts-gpl)
 [Shifty Pills](https://github.com/szymor/Shifty-Pills/releases/latest) | [szymor](https://github.com/szymor/Shifty-Pills)
 [Shisen-Seki (四川石)](https://github.com/szymor/shisen-seki/releases/latest) | [szymor](https://github.com/szymor/shisen-seki)
-[BittBoy MSX](https://github.com/pthalin/bittboy-msx/releases/latest) | [pthalin](https://github.com/pthalin)
 [Super Methane Brothers](https://github.com/szymor/methane-sdl/releases/latest) | [szymor](https://github.com/szymor/methane-sdl)
 [H.E.R.O.E.S](https://github.com/szymor/heroes-tron/releases/latest) | [szymor](https://github.com/szymor/heroes-tron)
 [Wizznic](https://github.com/szymor/Wizznic/releases/latest) | [szymor](https://github.com/szymor/Wizznic)
+[Super Transball 2](https://github.com/szymor/stransball2/releases/latest) | [szymor](https://github.com/szymor/stransball2)
+[Hermes](https://www.retroguru.com/hermes/hermes-v.latest-bittboy-pocketgo.zip) | [Retroguru](https://www.retroguru.com/hermes)
+[Worship Vector](https://github.com/szymor/Worship-Vector/releases/latest) | [szymor](https://github.com/szymor/Worship-Vector)
+[Spout](https://github.com/szymor/spout/releases/latest) | [szymor](https://github.com/szymor/spout)
+
+# Emulators
+
+The next list is for the latest emulators available _(click the user name for more info)_.
+
+Download | Dev / Port by
+:------: | :------:
+[Gambatte-DMS](https://github.com/bardeci/dot-matrix-simulator/releases/latest) | [hi-ban](https://github.com/bardeci/dot-matrix-simulator)
+[BittBoy MSX](https://github.com/pthalin/bittboy-msx/releases/latest) | [pthalin](https://github.com/pthalin)
 [PocketSNES](https://github.com/m45t3r/pocketsnes-miyoo/releases/latest) | [m45t3r](https://github.com/m45t3r/pocketsnes-miyoo)
 [snes9x4d](https://github.com/m45t3r/snes9x4d-miyoo/releases/latest) | [m45t3r](https://github.com/m45t3r/snes9x4d-miyoo)
-[Super Transball 2](https://github.com/szymor/stransball2/releases/latest) | [szymor](https://github.com/szymor/stransball2)
-[Gambatte-DMS](https://github.com/bardeci/dot-matrix-simulator/releases/latest) | [hi-ban](https://github.com/bardeci/dot-matrix-simulator)
 [BittBoy J2ME (Experimental)](https://github.com/pthalin/bittboy-j2me/releases/latest) | [pthalin](https://github.com/pthalin)
 [Fuse, ZX Spectrum](https://github.com/salvacam/fuse-od/releases/latest) | [salvacam](https://github.com/salvacam/fuse-od)
 [Speccy, ZX Spectrum](https://github.com/salvacam/speccy/releases/latest) | [salvacam](https://github.com/salvacam/speccy)
 [Amstrad CPC, Dingux-Cap32](https://github.com/salvacam/dingux-cap32/releases/latest) | [salvacam](https://github.com/salvacam/dingux-cap32)
 [SZ81, ZX80 and ZX81](https://github.com/salvacam/sz81-miyoo/releases/latest) | [salvacam](https://github.com/salvacam/sz81-miyoo)
 [ScummVM](https://github.com/salvacam/scummvm-rg350/releases/latest) | [salvacam](https://github.com/salvacam/scummvm-rg350)
-[Hermes](https://www.retroguru.com/hermes/hermes-v.latest-bittboy-pocketgo.zip) | [Retroguru](https://www.retroguru.com/hermes)
-[Worship Vector](https://github.com/szymor/Worship-Vector/releases/latest) | [szymor](https://github.com/szymor/Worship-Vector)
-[Spout](https://github.com/szymor/spout/releases/latest) | [szymor](https://github.com/szymor/spout)
 [Dingux-Atari, Atari 800 and Atari 5200](https://github.com/salvacam/dingux-atari/releases/latest) | [salvacam](https://github.com/salvacam/dingux-atari)
+
+# Skins and Frontends
+
+The next list is the current skins, themes and frontends available _(click the user name for more info)_.
+
+Download | Dev / Port by
+:------: | :------:
+[Simple Menu](https://github.com/fgl82/simplemenu/releases/latest) | [fgl82](https://github.com/fgl82/simplemenu)
+[Coverflow](https://github.com/peterthrees/Coverflow/blob/master/build/Coverflow/CoverflowV1.0.zip) | [peterthrees](https://github.com/peterthrees/Coverflow)
 
 # Tools
 
@@ -89,8 +105,6 @@ The next list is the current tools available _(click the user name for more info
 
 Download | Dev / Port by
 :------: | :------:
-[Coverflow](https://github.com/peterthrees/Coverflow/blob/master/build/Coverflow/CoverflowV1.0.zip) | [peterthrees](https://github.com/peterthrees/Coverflow)
-[Simple Menu](https://github.com/fgl82/simplemenu/releases/latest) | [fgl82](https://github.com/fgl82/simplemenu)
 [Calculator for BittBoy](https://github.com/szymor/bittboy-calc/releases/latest) | [szymor](https://github.com/szymor/bittboy-calc)
 [I/O Tester](https://drive.google.com/file/d/18W0MuuU9pSLyD9jyuE5tQDSbj1by0ZwR/view?usp=sharing) | [pingflood](https://github.com/pingflood/iotester)
 

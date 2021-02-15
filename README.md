@@ -73,14 +73,15 @@ Download | Dev / Port by
 [Super Transball 2](https://github.com/szymor/stransball2/releases/latest) | [szymor](https://github.com/szymor/stransball2)
 [Gambatte-DMS](https://github.com/bardeci/dot-matrix-simulator/releases/latest) | [hi-ban](https://github.com/bardeci/dot-matrix-simulator)
 [BittBoy J2ME (Experimental)](https://github.com/pthalin/bittboy-j2me/releases/latest) | [pthalin](https://github.com/pthalin)
-[Fuse, ZX Spectrum](https://github.com/salvacam/fuse-od/releases/latest) | [salvacam](https://github.com/salvacam)
-[Speccy, ZX Spectrum](https://github.com/salvacam/speccy/releases/latest) | [salvacam](https://github.com/salvacam)
-[Amstrad CPC, Dingux-cap32](https://github.com/salvacam/dingux-cap32/releases/latest) | [salvacam](https://github.com/salvacam)
-[SZ81, ZX80 and ZX81](https://github.com/salvacam/sz81-miyoo/releases/latest) | [salvacam](https://github.com/salvacam)
-[ScummVM](https://github.com/salvacam/scummvm-rg350/releases/latest) | [salvacam](https://github.com/salvacam)
+[Fuse, ZX Spectrum](https://github.com/salvacam/fuse-od/releases/latest) | [salvacam](https://github.com/salvacam/fuse-od)
+[Speccy, ZX Spectrum](https://github.com/salvacam/speccy/releases/latest) | [salvacam](https://github.com/salvacam/speccy)
+[Amstrad CPC, Dingux-Cap32](https://github.com/salvacam/dingux-cap32/releases/latest) | [salvacam](https://github.com/salvacam/dingux-cap32)
+[SZ81, ZX80 and ZX81](https://github.com/salvacam/sz81-miyoo/releases/latest) | [salvacam](https://github.com/salvacam/sz81-miyoo)
+[ScummVM](https://github.com/salvacam/scummvm-rg350/releases/latest) | [salvacam](https://github.com/salvacam/scummvm-rg350)
 [Hermes](https://www.retroguru.com/hermes/hermes-v.latest-bittboy-pocketgo.zip) | [Retroguru](https://www.retroguru.com/hermes)
 [Worship Vector](https://github.com/szymor/Worship-Vector/releases/latest) | [szymor](https://github.com/szymor/Worship-Vector)
 [Spout](https://github.com/szymor/spout/releases/latest) | [szymor](https://github.com/szymor/spout)
+[Dingux-Atari, Atari 800 and Atari 5200](https://github.com/salvacam/dingux-atari/releases/latest) | [salvacam](https://github.com/salvacam/dingux-atari)
 
 # Tools
 

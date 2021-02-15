@@ -89,6 +89,7 @@ Download | Dev / Port by
 [SZ81, ZX80 and ZX81](https://github.com/salvacam/sz81-miyoo/releases/latest) | [salvacam](https://github.com/salvacam/sz81-miyoo)
 [ScummVM](https://github.com/salvacam/scummvm-rg350/releases/latest) | [salvacam](https://github.com/salvacam/scummvm-rg350)
 [Dingux-Atari, Atari 800 and Atari 5200](https://github.com/salvacam/dingux-atari/releases/latest) | [salvacam](https://github.com/salvacam/dingux-atari)
+[SamCoupe Home Computer](https://github.com/salvacam/miyoo-sim/releases/latest) [salvacam](https://github.com/salvacam/miyoo-sim)
 
 # Skins and Frontends
 

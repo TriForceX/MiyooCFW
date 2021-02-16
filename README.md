@@ -98,7 +98,7 @@ The next list is the current skins, themes and frontends available _(click the u
 Download | Dev / Port by
 :------: | :------:
 [Simple Menu](https://github.com/fgl82/simplemenu/releases/latest) | [fgl82](https://github.com/fgl82/simplemenu)
-[Coverflow](https://github.com/peterthrees/Coverflow/blob/master/build/Coverflow/CoverflowV1.0.zip) | [peterthrees](https://github.com/peterthrees/Coverflow)
+[Coverflow](https://github.com/peterthrees/Coverflow/raw/master/build/Coverflow/CoverflowV1.0.zip) | [peterthrees](https://github.com/peterthrees/Coverflow)
 
 # Tools
 

@@ -71,6 +71,7 @@ Download | Dev / Port by
 [Hermes](https://www.retroguru.com/hermes/hermes-v.latest-bittboy-pocketgo.zip) | [Retroguru](https://www.retroguru.com/hermes)
 [Worship Vector](https://github.com/szymor/Worship-Vector/releases/latest) | [szymor](https://github.com/szymor/Worship-Vector)
 [Spout](https://github.com/szymor/spout/releases/latest) | [szymor](https://github.com/szymor/spout)
+[Profanation Deluxe](https://github.com/salvacam/profanation/releases/latest) | [salvacam](https://github.com/salvacam/profanation)
 
 # Emulators
 
@@ -89,7 +90,8 @@ Download | Dev / Port by
 [SZ81, ZX80 and ZX81](https://github.com/salvacam/sz81-miyoo/releases/latest) | [salvacam](https://github.com/salvacam/sz81-miyoo)
 [ScummVM](https://github.com/salvacam/scummvm-rg350/releases/latest) | [salvacam](https://github.com/salvacam/scummvm-rg350)
 [Dingux-Atari, Atari 800 and Atari 5200](https://github.com/salvacam/dingux-atari/releases/latest) | [salvacam](https://github.com/salvacam/dingux-atari)
-[SamCoupe Home Computer](https://github.com/salvacam/miyoo-sim/releases/latest) [salvacam](https://github.com/salvacam/miyoo-sim)
+[SamCoupe Home Computer](https://github.com/salvacam/miyoo-sim/releases/latest) | [salvacam](https://github.com/salvacam/miyoo-sim)
+[Vectrex](https://github.com/salvacam/dingux-vectrex/releases/latest) | [salvacam](https://github.com/salvacam/dingux-vectrex)
 
 # Skins and Frontends
 

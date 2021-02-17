@@ -72,6 +72,7 @@ Download | Dev / Port by
 [Worship Vector](https://github.com/szymor/Worship-Vector/releases/latest) | [szymor](https://github.com/szymor/Worship-Vector)
 [Spout](https://github.com/szymor/spout/releases/latest) | [szymor](https://github.com/szymor/spout)
 [Profanation Deluxe](https://github.com/salvacam/profanation/releases/latest) | [salvacam](https://github.com/salvacam/profanation)
+[Manic Miner](https://github.com/salvacam/manicminer/releases/latest) | [salvacam](https://github.com/salvacam/manicminer)
 
 # Emulators
 

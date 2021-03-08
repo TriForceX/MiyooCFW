@@ -53,7 +53,6 @@ Download | Dev / Port by
 [Xrick](https://github.com/jamesofarrell/miyoo_xrick/releases/latest) | [jamesofarrell](https://github.com/jamesofarrell/miyoo_xrick)
 [Evil Australians](https://www.dropbox.com/s/h78bniyqpyoeb88/evilaustralians.zip?dl=1) | [gameblabla](https://github.com/gameblabla/evilaustralians)
 [Yatka](https://github.com/szymor/yatka/releases/latest) | [szymor](https://github.com/szymor/yatka)
-[Sqrxz 4](https://www.sqrxz.de/sqrxz-4) | [szymor](https://github.com/szymor/yatka)
 [Hocoslamfy](https://www.dropbox.com/s/uqp4bl02q4vdzmw/hocoslamfy.zip?dl=1) | [Nebuleon](https://github.com/Nebuleon/hocoslamfy)
 [Circuit Dude (PocketGo)](http://www.crait.net/download.php?file=CircuitDudePG.zip) | [crait](http://www.crait.net)
 [Circuit Dude (Bittboy)](http://www.crait.net/download.php?file=CircuitDudeBB.zip) | [crait](http://www.crait.net)
@@ -73,6 +72,15 @@ Download | Dev / Port by
 [Spout](https://github.com/szymor/spout/releases/latest) | [szymor](https://github.com/szymor/spout)
 [Profanation Deluxe](https://github.com/salvacam/profanation/releases/latest) | [salvacam](https://github.com/salvacam/profanation)
 [Manic Miner](https://github.com/salvacam/manicminer/releases/latest) | [salvacam](https://github.com/salvacam/manicminer)
+[Sqrxz 2](https://www.retroguru.com/sqrxz2/sqrxz2-v.latest-bittboy-pocketgo.zip) | [szymor](https://www.retroguru.com/sqrxz2)
+[Sqrxz 3](https://www.retroguru.com/sqrxz3/sqrxz3-v.latest-bittboy-pocketgo.zip) | [szymor](https://www.sqrxz.de/sqrxz-3)
+[Sqrxz 4](https://www.sqrxz.de/sqrxz-4) | [szymor](https://github.com/szymor/yatka)
+[Zelda Picross](https://github.com/salvacam/zeldapicross/releases/latest) | [salvacam](https://github.com/salvacam/zeldapicross)
+[FleshChasmer](https://github.com/szymor/FleshChasmer/releases/latest) | [szymor](https://github.com/szymor/FleshChasmer)
+[Paranoia ](https://github.com/szymor/c-paranoia/releases/latest) | [szymor](https://github.com/szymor/c-paranoia/)
+[Apricots](https://github.com/salvacam/apricots/releases/latest) | [salvacam](https://github.com/salvacam/apricots)
+[Arkanoid](https://github.com/salvacam/arkanoid/releases/latest) | [salvacam](https://github.com/salvacam/arkanoid)
+[Rockbot](https://github.com/salvacam/rockbot/releases/latest) | [salvacam](https://github.com/salvacam/rockbot)
 
 # Emulators
 
@@ -94,6 +102,18 @@ Download | Dev / Port by
 [SamCoupe Home Computer](https://github.com/salvacam/miyoo-sim/releases/latest) | [salvacam](https://github.com/salvacam/miyoo-sim)
 [Vectrex](https://github.com/salvacam/dingux-vectrex/releases/latest) | [salvacam](https://github.com/salvacam/dingux-vectrex)
 [Atari 7800](https://github.com/salvacam/dingux-7800/releases/latest) | [salvacam](https://github.com/salvacam/dingux-7800)
+[Dcastway, Atari ST](https://github.com/salvacam/dcastaway/releases/latest) | [salvacam](https://github.com/salvacam/dcastaway)
+[Wiz-colem, Colecovision](https://github.com/salvacam/dingux-colem/releases/latest) | [salvacam](https://github.com/salvacam/dingux-colem)
+[Atari 5200](https://github.com/salvacam/a5200/releases/latest) | [salvacam](https://github.com/salvacam/a5200)
+[Beebem, BBC Micro Model B](https://github.com/salvacam/beebem-rg350/releases/latest) | [salvacam](https://github.com/salvacam/beebem-rg350)
+[GP2X-Dragon, Dragon32/64 and Tandy Coco](https://github.com/salvacam/dragon/releases/latest) | [salvacam](https://github.com/salvacam/dragon)
+[Jzint, Intellivision](https://github.com/salvacam/jzintv/releases/latest) | [salvacam](https://github.com/salvacam/jzintv)
+[Watara Supervision](https://github.com/salvacam/potator/releases/latest) | [salvacam](https://github.com/salvacam/potator)
+[Thomson TO7-70](https://github.com/salvacam/caanoo-thom/releases/latest) | [salvacam](https://github.com/salvacam/caanoo-thom)
+[Thomson MO5](https://github.com/salvacam/caanoo-mo5/releases/latest) | [salvacam](https://github.com/salvacam/caanoo-mo5)
+[CHIP8](https://github.com/salvacam/gpchip/releases/latest) | [salvacam](https://github.com/salvacam/gpchip)
+[Texas instruments TI92](https://github.com/salvacam/dingux-ti92/releases/latest) | [salvacam](https://github.com/salvacam/dingux-ti92)
+[Texas instruments TI99](https://github.com/salvacam/dingux-ti99/releases/latest) | [salvacam](https://github.com/salvacam/dingux-ti99)
 
 # Skins and Frontends
 

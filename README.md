@@ -77,10 +77,15 @@ Download | Dev / Port by
 [Sqrxz 4](https://www.sqrxz.de/sqrxz-4) | [szymor](https://github.com/szymor/yatka)
 [Zelda Picross](https://github.com/salvacam/zeldapicross/releases/latest) | [salvacam](https://github.com/salvacam/zeldapicross)
 [FleshChasmer](https://github.com/szymor/FleshChasmer/releases/latest) | [szymor](https://github.com/szymor/FleshChasmer)
-[Paranoia ](https://github.com/szymor/c-paranoia/releases/latest) | [szymor](https://github.com/szymor/c-paranoia/)
+[Paranoia](https://github.com/szymor/c-paranoia/releases/latest) | [szymor](https://github.com/szymor/c-paranoia)
 [Apricots](https://github.com/salvacam/apricots/releases/latest) | [salvacam](https://github.com/salvacam/apricots)
 [Arkanoid](https://github.com/salvacam/arkanoid/releases/latest) | [salvacam](https://github.com/salvacam/arkanoid)
 [Rockbot](https://github.com/salvacam/rockbot/releases/latest) | [salvacam](https://github.com/salvacam/rockbot)
+[MineSweeper](https://github.com/szymor/MineSweeper/releases/latest) | [szymor](https://github.com/szymor/MineSweeper)
+[BlockOut 2](https://github.com/salvacam/blockout2/releases/latest) | [salvacam](https://github.com/salvacam/blockout2)
+[Sonic Robo Blast 2](https://github.com/salvacam/srb2/releases/latest) | [salvacam](https://github.com/salvacam/srb2)
+[Haunted](https://github.com/szymor/haunted/releases/latest) | [szymor](https://github.com/szymor/haunted)
+[Spartak Chess](https://github.com/szymor/Spartak-Chess/releases/latest) | [szymor](https://github.com/szymor/Spartak-Chess)
 
 # Emulators
 

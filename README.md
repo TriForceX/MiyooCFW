@@ -86,6 +86,7 @@ Download | Dev / Port by
 [Sonic Robo Blast 2](https://github.com/salvacam/srb2/releases/latest) | [salvacam](https://github.com/salvacam/srb2)
 [Haunted](https://github.com/szymor/haunted/releases/latest) | [szymor](https://github.com/szymor/haunted)
 [Spartak Chess](https://github.com/szymor/Spartak-Chess/releases/latest) | [szymor](https://github.com/szymor/Spartak-Chess)
+[Open Jazz Jackrabbit](https://github.com/salvacam/openjazz/releases/latest) | [salvacam](https://github.com/salvacam/openjazz)
 
 # Emulators
 

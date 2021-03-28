@@ -232,6 +232,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - [mysterioustrashninja](https://github.com/ericrkjones)
   - PlataformerAndroid
   - [salvacam](https://github.com/salvacam)
+  - [flabbergast](https://github.com/flabbergast)
 
 - Theme developers:
   - 2TMAU5
@@ -257,6 +258,8 @@ The next people is contributing to all development of this **Bittboy** related s
   - [Turtle](https://github.com/turtleletortue)
   - RichPKM
   - James Dull
+  - HYJiNX187
+  - a64
 
 - Other:
   - Vincent

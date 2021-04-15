@@ -260,6 +260,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - James Dull
   - HYJiNX187
   - a64
+  - Nyom
 
 - Other:
   - Vincent

@@ -87,6 +87,7 @@ Download | Dev / Port by
 [Haunted](https://github.com/szymor/haunted/releases/latest) | [szymor](https://github.com/szymor/haunted)
 [Spartak Chess](https://github.com/szymor/Spartak-Chess/releases/latest) | [szymor](https://github.com/szymor/Spartak-Chess)
 [Open Jazz Jackrabbit](https://github.com/salvacam/openjazz/releases/latest) | [salvacam](https://github.com/salvacam/openjazz)
+[Tile World](https://github.com/salvacam/tileworld/releases/latest) | [salvacam](https://github.com/salvacam/tileworld)
 
 # Emulators
 

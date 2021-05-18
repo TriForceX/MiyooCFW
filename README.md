@@ -155,6 +155,7 @@ NSF Player | Simple NES emulator FCEUX shortcut to play NSF sound files
 Switch PWM Scripts | Scripts to improve the background sound noise
 Mame4All Improved | Untested Mame32 emulator with improved performance
 PCSX Rearmed CFG | Custom PCSX-Rearmed Config Library
+PocketSNES Improved | Modified SNES emulator with improved performance
 
 _**Note:** If you are looking for the **BittBoy v1** and **v2** main stuff _(stock firmware, drivers, schematics, etc...)_ you can take a look [here](https://drive.google.com/drive/folders/1hcV3MmtmabOKl-PL3R7BqmDClY7Q7u7H?usp=sharing)._
 

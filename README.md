@@ -72,9 +72,10 @@ Download | Dev / Port by
 [Spout](https://github.com/szymor/spout/releases/latest) | [szymor](https://github.com/szymor/spout)
 [Profanation Deluxe](https://github.com/salvacam/profanation/releases/latest) | [salvacam](https://github.com/salvacam/profanation)
 [Manic Miner](https://github.com/salvacam/manicminer/releases/latest) | [salvacam](https://github.com/salvacam/manicminer)
+[Sqrxz](https://www.retroguru.com/sqrxz/sqrxz-v.latest-bittboy-pocketgo.zip) | [szymor](https://www.sqrxz.de/sqrxz)
 [Sqrxz 2](https://www.retroguru.com/sqrxz2/sqrxz2-v.latest-bittboy-pocketgo.zip) | [szymor](https://www.retroguru.com/sqrxz2)
 [Sqrxz 3](https://www.retroguru.com/sqrxz3/sqrxz3-v.latest-bittboy-pocketgo.zip) | [szymor](https://www.sqrxz.de/sqrxz-3)
-[Sqrxz 4](https://www.sqrxz.de/sqrxz-4) | [szymor](https://github.com/szymor/yatka)
+[Sqrxz 4](https://retroguru.com/sqrxz4/sqrxz4-v.latest-bittboy-pocketgo.zip) | [szymor](https://www.sqrxz.de/sqrxz-4)
 [Zelda Picross](https://github.com/salvacam/zeldapicross/releases/latest) | [salvacam](https://github.com/salvacam/zeldapicross)
 [FleshChasmer](https://github.com/szymor/FleshChasmer/releases/latest) | [szymor](https://github.com/szymor/FleshChasmer)
 [Paranoia](https://github.com/szymor/c-paranoia/releases/latest) | [szymor](https://github.com/szymor/c-paranoia)
@@ -88,6 +89,7 @@ Download | Dev / Port by
 [Spartak Chess](https://github.com/szymor/Spartak-Chess/releases/latest) | [szymor](https://github.com/szymor/Spartak-Chess)
 [Open Jazz Jackrabbit](https://github.com/salvacam/openjazz/releases/latest) | [salvacam](https://github.com/salvacam/openjazz)
 [Tile World](https://github.com/salvacam/tileworld/releases/latest) | [salvacam](https://github.com/salvacam/tileworld)
+[Xump](https://www.retroguru.com/xump/xump-v.latest-bittboy-pocketgo.zip) | [szymor](https://www.retroguru.com/xump)
 
 # Emulators
 

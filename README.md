@@ -90,6 +90,8 @@ Download | Dev / Port by
 [Open Jazz Jackrabbit](https://github.com/salvacam/openjazz/releases/latest) | [salvacam](https://github.com/salvacam/openjazz)
 [Tile World](https://github.com/salvacam/tileworld/releases/latest) | [salvacam](https://github.com/salvacam/tileworld)
 [Xump](https://www.retroguru.com/xump/xump-v.latest-bittboy-pocketgo.zip) | [szymor](https://www.retroguru.com/xump)
+[Sokoban](https://github.com/szymor/sokoban/releases/latest) | [szymor](https://github.com/szymor/sokoban)
+[Arnold](https://github.com/salvacam/arnold_gcw0/releases/latest) | [salvacam](https://github.com/salvacam/arnold_gcw0)
 
 # Emulators
 

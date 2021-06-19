@@ -91,7 +91,6 @@ Download | Dev / Port by
 [Tile World](https://github.com/salvacam/tileworld/releases/latest) | [salvacam](https://github.com/salvacam/tileworld)
 [Xump](https://www.retroguru.com/xump/xump-v.latest-bittboy-pocketgo.zip) | [szymor](https://www.retroguru.com/xump)
 [Sokoban](https://github.com/szymor/sokoban/releases/latest) | [szymor](https://github.com/szymor/sokoban)
-[Arnold](https://github.com/salvacam/arnold_gcw0/releases/latest) | [salvacam](https://github.com/salvacam/arnold_gcw0)
 
 # Emulators
 
@@ -125,6 +124,7 @@ Download | Dev / Port by
 [CHIP8](https://github.com/salvacam/gpchip/releases/latest) | [salvacam](https://github.com/salvacam/gpchip)
 [Texas instruments TI92](https://github.com/salvacam/dingux-ti92/releases/latest) | [salvacam](https://github.com/salvacam/dingux-ti92)
 [Texas instruments TI99](https://github.com/salvacam/dingux-ti99/releases/latest) | [salvacam](https://github.com/salvacam/dingux-ti99)
+[Arnold Amstrad GX4000](https://github.com/salvacam/arnold_gcw0/releases/latest) | [salvacam](https://github.com/salvacam/arnold_gcw0)
 
 # Skins and Frontends
 

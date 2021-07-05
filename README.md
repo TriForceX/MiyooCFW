@@ -39,7 +39,7 @@ Here you have some of the main resources:
 Name | Link
 :------------: | :------------:
 Main Wiki Guides | [View](https://github.com/TriForceX/MiyooCFW/wiki)
-Resources & Backups | [View](https://drive.google.com/drive/folders/1st2lTnB_mW5Xgd8_wUaYvz4rallH_jTw?usp=sharing)
+Resources & Backups | [View](https://drive.google.com/drive/folders/1GEumIF7XNOAGNOtPoe4kjP97Wzk7jj1E?usp=sharing)
 Support Chat Server| [Join Discord](https://discord.gznetwork.com)
 
 # Homebrews and Ports
@@ -132,7 +132,7 @@ The next list is the current skins, themes and frontends available _(click the u
 
 Download | Dev / Port by
 :------: | :------:
-[Simple Menu](https://github.com/fgl82/simplemenu/releases/latest) | [fgl82](https://github.com/fgl82/simplemenu)
+[Simple Menu](https://github.com/fgl82/simplemenu/releases/tag/6.1) | [fgl82](https://github.com/fgl82/simplemenu)
 [Coverflow](https://github.com/peterthrees/Coverflow/raw/master/build/Coverflow/CoverflowV1.0.zip) | [peterthrees](https://github.com/peterthrees/Coverflow)
 
 # Tools
@@ -267,6 +267,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - HYJiNX187
   - a64
   - Nyom
+  - YeuxNoir
 
 - Other:
   - Vincent

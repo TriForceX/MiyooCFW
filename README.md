@@ -13,6 +13,8 @@
 [![Issues](https://img.shields.io/github/issues/TriForceX/MiyooCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/MiyooCFW/issues)
 [![License](https://img.shields.io/github/license/TriForceX/MiyooCFW.svg?label=License&color=yellow)](#license)
 
+_This project is not affiliated or related with any company or manufacturer_
+
 </div>
 
 # Information
@@ -146,7 +148,7 @@ Download | Dev / Port by
 
 # Beta Testing
 
-Here you have a list some of the beta or custom files, to access them go to **Beta Testing** folder [here](https://drive.google.com/drive/folders/1EHWsz39tHLFnLDsyzo3L8laIkBVPDxZt?usp=sharing). This section is for advanced users, no guides are provided for this (please read the **.txt** files before using them).
+Here you have a list some of the beta or custom files, to access them go to **Beta Testing** folder [here](https://drive.google.com/drive/folders/1AT3LVlJPCZf_csTh8qdgL0Bp1MlZQONV?usp=sharing). This section is for advanced users, no guides are provided for this (please read the **.txt** files before using them).
 
 File | Notes
 :------------: | :------------

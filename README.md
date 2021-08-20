@@ -34,6 +34,8 @@ The next guides are to install and update the **custom firmware**, download link
 - Guide for [New BittBoy v1](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#new-bittboy-v1)
 - Guide for [Update Manually](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Update)
 
+**Note:** CFW version for Powkiddy Q20 Mini still need testing, PocketGo CFW may work on it in the meantime.
+
 # Resources
 
 Here you have some of the main resources:
@@ -93,6 +95,8 @@ Download | Dev / Port by
 [Tile World](https://github.com/salvacam/tileworld/releases/latest) | [salvacam](https://github.com/salvacam/tileworld)
 [Xump](https://www.retroguru.com/xump/xump-v.latest-bittboy-pocketgo.zip) | [szymor](https://www.retroguru.com/xump)
 [Sokoban](https://github.com/szymor/sokoban/releases/latest) | [szymor](https://github.com/szymor/sokoban)
+[2048](https://github.com/szymor/2048/releases/latest) | [szymor](https://github.com/szymor/2048)
+[Slitherlink](https://github.com/szymor/od-slitherlink/releases/latest) | [szymor](https://github.com/szymor/od-slitherlink)
 
 # Emulators
 
@@ -127,6 +131,8 @@ Download | Dev / Port by
 [Texas instruments TI92](https://github.com/salvacam/dingux-ti92/releases/latest) | [salvacam](https://github.com/salvacam/dingux-ti92)
 [Texas instruments TI99](https://github.com/salvacam/dingux-ti99/releases/latest) | [salvacam](https://github.com/salvacam/dingux-ti99)
 [Arnold Amstrad GX4000](https://github.com/salvacam/arnold_gcw0/releases/latest) | [salvacam](https://github.com/salvacam/arnold_gcw0)
+[O2EM Libretro](https://github.com/salvacam/libretro-o2em/releases/latest) | [salvacam](https://github.com/salvacam/libretro-o2em)
+[VMU Dingoo](https://github.com/salvacam/vmu-dingoo/releases/latest) | [salvacam](https://github.com/salvacam/vmu-dingoo)
 
 # Skins and Frontends
 
@@ -136,6 +142,7 @@ Download | Dev / Port by
 :------: | :------:
 [Simple Menu](https://github.com/fgl82/simplemenu/releases/tag/6.1) | [fgl82](https://github.com/fgl82/simplemenu)
 [Coverflow](https://github.com/peterthrees/Coverflow/raw/master/build/Coverflow/CoverflowV1.0.zip) | [peterthrees](https://github.com/peterthrees/Coverflow)
+[SimUI](https://github.com/dkodr/SimUI/releases/latest) | [dkodr](https://github.com/dkodr/SimUI)
 
 # Tools
 
@@ -144,7 +151,8 @@ The next list is the current tools available _(click the user name for more info
 Download | Dev / Port by
 :------: | :------:
 [Calculator for BittBoy](https://github.com/szymor/bittboy-calc/releases/latest) | [szymor](https://github.com/szymor/bittboy-calc)
-[I/O Tester](https://drive.google.com/file/d/18W0MuuU9pSLyD9jyuE5tQDSbj1by0ZwR/view?usp=sharing) | [pingflood](https://github.com/pingflood/iotester)
+[I/O Tester](https://drive.google.com/file/d/1N_Q-DVemLcpiRKEhNXRbLNCLzEfXbQGK/view?usp=sharing) | [pingflood](https://github.com/pingflood/iotester)
+[PV2X Image Viewer](https://github.com/szymor/pv2x/releases/latest) | [szymor](https://github.com/szymor/pv2x)
 
 # Beta Testing
 
@@ -162,6 +170,7 @@ Switch PWM Scripts | Scripts to improve the background sound noise
 Mame4All Improved | Untested Mame32 emulator with improved performance
 PCSX Rearmed CFG | Custom PCSX-Rearmed Config Library
 PocketSNES Improved | Modified SNES emulator with improved performance
+Fake 08 | Alternative Pico 8 emulator under development
 
 _**Note:** If you are looking for the **BittBoy v1** and **v2** main stuff _(stock firmware, drivers, schematics, etc...)_ you can take a look [here](https://drive.google.com/drive/folders/1hcV3MmtmabOKl-PL3R7BqmDClY7Q7u7H?usp=sharing)._
 
@@ -252,6 +261,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - Harsh Bhardwaj
   - s4ilence
   - bhardwaj
+  - [dkodr](https://github.com/dkodr/SimUI)
   
 - Support & testing:
   - [Augen(히힛마스터)](https://github.com/AugenKOR)

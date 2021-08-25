@@ -97,6 +97,7 @@ Download | Dev / Port by
 [Sokoban](https://github.com/szymor/sokoban/releases/latest) | [szymor](https://github.com/szymor/sokoban)
 [2048](https://github.com/szymor/2048/releases/latest) | [szymor](https://github.com/szymor/2048)
 [Slitherlink](https://github.com/szymor/od-slitherlink/releases/latest) | [szymor](https://github.com/szymor/od-slitherlink)
+[SuperTux](https://github.com/andrigamerita/supertux/releases/latest) | [andrigamerita](https://github.com/andrigamerita)
 
 # Emulators
 
@@ -140,7 +141,7 @@ The next list is the current skins, themes and frontends available _(click the u
 
 Download | Dev / Port by
 :------: | :------:
-[Simple Menu](https://github.com/fgl82/simplemenu/releases/tag/6.1) | [fgl82](https://github.com/fgl82/simplemenu)
+[Simple Menu](https://github.com/fgl82/simplemenu/releases/latest) | [fgl82](https://github.com/fgl82/simplemenu)
 [Coverflow](https://github.com/peterthrees/Coverflow/raw/master/build/Coverflow/CoverflowV1.0.zip) | [peterthrees](https://github.com/peterthrees/Coverflow)
 [SimUI](https://github.com/dkodr/SimUI/releases/latest) | [dkodr](https://github.com/dkodr/SimUI)
 
@@ -250,6 +251,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - PlataformerAndroid
   - [salvacam](https://github.com/salvacam)
   - [flabbergast](https://github.com/flabbergast)
+  - [andrigamerita](https://github.com/andrigamerita)
 
 - Theme developers:
   - 2TMAU5

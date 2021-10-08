@@ -8,7 +8,7 @@
 
 [![Custom-Firmware](https://img.shields.io/badge/Custom%20Firmware-v1.3.3-brightgreen.svg)](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup)
 [![Wiki](https://img.shields.io/badge/Setup%20%26%20Guides-Wiki-blueviolet.svg)](https://github.com/TriForceX/MiyooCFW/wiki)
-[![Discord](https://img.shields.io/badge/Discord%20Chat-Join-7289DA.svg?logo=discord&longCache=true&style=flat)](https://discord.gznetwork.com)
+[![Discord](https://img.shields.io/discord/202879976599453696.svg?logo=discord&logoColor=white&label=Discord&color=7289DA)](https://discord.gznetwork.com)
 [![Stars](https://img.shields.io/github/stars/TriForceX/MiyooCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/MiyooCFW/stargazers)
 [![Issues](https://img.shields.io/github/issues/TriForceX/MiyooCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/MiyooCFW/issues)
 [![License](https://img.shields.io/github/license/TriForceX/MiyooCFW.svg?label=License&color=yellow)](#license)
@@ -224,9 +224,8 @@ The next people is contributing to all development of this **Bittboy** related s
 
 - Main developers:
   - [steward](https://github.com/steward-fu)
-  - [Tony Jih](https://github.com/tonyjih)
   - [sauce](https://github.com/gameblabla)
-  - [pingflood](https://github.com/pingflood)
+  - [TriForce](https://github.com/TriForceX)
   - [H1BAN](https://github.com/hi-ban)
   - superpuissant
   - [scooterpsu](https://github.com/scooterpsu)
@@ -245,13 +244,13 @@ The next people is contributing to all development of this **Bittboy** related s
   - madjester
   - [pthalin](https://github.com/pthalin)
   - [m45t3r](https://github.com/m45t3r)
-  - Merisy
   - [luali](https://github.com/lualiliu)
   - [mysterioustrashninja](https://github.com/ericrkjones)
   - PlataformerAndroid
   - [salvacam](https://github.com/salvacam)
   - [flabbergast](https://github.com/flabbergast)
   - [andrigamerita](https://github.com/andrigamerita)
+  - [nfriedly](https://github.com/nfriedly)
 
 - Theme developers:
   - 2TMAU5
@@ -268,7 +267,6 @@ The next people is contributing to all development of this **Bittboy** related s
 - Support & testing:
   - [Augen(히힛마스터)](https://github.com/AugenKOR)
   - TakoSalad
-  - [TriForce](https://github.com/TriForceX)
   - Mystic_Morgan
   - MrRobotSK
   - WenTao
@@ -282,11 +280,16 @@ The next people is contributing to all development of this **Bittboy** related s
   - a64
   - Nyom
   - YeuxNoir
+  - Rich
+  - CanMurray
 
 - Other:
+  - [Tony Jih](https://github.com/tonyjih)
+  - [pingflood](https://github.com/pingflood)
   - Vincent
   - Dmm1138
   - Alexai
+  - Merisy
   
 # Contributing
 > Theres many ways to contribute to this project, even if you don't know how to code. All kind of **support** or **testing** will be grateful. If you have plans to **contribute** in code, please **fork** the desired module from [here](https://github.com/MiyooCFW), create a branch with your changes and send us a **pull request** to upstream. For more info you can join our **Discord** chat [here](https://discord.gznetwork.com)

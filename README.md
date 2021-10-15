@@ -4,13 +4,14 @@
 
 <div align="center">
 
-![bittboy-pocket-go](https://user-images.githubusercontent.com/16083854/66320756-c918fb80-e8f5-11e9-81fd-8d0577cb5b98.png)
+![miyoo-cfw](https://user-images.githubusercontent.com/16083854/66320756-c918fb80-e8f5-11e9-81fd-8d0577cb5b98.png)
 
-[![Custom-Firmware](https://img.shields.io/badge/Custom%20Firmware-v1.3.3-brightgreen.svg)](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup)
-[![Wiki](https://img.shields.io/badge/Setup%20%26%20Guides-Wiki-blueviolet.svg)](https://github.com/TriForceX/MiyooCFW/wiki)
-[![Discord](https://img.shields.io/discord/202879976599453696.svg?logo=discord&logoColor=white&label=Discord&color=7289DA)](https://discord.gznetwork.com)
+[![Custom-Firmware](https://img.shields.io/badge/Current%20Version-v1.3.3-brightgreen.svg)](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup)
+[![Discord](https://img.shields.io/discord/202879976599453696.svg?logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gznetwork.com)
+[![Forum](https://img.shields.io/github/discussions/TriForceX/MiyooCFW.svg?label=Discussions&color=orange)](https://github.com/TriForceX/MiyooCFW/discussions)
+[![Wiki](https://img.shields.io/badge/Wiki-Guides-blueviolet.svg)](https://github.com/TriForceX/MiyooCFW/wiki)
 [![Stars](https://img.shields.io/github/stars/TriForceX/MiyooCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/MiyooCFW/stargazers)
-[![Issues](https://img.shields.io/github/issues/TriForceX/MiyooCFW.svg?label=Issues%20%26%20Requests&color=red)](https://github.com/TriForceX/MiyooCFW/issues)
+[![Issues](https://img.shields.io/github/issues/TriForceX/MiyooCFW.svg?label=Issues&color=red)](https://github.com/TriForceX/MiyooCFW/issues)
 [![License](https://img.shields.io/github/license/TriForceX/MiyooCFW.svg?label=License&color=yellow)](#license)
 
 _This project is not affiliated or related with any company or manufacturer_
@@ -21,6 +22,7 @@ _This project is not affiliated or related with any company or manufacturer_
 
 - Check main guides for setup in our **wiki** [here](https://github.com/TriForceX/MiyooCFW/wiki)
 - Get the latest **homebrews**, **emulators** and **tools** [here](#homebrews-and-ports)
+- Give us your **feedback** or **comments** on the **discussions** forum [here](https://github.com/TriForceX/MiyooCFW/discussions)
 - Check the version details history in our **changelog** [here](https://github.com/TriForceX/MiyooCFW/blob/master/CHANGELOG.md)
 - Join our **Discord** chat server for more support [here](https://discord.gznetwork.com)
 
@@ -274,14 +276,13 @@ The next people is contributing to all development of this **Bittboy** related s
   - Jutleys
   - ToTo
   - [Turtle](https://github.com/turtleletortue)
-  - RichPKM
   - James Dull
   - HYJiNX187
   - a64
   - Nyom
   - YeuxNoir
   - Rich
-  - CanMurray
+  - [CanMurray](https://www.youtube.com/canmurray)
 
 - Other:
   - [Tony Jih](https://github.com/tonyjih)

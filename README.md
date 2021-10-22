@@ -100,6 +100,8 @@ Download | Dev / Port by
 [2048](https://github.com/szymor/2048/releases/latest) | [szymor](https://github.com/szymor/2048)
 [Slitherlink](https://github.com/szymor/od-slitherlink/releases/latest) | [szymor](https://github.com/szymor/od-slitherlink)
 [SuperTux](https://github.com/andrigamerita/supertux/releases/latest) | [andrigamerita](https://github.com/andrigamerita)
+[Treasure Chasers (PocketGo)](http://www.crait.net/download.php?file=TreasureChasersPG.zip) | [crait](http://www.crait.net)
+[Treasure Chasers (Bittboy)](http://www.crait.net/download.php?file=TreasureChasersBB.zip) | [crait](http://www.crait.net)
 
 # Emulators
 

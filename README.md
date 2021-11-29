@@ -103,6 +103,8 @@ Download | Dev / Port by
 [Treasure Chasers (PocketGo)](http://www.crait.net/download.php?file=TreasureChasersPG.zip) | [crait](http://www.crait.net)
 [Treasure Chasers (Bittboy)](http://www.crait.net/download.php?file=TreasureChasersBB.zip) | [crait](http://www.crait.net)
 [Super Mario War (April Fools Edition)](https://github.com/andrigamerita/super-mario-war/releases/latest) | [andrigamerita](https://github.com/andrigamerita/super-mario-war)
+[Meritous](https://github.com/andrigamerita/meritous/releases/latest) | [andrigamerita](https://github.com/andrigamerita/meritous)
+[Zelda Return of the Hylian](https://github.com/andrigamerita/zelda_roth/releases/latest) | [andrigamerita](https://github.com/andrigamerita/zelda_roth)
 
 # Emulators
 
@@ -257,6 +259,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - [flabbergast](https://github.com/flabbergast)
   - [andrigamerita](https://github.com/andrigamerita)
   - [nfriedly](https://github.com/nfriedly)
+  - [andrigamerita](https://github.com/andrigamerita)
 
 - Theme developers:
   - 2TMAU5

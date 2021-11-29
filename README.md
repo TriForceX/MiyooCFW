@@ -109,6 +109,7 @@ The next list is for the latest emulators available _(click the user name for mo
 
 Download | Dev / Port by
 :------: | :------:
+[RetroArch](https://www.retroarch.com/?page=platforms) | [RetroArch](https://www.retroarch.com)
 [Gambatte-DMS](https://github.com/bardeci/dot-matrix-simulator/releases/latest) | [hi-ban](https://github.com/bardeci/dot-matrix-simulator)
 [BittBoy MSX](https://github.com/pthalin/bittboy-msx/releases/latest) | [pthalin](https://github.com/pthalin)
 [PocketSNES](https://github.com/m45t3r/pocketsnes-miyoo/releases/latest) | [m45t3r](https://github.com/m45t3r/pocketsnes-miyoo)

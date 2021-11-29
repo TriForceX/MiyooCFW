@@ -102,6 +102,7 @@ Download | Dev / Port by
 [SuperTux](https://github.com/andrigamerita/supertux/releases/latest) | [andrigamerita](https://github.com/andrigamerita)
 [Treasure Chasers (PocketGo)](http://www.crait.net/download.php?file=TreasureChasersPG.zip) | [crait](http://www.crait.net)
 [Treasure Chasers (Bittboy)](http://www.crait.net/download.php?file=TreasureChasersBB.zip) | [crait](http://www.crait.net)
+[Super Mario War (April Fools Edition)](https://github.com/andrigamerita/super-mario-war/releases/latest) | [andrigamerita](https://github.com/andrigamerita/super-mario-war)
 
 # Emulators
 

@@ -26,10 +26,6 @@ _This project is not affiliated or related with any company or manufacturer_
 - Check the version details history in our **changelog** [here](https://github.com/TriForceX/MiyooCFW/blob/master/CHANGELOG.md)
 - Join our **Discord** chat server for more support [here](https://discord.gznetwork.com)
 
-<table align="center"><tr><th>
-Miyoo Mini support will happen, please be patient. For now we are leaving some stuff in the <a href="https://github.com/TriForceX/MiyooCFW/wiki/Miyoo-Mini">Wiki</a>
-</th></tr></table>
-
 # Setup
 
 <table align="center">
@@ -55,7 +51,8 @@ Miyoo Mini support will happen, please be patient. For now we are leaving some s
 	</tr>
 </table>
 
-**Note:** CFW version for Powkiddy Q20 Mini still need testing, PocketGo CFW may work on it in the meantime.
+- **Note 1:** Miyoo Mini support will happen, please be patient.
+- **Note 2:** For Powkiddy Q20 Mini CFW use PocketGo CFW until the next release.
 
 # Resources
 

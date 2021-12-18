@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![miyoo-cfw](https://user-images.githubusercontent.com/16083854/66320756-c918fb80-e8f5-11e9-81fd-8d0577cb5b98.png)
+![miyoo-cfw](https://user-images.githubusercontent.com/16083854/146627334-6ecc3d84-b569-4365-b01d-efdae21f79d7.png)
 
 [![Custom-Firmware](https://img.shields.io/badge/Current%20Version-v1.3.3-brightgreen.svg)](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup)
 [![Discord](https://img.shields.io/discord/202879976599453696.svg?logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gznetwork.com)
@@ -32,13 +32,28 @@ Miyoo Mini support will happen, please be patient. For now we are leaving some s
 
 # Setup
 
-The next guides are to install and update the **custom firmware**, download links are provide inside.
-
-- Guide for [Pocket Go & PowKiddy Q90-V90](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#pocket-go-and-powkiddy-q90-v90)
-- Guide for [New BittBoy v3 & v3.5](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#new-bittboy-v3-and-v35)
-- Guide for [New BittBoy v2 & v2.5](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#new-bittboy-v2-and-v25)
-- Guide for [New BittBoy v1](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup#new-bittboy-v1)
-- Guide for [Update Manually](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Update)
+<table align="center">
+	<tr>
+		<th align="center">Miyoo (1st Gen)</th>
+		<th align="center">Miyoo (2nd Gen)</th>
+	</tr>
+	<tr>
+		<td align="center">
+			<img src="https://user-images.githubusercontent.com/16083854/146627105-eba89507-d1f6-480b-9a4b-36e06b4c1a92.png">
+		</td>
+		<td align="center">
+			<img src="https://user-images.githubusercontent.com/16083854/146627025-265041b6-b63e-4156-9979-723ecd7cb2c1.png">
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<a href="https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup">Click to access</a>
+		</td>
+		<td align="center">
+			<a href="https://github.com/TriForceX/MiyooCFW/wiki/Miyoo-Mini">Click to access</a>
+		</td>
+	</tr>
+</table>
 
 **Note:** CFW version for Powkiddy Q20 Mini still need testing, PocketGo CFW may work on it in the meantime.
 

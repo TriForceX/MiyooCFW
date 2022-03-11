@@ -35,10 +35,14 @@ _This project is not affiliated or related with any company or manufacturer_
 	</tr>
 	<tr>
 		<td align="center">
-			<img src="https://user-images.githubusercontent.com/16083854/146627105-eba89507-d1f6-480b-9a4b-36e06b4c1a92.png">
+			<a href="https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup">
+				<img src="https://user-images.githubusercontent.com/16083854/146627105-eba89507-d1f6-480b-9a4b-36e06b4c1a92.png">
+			</a>
 		</td>
 		<td align="center">
-			<img src="https://user-images.githubusercontent.com/16083854/146627025-265041b6-b63e-4156-9979-723ecd7cb2c1.png">
+			<a href="https://github.com/TriForceX/MiyooCFW/wiki/Miyoo-Mini">
+				<img src="https://user-images.githubusercontent.com/16083854/146627025-265041b6-b63e-4156-9979-723ecd7cb2c1.png">
+			</a>
 		</td>
 	</tr>
 	<tr>
@@ -50,9 +54,6 @@ _This project is not affiliated or related with any company or manufacturer_
 		</td>
 	</tr>
 </table>
-
-- **Note 1:** Miyoo Mini support will happen, please be patient.
-- **Note 2:** For Powkiddy Q20 Mini CFW use PocketGo CFW until the next release.
 
 # Resources
 

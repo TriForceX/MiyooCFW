@@ -78,18 +78,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       #- uses: actions/checkout@v3
-    - uses: actions/download-artifact@v2
-      with:
-        name: uboot
-        path: u-boot.bin
-    - uses: actions/download-artifact@v2
-      with:
-        name: kernel
-        path: kernel.zip
-    - uses: actions/download-artifact@v2
-      with:
-        name: boot-logo-powkiddy
-        path: boot-logo
-    - run: |
-        unzip kernel.zip
-        ls -l
+    - uses: actions/download-artifact@v3
+    - run: find .
+    # todo: assemble it all into a bootable image

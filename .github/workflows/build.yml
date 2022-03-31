@@ -1,0 +1,36 @@
+name: Build
+
+# Run on changes (including automated ones from the update job), and allow manual triggering from the Actions tab
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  uboot:
+    # todo: figure out how to make this work with the uboot source instead of the top-level source:
+    # uses: MiyooCFW/uboot/.github/workflows/main.yml@reusable-workflow
+    runs-on: ubuntu-20.04
+    container:
+      image: nfriedly/miyoo-toolchain:latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: |
+        git submodule update --init --recursive -- uboot
+        cd uboot
+        make miyoo_defconfig 
+        make
+    - uses: actions/upload-artifact@v2
+      with:
+        name: uboot
+        path: uboot/u-boot-sunxi-with-spl.bin
+        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+
+
+  build-image:
+    needs: uboot
+    runs-on: ubuntu-latest
+    steps:
+      #- uses: actions/checkout@v3
+    - uses: actions/download-artifact@v2
+      with:
+        name: uboot
+        path: u-boot-sunxi-with-spl.bin
+    - run: ls -l

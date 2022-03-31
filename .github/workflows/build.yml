@@ -70,6 +70,23 @@ jobs:
         path: logo/boot-logo
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
 
+  # https://github.com/MiyooCFW/daemon/blob/master/.github/workflows/c-cpp.yml
+  daemon:
+    runs-on: ubuntu-20.04
+    container:
+      image: nfriedly/miyoo-toolchain:latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: |
+        git submodule update --init --recursive -- daemon
+        cd daemon
+        make
+    - uses: actions/upload-artifact@v2
+      with:
+        name: daemon
+        path: daemon/daemon
+        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+
   build-image:
     needs: 
     - uboot

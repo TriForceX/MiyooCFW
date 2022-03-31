@@ -87,11 +87,30 @@ jobs:
         path: daemon/daemon
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
 
+  # https://github.com/MiyooCFW/gmenunx/blob/master/.github/workflows/c-cpp.yml
+  gmenunx:
+    runs-on: ubuntu-20.04
+    container:
+      image: nfriedly/miyoo-toolchain:latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: |
+        git submodule update --init --recursive -- gmenunx
+        cd gmenunx
+        make -f Makefile.miyoo dist
+    - uses: actions/upload-artifact@v2
+      with:
+        name: gmenunx
+        path: gmenunx/dist/miyoo/GMenuNX.zip
+        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+
   build-image:
     needs: 
     - uboot
     - kernel
     - logo
+    - daemon
+    - gmenunx
     runs-on: ubuntu-latest
     steps:
       #- uses: actions/checkout@v3

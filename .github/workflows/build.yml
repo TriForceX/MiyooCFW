@@ -23,14 +23,43 @@ jobs:
         path: uboot/u-boot-sunxi-with-spl.bin
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
 
+  # https://github.com/MiyooCFW/kernel/blob/master/.github/workflows/c-cpp.yml
+  kernel:
+    runs-on: ubuntu-20.04
+    container:
+      image: nfriedly/miyoo-toolchain:latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: |
+        git submodule update --init --recursive -- kernel
+        cd kernel
+        make miyoo_defconfig 
+        make zImage
+        make M=$PwD
+        mkdir dist
+        mv arch/arm/boot/dts/suniv-f1c500s-miyoo.dts dist/
+        mv arch/arm/boot/zImage dist/
+        mv drivers/video/fbdev/core/*.ko dist/
+        mv drivers/video/fbdev/r61520fb.ko dist/
+    - uses: actions/upload-artifact@v2
+      with:
+        name: kernel
+        path: kernel/dist/*
+        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
 
   build-image:
-    needs: uboot
+    needs: 
+    - uboot
+    - kernel
     runs-on: ubuntu-latest
     steps:
       #- uses: actions/checkout@v3
     - uses: actions/download-artifact@v2
       with:
         name: uboot
-        path: u-boot-sunxi-with-spl.bin
+        path: u-boot.bin
+    - uses: actions/download-artifact@v2
+      with:
+        name: kernel
+        path: kernel.zip
     - run: ls -l

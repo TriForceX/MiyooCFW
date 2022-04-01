@@ -101,6 +101,8 @@ jobs:
         name: daemon
         path: daemon/daemon
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+        
+  # todo: submodule and build miyooctl, then copy it into the sdcard
 
   # https://github.com/MiyooCFW/gmenunx/blob/master/.github/workflows/c-cpp.yml
   gmenunx:
@@ -132,4 +134,31 @@ jobs:
       #- uses: actions/checkout@v3
     - uses: actions/download-artifact@v3
     - run: find .
-    # todo: assemble it all into a bootable image
+    - name: Replace files under sdcard with the ones we just built
+      run: |
+        # start with our "sdcard" project source
+        # todo: use the submodule once we have it
+        git clone https://github.com/MiyooCFW/sdcard.git
+        
+        # overwrite some of it's files with the artefacts we just built
+        # todo: figure out a good way to differentiate between things we replace and the things we don't
+        mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-v90_q90_pocketgo.bin
+        mv kernel/suniv-f1c500s-miyoo.dts sdcard/boot/
+        mv kernel/zImage sdcard/boot/variants/v90_q90/
+        mv kernel/*.ko sdcard/boot/variants/v90_q90/
+        mv boot-logo-powkiddy/boot-logo sdcard/boot/variants/v90_q90/
+        mv daemon/daemon sdcard/boot/variants/v90_q90/
+        rm -rf sdcard/main/gmenu2x/
+        unzip gmenunx/GMenuNX.zip -d sdcard/main/gmenu2x/
+        
+        # todo: other variants
+    - run: find .
+    
+    # https://github.com/MiyooCFW/sdcard/blob/master/.github/workflows/build.yml
+    - run: cd sdcard && ./gen_boot_scr.sh
+    - run: cd sdcard && sudo ./generate_image_file.sh
+    - uses: actions/upload-artifact@v2
+      with:
+        name: MiyooCFW microSD image
+        path: sdcard/cfw-*.img
+        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`

@@ -1,18 +1,18 @@
 # Miyoo Custom Firmware
 
-> The custom firmware for **New BittBoy**, **Pocket Go** and **PowKiddy Q90-V90** allows you to play a wide variety of consoles/computers thanks to numerous emulators available to it as well some ports of games. The next resources and guides was made to help anyone to setup it to the console.
+> The custom firmware for **BittBoy**, **PocketGo** and **PowKiddy Q90-V90-Q20** allows you to play a wide variety of consoles/computers thanks to numerous emulators available to it as well some ports of games. The next resources and guides was made to help anyone to setup it to the console.
 
 <div align="center">
 
 ![miyoo-cfw](https://user-images.githubusercontent.com/16083854/146627334-6ecc3d84-b569-4365-b01d-efdae21f79d7.png)
 
-[![Custom-Firmware](https://img.shields.io/badge/Current%20Version-v1.3.3-brightgreen.svg)](https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup)
-[![Discord](https://img.shields.io/discord/202879976599453696.svg?logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gznetwork.com)
-[![Forum](https://img.shields.io/github/discussions/TriForceX/MiyooCFW.svg?label=Discussions&color=orange)](https://github.com/TriForceX/MiyooCFW/discussions)
-[![Wiki](https://img.shields.io/badge/Wiki-Guides-blueviolet.svg)](https://github.com/TriForceX/MiyooCFW/wiki)
-[![Stars](https://img.shields.io/github/stars/TriForceX/MiyooCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/MiyooCFW/stargazers)
-[![Issues](https://img.shields.io/github/issues/TriForceX/MiyooCFW.svg?label=Issues&color=red)](https://github.com/TriForceX/MiyooCFW/issues)
-[![License](https://img.shields.io/github/license/TriForceX/MiyooCFW.svg?label=License&color=yellow)](#license)
+[![version](https://img.shields.io/github/v/release/TriForceX/MiyooCFW?include_prereleases&label=Current%20Version&color=brightgreen)](https://github.com/TriForceX/MiyooCFW/releases)
+[![discord](https://img.shields.io/discord/202879976599453696.svg?logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gznetwork.com)
+[![forum](https://img.shields.io/github/discussions/TriForceX/MiyooCFW.svg?label=Discussions&color=orange)](https://github.com/TriForceX/MiyooCFW/discussions)
+[![wiki](https://img.shields.io/badge/Wiki-Guides-blueviolet.svg)](https://github.com/TriForceX/MiyooCFW/wiki)
+[![stars](https://img.shields.io/github/stars/TriForceX/MiyooCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/MiyooCFW/stargazers)
+[![issues](https://img.shields.io/github/issues/TriForceX/MiyooCFW.svg?label=Issues&color=red)](https://github.com/TriForceX/MiyooCFW/issues)
+[![license](https://img.shields.io/github/license/TriForceX/MiyooCFW.svg?label=License&color=yellow)](#license)
 
 _This project is not affiliated or related with any company or manufacturer_
 

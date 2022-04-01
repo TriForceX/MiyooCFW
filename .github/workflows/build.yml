@@ -84,7 +84,7 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: buildroot
-        path: buildroot/output/images/rootfs.tar
+        path: buildroot/output/images/rootfs.tar.xz
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
 
   # https://github.com/MiyooCFW/logo/blob/master/.github/workflows/c-cpp.yml

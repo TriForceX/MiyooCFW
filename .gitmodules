@@ -16,3 +16,6 @@
 [submodule "logo"]
 	path = logo
 	url = https://github.com/MiyooCFW/logo
+[submodule "sdcard"]
+	path = sdcard
+	url = https://github.com/MiyooCFW/sdcard

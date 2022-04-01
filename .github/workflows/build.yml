@@ -51,6 +51,21 @@ jobs:
         name: kernel
         path: kernel/dist/*
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+        
+  # todo: use buildroot for more than just the rootfs
+  buildroot:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+    - run: |
+        git submodule update --init --recursive -- buildroot
+        cd buildroot
+        make
+    - uses: actions/upload-artifact@v2
+      with:
+        name: buildroot
+        path: buildroot/output/images/rootfs.tar
+        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
 
   # https://github.com/MiyooCFW/logo/blob/master/.github/workflows/c-cpp.yml
   # todo: bittboy and pocketgo logos
@@ -108,6 +123,7 @@ jobs:
     needs: 
     - uboot
     - kernel
+    - buildroot
     - logo
     - daemon
     - gmenunx

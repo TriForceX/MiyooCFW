@@ -27,6 +27,23 @@ jobs:
         path: uboot/u-boot-sunxi-with-spl.bin
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
 
+  # https://github.com/MiyooCFW/sdcard/blob/master/.github/workflows/build.yml
+  boot-scr:
+    runs-on: ubuntu-20.04
+    container:
+      image: nfriedly/miyoo-toolchain:latest
+    steps:
+    - run: |
+        # todo: use the submodule once we have it
+        git clone https://github.com/MiyooCFW/sdcard.git
+        cd sdcard
+        ./gen_boot_scr.sh
+    - uses: actions/upload-artifact@v2
+      with:
+        name: boot-scr
+        path: sdcard/boot/boot.scr
+        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+
   # https://github.com/MiyooCFW/kernel/blob/master/.github/workflows/c-cpp.yml
   # todo: 1-bit sd card variant
   kernel:
@@ -61,6 +78,9 @@ jobs:
         git submodule update --init --recursive -- buildroot
         cd buildroot
         make
+        cd output/images/
+        xz rootfs.tar
+        ls -l
     - uses: actions/upload-artifact@v2
       with:
         name: buildroot
@@ -120,10 +140,11 @@ jobs:
         name: gmenunx
         path: gmenunx/dist/miyoo/GMenuNX.zip
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
-
+        
   build-image:
     needs: 
     - uboot
+    - boot-scr
     - kernel
     - buildroot
     - logo
@@ -143,9 +164,11 @@ jobs:
         # overwrite some of it's files with the artefacts we just built
         # todo: figure out a good way to differentiate between things we replace and the things we don't
         mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-v90_q90_pocketgo.bin
+        mv boot-scr/boot.scr sdcard/boot/boot.scr
         mv kernel/suniv-f1c500s-miyoo.dts sdcard/boot/
         mv kernel/zImage sdcard/boot/variants/v90_q90/
         mv kernel/*.ko sdcard/boot/variants/v90_q90/
+        mv buildroot/rootfs.tar.xz sdcard/rootfs.tar.xz 
         mv boot-logo-powkiddy/boot-logo sdcard/boot/variants/v90_q90/
         mv daemon/daemon sdcard/boot/variants/v90_q90/
         rm -rf sdcard/main/gmenu2x/
@@ -155,7 +178,6 @@ jobs:
     - run: find .
     
     # https://github.com/MiyooCFW/sdcard/blob/master/.github/workflows/build.yml
-    - run: cd sdcard && ./gen_boot_scr.sh
     - run: cd sdcard && sudo ./generate_image_file.sh
     - uses: actions/upload-artifact@v2
       with:

@@ -59,7 +59,7 @@ jobs:
         make zImage
         make M=$PwD
         mkdir dist
-        mv arch/arm/boot/dts/suniv-f1c500s-miyoo.dts dist/
+        mv arch/arm/boot/dts/suniv-f1c500s-miyoo.dtb dist/
         mv arch/arm/boot/zImage dist/
         mv drivers/video/fbdev/core/*.ko dist/
         mv drivers/video/fbdev/r61520fb.ko dist/
@@ -169,7 +169,7 @@ jobs:
         # todo: figure out a good way to differentiate between things we replace and the things we don't
         mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-v90_q90_pocketgo.bin
         mv boot-scr/boot.scr sdcard/boot/boot.scr
-        mv kernel/suniv-f1c500s-miyoo.dts sdcard/boot/
+        mv kernel/suniv-f1c500s-miyoo.dtb sdcard/boot/
         mv kernel/zImage sdcard/boot/variants/v90_q90/
         mv kernel/*.ko sdcard/boot/variants/v90_q90/
         mv buildroot/rootfs.tar.xz sdcard/rootfs.tar.xz 

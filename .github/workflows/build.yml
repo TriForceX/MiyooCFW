@@ -74,6 +74,8 @@ jobs:
     runs-on: ubuntu-20.04
     container:
       image: miyoocfw/toolchain:master
+    env:
+      FORCE_UNSAFE_CONFIGURE: 1
     steps:
     - uses: actions/checkout@v2
     - run: |

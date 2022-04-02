@@ -1,8 +1,8 @@
 # based on https://github.com/Arcnor/MiyooCFW/blob/ci/.github/workflows/main.yml
 name: Build
 
-# Run on changes (including automated ones from the update job), and allow manual triggering from the Actions tab
-on: [push, pull_request, workflow_dispatch]
+# Run on changes (including automated ones from the update job), allow manual triggering from the Actions tab, and allow triggering from update job
+on: [push, pull_request, workflow_dispatch, workflow_call]
 
 # todo: figure out how to use reusable workflows or actions or something to reduce the amount of
 # duplication between this and the submodule's build configurations
@@ -13,7 +13,7 @@ jobs:
   uboot:
     runs-on: ubuntu-20.04
     container:
-      image: nfriedly/miyoo-toolchain:latest
+      image: miyoocfw/toolchain:master
     steps:
     - uses: actions/checkout@v2
     - run: |
@@ -31,7 +31,7 @@ jobs:
   boot-scr:
     runs-on: ubuntu-20.04
     container:
-      image: nfriedly/miyoo-toolchain:latest
+      image: miyoocfw/toolchain:master
     steps:
     - run: |
         # todo: use the submodule once we have it
@@ -49,7 +49,7 @@ jobs:
   kernel:
     runs-on: ubuntu-20.04
     container:
-      image: nfriedly/miyoo-toolchain:latest
+      image: miyoocfw/toolchain:master
     steps:
     - uses: actions/checkout@v2
     - run: |
@@ -59,7 +59,7 @@ jobs:
         make zImage
         make M=$PwD
         mkdir dist
-        mv arch/arm/boot/dts/suniv-f1c500s-miyoo.dts dist/
+        mv arch/arm/boot/dts/suniv-f1c500s-miyoo.dtb dist/
         mv arch/arm/boot/zImage dist/
         mv drivers/video/fbdev/core/*.ko dist/
         mv drivers/video/fbdev/r61520fb.ko dist/
@@ -72,6 +72,10 @@ jobs:
   # todo: use buildroot for more than just the rootfs
   buildroot:
     runs-on: ubuntu-20.04
+    container:
+      image: miyoocfw/toolchain:master
+    env:
+      FORCE_UNSAFE_CONFIGURE: 1
     steps:
     - uses: actions/checkout@v2
     - run: |
@@ -92,7 +96,7 @@ jobs:
   logo:
     runs-on: ubuntu-20.04
     container:
-      image: nfriedly/miyoo-toolchain:latest
+      image: miyoocfw/toolchain:master
     steps:
     - uses: actions/checkout@v2
     - run: |
@@ -109,7 +113,7 @@ jobs:
   daemon:
     runs-on: ubuntu-20.04
     container:
-      image: nfriedly/miyoo-toolchain:latest
+      image: miyoocfw/toolchain:master
     steps:
     - uses: actions/checkout@v2
     - run: |
@@ -128,7 +132,7 @@ jobs:
   gmenunx:
     runs-on: ubuntu-20.04
     container:
-      image: nfriedly/miyoo-toolchain:latest
+      image: miyoocfw/toolchain:master
     steps:
     - uses: actions/checkout@v2
     - run: |
@@ -165,7 +169,7 @@ jobs:
         # todo: figure out a good way to differentiate between things we replace and the things we don't
         mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-v90_q90_pocketgo.bin
         mv boot-scr/boot.scr sdcard/boot/boot.scr
-        mv kernel/suniv-f1c500s-miyoo.dts sdcard/boot/
+        mv kernel/suniv-f1c500s-miyoo.dtb sdcard/boot/
         mv kernel/zImage sdcard/boot/variants/v90_q90/
         mv kernel/*.ko sdcard/boot/variants/v90_q90/
         mv buildroot/rootfs.tar.xz sdcard/rootfs.tar.xz 

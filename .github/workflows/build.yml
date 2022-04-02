@@ -1,0 +1,186 @@
+# based on https://github.com/Arcnor/MiyooCFW/blob/ci/.github/workflows/main.yml
+name: Build
+
+# Run on changes (including automated ones from the update job), and allow manual triggering from the Actions tab
+on: [push, pull_request, workflow_dispatch]
+
+# todo: figure out how to use reusable workflows or actions or something to reduce the amount of
+# duplication between this and the submodule's build configurations
+
+jobs:
+
+  # https://github.com/MiyooCFW/uboot/blob/master/.github/workflows/main.yml
+  uboot:
+    runs-on: ubuntu-20.04
+    container:
+      image: nfriedly/miyoo-toolchain:latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: |
+        git submodule update --init --recursive -- uboot
+        cd uboot
+        make miyoo_defconfig 
+        make
+    - uses: actions/upload-artifact@v2
+      with:
+        name: uboot
+        path: uboot/u-boot-sunxi-with-spl.bin
+        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+
+  # https://github.com/MiyooCFW/sdcard/blob/master/.github/workflows/build.yml
+  boot-scr:
+    runs-on: ubuntu-20.04
+    container:
+      image: nfriedly/miyoo-toolchain:latest
+    steps:
+    - run: |
+        # todo: use the submodule once we have it
+        git clone https://github.com/MiyooCFW/sdcard.git
+        cd sdcard
+        ./gen_boot_scr.sh
+    - uses: actions/upload-artifact@v2
+      with:
+        name: boot-scr
+        path: sdcard/boot/boot.scr
+        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+
+  # https://github.com/MiyooCFW/kernel/blob/master/.github/workflows/c-cpp.yml
+  # todo: 1-bit sd card variant
+  kernel:
+    runs-on: ubuntu-20.04
+    container:
+      image: nfriedly/miyoo-toolchain:latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: |
+        git submodule update --init --recursive -- kernel
+        cd kernel
+        make miyoo_defconfig 
+        make zImage
+        make M=$PwD
+        mkdir dist
+        mv arch/arm/boot/dts/suniv-f1c500s-miyoo.dts dist/
+        mv arch/arm/boot/zImage dist/
+        mv drivers/video/fbdev/core/*.ko dist/
+        mv drivers/video/fbdev/r61520fb.ko dist/
+    - uses: actions/upload-artifact@v2
+      with:
+        name: kernel
+        path: kernel/dist/*
+        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+        
+  # todo: use buildroot for more than just the rootfs
+  buildroot:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+    - run: |
+        git submodule update --init --recursive -- buildroot
+        cd buildroot
+        make
+        cd output/images/
+        xz rootfs.tar
+        ls -l
+    - uses: actions/upload-artifact@v2
+      with:
+        name: buildroot
+        path: buildroot/output/images/rootfs.tar.xz
+        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+
+  # https://github.com/MiyooCFW/logo/blob/master/.github/workflows/c-cpp.yml
+  # todo: bittboy and pocketgo logos
+  logo:
+    runs-on: ubuntu-20.04
+    container:
+      image: nfriedly/miyoo-toolchain:latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: |
+        git submodule update --init --recursive -- logo
+        cd logo
+        make -f Makefile.powkiddy
+    - uses: actions/upload-artifact@v2
+      with:
+        name: boot-logo-powkiddy
+        path: logo/boot-logo
+        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+
+  # https://github.com/MiyooCFW/daemon/blob/master/.github/workflows/c-cpp.yml
+  daemon:
+    runs-on: ubuntu-20.04
+    container:
+      image: nfriedly/miyoo-toolchain:latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: |
+        git submodule update --init --recursive -- daemon
+        cd daemon
+        make
+    - uses: actions/upload-artifact@v2
+      with:
+        name: daemon
+        path: daemon/daemon
+        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+        
+  # todo: submodule and build miyooctl, then copy it into the sdcard
+
+  # https://github.com/MiyooCFW/gmenunx/blob/master/.github/workflows/c-cpp.yml
+  gmenunx:
+    runs-on: ubuntu-20.04
+    container:
+      image: nfriedly/miyoo-toolchain:latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: |
+        git submodule update --init --recursive -- gmenunx
+        cd gmenunx
+        make -f Makefile.miyoo dist
+    - uses: actions/upload-artifact@v2
+      with:
+        name: gmenunx
+        path: gmenunx/dist/miyoo/GMenuNX.zip
+        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+        
+  build-image:
+    needs: 
+    - uboot
+    - boot-scr
+    - kernel
+    - buildroot
+    - logo
+    - daemon
+    - gmenunx
+    runs-on: ubuntu-latest
+    steps:
+      #- uses: actions/checkout@v3
+    - uses: actions/download-artifact@v3
+    - run: find .
+    - name: Replace files under sdcard with the ones we just built
+      run: |
+        # start with our "sdcard" project source
+        # todo: use the submodule once we have it
+        git clone https://github.com/MiyooCFW/sdcard.git
+        
+        # overwrite some of it's files with the artefacts we just built
+        # todo: figure out a good way to differentiate between things we replace and the things we don't
+        mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-v90_q90_pocketgo.bin
+        mv boot-scr/boot.scr sdcard/boot/boot.scr
+        mv kernel/suniv-f1c500s-miyoo.dts sdcard/boot/
+        mv kernel/zImage sdcard/boot/variants/v90_q90/
+        mv kernel/*.ko sdcard/boot/variants/v90_q90/
+        mv buildroot/rootfs.tar.xz sdcard/rootfs.tar.xz 
+        mv boot-logo-powkiddy/boot-logo sdcard/boot/variants/v90_q90/
+        mv daemon/daemon sdcard/boot/variants/v90_q90/
+        rm -rf sdcard/main/gmenu2x/
+        unzip gmenunx/GMenuNX.zip -d sdcard/main/gmenu2x/
+        
+        # todo: other variants
+    - run: find .
+    
+    # https://github.com/MiyooCFW/sdcard/blob/master/.github/workflows/build.yml
+    - run: cd sdcard && sudo ./generate_image_file.sh
+    - uses: actions/upload-artifact@v2
+      with:
+        name: MiyooCFW microSD image
+        path: sdcard/cfw-*.img
+        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`

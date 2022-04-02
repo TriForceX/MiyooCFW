@@ -1,4 +1,4 @@
-name: Update Submodules
+name: Update & Build
 
 on:
   # Run nightly: 8am UTC = 3am Eastern

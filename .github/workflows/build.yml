@@ -157,6 +157,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+    - run: echo "::set-output name=version::$GITHUB_REF_NAME-$(git rev-parse --short HEAD)"
+      id: version
+    - run: echo "Version ${{ steps.version.outputs.version }}"
     - uses: actions/download-artifact@v3
     - run: find .
     - name: Replace files under sdcard with the ones we just built
@@ -182,10 +185,14 @@ jobs:
     - run: find .
     
     # https://github.com/MiyooCFW/sdcard/blob/master/.github/workflows/build.yml
-    - run: cd sdcard && sudo ./generate_image_file.sh
+    - name: Build image
+      run: |
+          cd sdcard
+          export VERSION=${{ steps.version.outputs.version }}
+          sudo ./generate_image_file.sh
     - uses: actions/upload-artifact@v2
       with:
-        name: MiyooCFW microSD image
+        name: "cfw-${{ steps.version.outputs.version }}.img"
         path: sdcard/cfw-*.img
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
 
@@ -203,6 +210,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+    - run: echo "::set-output name=version::$GITHUB_REF_NAME-$(git rev-parse --short HEAD)-mixed"
+      id: version
+    - run: echo "Version ${{ steps.version.outputs.version }}"
     - uses: actions/download-artifact@v3
     - run: find .
     - name: Replace files under sdcard with the ones we just built
@@ -223,9 +233,13 @@ jobs:
     - run: find .
     
     # https://github.com/MiyooCFW/sdcard/blob/master/.github/workflows/build.yml
-    - run: cd sdcard && sudo ./generate_image_file.sh
+    - name: Build image
+      run: |
+          cd sdcard
+          export VERSION=${{ steps.version.outputs.version }}
+          sudo ./generate_image_file.sh
     - uses: actions/upload-artifact@v2
       with:
-        name: MiyooCFW microSD image with old uboot and rootfs
+        name: "cfw-${{ steps.version.outputs.version }}.img"
         path: sdcard/cfw-*.img
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`

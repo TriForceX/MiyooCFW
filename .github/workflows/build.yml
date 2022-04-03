@@ -33,9 +33,9 @@ jobs:
     container:
       image: miyoocfw/toolchain:master
     steps:
+    - uses: actions/checkout@v3
     - run: |
-        # todo: use the submodule once we have it
-        git clone https://github.com/MiyooCFW/sdcard.git
+        git submodule update --init --recursive -- sdcard
         cd sdcard
         ./gen_boot_scr.sh
     - uses: actions/upload-artifact@v2
@@ -156,16 +156,16 @@ jobs:
     - gmenunx
     runs-on: ubuntu-latest
     steps:
-      #- uses: actions/checkout@v3
+    - uses: actions/checkout@v3
     - uses: actions/download-artifact@v3
     - run: find .
     - name: Replace files under sdcard with the ones we just built
       run: |
-        # start with our "sdcard" project source
-        # todo: use the submodule once we have it
-        git clone https://github.com/MiyooCFW/sdcard.git
+        # start with our "sdcard" submodule source, which contains precompiled things and a script
+        # to assemble it into an image
+        git submodule update --init --recursive -- sdcard
         
-        # overwrite some of it's files with the artefacts we just built
+        # overwrite some of the precompiled files with the artefacts we just built
         # todo: figure out a good way to differentiate between things we replace and the things we don't
         mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-v90_q90_pocketgo.bin
         mv boot-scr/boot.scr sdcard/boot/boot.scr
@@ -186,5 +186,46 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: MiyooCFW microSD image
+        path: sdcard/cfw-*.img
+        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+
+  # Currently, if the uboot built from source is used, then we don't get video
+  # and, if the rootfs built by buildroot is used, then we can't boot at all.
+  # So, this is a temporary image that omits those two sources and uses the older 
+  # content from the sdcard repo instead. We'll get rid of this eventually.
+  build-mixed-image:
+    needs: 
+    - boot-scr
+    - kernel
+    - logo
+    - daemon
+    - gmenunx
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/download-artifact@v3
+    - run: find .
+    - name: Replace files under sdcard with the ones we just built
+      run: |
+        # start with our "sdcard" submodule source
+        git submodule update --init --recursive -- sdcard
+        
+        # overwrite some of it's files with (some of) the artefacts we just built
+        mv boot-scr/boot.scr sdcard/boot/boot.scr
+        mv kernel/suniv-f1c500s-miyoo.dtb sdcard/boot/
+        mv kernel/zImage sdcard/boot/variants/v90_q90/
+        mv kernel/*.ko sdcard/boot/variants/v90_q90/
+        mv boot-logo-powkiddy/boot-logo sdcard/boot/variants/v90_q90/
+        mv daemon/daemon sdcard/boot/variants/v90_q90/
+        rm -rf sdcard/main/gmenu2x/
+        unzip gmenunx/GMenuNX.zip -d sdcard/main/gmenu2x/
+  
+    - run: find .
+    
+    # https://github.com/MiyooCFW/sdcard/blob/master/.github/workflows/build.yml
+    - run: cd sdcard && sudo ./generate_image_file.sh
+    - uses: actions/upload-artifact@v2
+      with:
+        name: MiyooCFW microSD image with old uboot and rootfs
         path: sdcard/cfw-*.img
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`

@@ -178,8 +178,7 @@ jobs:
         mv buildroot/rootfs.tar.xz sdcard/rootfs.tar.xz 
         mv boot-logo-powkiddy/boot-logo sdcard/boot/variants/v90_q90/
         mv daemon/daemon sdcard/boot/variants/v90_q90/
-        rm -rf sdcard/main/gmenu2x/
-        unzip gmenunx/GMenuNX.zip -d sdcard/main/
+        unzip -o gmenunx/GMenuNX.zip -d sdcard/main/
         
         # todo: other variants
     - run: find .
@@ -227,8 +226,7 @@ jobs:
         mv kernel/*.ko sdcard/boot/variants/v90_q90/
         mv boot-logo-powkiddy/boot-logo sdcard/boot/variants/v90_q90/
         mv daemon/daemon sdcard/boot/variants/v90_q90/
-        rm -rf sdcard/main/gmenu2x/
-        unzip gmenunx/GMenuNX.zip -d sdcard/main/
+        unzip -o gmenunx/GMenuNX.zip -d sdcard/main/
   
     - run: find .
     

@@ -9,6 +9,8 @@ on:
 
 jobs:
   update-submodules:
+    # only run on the main repo; forks can pull changes from there
+    if: github.repository == 'TriForceX/MiyooCFW'
     runs-on: ubuntu-latest
     # Map a step output to a job output
     outputs:

@@ -78,7 +78,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: |
-        git submodule update --init --recursive -- buildroot
+        git submodule update --init --recursive --depth 1 -- buildroot
         cd buildroot
         make
         cd output/images/

@@ -1,4 +1,4 @@
-name: Update & Build
+name: Update Submodules
 
 on:
   # Run nightly: 8am UTC = 3am Eastern
@@ -12,17 +12,16 @@ jobs:
     # only run on the main repo; forks can pull changes from there
     if: github.repository == 'TriForceX/MiyooCFW'
     runs-on: ubuntu-latest
-    # Map a step output to a job output
-    outputs:
-      changes: ${{ steps.update.outputs.changes }}
     steps:
       - uses: actions/checkout@v3
+        with:
+          # Github Personal Access Token
+          # needed because pushes with the deafult GITHUB_TOKEN won't trigger the build step
+          token: ${{ secrets.GH_PAT }}
+          submodules: true
       - name: Update all submodules
         id: update
         run: |
-          # initialize submodules at their current local version
-          git submodule update --init --recursive
-          
           # update submodules to the latest remote version
           git submodule update --remote --merge
           
@@ -35,9 +34,4 @@ jobs:
           git config user.name "GitHub Actions"
           git commit -am "Updated submodules $(date)"
           git push
-  # note: the git push in the update submodules step uses the built-in GITHUB_TOKEN, which is not allowed to trigger
-  # other workflows, such as our build.yml, so we have to call it explicitly here.
-  build:
-    needs: update-submodules
-    if: ${{ needs.update-submodules.outputs.changes}}
-    uses: ./.github/workflows/build.yml
+

@@ -56,8 +56,7 @@ jobs:
         git submodule update --init --recursive -- kernel
         cd kernel
         make miyoo_defconfig 
-        make zImage
-        make M=$PwD
+        make
         mkdir dist
         mv arch/arm/boot/dts/suniv-f1c500s-miyoo.dtb dist/
         mv arch/arm/boot/zImage dist/
@@ -79,7 +78,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: |
-        git submodule update --init --recursive -- buildroot
+        git submodule update --init --depth 1 -- buildroot
         cd buildroot
         make
         cd output/images/
@@ -157,7 +156,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - run: echo "::set-output name=version::$GITHUB_REF_NAME-$(git rev-parse --short HEAD)"
+    - run: echo "::set-output name=version::$GITHUB_REF_NAME-$(git rev-parse --short HEAD)" | sed 's#/#-#g'
       id: version
     - run: echo "Version ${{ steps.version.outputs.version }}"
     - uses: actions/download-artifact@v3
@@ -204,12 +203,11 @@ jobs:
     - boot-scr
     - kernel
     - logo
-    - daemon
     - gmenunx
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - run: echo "::set-output name=version::$GITHUB_REF_NAME-$(git rev-parse --short HEAD)-mixed"
+    - run: echo "::set-output name=version::$GITHUB_REF_NAME-$(git rev-parse --short HEAD)-mixed" | sed 's#/#-#g'
       id: version
     - run: echo "Version ${{ steps.version.outputs.version }}"
     - uses: actions/download-artifact@v3
@@ -225,7 +223,6 @@ jobs:
         mv kernel/zImage sdcard/boot/variants/v90_q90/
         mv kernel/*.ko sdcard/boot/variants/v90_q90/
         mv boot-logo-powkiddy/boot-logo sdcard/boot/variants/v90_q90/
-        mv daemon/daemon sdcard/boot/variants/v90_q90/
         unzip -o gmenunx/GMenuNX.zip -d sdcard/main/
   
     - run: find .

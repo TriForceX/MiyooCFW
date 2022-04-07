@@ -203,7 +203,6 @@ jobs:
     - boot-scr
     - kernel
     - logo
-    - daemon
     - gmenunx
     runs-on: ubuntu-latest
     steps:
@@ -224,7 +223,6 @@ jobs:
         mv kernel/zImage sdcard/boot/variants/v90_q90/
         mv kernel/*.ko sdcard/boot/variants/v90_q90/
         mv boot-logo-powkiddy/boot-logo sdcard/boot/variants/v90_q90/
-        mv daemon/daemon sdcard/boot/variants/v90_q90/
         unzip -o gmenunx/GMenuNX.zip -d sdcard/main/
   
     - run: find .

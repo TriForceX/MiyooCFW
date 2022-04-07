@@ -156,7 +156,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - run: echo "::set-output name=version::$GITHUB_REF_NAME-$(git rev-parse --short HEAD)"
+    - run: echo "::set-output name=version::$GITHUB_REF_NAME-$(git rev-parse --short HEAD)" | sed 's#/#-#g'
       id: version
     - run: echo "Version ${{ steps.version.outputs.version }}"
     - uses: actions/download-artifact@v3
@@ -207,7 +207,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - run: echo "::set-output name=version::$GITHUB_REF_NAME-$(git rev-parse --short HEAD)-mixed"
+    - run: echo "::set-output name=version::$GITHUB_REF_NAME-$(git rev-parse --short HEAD)-mixed" | sed 's#/#-#g'
       id: version
     - run: echo "Version ${{ steps.version.outputs.version }}"
     - uses: actions/download-artifact@v3

@@ -122,7 +122,11 @@ jobs:
         path: daemon/daemon
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
         
-  # todo: submodule and build miyooctl, then copy it into the sdcard
+  # https://github.com/MiyooCFW/miyooctl/blob/master/.github/workflows/build.yml
+  miyooctl:
+    uses: MiyooCFW/miyooctl/.github/workflows/build.yml@master
+    with:
+      submodule: miyooctl
 
   # https://github.com/MiyooCFW/gmenunx/blob/master/.github/workflows/c-cpp.yml
   gmenunx:
@@ -149,6 +153,7 @@ jobs:
     - buildroot
     - logo
     - daemon
+    - miyooctl
     - gmenunx
     runs-on: ubuntu-latest
     steps:
@@ -173,6 +178,7 @@ jobs:
         mv kernel/*.ko sdcard/boot/variants/v90_q90/
         mv buildroot/rootfs.tar.xz sdcard/rootfs.tar.xz 
         mv boot-logo-powkiddy/boot-logo sdcard/boot/variants/v90_q90/
+        mv miyooctl/miyooctl sdcard/boot/variants/v90_q90/miyooctl2
         mv daemon/daemon sdcard/boot/variants/v90_q90/
         unzip -o gmenunx/GMenuNX.zip -d sdcard/main/
         
@@ -200,6 +206,7 @@ jobs:
     - boot-scr
     - kernel
     - logo
+    - miyooctl
     - gmenunx
     runs-on: ubuntu-latest
     steps:
@@ -220,6 +227,7 @@ jobs:
         mv kernel/zImage sdcard/boot/variants/v90_q90/
         mv kernel/*.ko sdcard/boot/variants/v90_q90/
         mv boot-logo-powkiddy/boot-logo sdcard/boot/variants/v90_q90/
+        mv miyooctl/miyooctl sdcard/boot/variants/v90_q90/miyooctl2
         unzip -o gmenunx/GMenuNX.zip -d sdcard/main/
   
     - run: find .

@@ -19,3 +19,6 @@
 [submodule "sdcard"]
 	path = sdcard
 	url = https://github.com/MiyooCFW/sdcard
+[submodule "miyooctl"]
+	path = miyooctl
+	url = https://github.com/MiyooCFW/miyooctl.git

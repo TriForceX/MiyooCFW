@@ -67,25 +67,9 @@ jobs:
         
   # todo: use buildroot for more than just the rootfs
   buildroot:
-    runs-on: ubuntu-20.04
-    container:
-      image: miyoocfw/toolchain:master
-    env:
-      FORCE_UNSAFE_CONFIGURE: 1
-    steps:
-    - uses: actions/checkout@v2
-    - run: |
-        git submodule update --init --depth 1 -- buildroot
-        cd buildroot
-        make
-        cd output/images/
-        xz rootfs.tar
-        ls -l
-    - uses: actions/upload-artifact@v2
-      with:
-        name: buildroot
-        path: buildroot/output/images/rootfs.tar.xz
-        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+    uses: MiyooCFW/buildroot/.github/workflows/rootfs.yml@master
+    with:
+      submodule: buildroot
 
   # https://github.com/MiyooCFW/logo/blob/master/.github/workflows/c-cpp.yml
   # todo: bittboy and pocketgo logos
@@ -176,7 +160,10 @@ jobs:
         mv kernel/suniv-f1c500s-miyoo.dtb sdcard/boot/
         mv kernel/zImage sdcard/boot/variants/v90_q90/
         mv kernel/*.ko sdcard/boot/variants/v90_q90/
-        mv buildroot/rootfs.tar.xz sdcard/rootfs.tar.xz 
+        # apparently the download-artifact action can't figure out which job an artefact came from when it was a 
+        # reusable workflow instead of a locally defined job
+        #mv buildroot/rootfs.tar.xz sdcard/rootfs.tar.xz
+        mv rootfs.tar.xz/rootfs.tar.xz sdcard/rootfs.tar.xz
         mv boot-logo-powkiddy/boot-logo sdcard/boot/variants/v90_q90/
         mv miyooctl/miyooctl sdcard/boot/variants/v90_q90/miyooctl2
         mv daemon/daemon sdcard/boot/variants/v90_q90/

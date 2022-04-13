@@ -18,10 +18,13 @@ jobs:
           # Github Personal Access Token
           # needed because pushes with the deafult GITHUB_TOKEN won't trigger the build step
           token: ${{ secrets.GH_PAT }}
-          submodules: true
+          # do NOT set submodules: true here - it does a funky checkout that keeps updating from working
+
       - name: Update all submodules
         id: update
         run: |
+          git submodule init
+          
           # update submodules to the latest remote version
           git submodule update --remote --merge
           

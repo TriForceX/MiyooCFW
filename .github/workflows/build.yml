@@ -158,8 +158,7 @@ jobs:
     - name: Build image
       run: |
           cd sdcard
-          export VERSION=${{ steps.version.outputs.version }}
-          sudo ./generate_image_file.sh
+          sudo VERSION=${{ steps.version.outputs.version }} ./generate_image_file.sh
     - uses: actions/upload-artifact@v2
       with:
         name: "cfw-${{ steps.version.outputs.version }}.img"
@@ -205,8 +204,7 @@ jobs:
     - name: Build image
       run: |
           cd sdcard
-          export VERSION=${{ steps.version.outputs.version }}
-          sudo ./generate_image_file.sh
+          sudo VERSION=${{ steps.version.outputs.version }} ./generate_image_file.sh
     - uses: actions/upload-artifact@v2
       with:
         name: "cfw-${{ steps.version.outputs.version }}.img"

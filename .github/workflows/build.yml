@@ -118,7 +118,7 @@ jobs:
     - kernel
     #- buildroot
     - logo
-    - daemon
+    #- daemon
     - miyooctl
     - gmenunx
     runs-on: ubuntu-latest
@@ -179,11 +179,15 @@ jobs:
         # once we fix the video issues, this should hopefully be easier to debug
         #mv rootfs.tar.xz/rootfs.tar.xz sdcard/rootfs.tar.xz
         
+        # todo: get these files for the other variangs
         mv boot-logo-powkiddy/boot-logo sdcard/boot/variants/v90_q90/
         mv miyooctl/miyooctl sdcard/boot/variants/v90_q90/miyooctl2
-        mv daemon/daemon sdcard/boot/variants/v90_q90/
-        unzip -o gmenunx/GMenuNX.zip -d sdcard/main/
         
+        # disabled because it seems to break the keyboard
+        #mv daemon/daemon sdcard/boot/variants/v90_q90/
+        
+        unzip -o gmenunx/GMenuNX.zip -d sdcard/main/
+
     - run: find .
     
     # https://github.com/MiyooCFW/sdcard/blob/master/.github/workflows/build.yml

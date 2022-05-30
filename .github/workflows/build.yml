@@ -113,12 +113,12 @@ jobs:
         
   build-image:
     needs: 
-    - uboot
+    #- uboot
     - boot-scr
     - kernel
-    - buildroot
+    #- buildroot
     - logo
-    - daemon
+    #- daemon
     - miyooctl
     - gmenunx
     runs-on: ubuntu-latest
@@ -137,67 +137,57 @@ jobs:
         
         # overwrite some of the precompiled files with the artefacts we just built
         # todo: figure out a good way to differentiate between things we replace and the things we don't
-        mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-v90_q90_pocketgo.bin
-        mv boot-scr/boot.scr sdcard/boot/boot.scr
-        mv kernel/suniv-f1c500s-miyoo.dtb sdcard/boot/
-        mv kernel/zImage sdcard/boot/variants/v90_q90/
-        mv kernel/*.ko sdcard/boot/variants/v90_q90/
-        # apparently the download-artifact action can't figure out which job an artefact came from when it was a 
-        # reusable workflow instead of a locally defined job
-        #mv buildroot/rootfs.tar.xz sdcard/rootfs.tar.xz
-        mv rootfs.tar.xz/rootfs.tar.xz sdcard/rootfs.tar.xz
-        mv boot-logo-powkiddy/boot-logo sdcard/boot/variants/v90_q90/
-        mv miyooctl/miyooctl sdcard/boot/variants/v90_q90/miyooctl2
-        mv daemon/daemon sdcard/boot/variants/v90_q90/
-        unzip -o gmenunx/GMenuNX.zip -d sdcard/main/
         
-        # todo: other variants
-    - run: find .
-    
-    # https://github.com/MiyooCFW/sdcard/blob/master/.github/workflows/build.yml
-    - name: Build image
-      run: |
-          cd sdcard
-          sudo VERSION=${{ steps.version.outputs.version }} ./generate_image_file.sh
-    - uses: actions/upload-artifact@v2
-      with:
-        name: "cfw-${{ steps.version.outputs.version }}.img"
-        path: sdcard/cfw-*.img
-        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+        # currently, we don't get video if we use u-boot that we compile, so go with the pre-compiled one for now
+        #mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-v90_q90_pocketgo.bin
+        #mv boot-scr/boot.scr sdcard/boot/boot.scr
+        
+        # everything currently shares the same devicetree file, 
+        # instead uses different kernel builds to handle different keyboards 🤷
+        # (aside from the display panel and input configuration, the rest of the 
+        # hardware is pretty similar. The panel is a random mix-n-match.)
+        mv kernel/bittboy-2-3/suniv-f1c500s-miyoo.dtb sdcard/boot/
+        
+        # kernels
 
-  # Currently, if the uboot built from source is used, then we don't get video
-  # and, if the rootfs built by buildroot is used, then we can't boot at all.
-  # So, this is a temporary image that omits those two sources and uses the older 
-  # content from the sdcard repo instead. We'll get rid of this eventually.
-  build-mixed-image:
-    needs: 
-    - boot-scr
-    - kernel
-    - logo
-    - miyooctl
-    - gmenunx
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-    - run: echo "::set-output name=version::$GITHUB_REF_NAME-$(git rev-parse --short HEAD)-mixed" | sed 's#/#-#g'
-      id: version
-    - run: echo "Version ${{ steps.version.outputs.version }}"
-    - uses: actions/download-artifact@v3
-    - run: find .
-    - name: Replace files under sdcard with the ones we just built
-      run: |
-        # start with our "sdcard" submodule source
-        git submodule update --init --recursive -- sdcard
+        # todo: new bittboy v1
+
+        # bittboy 2x
+        # note `cp` instead of `mv` because we'll use these for 3.5 also
+        cp kernel/bittboy-2-3/zImage sdcard/boot/variants/bittboy2x/
+        cp kernel/bittboy-2-3/*.ko sdcard/boot/variants/bittboy2x/
         
-        # overwrite some of it's files with (some of) the artefacts we just built
-        mv boot-scr/boot.scr sdcard/boot/boot.scr
-        mv kernel/suniv-f1c500s-miyoo.dtb sdcard/boot/
-        mv kernel/zImage sdcard/boot/variants/v90_q90/
-        mv kernel/*.ko sdcard/boot/variants/v90_q90/
+        # bittboy 3?
+
+        # bittboy 3.5
+        mv kernel/bittboy-2-3/zImage sdcard/boot/variants/bittboy3.5/
+        mv kernel/bittboy-2-3/*.ko sdcard/boot/variants/bittboy3.5/
+
+        # v90 & q90 (and pocketgo?)
+        mv kernel/pocketgo-v90-q90/zImage sdcard/boot/variants/v90_q90/
+        mv kernel/pocketgo-v90-q90/*.ko sdcard/boot/variants/v90_q90/
+        
+        # M3
+        mv kernel/m3/zImage sdcard/boot/variants/m3/
+        mv kernel/m3/*.ko sdcard/boot/variants/m3/
+        
+        # Q8 / XYC
+        mv kernel/q8/zImage sdcard/boot/variants/xyc/
+        mv kernel/q8/*.ko sdcard/boot/variants/xyc/
+        
+        # currently linux can't boot if we use the rootfs that we build
+        # once we fix the video issues, this should hopefully be easier to debug
+        #mv rootfs.tar.xz/rootfs.tar.xz sdcard/rootfs.tar.xz
+        
+        # todo: get these files for the other variangs
         mv boot-logo-powkiddy/boot-logo sdcard/boot/variants/v90_q90/
         mv miyooctl/miyooctl sdcard/boot/variants/v90_q90/miyooctl2
+        
+        # disabled because it seems to break the keyboard
+        #mv daemon/daemon sdcard/boot/variants/v90_q90/
+        
         unzip -o gmenunx/GMenuNX.zip -d sdcard/main/
-  
+
     - run: find .
     
     # https://github.com/MiyooCFW/sdcard/blob/master/.github/workflows/build.yml

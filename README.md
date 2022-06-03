@@ -124,6 +124,7 @@ Download | Dev / Port by
 [Zelda Return of the Hylian](https://github.com/andrigamerita/zelda_roth/releases/latest) | [andrigamerita](https://github.com/andrigamerita/zelda_roth)
 [Falling Time](https://github.com/szymor/FallingTime/releases/latest) | [szymor](https://github.com/szymor/FallingTime)
 [VWordle](https://szymor.itch.io/vwordle) | [szymor](https://szymor.itch.io/)
+[Anarch](https://github.com/szymor/anarch/releases/latest) | [szymor](https://github.com/szymor/anarch)
 
 # Emulators
 

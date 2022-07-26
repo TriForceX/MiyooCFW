@@ -125,6 +125,7 @@ Download | Dev / Port by
 [Falling Time](https://github.com/szymor/FallingTime/releases/latest) | [szymor](https://github.com/szymor/FallingTime)
 [VWordle](https://szymor.itch.io/vwordle) | [szymor](https://szymor.itch.io/)
 [Anarch](https://github.com/szymor/anarch/releases/latest) | [szymor](https://github.com/szymor/anarch)
+[Heart of the Alien](https://github.com/MiyanoOsu/hota_redux/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/hota_redux)
 
 # Emulators
 
@@ -162,6 +163,8 @@ Download | Dev / Port by
 [Arnold Amstrad GX4000](https://github.com/salvacam/arnold_gcw0/releases/latest) | [salvacam](https://github.com/salvacam/arnold_gcw0)
 [O2EM Libretro](https://github.com/salvacam/libretro-o2em/releases/latest) | [salvacam](https://github.com/salvacam/libretro-o2em)
 [VMU Dingoo](https://github.com/salvacam/vmu-dingoo/releases/latest) | [salvacam](https://github.com/salvacam/vmu-dingoo)
+[GPSP](https://github.com/Apaczer/gpsp/releases/latest) | [Apaczer](https://github.com/Apaczer/gpsp)
+[FBA-A320](https://github.com/Rezzy-dev/fba-miyoo-playable/releases/latest) | [Rezzy-dev](https://github.com/Rezzy-dev/fba-miyoo-playable)
 
 # Skins and Frontends
 
@@ -280,6 +283,8 @@ The next people is contributing to all development of this **Bittboy** related s
   - [andrigamerita](https://github.com/andrigamerita)
   - [nfriedly](https://github.com/nfriedly)
   - [andrigamerita](https://github.com/andrigamerita)
+  - [Tiopex](https://github.com/tiopex)
+  - [Apaczer](https://github.com/Apaczer)
 
 - Theme developers:
   - 2TMAU5

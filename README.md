@@ -164,7 +164,7 @@ Download | Dev / Port by
 [O2EM Libretro](https://github.com/salvacam/libretro-o2em/releases/latest) | [salvacam](https://github.com/salvacam/libretro-o2em)
 [VMU Dingoo](https://github.com/salvacam/vmu-dingoo/releases/latest) | [salvacam](https://github.com/salvacam/vmu-dingoo)
 [GPSP](https://github.com/Apaczer/gpsp/releases/latest) | [Apaczer](https://github.com/Apaczer/gpsp)
-[FBA-A320](https://github.com/Rezzy-dev/fba-miyoo-playable/releases/latest) | [Rezzy-dev](https://github.com/Rezzy-dev/fba-miyoo-playable)
+[FBA-A320](https://github.com/Rezzy-dev/fba-miyoo-playable/releases/latest) | [Rezzy](https://github.com/Rezzy-dev/fba-miyoo-playable)
 
 # Skins and Frontends
 

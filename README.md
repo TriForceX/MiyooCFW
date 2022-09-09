@@ -165,6 +165,7 @@ Download | Dev / Port by
 [VMU Dingoo](https://github.com/salvacam/vmu-dingoo/releases/latest) | [salvacam](https://github.com/salvacam/vmu-dingoo)
 [GPSP](https://github.com/Apaczer/gpsp/releases/latest) | [Apaczer](https://github.com/Apaczer/gpsp)
 [FBA-A320](https://github.com/Rezzy-dev/fba-miyoo-playable/releases/latest) | [Rezzy](https://github.com/Rezzy-dev/fba-miyoo-playable)
+[PokeMini](https://github.com/Rezzy-dev/pokemini/releases/latest) | [gameblabla](https://github.com/Rezzy-dev/pokemini)
 
 # Skins and Frontends
 

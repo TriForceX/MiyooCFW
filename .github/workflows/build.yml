@@ -143,13 +143,12 @@ jobs:
         mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-v90_q90_pocketgo.bin
         # todo: move other u-boot bins over once they're all compiled
         mv boot-scr/boot.scr sdcard/boot/boot.scr
-        mv boot-scr/variants/bittboy2x/boot.scr sdcard/boot/variants/bittboy2x_v1/boot.scr
-        mv boot-scr/variants/bittboy2x/boot.scr sdcard/boot/variants/bittboy2x_v2/boot.scr
+        mv boot-scr/variants/bittboy2x_v1/boot.scr sdcard/boot/variants/bittboy2x_v1/boot.scr
+        mv boot-scr/variants/bittboy2x_v2/boot.scr sdcard/boot/variants/bittboy2x_v2/boot.scr
         mv boot-scr/variants/bittboy3.5/boot.scr sdcard/boot/variants/bittboy3.5/boot.scr
         mv boot-scr/variants/v90_q90/boot.scr sdcard/boot/variants/v90_q90/boot.scr
         mv boot-scr/variants/m3/boot.scr sdcard/boot/variants/m3/boot.scr
         mv boot-scr/variants/xyc/boot.scr sdcard/boot/variants/xyc/boot.scr
-        mv boot-scr/variants/bittboy2x/boot.scr sdcard/boot/variants/bittboy2x/boot.scr
         
         # everything currently shares the same devicetree file, 
         # instead uses different kernel builds to handle different keyboards 🤷

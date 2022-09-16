@@ -16,8 +16,9 @@ jobs:
     - run: |
         git submodule update --init --recursive -- uboot
         cd uboot
-        make miyoo_defconfig 
+        make miyoo_pocketgo_defconfig 
         make
+        # todo: build with the other defconfigs
     - uses: actions/upload-artifact@v2
       with:
         name: uboot
@@ -38,7 +39,7 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: boot-scr
-        path: sdcard/boot
+        path: sdcard/boot # todo: only upload the compiled .scr files instead of the entire boot folder
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
 
   # todo: 1-bit sd card variant
@@ -113,7 +114,7 @@ jobs:
         
   build-image:
     needs: 
-    #- uboot
+    - uboot
     - boot-scr
     - kernel
     #- buildroot
@@ -138,9 +139,16 @@ jobs:
         # overwrite some of the precompiled files with the artefacts we just built
         # todo: figure out a good way to differentiate between things we replace and the things we don't
         
-        # currently, we don't get video if we use u-boot that we compile, so go with the pre-compiled one for now
-        #mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-v90_q90_pocketgo.bin
-        #mv boot-scr/boot.scr sdcard/boot/boot.scr
+        # u-boot binaries and boot.scr commands
+        mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-v90_q90_pocketgo.bin
+        # todo: move other u-boot bins over once they're all compiled
+        mv boot-scr/boot.scr sdcard/boot/boot.scr
+        mv boot-scr/variants/bittboy2x_v1/boot.scr sdcard/boot/variants/bittboy2x_v1/boot.scr
+        mv boot-scr/variants/bittboy2x_v2/boot.scr sdcard/boot/variants/bittboy2x_v2/boot.scr
+        mv boot-scr/variants/bittboy3.5/boot.scr sdcard/boot/variants/bittboy3.5/boot.scr
+        mv boot-scr/variants/v90_q90/boot.scr sdcard/boot/variants/v90_q90/boot.scr
+        mv boot-scr/variants/m3/boot.scr sdcard/boot/variants/m3/boot.scr
+        mv boot-scr/variants/xyc/boot.scr sdcard/boot/variants/xyc/boot.scr
         
         # everything currently shares the same devicetree file, 
         # instead uses different kernel builds to handle different keyboards 🤷

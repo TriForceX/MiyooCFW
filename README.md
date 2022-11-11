@@ -123,9 +123,10 @@ Download | Dev / Port by
 [Meritous](https://github.com/andrigamerita/meritous/releases/latest) | [andrigamerita](https://github.com/andrigamerita/meritous)
 [Zelda Return of the Hylian](https://github.com/andrigamerita/zelda_roth/releases/latest) | [andrigamerita](https://github.com/andrigamerita/zelda_roth)
 [Falling Time](https://github.com/szymor/FallingTime/releases/latest) | [szymor](https://github.com/szymor/FallingTime)
-[VWordle](https://szymor.itch.io/vwordle) | [szymor](https://szymor.itch.io/)
+[VWordle](https://github.com/szymor/vwordle/releases/latest) | [szymor](https://github.com/szymor/vwordle)
 [Anarch](https://github.com/szymor/anarch/releases/latest) | [szymor](https://github.com/szymor/anarch)
 [Heart of the Alien](https://github.com/MiyanoOsu/hota_redux/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/hota_redux)
+[Duke Nukem 3D](https://github.com/Apaczer/eduke32/releases/latest) | [Apaczer](https://github.com/Apaczer/eduke32)
 
 # Emulators
 

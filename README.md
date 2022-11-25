@@ -167,6 +167,7 @@ Download | Dev / Port by
 [GPSP](https://github.com/Apaczer/gpsp/releases/latest) | [Apaczer](https://github.com/Apaczer/gpsp)
 [FBA-A320](https://github.com/Rezzy-dev/fba-miyoo-playable/releases/latest) | [Rezzy](https://github.com/Rezzy-dev/fba-miyoo-playable)
 [PokeMini](https://github.com/Rezzy-dev/pokemini/releases/latest) | [gameblabla](https://github.com/Rezzy-dev/pokemini)
+[GnGeo](https://github.com/steward-fu/trimui/releases/download/v1.0/gngeo_20210814.zip) | [steward-fu](https://github.com/TriForceX/MiyooCFW/discussions/369)
 
 # Skins and Frontends
 

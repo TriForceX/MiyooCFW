@@ -12,14 +12,14 @@ jobs:
     container:
       image: miyoocfw/toolchain:master
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - run: |
         git submodule update --init --recursive -- uboot
         cd uboot
         make miyoo_pocketgo_defconfig 
         make
         # todo: build with the other defconfigs
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v3
       with:
         name: uboot
         path: uboot/u-boot-sunxi-with-spl.bin
@@ -36,7 +36,7 @@ jobs:
         git submodule update --init --recursive -- sdcard
         cd sdcard
         ./gen_boot_scr.sh
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v3
       with:
         name: boot-scr
         path: sdcard/boot # todo: only upload the compiled .scr files instead of the entire boot folder
@@ -61,12 +61,12 @@ jobs:
     container:
       image: miyoocfw/toolchain:master
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - run: |
         git submodule update --init --recursive -- logo
         cd logo
         make -f Makefile.powkiddy
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v3
       with:
         name: boot-logo-powkiddy
         path: logo/boot-logo
@@ -78,12 +78,12 @@ jobs:
     container:
       image: miyoocfw/toolchain:master
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - run: |
         git submodule update --init --recursive -- daemon
         cd daemon
         make
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v3
       with:
         name: daemon
         path: daemon/daemon
@@ -101,12 +101,12 @@ jobs:
     container:
       image: miyoocfw/toolchain:master
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - run: |
         git submodule update --init --recursive -- gmenunx
         cd gmenunx
         make -f Makefile.miyoo dist
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v3
       with:
         name: gmenunx
         path: gmenunx/dist/miyoo/GMenuNX.zip
@@ -180,7 +180,7 @@ jobs:
       run: |
           cd sdcard
           sudo VERSION=${{ steps.version.outputs.version }} ./generate_image_file.sh
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v3
       with:
         name: "cfw-${{ steps.version.outputs.version }}.img"
         path: sdcard/cfw-*.img

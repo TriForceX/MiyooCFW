@@ -55,6 +55,12 @@ _This project is not affiliated or related with any company or manufacturer_
 	</tr>
 </table>
 
+<div align="center">
+
+**Note:** Support for XYC Q8 and Sup M3 is on the go, you can follow up the development in our [Discord](https://discord.gznetwork.com)
+
+</div>
+
 # Resources
 
 Here you have some of the main resources:
@@ -298,6 +304,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - [andrigamerita](https://github.com/andrigamerita)
   - [Tiopex](https://github.com/tiopex)
   - [Apaczer](https://github.com/Apaczer)
+  - [YeuxNoir](https://github.com/NoNamedCat)
 
 - Theme developers:
   - 2TMAU5

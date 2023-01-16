@@ -170,10 +170,11 @@ Download | Dev / Port by
 [Arnold Amstrad GX4000](https://github.com/salvacam/arnold_gcw0/releases/latest) | [salvacam](https://github.com/salvacam/arnold_gcw0)
 [O2EM Libretro](https://github.com/salvacam/libretro-o2em/releases/latest) | [salvacam](https://github.com/salvacam/libretro-o2em)
 [VMU Dingoo](https://github.com/salvacam/vmu-dingoo/releases/latest) | [salvacam](https://github.com/salvacam/vmu-dingoo)
-[GPSP](https://github.com/Apaczer/gpsp/releases/latest) | [Apaczer](https://github.com/Apaczer/gpsp)
+[gpSP, Game Boy Advance](https://github.com/Apaczer/gpsp/releases/latest) | [Apaczer](https://github.com/Apaczer/gpsp)
 [FBA-A320](https://github.com/Rezzy-dev/fba-miyoo-playable/releases/latest) | [Rezzy](https://github.com/Rezzy-dev/fba-miyoo-playable)
 [PokeMini](https://github.com/Rezzy-dev/pokemini/releases/latest) | [gameblabla](https://github.com/Rezzy-dev/pokemini)
-[GnGeo](https://github.com/steward-fu/trimui/releases/download/v1.0/gngeo_20210814.zip) | [steward-fu](https://github.com/TriForceX/MiyooCFW/discussions/369)
+[GnGeo, Neo Geo](https://github.com/steward-fu/trimui/releases/download/v1.0/gngeo_20210814.zip) | [steward-fu](https://github.com/TriForceX/MiyooCFW/discussions/369)
+[Game & Watch](https://github.com/salvacam/gw_miyoo/releases/latest) | [salvacam](https://github.com/salvacam/gw_miyoo)
 
 # Skins and Frontends
 

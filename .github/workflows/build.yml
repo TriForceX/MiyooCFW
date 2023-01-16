@@ -154,11 +154,11 @@ jobs:
         # instead uses different kernel builds to handle different keyboards 🤷
         # (aside from the display panel and input configuration, the rest of the 
         # hardware is pretty similar. The panel is a random mix-n-match.)
-        mv kernel/suniv-f1c500s-miyoo.dtb sdcard/boot/ 
+        mv kernel (uClibc)/suniv-f1c500s-miyoo.dtb sdcard/boot/ 
         
         # kernel
-        mv kernel/zImage sdcard/boot/
-        mv kernel/*.ko sdcard/boot/
+        mv kernel (uClibc)/zImage sdcard/boot/
+        mv kernel (uClibc)/*.ko sdcard/boot/
         
         # currently linux can't boot if we use the rootfs that we build
         # once we fix the video issues, this should hopefully be easier to debug

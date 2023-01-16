@@ -306,6 +306,7 @@ The next people is contributing to all development of this **Bittboy** related s
   - [Tiopex](https://github.com/tiopex)
   - [Apaczer](https://github.com/Apaczer)
   - [YeuxNoir](https://github.com/NoNamedCat)
+  - [Rezzy](https://github.com/Rezzy-dev)
 
 - Theme developers:
   - 2TMAU5

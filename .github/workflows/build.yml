@@ -197,10 +197,11 @@ jobs:
       run: |
           cd sdcard
           sudo VERSION=${{ steps.version.outputs.version }} ./generate_image_file.sh
+          tar zcvf cfw-2.0.0-${{ steps.version.outputs.version }}.tar.gz cfw-2.0.0-*.img
     - uses: actions/upload-artifact@v3
       with:
         name: "cfw-${{ steps.version.outputs.version }}.img"
-        path: sdcard/cfw-*.img
+        path: sdcard/cfw-*.img.tar.gz
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
 
   build-image-1bit:
@@ -271,8 +272,9 @@ jobs:
         run: |
           cd sdcard
           sudo VERSION=${{ steps.version.outputs.version }} ./generate_image_file.sh
+          tar zcvf cfw-2.0.0-${{ steps.version.outputs.version }}.tar.gz cfw-2.0.0-*.img
       - uses: actions/upload-artifact@v3
         with:
           name: "cfw-${{ steps.version.outputs.version }}.img"
-          path: sdcard/cfw-*.img
+          path: sdcard/cfw-*.img.tar.gz
           if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`

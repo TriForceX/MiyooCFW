@@ -197,10 +197,11 @@ jobs:
       run: |
           cd sdcard
           sudo VERSION=${{ steps.version.outputs.version }} ./generate_image_file.sh
+          tar zcvf cfw-2.0.0-${{ steps.version.outputs.version }}.tar.gz cfw-2.0.0-*.img
     - uses: actions/upload-artifact@v3
       with:
         name: "cfw-${{ steps.version.outputs.version }}.img"
-        path: sdcard/cfw-*.img
+        path: sdcard/cfw-*.img.tar.gz
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
 
   build-image-1bit:
@@ -231,7 +232,7 @@ jobs:
           # todo: figure out a good way to differentiate between things we replace and the things we don't
           
           # u-boot binaries and boot.scr commands
-          mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-v90_q90_pocketgo.bin
+          mv uboot\ 1bit/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-v90_q90_pocketgo.bin
           # todo: move other u-boot bins over once they're all compiled
           mv boot-scr/boot.scr sdcard/boot/boot.scr
           mv boot-scr/variants/bittboy2x_v1/boot.scr sdcard/boot/variants/bittboy2x_v1/boot.scr
@@ -271,8 +272,9 @@ jobs:
         run: |
           cd sdcard
           sudo VERSION=${{ steps.version.outputs.version }} ./generate_image_file.sh
+          tar zcvf cfw-2.0.0-${{ steps.version.outputs.version }}.tar.gz cfw-2.0.0-*.img
       - uses: actions/upload-artifact@v3
         with:
           name: "cfw-${{ steps.version.outputs.version }}.img"
-          path: sdcard/cfw-*.img
+          path: sdcard/cfw-*.img.tar.gz
           if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`

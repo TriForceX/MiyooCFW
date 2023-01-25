@@ -157,7 +157,7 @@ jobs:
         # todo: figure out a good way to differentiate between things we replace and the things we don't
         
         # u-boot binaries and boot.scr commands
-        mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-v90_q90_pocketgo.bin
+        mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-sunxi-with-spl-4bit.bin
         # todo: move other u-boot bins over once they're all compiled
         mv boot-scr/boot.scr sdcard/boot/boot.scr
         mv boot-scr/variants/bittboy2x_v1/boot.scr sdcard/boot/variants/bittboy2x_v1/boot.scr
@@ -233,7 +233,7 @@ jobs:
           # todo: figure out a good way to differentiate between things we replace and the things we don't
           
           # u-boot binaries and boot.scr commands
-          mv uboot\ 1bit/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-bittboy3.5.bin
+          mv uboot\ 1bit/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-sunxi-with-spl-1bit.bin
           # todo: move other u-boot bins over once they're all compiled
           cp boot-scr/variants/m3/boot.scr sdcard/boot/boot.scr
           mv boot-scr/variants/bittboy2x_v1/boot.scr sdcard/boot/variants/bittboy2x_v1/boot.scr
@@ -272,7 +272,7 @@ jobs:
       - name: Build image 1bit
         run: |
           cd sdcard
-          sudo VERSION=${{ steps.version.outputs.version }} ./generate_image_file.sh
+          sudo VERSION=${{ steps.version.outputs.version }} ./generate_image_file-1bit.sh
           tar zcvf cfw-2.0.0-${{ steps.version.outputs.version }}-1bit.tar.gz cfw-*.img
           rm *.img
       - uses: actions/upload-artifact@v3

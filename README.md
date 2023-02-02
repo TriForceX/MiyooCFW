@@ -306,78 +306,42 @@ Active contributors:
 
 The next people is contributing to all development of **Miyoo CFW** and its related stuff:
 
-- Main developers:
-  - [steward](https://github.com/steward-fu)
-  - [sauce](https://github.com/gameblabla)
-  - [TriForce](https://github.com/TriForceX)
-  - [H1BAN](https://github.com/hi-ban)
-  - superpuissant
-  - [scooterpsu](https://github.com/scooterpsu)
-  - CountDuckula
-  - [vamastah](https://github.com/szymor)
-  - [Christian_Haitian](https://github.com/christianhaitian)
-  - [BytePorter](https://github.com/byteporter)
-  - [JamesOFarrell](https://github.com/jamesofarrell)
-  - dee
-  - [crait](http://www.crait.net)
-  - koroneo
-  - Roast风格
-  - [SantX27](https://github.com/SantX27)
-  - [fgl82](https://github.com/fgl82)
-  - [peterthrees](https://github.com/peterthrees)
-  - madjester
-  - [pthalin](https://github.com/pthalin)
-  - [m45t3r](https://github.com/m45t3r)
-  - [luali](https://github.com/lualiliu)
-  - [mysterioustrashninja](https://github.com/ericrkjones)
-  - PlataformerAndroid
-  - [salvacam](https://github.com/salvacam)
-  - [flabbergast](https://github.com/flabbergast)
-  - [andrigamerita](https://github.com/andrigamerita)
-  - [nfriedly](https://github.com/nfriedly)
-  - [andrigamerita](https://github.com/andrigamerita)
-  - [Tiopex](https://github.com/tiopex)
-  - [Apaczer](https://github.com/Apaczer)
-  - [YeuxNoir](https://github.com/NoNamedCat)
-  - [Rezzy](https://github.com/Rezzy-dev)
-
-- Theme developers:
-  - 2TMAU5
-  - da1writer
-  - Fontes
-  - s4i
-  - Segich
-  - SimplEasy
-  - Harsh Bhardwaj
-  - s4ilence
-  - bhardwaj
-  - [dkodr](https://github.com/dkodr/SimUI)
-  
-- Support & testing:
-  - [Augen(히힛마스터)](https://github.com/AugenKOR)
-  - TakoSalad
-  - Mystic_Morgan
-  - MrRobotSK
-  - WenTao
-  - dElAvA
-  - Jutleys
-  - ToTo
-  - [Turtle](https://github.com/turtleletortue)
-  - James Dull
-  - HYJiNX187
-  - a64
-  - Nyom
-  - YeuxNoir
-  - Rich
-  - [CanMurray](https://www.youtube.com/canmurray)
-
-- Other:
-  - [Tony Jih](https://github.com/tonyjih)
-  - [pingflood](https://github.com/pingflood)
-  - Vincent
-  - Dmm1138
-  - Alexai
-  - Merisy
+Main Developers | Support & Testing | Theme Developers | Misc Support
+:------------ | :------------ | :------------ | :------------
+[steward](https://github.com/steward-fu) | [Augen(히힛마스터)](https://github.com/AugenKOR) | 2TMAU5 | [pingflood](https://github.com/pingflood)
+[sauce](https://github.com/gameblabla) | TakoSalad | da1writer | [Tony Jih](https://github.com/tonyjih)
+[TriForce](https://github.com/TriForceX) | Mystic_Morgan | Fontes | Vincent
+[H1BAN](https://github.com/hi-ban) | MrRobotSK | s4i | Dmm1138
+superpuissant | WenTao | Segich | Alexai
+[scooterpsu](https://github.com/scooterpsu) | dElAvA | SimplEasy | Merisy
+CountDuckula | Jutleys | Harsh Bhardwaj | 
+[vamastah](https://github.com/szymor) | ToTo | s4ilence | 
+[Christian_Haitian](https://github.com/christianhaitian) | [Turtle](https://github.com/turtleletortue) | bhardwaj | 
+[BytePorter](https://github.com/byteporter) | James Dull | [dkodr](https://github.com/dkodr/SimUI) | 
+[JamesOFarrell](https://github.com/jamesofarrell) | HYJiNX187 |  | 
+dee | a64 |  | 
+[crait](http://www.crait.net) | Rich |  | 
+koroneo | [CanMurray](https://www.youtube.com/canmurray) |  | 
+Roast风格 |  |  | 
+[SantX27](https://github.com/SantX27) |  |  | 
+[fgl82](https://github.com/fgl82) |  |  | 
+[peterthrees](https://github.com/peterthrees) |  |  | 
+madjester |  |  | 
+[pthalin](https://github.com/pthalin) |  |  | 
+[m45t3r](https://github.com/m45t3r) |  |  | 
+[luali](https://github.com/lualiliu) |  |  | 
+[mysterioustrashninja](https://github.com/ericrkjones) |  |  | 
+PlataformerAndroid |  |  | 
+[salvacam](https://github.com/salvacam) |  |  | 
+[flabbergast](https://github.com/flabbergast) |  |  | 
+[andrigamerita](https://github.com/andrigamerita) |  |  | 
+[nfriedly](https://github.com/nfriedly) |  |  | 
+[andrigamerita](https://github.com/andrigamerita) |  |  | 
+[Tiopex](https://github.com/tiopex) |  |  | 
+[Apaczer](https://github.com/Apaczer) |  |  | 
+[YeuxNoir](https://github.com/NoNamedCat) |  |  | 
+[Rezzy](https://github.com/Rezzy-dev) |  |  | 
+Nyomen |  |  | 
   
 # Contributing
 > Theres many ways to contribute to this project, even if you don't know how to code. All kind of **support** or **testing** will be grateful. If you have plans to **contribute** in code, please **fork** the desired module from [here](https://github.com/MiyooCFW), create a branch with your changes and send us a **pull request** to upstream. For more info you can join our **Discord** chat [here](https://discord.gznetwork.com)

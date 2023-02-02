@@ -296,11 +296,73 @@ BittBoy 1 | Nov 30, 2018 | CFW requires hardware modifications
 # Maintainers
 
 Active contributors:
-- [Tiopex](https://github.com/tiopex)
-- [Apaczer](https://github.com/Apaczer)
-- [nfriedly](https://github.com/nfriedly)
-- [Rezzy](https://github.com/Rezzy-dev)
-- [YeuxNoir](https://github.com/NoNamedCat)
+
+<table>
+	<tr>
+		<td align="center">
+			<a href="https://github.com/tiopex">
+				<img src="https://avatars.githubusercontent.com/u/67048640?s=64&v=4" width="64" height="64">
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://github.com/Apaczer">
+				<img src="https://avatars.githubusercontent.com/u/94964128?s=64&v=4" width="64" height="64">
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://github.com/nfriedly">
+				<img src="https://avatars.githubusercontent.com/u/114976?s=64&v=4" width="64" height="64">
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://github.com/Rezzy-dev">
+				<img src="https://avatars.githubusercontent.com/u/4543835?s=64&v=4" width="64" height="64">
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://github.com/NoNamedCat">
+				<img src="https://avatars.githubusercontent.com/u/39467683?s=64&v=4" width="64" height="64">
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://github.com/TriForceX">
+				<img src="https://avatars.githubusercontent.com/u/16083854?s=64&v=4" width="64" height="64">
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<a href="https://github.com/tiopex">
+				@tiopex
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://github.com/Apaczer">
+				@Apaczer
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://github.com/nfriedly">
+				@nfriedly
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://github.com/Rezzy-dev">
+				@Rezzy-dev
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://github.com/NoNamedCat">
+				@YeuxNoir
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://github.com/TriForceX">
+				@TriForceX
+			</a>
+		</td>
+	</tr>
+</table>
 
 # Special Thanks
 

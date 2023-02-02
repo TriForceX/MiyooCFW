@@ -8,7 +8,7 @@
 
 [![version](https://img.shields.io/github/v/release/TriForceX/MiyooCFW?include_prereleases&label=Current%20Version&color=brightgreen)](https://github.com/TriForceX/MiyooCFW/releases)
 [![discord](https://img.shields.io/discord/202879976599453696.svg?logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gznetwork.com)
-[![forum](https://img.shields.io/github/discussions/TriForceX/MiyooCFW.svg?label=Discussions&color=orange)](https://github.com/TriForceX/MiyooCFW/discussions)
+[![threads](https://img.shields.io/github/discussions/TriForceX/MiyooCFW.svg?label=Threads&color=orange)](https://github.com/TriForceX/MiyooCFW/discussions)
 [![wiki](https://img.shields.io/badge/Wiki-Guides-blueviolet.svg)](https://github.com/TriForceX/MiyooCFW/wiki)
 [![stars](https://img.shields.io/github/stars/TriForceX/MiyooCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/MiyooCFW/stargazers)
 [![issues](https://img.shields.io/github/issues/TriForceX/MiyooCFW.svg?label=Issues&color=red)](https://github.com/TriForceX/MiyooCFW/issues)
@@ -18,13 +18,16 @@ _This project is not affiliated or related with any company or manufacturer_
 
 </div>
 
+---
+
 # Information
 
 - Check main guides for setup in our **wiki** [here](https://github.com/TriForceX/MiyooCFW/wiki)
-- Get the latest **homebrews**, **emulators** and **tools** [here](#homebrews-and-ports)
-- Give us your **feedback** or **comments** on the **discussions** forum [here](https://github.com/TriForceX/MiyooCFW/discussions)
+- Get the latest **apps**, **homebrews**, **emulators** and **tools** [here](#resources)
+- Give us your **feedback** or **comments** on the **forum** threads [here](https://github.com/TriForceX/MiyooCFW/discussions)
 - Check the version details history in our **changelog** [here](https://github.com/TriForceX/MiyooCFW/blob/master/CHANGELOG.md)
 - Join our **Discord** chat server for more support [here](https://discord.gznetwork.com)
+- Check our old resources & backups [here](https://drive.google.com/drive/folders/1GEumIF7XNOAGNOtPoe4kjP97Wzk7jj1E?usp=sharing)
 
 # Setup
 
@@ -61,17 +64,11 @@ _This project is not affiliated or related with any company or manufacturer_
 
 </div>
 
+---
+
 # Resources
 
-Here you have some of the main resources:
-
-Name | Link
-:------------: | :------------:
-Main Wiki Guides | [View](https://github.com/TriForceX/MiyooCFW/wiki)
-Resources & Backups | [View](https://drive.google.com/drive/folders/1GEumIF7XNOAGNOtPoe4kjP97Wzk7jj1E?usp=sharing)
-Support Chat Server| [Join Discord](https://discord.gznetwork.com)
-
-# Homebrews and Ports
+<details><summary> Homebrews & Ports</summary><br>
 
 The next list is the latest homebrews games and ports available _(click the user name for more info)_. 
 
@@ -134,7 +131,11 @@ Download | Dev / Port by
 [Heart of the Alien](https://github.com/MiyanoOsu/hota_redux/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/hota_redux)
 [Duke Nukem 3D](https://github.com/Apaczer/eduke32/releases/latest) | [Apaczer](https://github.com/Apaczer/eduke32)
 
-# Emulators
+---
+
+</details>
+
+<details><summary> Emulators</summary><br>
 
 The next list is for the latest emulators available _(click the user name for more info)_.
 
@@ -176,7 +177,11 @@ Download | Dev / Port by
 [GnGeo, Neo Geo](https://github.com/steward-fu/trimui/releases/download/v1.0/gngeo_20210814.zip) | [steward-fu](https://github.com/TriForceX/MiyooCFW/discussions/369)
 [Game & Watch](https://github.com/salvacam/gw_miyoo/releases/latest) | [salvacam](https://github.com/salvacam/gw_miyoo)
 
-# Skins and Frontends
+---
+
+</details>
+
+<details><summary> Skins & Frontends</summary><br>
 
 The next list is the current skins, themes and frontends available _(click the user name for more info)_.
 
@@ -186,7 +191,11 @@ Download | Dev / Port by
 [Coverflow](https://github.com/peterthrees/Coverflow/raw/master/build/Coverflow/CoverflowV1.0.zip) | [peterthrees](https://github.com/peterthrees/Coverflow)
 [SimUI](https://github.com/dkodr/SimUI/releases/latest) | [dkodr](https://github.com/dkodr/SimUI)
 
-# Tools
+---
+
+</details>
+
+<details><summary> Tools</summary><br>
 
 The next list is the current tools available _(click the user name for more info)_.
 
@@ -196,7 +205,11 @@ Download | Dev / Port by
 [I/O Tester](https://drive.google.com/file/d/1N_Q-DVemLcpiRKEhNXRbLNCLzEfXbQGK/view?usp=sharing) | [pingflood](https://github.com/pingflood/iotester)
 [PV2X Image Viewer](https://github.com/szymor/pv2x/releases/latest) | [szymor](https://github.com/szymor/pv2x)
 
-# Debug
+---
+
+</details>
+
+<details><summary> Debug</summary><br>
 
 Below is the list of practical debugging programs _(click the user name for more info)_.
 
@@ -205,8 +218,11 @@ Download | Dev / Port by
 [QEMU](https://github.com/steward-fu/fc3000/releases/download/v1.0/fc3000-qemu_20220929.7z) | [steward-fu](https://github.com/steward-fu/kernel/tree/f1c100s_fc3000_linux-4.14.0_qemu)
 [GDB](https://github.com/Apaczer/miyoo_tools/releases/download/apps/gdb.zip) | [gameblabla](https://github.com/Apaczer/miyoo_tools/tree/main/gdb)
 
+---
 
-# Beta Testing
+</details>
+
+<details><summary> Old Betas</summary><br>
 
 Here you have a list some of the beta or custom files, to access them go to **Beta Testing** folder [here](https://drive.google.com/drive/folders/1AT3LVlJPCZf_csTh8qdgL0Bp1MlZQONV?usp=sharing). This section is for advanced users, no guides are provided for this (please read the **.txt** files before using them).
 
@@ -226,9 +242,13 @@ Fake 08 | Alternative Pico 8 emulator under development
 
 _**Note:** If you are looking for the **BittBoy v1** and **v2** main stuff _(stock firmware, drivers, schematics, etc...)_ you can take a look [here](https://drive.google.com/drive/folders/1hcV3MmtmabOKl-PL3R7BqmDClY7Q7u7H?usp=sharing)._
 
-# Console Revisions Differences
+---
 
-The next list is for devices **New BittBoy** and **Pocket Go** differences:
+</details>
+
+<details><summary> Console Revisions Differences</summary><br>
+
+The next list is for some differences between Miyoo &  Powkiddy devices:
 
 _**Note:** Some people have been receiving consoles with parts of different versions, if any **CFW** does not work let us know in our **Discord** indicated above._
 
@@ -269,9 +289,22 @@ BittBoy 1 | Nov 30, 2018 | Internal 2nd display (Not used)
 BittBoy 1 | Nov 30, 2018 | 1bit hardware
 BittBoy 1 | Nov 30, 2018 | CFW requires hardware modifications
 
+</details>
+
+---
+
+# Maintainers
+
+Active contributors:
+- [Tiopex](https://github.com/tiopex)
+- [Apaczer](https://github.com/Apaczer)
+- [nfriedly](https://github.com/nfriedly)
+- [Rezzy](https://github.com/Rezzy-dev)
+- [YeuxNoir](https://github.com/NoNamedCat)
+
 # Special Thanks
 
-The next people is contributing to all development of this **Bittboy** related stuff:
+The next people is contributing to all development of **Miyoo CFW** and its related stuff:
 
 - Main developers:
   - [steward](https://github.com/steward-fu)

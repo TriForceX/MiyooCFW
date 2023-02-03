@@ -307,7 +307,7 @@ Active contributors:
 		</td>
 		<td align="center">
 			<a href="https://github.com/Apaczer">
-				<img src="https://avatars.githubusercontent.com/u/94964128?s=64&v=4" width="64" height="64">
+				<img src="https://avatars.githubusercontent.com/u/94932128?s=64&v=4" width="64" height="64">
 			</a>
 		</td>
 		<td align="center">

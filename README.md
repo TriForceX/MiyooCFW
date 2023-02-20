@@ -255,8 +255,9 @@ _**Note:** Some people have been receiving consoles with parts of different vers
 
 Rev | Release | Notes
 :------------: | :------------: | :------------
+PowKiddy Q20 | July 13, 2021 | Mini landscape form factor with extra "Rfunction" button (and "Lfunction" for RESET)
 PowKiddy V90 | June 17, 2020 | New GBA SP form factor with extra L2 and R2 buttons
-PowKiddy Q90 | Dec 18, 2019 | New landscape form factor with analog stick
+PowKiddy Q90 | Dec 18, 2019 | New landscape form factor with analog stick & additional "+" button (and "-" for RESET)
 Pocket Go 1 | May 14, 2019 | Changed circuit board (see [here](https://user-images.githubusercontent.com/16083854/65437766-c351ef00-ddfa-11e9-902c-5b83677b436e.png))
 Pocket Go 0.5 | May 10, 2019 | Added shoulder buttons (L & R)
 Pocket Go 0.5 | May 10, 2019 | Added physical volume control

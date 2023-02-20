@@ -202,6 +202,7 @@ The next list is the current tools available _(click the user name for more info
 Download | Dev / Port by
 :------: | :------:
 [Commander](https://github.com/Apaczer/commander/releases/latest) | [Apaczer](https://github.com/Apaczer/commander)
+[Simple Terminal](https://github.com/Apaczer/miyoo_st-sdl/releases/latest) | [Apaczer](https://github.com/Apaczer/miyoo_st-sdl)
 [Calculator for BittBoy](https://github.com/szymor/bittboy-calc/releases/latest) | [szymor](https://github.com/szymor/bittboy-calc)
 [I/O Tester](https://drive.google.com/file/d/1N_Q-DVemLcpiRKEhNXRbLNCLzEfXbQGK/view?usp=sharing) | [pingflood](https://github.com/pingflood/iotester)
 [PV2X Image Viewer](https://github.com/szymor/pv2x/releases/latest) | [szymor](https://github.com/szymor/pv2x)

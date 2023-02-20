@@ -405,6 +405,7 @@ PlataformerAndroid |  |  |
 [Apaczer](https://github.com/Apaczer) |  |  | 
 [YeuxNoir](https://github.com/NoNamedCat) |  |  | 
 [Rezzy](https://github.com/Rezzy-dev) |  |  | 
+[jSTE0](https://github.com/jSTE0) |  |  | 
 Nyomen |  |  | 
   
 # Contributing

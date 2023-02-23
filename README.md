@@ -31,34 +31,9 @@ _This project is not affiliated or related with any company or manufacturer_
 
 # Setup
 
-<table align="center">
-	<tr>
-		<th align="center">Miyoo (1st Gen)</th>
-		<th align="center">Miyoo (2nd Gen)</th>
-	</tr>
-	<tr>
-		<td align="center">
-			<a href="https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup">
-				<img src="https://user-images.githubusercontent.com/16083854/146627105-eba89507-d1f6-480b-9a4b-36e06b4c1a92.png">
-			</a>
-		</td>
-		<td align="center">
-			<a href="https://github.com/TriForceX/MiyooCFW/wiki/Miyoo-Mini">
-				<img src="https://user-images.githubusercontent.com/16083854/146627025-265041b6-b63e-4156-9979-723ecd7cb2c1.png">
-			</a>
-		</td>
-	</tr>
-	<tr>
-		<td align="center">
-			<a href="https://github.com/TriForceX/MiyooCFW/wiki/Custom-Firmware-Setup">Click to access</a>
-		</td>
-		<td align="center">
-			<a href="https://github.com/TriForceX/MiyooCFW/wiki/Miyoo-Mini">Click to access</a>
-		</td>
-	</tr>
-</table>
-
 <div align="center">
+
+![miyoo-consoles](https://user-images.githubusercontent.com/16083854/221029395-26b04557-dccf-40bd-a059-b9928553ee4f.png)
 
 **Note:** Support for XYC Q8 and Sup M3 is on the go, you can follow up the development in our [Discord](https://discord.gznetwork.com)
 

@@ -1,6 +1,6 @@
 # Miyoo Custom Firmware
 
-> The custom firmware for **BittBoy**, **PocketGo** and **PowKiddy Q90-V90-Q20** allows you to play a wide variety of consoles/computers thanks to numerous emulators available to it as well some ports of games. The next resources and guides was made to help anyone to setup it to the console.
+> This custom firmware for **BittBoy**, **PocketGo** and **PowKiddy V90/Q90/Q20** (and 3rd party consoles) allows you to play a wide variety of consoles/computers thanks to numerous emulators available to it as well some ports of games. The next resources and guides was made to help anyone to setup it to the console.
 
 <div align="center">
 
@@ -354,7 +354,7 @@ Main Developers | Support & Testing | Theme Developers | Misc Support
 [H1BAN](https://github.com/hi-ban) | MrRobotSK | s4i | Dmm1138
 superpuissant | WenTao | Segich | Alexai
 [scooterpsu](https://github.com/scooterpsu) | dElAvA | SimplEasy | Merisy
-CountDuckula | Jutleys | Harsh Bhardwaj | 
+CountDuckula | Jutleys | Harsh Bhardwaj | [Nikolay Minaylov](https://github.com/nminaylov)
 [vamastah](https://github.com/szymor) | ToTo | s4ilence | 
 [Christian_Haitian](https://github.com/christianhaitian) | [Turtle](https://github.com/turtleletortue) | bhardwaj | 
 [BytePorter](https://github.com/byteporter) | James Dull | [dkodr](https://github.com/dkodr/SimUI) | 

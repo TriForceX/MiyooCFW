@@ -151,6 +151,7 @@ Download | Dev / Port by
 [PokeMini](https://github.com/Rezzy-dev/pokemini/releases/latest) | [gameblabla](https://github.com/Rezzy-dev/pokemini)
 [GnGeo, Neo Geo](https://github.com/steward-fu/trimui/releases/download/v1.0/gngeo_20210814.zip) | [steward-fu](https://github.com/TriForceX/MiyooCFW/discussions/369)
 [Game & Watch](https://github.com/salvacam/gw_miyoo/releases/latest) | [salvacam](https://github.com/salvacam/gw_miyoo)
+[Pico 8](https://github.com/jtothebell/fake-08/releases/latest) | [jtothebell](https://github.com/jtothebell/fake-08/)
 
 ---
 
@@ -165,12 +166,13 @@ Download | Dev / Port by
 [Simple Menu](https://github.com/fgl82/simplemenu/releases/latest) | [fgl82](https://github.com/fgl82/simplemenu)
 [Coverflow](https://github.com/peterthrees/Coverflow/raw/master/build/Coverflow/CoverflowV1.0.zip) | [peterthrees](https://github.com/peterthrees/Coverflow)
 [SimUI](https://github.com/dkodr/SimUI/releases/latest) | [dkodr](https://github.com/dkodr/SimUI)
+[TheWebWolfe Themes](https://github.com/thewebwolfe/Miyoo_Themes/tree/main/.github/workflows) | [thewebwolfe](https://github.com/thewebwolfe/Miyoo_Themes)
 
 ---
 
 </details>
 
-<details><summary> Tools</summary><br>
+<details><summary> Tools & Demos</summary><br>
 
 The next list is the current tools available _(click the user name for more info)_.
 
@@ -181,6 +183,9 @@ Download | Dev / Port by
 [Calculator for BittBoy](https://github.com/szymor/bittboy-calc/releases/latest) | [szymor](https://github.com/szymor/bittboy-calc)
 [I/O Tester](https://drive.google.com/file/d/1N_Q-DVemLcpiRKEhNXRbLNCLzEfXbQGK/view?usp=sharing) | [pingflood](https://github.com/pingflood/iotester)
 [PV2X Image Viewer](https://github.com/szymor/pv2x/releases/latest) | [szymor](https://github.com/szymor/pv2x)
+[Wormhole Demo](https://github.com/szymor/wormhole/releases/latest) | [szymor](https://github.com/szymor/wormhole)
+[Lorenz Attractor Demo](https://github.com/szymor/lorenz/releases/latest) | [szymor](https://github.com/szymor/lorenz)
+[S.k.y. Demo](https://github.com/szymor/gynvael-sky/releases/latest) | [szymor](https://github.com/szymor/gynvael-sky)
 
 ---
 

@@ -1,6 +1,6 @@
 # Miyoo Custom Firmware
 
-> This custom firmware for **BittBoy**, **PocketGo** and **PowKiddy V90/Q90/Q20** (and 3rd party consoles) allows you to play a wide variety of consoles/computers thanks to numerous emulators available to it as well some ports of games. The next resources and guides was made to help anyone to setup it to the console.
+> This custom firmware for **BittBoy**, **PocketGo** and **PowKiddy V90-Q90-Q20** (and 3rd party consoles) allows you to play a wide variety of consoles/computers thanks to numerous emulators available to it as well some ports of games. The next resources and guides was made to help anyone to setup it to the console.
 
 <div align="center">
 
@@ -126,7 +126,7 @@ Download | Dev / Port by
 [Speccy, ZX Spectrum](https://github.com/salvacam/speccy/releases/latest) | [salvacam](https://github.com/salvacam/speccy)
 [Amstrad CPC, Dingux-Cap32](https://github.com/salvacam/dingux-cap32/releases/latest) | [salvacam](https://github.com/salvacam/dingux-cap32)
 [SZ81, ZX80 and ZX81](https://github.com/salvacam/sz81-miyoo/releases/latest) | [salvacam](https://github.com/salvacam/sz81-miyoo)
-[ScummVM](https://github.com/salvacam/scummvm-rg350/releases/latest) | [salvacam](https://github.com/salvacam/scummvm-rg350)
+[ScummVM](https://github.com/scummvm/scummvm/releases/latest) | [scummvm](https://github.com/scummvm/scummvm)
 [Dingux-Atari, Atari 800 and Atari 5200](https://github.com/salvacam/dingux-atari/releases/latest) | [salvacam](https://github.com/salvacam/dingux-atari)
 [SamCoupe Home Computer](https://github.com/salvacam/miyoo-sim/releases/latest) | [salvacam](https://github.com/salvacam/miyoo-sim)
 [Vectrex](https://github.com/salvacam/dingux-vectrex/releases/latest) | [salvacam](https://github.com/salvacam/dingux-vectrex)

@@ -136,7 +136,7 @@ jobs:
     - kernel
     #- buildroot
     - logo
-    #- daemon
+    - daemon
     - miyooctl
     - gmenunx
     runs-on: ubuntu-latest
@@ -183,10 +183,8 @@ jobs:
         
         # todo: get these files for the other variangs
         mv boot-logo-powkiddy/boot-logo sdcard/boot/variants/v90_q90/
-        mv miyooctl/miyooctl sdcard/boot/variants/v90_q90/miyooctl2
-        
-        # disabled because it seems to break the keyboard
-        #mv daemon/daemon sdcard/boot/variants/v90_q90/
+        mv miyooctl/miyooctl sdcard/boot/variants/v90_q90/miyooctl2 
+        mv daemon/daemon sdcard/boot/variants/v90_q90/
         
         unzip -o gmenunx/GMenuNX.zip -d sdcard/main/
 
@@ -212,7 +210,7 @@ jobs:
       - kernel
       #- buildroot
       - logo
-      #- daemon
+      - daemon
       - miyooctl
       - gmenunx
     runs-on: ubuntu-latest
@@ -259,10 +257,8 @@ jobs:
           
           # todo: get these files for the other variangs
           mv boot-logo-powkiddy/boot-logo sdcard/boot/variants/v90_q90/
-          mv miyooctl/miyooctl sdcard/boot/variants/v90_q90/miyooctl2
-          
-          # disabled because it seems to break the keyboard
-          #mv daemon/daemon sdcard/boot/variants/v90_q90/
+          mv miyooctl/miyooctl sdcard/boot/variants/v90_q90/miyooctl2 
+          mv daemon/daemon sdcard/boot/variants/v90_q90/
           
           unzip -o gmenunx/GMenuNX.zip -d sdcard/main/
 

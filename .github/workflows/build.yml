@@ -121,7 +121,7 @@ jobs:
     - run: |
         git submodule update --init --recursive -- gmenu2x
         cd gmenu2x
-        make -f Makefile.bittboy dist
+        make -f Makefile.bittboy zip
     - uses: actions/upload-artifact@v3
       with:
         name: gmenu2x

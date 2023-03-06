@@ -119,7 +119,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - run: |
-        git submodule update --init --recursive -- gmenunx
+        git submodule update --init --recursive -- gmenu2x
         cd gmenunx
         make -f Makefile.bittboy dist
     - uses: actions/upload-artifact@v3

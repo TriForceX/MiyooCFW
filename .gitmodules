@@ -4,9 +4,9 @@
 [submodule "buildroot"]
 	path = buildroot
 	url = https://github.com/MiyooCFW/buildroot
-[submodule "gmenunx"]
-	path = gmenunx
-	url = https://github.com/MiyooCFW/gmenunx
+[submodule "gmenu2x"]
+	path = gmenu2x
+	url = https://github.com/MiyooCFW/gmenu2x
 [submodule "daemon"]
 	path = daemon
 	url = https://github.com/MiyooCFW/daemon

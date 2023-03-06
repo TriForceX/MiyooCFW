@@ -112,21 +112,21 @@ jobs:
     with:
       submodule: miyooctl
 
-  # https://github.com/MiyooCFW/gmenunx/blob/master/.github/workflows/c-cpp.yml
-  gmenunx:
+  # https://github.com/MiyooCFW/gmenu2x/blob/master/.github/workflows/c-cpp.yml
+  gmenu2x:
     runs-on: ubuntu-20.04
     container:
       image: miyoocfw/toolchain:master
     steps:
     - uses: actions/checkout@v3
     - run: |
-        git submodule update --init --recursive -- gmenunx
-        cd gmenunx
-        make -f Makefile.miyoo dist
+        git submodule update --init --recursive -- gmenu2x
+        cd gmenu2x
+        make -f Makefile.bittboy dist
     - uses: actions/upload-artifact@v3
       with:
-        name: gmenunx
-        path: gmenunx/dist/miyoo/GMenuNX.zip
+        name: gmenu2x
+        path: gmenu2x/dist/miyoo/gmenu2X.zip
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
         
   build-image:
@@ -138,7 +138,7 @@ jobs:
     - logo
     - daemon
     - miyooctl
-    - gmenunx
+    - gmenu2x
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -186,7 +186,7 @@ jobs:
         mv miyooctl/miyooctl sdcard/boot/variants/v90_q90/miyooctl2 
         mv daemon/daemon sdcard/boot/variants/v90_q90/
         
-        unzip -o gmenunx/GMenuNX.zip -d sdcard/main/
+        unzip -o gmenu2x/gmenu2X.zip -d sdcard/main/
 
     - run: find .
     
@@ -212,7 +212,7 @@ jobs:
       - logo
       - daemon
       - miyooctl
-      - gmenunx
+      - gmenu2x
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -260,7 +260,7 @@ jobs:
           mv miyooctl/miyooctl sdcard/boot/variants/v90_q90/miyooctl2 
           mv daemon/daemon sdcard/boot/variants/v90_q90/
           
-          unzip -o gmenunx/GMenuNX.zip -d sdcard/main/
+          unzip -o gmenu2x/gmenu2X.zip -d sdcard/main/
 
       - run: find .
 

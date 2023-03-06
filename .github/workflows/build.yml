@@ -111,7 +111,7 @@ jobs:
     with:
       submodule: miyooctl
 
-  # https://github.com/MiyooCFW/gmenunx/blob/master/.github/workflows/c-cpp.yml
+  # https://github.com/MiyooCFW/gmenu2x/blob/master/.github/workflows/c-cpp.yml
   gmenunx:
     runs-on: ubuntu-20.04
     container:

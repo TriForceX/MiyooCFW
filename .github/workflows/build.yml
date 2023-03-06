@@ -125,7 +125,7 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: gmenu2x
-        path: gmenu2x/dist/gmenunx-bittboy.zip
+        path: gmenu2x/dist/gmenu2x-bittboy.zip
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
         
   build-image:
@@ -178,7 +178,7 @@ jobs:
         mv miyooctl/miyooctl sdcard/boot/miyooctl2 
         mv daemon/daemon sdcard/boot/
         
-        unzip -o gmenu2x/gmenunx-bittboy.zip -d sdcard/main/gmenu2x
+        unzip -o gmenu2x/gmenu2x-bittboy.zip -d sdcard/main/gmenu2x
 
     - run: find .
     
@@ -245,7 +245,7 @@ jobs:
         mv miyooctl/miyooctl sdcard/boot/miyooctl2 
         mv daemon/daemon sdcard/boot/
         
-        unzip -o gmenu2x/gmenunx-bittboy.zip -d sdcard/main/gmenu2x
+        unzip -o gmenu2x/gmenu2x-bittboy.zip -d sdcard/main/gmenu2x
     
     - run: find .
     

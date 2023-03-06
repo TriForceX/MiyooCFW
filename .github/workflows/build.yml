@@ -197,7 +197,7 @@ jobs:
 
   build-image-1bit:
     needs: 
-    - uboot
+    - uboot-1bit
     - boot-scr
     - kernel
     #- buildroot

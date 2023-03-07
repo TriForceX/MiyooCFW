@@ -155,6 +155,8 @@ jobs:
         # overwrite some of the precompiled files with the artefacts we just built
         # todo: figure out a good way to differentiate between things we replace and the things we don't
         
+        unzip -o gmenu2x/gmenu2x-bittboy.zip -d sdcard/main/gmenu2x/
+        
         # u-boot binaries and boot.scr commands
         mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-sunxi-with-spl-4bit.bin
         mv boot-scr/boot.scr sdcard/boot/boot.scr
@@ -177,8 +179,6 @@ jobs:
         mv boot-logo/boot-logo sdcard/boot/logo/
         mv miyooctl/miyooctl sdcard/boot/miyooctl2 
         mv daemon/daemon sdcard/boot/
-        
-        unzip -o gmenu2x/gmenu2x-bittboy.zip -d sdcard/main/gmenu2x/
 
     - run: find .
     
@@ -191,8 +191,8 @@ jobs:
           rm *.img
     - uses: actions/upload-artifact@v3
       with:
-        name: "cfw-2.0.0-${{ steps.version.outputs.version }}.tar.gz"
-        path: sdcard/cfw-*.tar.gz
+        name: "cfw-${{ steps.version.outputs.version }}.img"
+        path: sdcard/cfw-*.img
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
 
   build-image-1bit:
@@ -222,6 +222,8 @@ jobs:
         # overwrite some of the precompiled files with the artefacts we just built
         # todo: figure out a good way to differentiate between things we replace and the things we don't
         
+        unzip -o gmenu2x/gmenu2x-bittboy.zip -d sdcard/main/gmenu2x/
+        
         # u-boot binaries and boot.scr commands
         mv uboot\ 1bit/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-sunxi-with-spl-1bit.bin
         mv boot-scr/boot-1bit.scr sdcard/boot/boot-1bit.scr
@@ -244,8 +246,6 @@ jobs:
         mv boot-logo/boot-logo sdcard/boot/logo/
         mv miyooctl/miyooctl sdcard/boot/miyooctl2 
         mv daemon/daemon sdcard/boot/
-        
-        unzip -o gmenu2x/gmenu2x-bittboy.zip -d sdcard/main/gmenu2x/
     
     - run: find .
     
@@ -254,10 +254,8 @@ jobs:
       run: |
         cd sdcard
         sudo VERSION=${{ steps.version.outputs.version }} ./generate_image_file-1bit.sh
-        tar zcvf cfw-2.0.0-${{ steps.version.outputs.version }}-1bit.tar.gz cfw-*.img
-        rm *.img
     - uses: actions/upload-artifact@v3
       with:
-        name: "cfw-2.0.0-${{ steps.version.outputs.version }}-1bit.tar.gz"
-        path: sdcard/cfw-*.tar.gz
+        name: "cfw-${{ steps.version.outputs.version }}-1bit.img"
+        path: sdcard/cfw-*.img
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`

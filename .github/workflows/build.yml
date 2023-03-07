@@ -65,10 +65,10 @@ jobs:
       submodule: kernel
         
   # todo: use buildroot for more than just the rootfs
-  buildroot:
-    uses: MiyooCFW/buildroot/.github/workflows/rootfs.yml@master
-    with:
-      submodule: buildroot
+  #buildroot:
+  #  uses: MiyooCFW/buildroot/.github/workflows/rootfs.yml@master
+  #  with:
+  #    submodule: buildroot
 
   # https://github.com/MiyooCFW/logo/blob/master/.github/workflows/c-cpp.yml
   # todo: bittboy and pocketgo logos

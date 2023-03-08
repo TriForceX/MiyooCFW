@@ -394,4 +394,4 @@ Nyomen |  |  |
 
 # License
 
-> **OpenDingux** for Miyoo/Bittboy handheld was ported by [steward-fu](https://github.com/steward-fu) and **GMenuNX** by [pingflood](https://github.com/pingflood) is a fork of **GMenu2X** developed by [Massimiliano Torromeo](mailto:massimiliano.torromeo@gmail.com). This project is licensed under GPLv2 as free software. You are free to use, modify and redistribute them following the terms in License.txt
+> **OpenDingux** for Miyoo was initially ported for BittBoy console by [steward-fu](https://github.com/steward-fu) and **GMenu2X** is a fork of GMenuNX by [pingflood](https://github.com/pingflood). All other sub-modules or components that have been integrated from other forks have their credits in their respective repositories. This project is licensed under GPLv2 as free software. You are free to use, modify and redistribute them following the terms in License.txt

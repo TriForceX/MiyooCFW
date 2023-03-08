@@ -71,7 +71,6 @@ jobs:
   #    submodule: buildroot
 
   # https://github.com/MiyooCFW/logo/blob/master/.github/workflows/c-cpp.yml
-  # todo: bittboy and pocketgo logos
   logo:
     runs-on: ubuntu-20.04
     container:
@@ -121,11 +120,11 @@ jobs:
     - run: |
         git submodule update --init --recursive -- gmenu2x
         cd gmenu2x
-        make -f Makefile.bittboy zip
+        make -f Makefile.miyoo zip
     - uses: actions/upload-artifact@v3
       with:
         name: gmenu2x
-        path: gmenu2x/dist/gmenu2x-bittboy.zip
+        path: gmenu2x/dist/gmenu2x-miyoo.zip
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
         
   build-image:
@@ -155,7 +154,7 @@ jobs:
         # overwrite some of the precompiled files with the artefacts we just built
         # todo: figure out a good way to differentiate between things we replace and the things we don't
         
-        unzip -o gmenu2x/gmenu2x-bittboy.zip -d sdcard/main/gmenu2x/
+        unzip -o gmenu2x/gmenu2x-miyoo.zip -d sdcard/main/gmenu2x/
         
         # u-boot binaries and boot.scr commands
         mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-sunxi-with-spl-4bit.bin
@@ -220,7 +219,7 @@ jobs:
         # overwrite some of the precompiled files with the artefacts we just built
         # todo: figure out a good way to differentiate between things we replace and the things we don't
         
-        unzip -o gmenu2x/gmenu2x-bittboy.zip -d sdcard/main/gmenu2x/
+        unzip -o gmenu2x/gmenu2x-miyoo.zip -d sdcard/main/gmenu2x/
         
         # u-boot binaries and boot.scr commands
         mv uboot\ 1bit/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-sunxi-with-spl-1bit.bin

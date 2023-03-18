@@ -48,12 +48,6 @@ jobs:
     with:
       submodule: kernel
         
-  # todo: use buildroot for more than just the rootfs
-  #buildroot:
-  #  uses: MiyooCFW/buildroot/.github/workflows/rootfs.yml@master
-  #  with:
-  #    submodule: buildroot
-
   # https://github.com/MiyooCFW/logo/blob/master/.github/workflows/c-cpp.yml
   logo:
     runs-on: ubuntu-20.04
@@ -110,133 +104,138 @@ jobs:
         name: gmenu2x
         path: gmenu2x/dist/gmenu2x-miyoo.zip
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
-        
-  build-image-1bit:
-    needs: 
-    - uboot
-    - boot-scr
-    - kernel
-    #- buildroot
-    - logo
-    - daemon
-    - miyooctl
-    - gmenu2x
-    runs-on: ubuntu-20.04
-    steps:
-    - uses: actions/checkout@v3
-    - run: echo "::set-output name=version::$GITHUB_REF_NAME-$(git rev-parse --short HEAD)" | sed 's#/#-#g'
-      id: version
-    - run: echo "Version ${{ steps.version.outputs.version }}"
-    - uses: actions/download-artifact@v3
-    - run: find .
-    - name: Replace files under sdcard with the ones we just built
-      run: |
-        # start with our "sdcard" submodule source, which contains precompiled things and a script
-        # to assemble it into an image
-        git submodule update --init --recursive -- sdcard
-        
-        # overwrite some of the precompiled files with the artefacts we just built
-        # todo: figure out a good way to differentiate between things we replace and the things we don't
-        
-        unzip -o gmenu2x/gmenu2x-miyoo.zip -d sdcard/main/gmenu2x/
-        
-        # u-boot binaries and boot.scr commands
-        mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-sunxi-with-spl.bin
-        mv boot-scr/boot.scr sdcard/boot/boot.scr
-        
-        # everything currently shares the same devicetree file, 
-        # instead uses different kernel builds to handle different keyboards 🤷
-        # (aside from the display panel and input configuration, the rest of the 
-        # hardware is pretty similar. The panel is a random mix-n-match.)
-        mv kernel\ \(uClibc\)/suniv-f1c500s-miyoo.dtb sdcard/boot/ 
-        
-        # kernel
-        mv kernel\ \(uClibc\)/zImage sdcard/boot/
-        mv kernel\ \(uClibc\)/*.ko sdcard/boot/
-        
-        # currently linux can't boot if we use the rootfs that we build
-        # once we fix the video issues, this should hopefully be easier to debug
-        #mv rootfs.tar.xz/rootfs.tar.xz sdcard/rootfs.tar.xz
-        
-        # todo: get these files for the other variangs
-        mv boot-logo/boot-logo sdcard/boot/logo/
-        mv miyooctl/miyooctl sdcard/boot/miyooctl2 
-        mv daemon/daemon sdcard/boot/
-
-    - run: find .
-    
-    # https://github.com/MiyooCFW/sdcard/blob/master/.github/workflows/build.yml
-    - name: Build image 1bit
-      run: |
-          cd sdcard
-          sudo VERSION=${{ steps.version.outputs.version }} ./generate_image_file.sh
-    - uses: actions/upload-artifact@v3
-      with:
-        name: "cfw-${{ steps.version.outputs.version }}-1bit.img"
-        path: sdcard/cfw-*.img
-        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
-
-  build-image-4bit:
-    needs: 
-    - uboot
-    - boot-scr
-    - kernel
-    #- buildroot
-    - logo
-    - daemon
-    - miyooctl
-    - gmenu2x
-    runs-on: ubuntu-20.04
-    steps:
-    - uses: actions/checkout@v3
-    - run: echo "::set-output name=version::$GITHUB_REF_NAME-$(git rev-parse --short HEAD)" | sed 's#/#-#g'
-      id: version
-    - run: echo "Version ${{ steps.version.outputs.version }}"
-    - uses: actions/download-artifact@v3
-    - run: find .
-    - name: Replace files under sdcard with the ones we just built
-      run: |
-        # start with our "sdcard" submodule source, which contains precompiled things and a script
-        # to assemble it into an image
-        git submodule update --init --recursive -- sdcard
-        
-        # overwrite some of the precompiled files with the artefacts we just built
-        # todo: figure out a good way to differentiate between things we replace and the things we don't
-        
-        unzip -o gmenu2x/gmenu2x-miyoo.zip -d sdcard/main/gmenu2x/
-        
-        # u-boot binaries and boot.scr commands
-        mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-sunxi-with-spl.bin
-        mv boot-scr/boot-4bit.scr sdcard/boot/boot.scr
-        
-        # everything currently shares the same devicetree file, 
-        # instead uses different kernel builds to handle different keyboards 🤷
-        # (aside from the display panel and input configuration, the rest of the 
-        # hardware is pretty similar. The panel is a random mix-n-match.)
-        mv kernel\ \(uClibc\)/suniv-f1c500s-miyoo-4bit.dtb sdcard/boot/ 
-        
-        # kernel
-        mv kernel\ \(uClibc\)/zImage sdcard/boot/
-        mv kernel\ \(uClibc\)/*.ko sdcard/boot/
-        
-        # currently linux can't boot if we use the rootfs that we build
-        # once we fix the video issues, this should hopefully be easier to debug
-        #mv rootfs.tar.xz/rootfs.tar.xz sdcard/rootfs.tar.xz
-        
-        # todo: get these files for the other variangs
-        mv boot-logo/boot-logo sdcard/boot/logo/
-        mv miyooctl/miyooctl sdcard/boot/miyooctl2 
-        mv daemon/daemon sdcard/boot/
-
-    - run: find .
-    
-    # https://github.com/MiyooCFW/sdcard/blob/master/.github/workflows/build.yml
-    - name: Build image 4bit
-      run: |
-          cd sdcard
-          sudo VERSION=${{ steps.version.outputs.version }} ./generate_image_file.sh
-    - uses: actions/upload-artifact@v3
-      with:
-        name: "cfw-${{ steps.version.outputs.version }}-4bit.img"
-        path: sdcard/cfw-*.img
-        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+       
+  build-image:
+    uses: MiyooCFW/buildroot/.github/workflows/rootfs.yml@master
+    with:
+      submodule: buildroot      
+       
+#  build-image-1bit:
+#    needs: 
+#    - uboot
+#    - boot-scr
+#    - kernel
+#    #- buildroot
+#    - logo
+#    - daemon
+#    - miyooctl
+#    - gmenu2x
+#    runs-on: ubuntu-20.04
+#    steps:
+#    - uses: actions/checkout@v3
+#    - run: echo "::set-output name=version::$GITHUB_REF_NAME-$(git rev-parse --short HEAD)" | sed 's#/#-#g'
+#      id: version
+#    - run: echo "Version ${{ steps.version.outputs.version }}"
+#    - uses: actions/download-artifact@v3
+#    - run: find .
+#    - name: Replace files under sdcard with the ones we just built
+#      run: |
+#        # start with our "sdcard" submodule source, which contains precompiled things and a script
+#        # to assemble it into an image
+#        git submodule update --init --recursive -- sdcard
+#        
+#        # overwrite some of the precompiled files with the artefacts we just built
+#        # todo: figure out a good way to differentiate between things we replace and the things we don't
+#        
+#        unzip -o gmenu2x/gmenu2x-miyoo.zip -d sdcard/main/gmenu2x/
+#        
+#        # u-boot binaries and boot.scr commands
+#        mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-sunxi-with-spl.bin
+#        mv boot-scr/boot.scr sdcard/boot/boot.scr
+#        
+#        # everything currently shares the same devicetree file, 
+#        # instead uses different kernel builds to handle different keyboards 🤷
+#        # (aside from the display panel and input configuration, the rest of the 
+#        # hardware is pretty similar. The panel is a random mix-n-match.)
+#        mv kernel\ \(uClibc\)/suniv-f1c500s-miyoo.dtb sdcard/boot/ 
+#        
+#        # kernel
+#        mv kernel\ \(uClibc\)/zImage sdcard/boot/
+#        mv kernel\ \(uClibc\)/*.ko sdcard/boot/
+#        
+#        # currently linux can't boot if we use the rootfs that we build
+#        # once we fix the video issues, this should hopefully be easier to debug
+#        #mv rootfs.tar.xz/rootfs.tar.xz sdcard/rootfs.tar.xz
+#        
+#        # todo: get these files for the other variangs
+#        mv boot-logo/boot-logo sdcard/boot/logo/
+#        mv miyooctl/miyooctl sdcard/boot/miyooctl2 
+#        mv daemon/daemon sdcard/boot/
+#
+#    - run: find .
+#    
+#    # https://github.com/MiyooCFW/sdcard/blob/master/.github/workflows/build.yml
+#    - name: Build image 1bit
+#      run: |
+#          cd sdcard
+#          sudo VERSION=${{ steps.version.outputs.version }} ./generate_image_file.sh
+#    - uses: actions/upload-artifact@v3
+#      with:
+#        name: "cfw-${{ steps.version.outputs.version }}-1bit.img"
+#        path: sdcard/cfw-*.img
+#        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+#
+#  build-image-4bit:
+#    needs: 
+#    - uboot
+#    - boot-scr
+#    - kernel
+#    #- buildroot
+#    - logo
+#    - daemon
+#    - miyooctl
+#    - gmenu2x
+#    runs-on: ubuntu-20.04
+#    steps:
+#    - uses: actions/checkout@v3
+#    - run: echo "::set-output name=version::$GITHUB_REF_NAME-$(git rev-parse --short HEAD)" | sed 's#/#-#g'
+#      id: version
+#    - run: echo "Version ${{ steps.version.outputs.version }}"
+#    - uses: actions/download-artifact@v3
+#    - run: find .
+#    - name: Replace files under sdcard with the ones we just built
+#      run: |
+#        # start with our "sdcard" submodule source, which contains precompiled things and a script
+#        # to assemble it into an image
+#        git submodule update --init --recursive -- sdcard
+#        
+#        # overwrite some of the precompiled files with the artefacts we just built
+#        # todo: figure out a good way to differentiate between things we replace and the things we don't
+#        
+#        unzip -o gmenu2x/gmenu2x-miyoo.zip -d sdcard/main/gmenu2x/
+#        
+#        # u-boot binaries and boot.scr commands
+#        mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-sunxi-with-spl.bin
+#        mv boot-scr/boot-4bit.scr sdcard/boot/boot.scr
+#        
+#        # everything currently shares the same devicetree file, 
+#        # instead uses different kernel builds to handle different keyboards 🤷
+#        # (aside from the display panel and input configuration, the rest of the 
+#        # hardware is pretty similar. The panel is a random mix-n-match.)
+#        mv kernel\ \(uClibc\)/suniv-f1c500s-miyoo-4bit.dtb sdcard/boot/ 
+#        
+#        # kernel
+#        mv kernel\ \(uClibc\)/zImage sdcard/boot/
+#        mv kernel\ \(uClibc\)/*.ko sdcard/boot/
+#        
+#        # currently linux can't boot if we use the rootfs that we build
+#        # once we fix the video issues, this should hopefully be easier to debug
+#        #mv rootfs.tar.xz/rootfs.tar.xz sdcard/rootfs.tar.xz
+#        
+#        # todo: get these files for the other variangs
+#        mv boot-logo/boot-logo sdcard/boot/logo/
+#        mv miyooctl/miyooctl sdcard/boot/miyooctl2 
+#        mv daemon/daemon sdcard/boot/
+#
+#    - run: find .
+#    
+#    # https://github.com/MiyooCFW/sdcard/blob/master/.github/workflows/build.yml
+#    - name: Build image 4bit
+#      run: |
+#          cd sdcard
+#          sudo VERSION=${{ steps.version.outputs.version }} ./generate_image_file.sh
+#    - uses: actions/upload-artifact@v3
+#      with:
+#        name: "cfw-${{ steps.version.outputs.version }}-4bit.img"
+#        path: sdcard/cfw-*.img
+#        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`

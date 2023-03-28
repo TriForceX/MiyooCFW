@@ -105,11 +105,66 @@ jobs:
         path: gmenu2x/dist/gmenu2x-miyoo.zip
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
        
+  # https://github.com/MiyooCFW/buildroot/blob/master/.github/workflows/rootfs.yml
   build-image:
     uses: MiyooCFW/buildroot/.github/workflows/rootfs.yml@master
     with:
-      submodule: buildroot      
-       
+      submodule: buildroot
+
+  # repack final images for beta release with git commit-tag
+  fetch-images:
+    name: MiyooCFW
+    needs: 
+    - build-image
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v3
+    - run: echo "::set-output name=version::$GITHUB_REF_NAME-$(git rev-parse --short HEAD)" | sed 's#/#-#g'
+      id: version
+    - run: echo "Version ${{ steps.version.outputs.version }}"
+    - uses: actions/download-artifact@v3
+    - run: find .
+    - uses: actions/upload-artifact@v3
+      with:
+        # we are using uClibc for backward compatibility & musl for development releases
+        name: "Miyoo CFW-BETA ${{ steps.version.outputs.version }}"
+        path: |
+          build\ image\ \(uClibc\)/miyoo-cfw-*.img
+          build\ image\ \(musl\)/miyoo-cfw-*.img
+        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+
+  # repack current submodules with git commit-tag
+  fetch-submodules:
+    name: MiyooCFW (submodules)
+    needs: 
+    - uboot
+    - boot-scr
+    - kernel
+    - logo
+    - daemon
+    - miyooctl
+    - gmenu2x
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v3
+    - run: echo "::set-output name=version::$GITHUB_REF_NAME-$(git rev-parse --short HEAD)" | sed 's#/#-#g'
+      id: version
+    - run: echo "Version ${{ steps.version.outputs.version }}"
+    - uses: actions/download-artifact@v3
+    - run: find .
+    - uses: actions/upload-artifact@v3
+      with:
+        name: "Miyoo CFW-submodules ${{ steps.version.outputs.version }}"
+        path: |
+          uboot/u-boot-sunxi-with-spl.bin
+          boot-scr/boot.scr
+          kernel \(uClibc\)/
+          boot-logo/boot-logo
+          daemon/daemon
+          miyooctl/miyooctl
+          gmenu2x/gmenu2x-miyoo.zip
+        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+
 #  build-image-1bit:
 #    needs: 
 #    - uboot

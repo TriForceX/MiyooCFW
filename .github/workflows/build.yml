@@ -144,6 +144,7 @@ jobs:
     - daemon
     - miyooctl
     - gmenu2x
+    - build-image
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v3
@@ -163,6 +164,8 @@ jobs:
           daemon/daemon
           miyooctl/miyooctl
           gmenu2x/gmenu2x-miyoo.zip
+          build\ image\ \(uClibc\)/rootfs.ext4
+          build\ image\ \(musl\)/rootfs.ext4
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
 
 #  build-image-1bit:

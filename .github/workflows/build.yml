@@ -164,8 +164,8 @@ jobs:
           daemon/daemon
           miyooctl/miyooctl
           gmenu2x/gmenu2x-miyoo.zip
-          build\ image\ \(uClibc\)/rootfs.ext4
-          build\ image\ \(musl\)/rootfs.ext4
+          rootfs\ \(uClibc\)/rootfs.ext4
+          rootfs\ \(musl\)/rootfs.ext4
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
 
 #  build-image-1bit:

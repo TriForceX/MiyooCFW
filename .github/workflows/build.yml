@@ -106,7 +106,7 @@ jobs:
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
        
   build-image:
-    uses: MiyooCFW/buildroot/.github/workflows/rootfs.yml@master
+    uses: MiyooCFW/buildroot/.github/workflows/build.yml@master
     with:
       submodule: buildroot      
        

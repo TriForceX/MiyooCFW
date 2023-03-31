@@ -119,7 +119,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v3
-    - run: echo "::set-output name=version::$GITHUB_REF_NAME-$(git rev-parse --short HEAD)" | sed 's#/#-#g'
+    - run: echo "version=$GITHUB_REF_NAME-$(git rev-parse --short HEAD)" | sed 's#/#-#g' >> $GITHUB_OUTPUT
       id: version
     - run: echo "Version ${{ steps.version.outputs.version }}"
     - uses: actions/download-artifact@v3

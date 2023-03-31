@@ -5,237 +5,62 @@ name: Build
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
-
-  # https://github.com/MiyooCFW/uboot/blob/master/.github/workflows/main.yml
-  uboot:
-    runs-on: ubuntu-20.04
-    container:
-      image: miyoocfw/toolchain:master
-    steps:
-    - uses: actions/checkout@v3
-    - run: |
-        git submodule update --init --recursive -- uboot
-        apt update && apt install -y libpython3-dev python3-distutils bison flex
-        cd uboot
-        make miyoo_defconfig 
-        make
-    - uses: actions/upload-artifact@v3
-      with:
-        name: uboot
-        path: uboot/u-boot-sunxi-with-spl.bin
-        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
-
-  # https://github.com/MiyooCFW/sdcard/blob/master/.github/workflows/build.yml
-  boot-scr:
-    runs-on: ubuntu-20.04
-    container:
-      image: miyoocfw/toolchain:master
-    steps:
-    - uses: actions/checkout@v3
-    - run: |
-        git submodule update --init --recursive -- sdcard
-        cd sdcard
-        ./gen_boot_scr.sh
-    - uses: actions/upload-artifact@v3
-      with:
-        name: boot-scr
-        path: sdcard/boot # todo: only upload the compiled .scr files instead of the entire boot folder
-        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
-
-  # todo: 1-bit sd card variant
-  kernel:
-    uses: MiyooCFW/kernel/.github/workflows/build.yml@master
-    with:
-      submodule: kernel
-        
-  # https://github.com/MiyooCFW/logo/blob/master/.github/workflows/c-cpp.yml
-  logo:
-    runs-on: ubuntu-20.04
-    container:
-      image: miyoocfw/toolchain:master
-    steps:
-    - uses: actions/checkout@v3
-    - run: |
-        git submodule update --init --recursive -- logo
-        cd logo
-        make -f Makefile.miyoo
-    - uses: actions/upload-artifact@v3
-      with:
-        name: boot-logo
-        path: logo/boot-logo
-        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
-
-  # https://github.com/MiyooCFW/daemon/blob/master/.github/workflows/c-cpp.yml
-  daemon:
-    runs-on: ubuntu-20.04
-    container:
-      image: miyoocfw/toolchain:master
-    steps:
-    - uses: actions/checkout@v3
-    - run: |
-        git submodule update --init --recursive -- daemon
-        cd daemon
-        make
-    - uses: actions/upload-artifact@v3
-      with:
-        name: daemon
-        path: daemon/daemon
-        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
-        
-  # https://github.com/MiyooCFW/miyooctl/blob/master/.github/workflows/build.yml
-  miyooctl:
-    uses: MiyooCFW/miyooctl/.github/workflows/build.yml@master
-    with:
-      submodule: miyooctl
-
-  # https://github.com/MiyooCFW/gmenu2x/blob/master/.github/workflows/c-cpp.yml
-  gmenu2x:
-    runs-on: ubuntu-20.04
-    container:
-      image: nfriedly/miyoo-toolchain:steward 
-    steps:
-    - uses: actions/checkout@v3
-    - run: |
-        git submodule update --init --recursive -- gmenu2x
-        cd gmenu2x
-        make -f Makefile.miyoo zip
-    - uses: actions/upload-artifact@v3
-      with:
-        name: gmenu2x
-        path: gmenu2x/dist/gmenu2x-miyoo.zip
-        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
-       
   build-image:
     uses: MiyooCFW/buildroot/.github/workflows/build.yml@master
     with:
       submodule: buildroot      
-       
-#  build-image-1bit:
-#    needs: 
-#    - uboot
-#    - boot-scr
-#    - kernel
-#    #- buildroot
-#    - logo
-#    - daemon
-#    - miyooctl
-#    - gmenu2x
-#    runs-on: ubuntu-20.04
-#    steps:
-#    - uses: actions/checkout@v3
-#    - run: echo "::set-output name=version::$GITHUB_REF_NAME-$(git rev-parse --short HEAD)" | sed 's#/#-#g'
-#      id: version
-#    - run: echo "Version ${{ steps.version.outputs.version }}"
-#    - uses: actions/download-artifact@v3
-#    - run: find .
-#    - name: Replace files under sdcard with the ones we just built
-#      run: |
-#        # start with our "sdcard" submodule source, which contains precompiled things and a script
-#        # to assemble it into an image
-#        git submodule update --init --recursive -- sdcard
-#        
-#        # overwrite some of the precompiled files with the artefacts we just built
-#        # todo: figure out a good way to differentiate between things we replace and the things we don't
-#        
-#        unzip -o gmenu2x/gmenu2x-miyoo.zip -d sdcard/main/gmenu2x/
-#        
-#        # u-boot binaries and boot.scr commands
-#        mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-sunxi-with-spl.bin
-#        mv boot-scr/boot.scr sdcard/boot/boot.scr
-#        
-#        # everything currently shares the same devicetree file, 
-#        # instead uses different kernel builds to handle different keyboards 🤷
-#        # (aside from the display panel and input configuration, the rest of the 
-#        # hardware is pretty similar. The panel is a random mix-n-match.)
-#        mv kernel\ \(uClibc\)/suniv-f1c500s-miyoo.dtb sdcard/boot/ 
-#        
-#        # kernel
-#        mv kernel\ \(uClibc\)/zImage sdcard/boot/
-#        mv kernel\ \(uClibc\)/*.ko sdcard/boot/
-#        
-#        # currently linux can't boot if we use the rootfs that we build
-#        # once we fix the video issues, this should hopefully be easier to debug
-#        #mv rootfs.tar.xz/rootfs.tar.xz sdcard/rootfs.tar.xz
-#        
-#        # todo: get these files for the other variangs
-#        mv boot-logo/boot-logo sdcard/boot/logo/
-#        mv miyooctl/miyooctl sdcard/boot/miyooctl2 
-#        mv daemon/daemon sdcard/boot/
-#
-#    - run: find .
-#    
-#    # https://github.com/MiyooCFW/sdcard/blob/master/.github/workflows/build.yml
-#    - name: Build image 1bit
-#      run: |
-#          cd sdcard
-#          sudo VERSION=${{ steps.version.outputs.version }} ./generate_image_file.sh
-#    - uses: actions/upload-artifact@v3
-#      with:
-#        name: "cfw-${{ steps.version.outputs.version }}-1bit.img"
-#        path: sdcard/cfw-*.img
-#        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
-#
-#  build-image-4bit:
-#    needs: 
-#    - uboot
-#    - boot-scr
-#    - kernel
-#    #- buildroot
-#    - logo
-#    - daemon
-#    - miyooctl
-#    - gmenu2x
-#    runs-on: ubuntu-20.04
-#    steps:
-#    - uses: actions/checkout@v3
-#    - run: echo "::set-output name=version::$GITHUB_REF_NAME-$(git rev-parse --short HEAD)" | sed 's#/#-#g'
-#      id: version
-#    - run: echo "Version ${{ steps.version.outputs.version }}"
-#    - uses: actions/download-artifact@v3
-#    - run: find .
-#    - name: Replace files under sdcard with the ones we just built
-#      run: |
-#        # start with our "sdcard" submodule source, which contains precompiled things and a script
-#        # to assemble it into an image
-#        git submodule update --init --recursive -- sdcard
-#        
-#        # overwrite some of the precompiled files with the artefacts we just built
-#        # todo: figure out a good way to differentiate between things we replace and the things we don't
-#        
-#        unzip -o gmenu2x/gmenu2x-miyoo.zip -d sdcard/main/gmenu2x/
-#        
-#        # u-boot binaries and boot.scr commands
-#        mv uboot/u-boot-sunxi-with-spl.bin sdcard/boot/misc/u-boot-bins/u-boot-sunxi-with-spl.bin
-#        mv boot-scr/boot-4bit.scr sdcard/boot/boot.scr
-#        
-#        # everything currently shares the same devicetree file, 
-#        # instead uses different kernel builds to handle different keyboards 🤷
-#        # (aside from the display panel and input configuration, the rest of the 
-#        # hardware is pretty similar. The panel is a random mix-n-match.)
-#        mv kernel\ \(uClibc\)/suniv-f1c500s-miyoo-4bit.dtb sdcard/boot/ 
-#        
-#        # kernel
-#        mv kernel\ \(uClibc\)/zImage sdcard/boot/
-#        mv kernel\ \(uClibc\)/*.ko sdcard/boot/
-#        
-#        # currently linux can't boot if we use the rootfs that we build
-#        # once we fix the video issues, this should hopefully be easier to debug
-#        #mv rootfs.tar.xz/rootfs.tar.xz sdcard/rootfs.tar.xz
-#        
-#        # todo: get these files for the other variangs
-#        mv boot-logo/boot-logo sdcard/boot/logo/
-#        mv miyooctl/miyooctl sdcard/boot/miyooctl2 
-#        mv daemon/daemon sdcard/boot/
-#
-#    - run: find .
-#    
-#    # https://github.com/MiyooCFW/sdcard/blob/master/.github/workflows/build.yml
-#    - name: Build image 4bit
-#      run: |
-#          cd sdcard
-#          sudo VERSION=${{ steps.version.outputs.version }} ./generate_image_file.sh
-#    - uses: actions/upload-artifact@v3
-#      with:
-#        name: "cfw-${{ steps.version.outputs.version }}-4bit.img"
-#        path: sdcard/cfw-*.img
-#        if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+  docker:
+    needs: build-image
+    permissions:
+      contents: read
+      packages: write
+      # This is used to complete the identity challenge
+      # with sigstore/fulcio when running outside of PRs.
+      id-token: write
+    runs-on: ubuntu-22.04
+    env:
+      # github.repository as <account>/<repo>
+      IMAGE_NAME: ${{ github.repository }}
+      DOCKERHUB_USERNAME: miyoocfw
+    steps:
+    - uses: actions/checkout@v3
+
+    # download and extract the artefact
+    - uses: actions/download-artifact@v3
+      with: 
+        name: SDK (uClibc)
+    - run: tar -xvf arm-miyoo-linux-uclibcgnueabi_sdk-buildroot.tar.gz
+
+    - name: Log into docker hub
+      #if: github.event_name != 'pull_request'
+      uses: docker/login-action@v1
+      with:
+        # create token at https://hub.docker.com/settings/security
+        # token needs to have read, write, and delete permissions - read and write only leads to a login error (wtf?)
+        # set value at https://github.com/MiyooCFW/toolchain/settings/secrets/actions
+        username: ${{ env.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+    # Extract metadata (tags, labels) for Docker
+    # https://github.com/docker/metadata-action
+    - name: Extract Docker metadata
+      id: meta
+      uses: docker/metadata-action@v3
+      with:
+        images: ${{ env.IMAGE_NAME }}
+        tags: |
+          type=ref,event=branch
+          type=ref,event=pr
+          type=semver,pattern={{version}}
+          type=semver,pattern={{major}}.{{minor}}
+          type=semver,pattern={{major}}
+    # Build and push Docker image with Buildx (don't push on PR)
+    # https://github.com/docker/build-push-action
+    - name: Build and push Docker image
+      id: build-and-push
+      uses: docker/build-push-action@v2
+      with:
+        context: .
+        #push: ${{ github.event_name != 'pull_request' }}
+        tags: ${{ steps.meta.outputs.tags }}
+        labels: ${{ steps.meta.outputs.labels }}

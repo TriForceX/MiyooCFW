@@ -121,13 +121,13 @@ jobs:
     - uses: actions/checkout@v3
     - run: echo "version=$GITHUB_REF_NAME-$GITHUB_SHA_SHORT" | sed 's#/#-#g' >> $GITHUB_OUTPUT
       id: version
-    - run: echo "Version ${GITHUB_OUTPUT}"
+    - run: echo "Version ${{ steps.version.outputs.version }}"
     - uses: actions/download-artifact@v3
     - run: find .
     - uses: actions/upload-artifact@v3
       with:
         # we are using uClibc for backward compatibility & musl for development releases
-        name: "Miyoo CFW-BETA ${GITHUB_OUTPUT}"
+        name: "Miyoo CFW-BETA ${{ steps.version.outputs.version }}"
         path: |
           build\ image\ \(uClibc\)/miyoo-cfw-*.img
           build\ image\ \(musl\)/miyoo-cfw-*.img
@@ -150,12 +150,12 @@ jobs:
     - uses: actions/checkout@v3
     - run: echo "version=$GITHUB_REF_NAME-$GITHUB_SHA_SHORT" | sed 's#/#-#g' >> $GITHUB_OUTPUT
       id: version
-    - run: echo "Version ${GITHUB_OUTPUT}"
+    - run: echo "Version ${{ steps.version.outputs.version }}"
     - uses: actions/download-artifact@v3
     - run: find .
     - uses: actions/upload-artifact@v3
       with:
-        name: "Miyoo CFW-submodules ${GITHUB_OUTPUT}"
+        name: "Miyoo CFW-submodules ${{ steps.version.outputs.version }}"
         path: |
           uboot/u-boot-sunxi-with-spl.bin
           boot-scr/boot.scr

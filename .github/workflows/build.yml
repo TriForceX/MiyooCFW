@@ -33,7 +33,7 @@ jobs:
 
     - name: Log into docker hub
       #if: github.event_name != 'pull_request'
-      uses: docker/login-action@v1
+      uses: docker/login-action@v2
       with:
         # create token at https://hub.docker.com/settings/security
         # token needs to have read, write, and delete permissions - read and write only leads to a login error (wtf?)

@@ -149,7 +149,7 @@ Download | Dev / Port by
 [gpSP, Game Boy Advance](https://github.com/Apaczer/gpsp/releases/latest) | [Apaczer](https://github.com/Apaczer/gpsp)
 [FBA-A320](https://github.com/Rezzy-dev/fba-miyoo-playable/releases/latest) | [Rezzy](https://github.com/Rezzy-dev/fba-miyoo-playable)
 [PokeMini](https://github.com/Rezzy-dev/pokemini/releases/latest) | [gameblabla](https://github.com/Rezzy-dev/pokemini)
-[GnGeo, Neo Geo](https://github.com/steward-fu/trimui/releases/download/v1.0/gngeo_20210814.zip) | [steward-fu](https://github.com/TriForceX/MiyooCFW/discussions/369)
+[GnGeo, Neo Geo](https://github.com/steward-fu/archives/releases/download/trimui/bin_gngeo_20210814.zip) | [steward-fu](https://github.com/TriForceX/MiyooCFW/discussions/369)
 [Game & Watch](https://github.com/salvacam/gw_miyoo/releases/latest) | [salvacam](https://github.com/salvacam/gw_miyoo)
 [Pico 8](https://github.com/jtothebell/fake-08/releases/latest) | [jtothebell](https://github.com/jtothebell/fake-08/)
 

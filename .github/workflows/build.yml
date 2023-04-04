@@ -12,12 +12,6 @@ jobs:
     with:
       submodule: uboot
 
-  # https://github.com/MiyooCFW/sdcard/blob/master/.github/workflows/build.yml
-  sdcard:
-    uses: MiyooCFW/sdcard/.github/workflows/build.yml@master
-    with:
-      submodule: sdcard
-
   # https://github.com/MiyooCFW/kernel/blob/master/.github/workflows/build.yml
   kernel:
     uses: MiyooCFW/kernel/.github/workflows/build.yml@master
@@ -81,7 +75,6 @@ jobs:
     name: MiyooCFW (submodules)
     needs: 
     - uboot
-    - sdcard
     - kernel
     - logo
     - daemon
@@ -101,7 +94,6 @@ jobs:
         name: "Miyoo CFW-submodules ${{ steps.version.outputs.version }}"
         path: |
           MiyooCFW\ U-Boot/u-boot-sunxi-with-spl.bin
-          boot.scr/boot.scr
           kernel \(uClibc\)/
           Miyoo\ boot\ logo/boot-logo
           miyoo_daemon-uclibc/daemon

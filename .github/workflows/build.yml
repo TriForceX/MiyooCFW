@@ -98,6 +98,6 @@ jobs:
           Miyoo\ boot\ logo/boot-logo
           miyoo_daemon-uclibc/daemon
           miyooctl/miyooctl
-          GMenu2X\ Bundle/gmenu2x
+          GMenu2X\ Bundle/
           rootfs\ \(uClibc\)/rootfs.ext4
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`

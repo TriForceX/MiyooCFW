@@ -101,4 +101,3 @@ jobs:
           GMenu2X\ Bundle/gmenu2x
           rootfs\ \(uClibc\)/rootfs.ext4
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
-

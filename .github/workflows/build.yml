@@ -5,12 +5,12 @@ name: Build
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
-  build-image:
-    uses: MiyooCFW/buildroot/.github/workflows/build.yml@master
-    with:
-      submodule: buildroot      
+#  build-image:
+#    uses: MiyooCFW/buildroot/.github/workflows/build.yml@master
+#    with:
+#      submodule: buildroot      
   docker:
-    needs: build-image
+ #   needs: build-image
     permissions:
       contents: read
       packages: write
@@ -38,7 +38,7 @@ jobs:
         # create token at https://hub.docker.com/settings/security
         # token needs to have read, write, and delete permissions - read and write only leads to a login error (wtf?)
         # set value at https://github.com/MiyooCFW/toolchain/settings/secrets/actions
-        username: ${{ env.DOCKERHUB_USERNAME }}
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
 
     # Extract metadata (tags, labels) for Docker

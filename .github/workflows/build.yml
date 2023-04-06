@@ -65,9 +65,7 @@ jobs:
       with:
         # we are using uClibc for backward compatibility & musl for development releases
         name: "MiyooCFW-BETA ${{ steps.version.outputs.version }}"
-        path: |
-          build\ image\ \(uClibc\)/miyoo-cfw-*.img
-          build\ image\ \(musl\)/miyoo-cfw-*.img
+        path: "*/*.img"
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
 
   # repack current submodules with git commit-tag

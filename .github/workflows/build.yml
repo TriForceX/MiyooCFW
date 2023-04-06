@@ -111,6 +111,7 @@ jobs:
   # delete recurring artifacts
   purge-artifact:
     name: Artifacts cleanup
+    continue-on-error: true
     needs: 
     - fetch-images
     - fetch-submodules

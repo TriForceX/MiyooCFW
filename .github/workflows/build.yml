@@ -64,7 +64,7 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         # we are using uClibc for backward compatibility & musl for development releases
-        name: "Miyoo CFW-BETA ${{ steps.version.outputs.version }}"
+        name: "MiyooCFW-BETA ${{ steps.version.outputs.version }}"
         path: |
           build\ image\ \(uClibc\)/miyoo-cfw-*.img
           build\ image\ \(musl\)/miyoo-cfw-*.img
@@ -87,17 +87,35 @@ jobs:
     - run: echo "version=$GITHUB_REF_NAME-$(git rev-parse --short HEAD)" | sed 's#/#-#g' >> $GITHUB_OUTPUT
       id: version
     - run: echo "Version ${{ steps.version.outputs.version }}"
+    - name: Clean main repo files
+      run: |
+        find .
+        rm -r *
     - uses: actions/download-artifact@v3
-    - run: find .
+    - name: Remove images and graphs from submodule pack
+      run: |
+          rm -r *image* *graph*
+    - name: Move all left artifacts to "submodules" dir
+      run: |
+          shopt -s extglob
+          mkdir submodules && mv !(submodules|*/) submodules/
+    - name: List uploaded files
+      run: find .
     - uses: actions/upload-artifact@v3
       with:
-        name: "Miyoo CFW-submodules ${{ steps.version.outputs.version }}"
+        name: "MiyooCFW-submodules ${{ steps.version.outputs.version }}"
         path: |
-          MiyooCFW\ U-Boot/u-boot-sunxi-with-spl.bin
-          kernel \(uClibc\)/
-          Miyoo\ boot\ logo/boot-logo
-          miyoo_daemon-uclibc/daemon
-          miyooctl/miyooctl
-          GMenu2X\ Bundle/
-          rootfs\ \(uClibc\)/rootfs.ext4
+          submodules
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
+
+  # delete recurring artifacts
+  purge-artifact:
+    name: Artifacts cleanup
+    needs: 
+    - fetch-images
+    - fetch-submodules
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: geekyeggo/delete-artifact@v2
+      with:
+        name: "!MiyooCFW*"

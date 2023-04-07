@@ -86,13 +86,10 @@ jobs:
       id: version
     - run: echo "Version ${{ steps.version.outputs.version }}"
     - name: Clean main repo files
-      run: |
-        find .
-        rm -r *
+      run: rm -r *
     - uses: actions/download-artifact@v3
     - name: Remove images and graphs from submodule pack
-      run: |
-          rm -r *image* *graph*
+      run: rm -r *image* *graph*
     - name: Move all left artifacts to "submodules" dir
       run: |
           shopt -s extglob
@@ -102,8 +99,7 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: "MiyooCFW-submodules ${{ steps.version.outputs.version }}"
-        path: |
-          submodules
+        path: submodules
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
 
   # delete recurring artifacts

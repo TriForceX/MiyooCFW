@@ -105,6 +105,7 @@ Download | Dev / Port by
 [Anarch](https://github.com/szymor/anarch/releases/latest) | [szymor](https://github.com/szymor/anarch)
 [Heart of the Alien](https://github.com/MiyanoOsu/hota_redux/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/hota_redux)
 [Duke Nukem 3D](https://github.com/Apaczer/eduke32/releases/latest) | [Apaczer](https://github.com/Apaczer/eduke32)
+[Final Snake](https://github.com/szymor/finalsnake/releases/latest) | [szymor](https://github.com/szymor/finalsnake)
 
 ---
 

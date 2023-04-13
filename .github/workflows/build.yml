@@ -220,7 +220,7 @@ jobs:
       run: rm -r *
     - uses: actions/download-artifact@v3
     - name: Remove images and graphs from submodule pack
-      run: rm -r *image* *graph*
+      run: rm -r *image* *graph* MiyooCFW*
     - name: Move all left artifacts to "submodules" dir
       run: |
           shopt -s extglob

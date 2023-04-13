@@ -5,49 +5,180 @@ name: Build
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
+ 
+  # https://github.com/MiyooCFW/buildroot/blob/master/.github/workflows/rootfs.yml
+  build-image:
+    uses: MiyooCFW/buildroot/.github/workflows/build.yml@master
+    with:
+      submodule: buildroot
+      
+  docker-uclibc:
+    needs: build-image
+    permissions:
+      contents: read
+      packages: write
+      # This is used to complete the identity challenge
+      # with sigstore/fulcio when running outside of PRs.
+      id-token: write
+    runs-on: ubuntu-22.04
+    env:
+      # github.repository as <account>/<repo>
+      IMAGE_NAME: miyoocfw/toolchain-shared-uclibc
+      DOCKERHUB_USERNAME: miyoocfw
+    steps:
+    - uses: actions/checkout@v3
+
+    # download and extract the artifact
+    - uses: actions/download-artifact@v3
+      with: 
+        name: SDK (uClibc)
+    - run: tar -xvf arm-miyoo-linux-uclibcgnueabi_sdk-buildroot.tar.gz
+
+    - name: Log into docker hub
+      if: github.event_name != 'pull_request'
+      uses: docker/login-action@v2
+      with:
+        # create token at https://hub.docker.com/settings/security
+        # token needs to have read, write, and delete permissions - read and write only leads to a login error (wtf?)
+        # set value at https://github.com/MiyooCFW/toolchain/settings/secrets/actions
+        username: ${{ env.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+    # Extract metadata (tags, labels) for Docker
+    # https://github.com/docker/metadata-action
+    - name: Extract Docker metadata
+      id: meta
+      uses: docker/metadata-action@v4
+      with:
+        images: ${{ env.IMAGE_NAME }}
+        tags: |
+          type=ref,event=branch
+          type=ref,event=pr
+          type=semver,pattern={{version}}
+          type=semver,pattern={{major}}.{{minor}}
+          type=semver,pattern={{major}}
+    # Build and push Docker image with Buildx (don't push on PR)
+    # https://github.com/docker/build-push-action
+    - name: Build and push Docker image
+      id: build-and-push
+      uses: docker/build-push-action@v4
+      with:
+        context: .
+        file: Dockerfile-uclibc
+        push: ${{ github.event_name != 'pull_request' }}
+        tags: ${{ steps.meta.outputs.tags }}
+        labels: ${{ steps.meta.outputs.labels }}
+  docker-musl:
+    needs: build-image
+    permissions:
+      contents: read
+      packages: write
+      # This is used to complete the identity challenge
+      # with sigstore/fulcio when running outside of PRs.
+      id-token: write
+    runs-on: ubuntu-22.04
+    env:
+      # github.repository as <account>/<repo>
+      IMAGE_NAME: miyoocfw/toolchain-shared-musl
+      DOCKERHUB_USERNAME: miyoocfw
+    steps:
+    - uses: actions/checkout@v3
+
+    # download and extract the artifact
+    - uses: actions/download-artifact@v3
+      with: 
+        name: SDK (musl)
+    - run: tar -xvf arm-miyoo-linux-musleabi_sdk-buildroot.tar.gz
+
+    - name: Log into docker hub
+      if: github.event_name != 'pull_request'
+      uses: docker/login-action@v2
+      with:
+        # create token at https://hub.docker.com/settings/security
+        # token needs to have read, write, and delete permissions - read and write only leads to a login error (wtf?)
+        # set value at https://github.com/MiyooCFW/toolchain/settings/secrets/actions
+        username: ${{ env.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+    # Extract metadata (tags, labels) for Docker
+    # https://github.com/docker/metadata-action
+    - name: Extract Docker metadata
+      id: meta
+      uses: docker/metadata-action@v4
+      with:
+        images: ${{ env.IMAGE_NAME }}
+        tags: |
+          type=ref,event=branch
+          type=ref,event=pr
+          type=semver,pattern={{version}}
+          type=semver,pattern={{major}}.{{minor}}
+          type=semver,pattern={{major}}
+    # Build and push Docker image with Buildx (don't push on PR)
+    # https://github.com/docker/build-push-action
+    - name: Build and push Docker image
+      id: build-and-push
+      uses: docker/build-push-action@v4
+      with:
+        context: .
+        file: Dockerfile-musl
+        push: ${{ github.event_name != 'pull_request' }}
+        tags: ${{ steps.meta.outputs.tags }}
+        labels: ${{ steps.meta.outputs.labels }}      
 
   # https://github.com/MiyooCFW/uboot/blob/master/.github/workflows/main.yml
   uboot:
+    needs: 
+    - docker-uclibc
+    - docker-musl
     uses: MiyooCFW/uboot/.github/workflows/main.yml@master
     with:
       submodule: uboot
 
   # https://github.com/MiyooCFW/kernel/blob/master/.github/workflows/build.yml
   kernel:
+    needs: 
+    - docker-uclibc
+    - docker-musl
     uses: MiyooCFW/kernel/.github/workflows/build.yml@master
     with:
       submodule: kernel
         
   # https://github.com/MiyooCFW/logo/blob/master/.github/workflows/c-cpp.yml
   logo:
+    needs: 
+    - docker-uclibc
+    - docker-musl
     uses: MiyooCFW/logo/.github/workflows/c-cpp.yml@master
     with:
       submodule: logo
 
   # https://github.com/MiyooCFW/daemon/blob/master/.github/workflows/c-cpp.yml
   daemon:
+    needs: 
+    - docker-uclibc
+    - docker-musl
     uses: MiyooCFW/daemon/.github/workflows/c-cpp.yml@master
     with:
       submodule: daemon
         
   # https://github.com/MiyooCFW/miyooctl/blob/master/.github/workflows/build.yml
   miyooctl:
+    needs: 
+    - docker-uclibc
+    - docker-musl
     uses: MiyooCFW/miyooctl/.github/workflows/build.yml@master
     with:
       submodule: miyooctl
 
   # https://github.com/MiyooCFW/gmenu2x/blob/master/.github/workflows/c-cpp.yml
   gmenu2x:
+    needs: 
+    - docker-uclibc
+    - docker-musl
     uses: MiyooCFW/gmenu2x/.github/workflows/c-cpp.yml@master
     with:
       submodule: gmenu2x
-       
-  # https://github.com/MiyooCFW/buildroot/blob/master/.github/workflows/rootfs.yml
-  build-image:
-    uses: MiyooCFW/buildroot/.github/workflows/build.yml@master
-    with:
-      submodule: buildroot
-
+      
   # repack final images for beta release with git commit-tag
   fetch-images:
     name: MiyooCFW
@@ -89,7 +220,7 @@ jobs:
       run: rm -r *
     - uses: actions/download-artifact@v3
     - name: Remove images and graphs from submodule pack
-      run: rm -r *image* *graph*
+      run: rm -r *image* *graph* MiyooCFW*
     - name: Move all left artifacts to "submodules" dir
       run: |
           shopt -s extglob

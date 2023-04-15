@@ -26,3 +26,5 @@ RUN apt-get update && apt-get install -y libncurses-dev file make gcc g++ \
     python3-dev swig && \
     apt-get -y autoremove && apt-get -y clean
 RUN cd /opt/miyoo && ./relocate-sdk.sh
+# add safe directory to prevent dubious ownership error
+RUN git config --system safe.directory '/__w/MiyooCFW/MiyooCFW'

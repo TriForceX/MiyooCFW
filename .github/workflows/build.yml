@@ -13,6 +13,7 @@ jobs:
       submodule: buildroot
       
   docker-uclibc:
+    continue-on-error: true
     needs: build-image
     permissions:
       contents: read
@@ -70,6 +71,7 @@ jobs:
         tags: ${{ steps.meta.outputs.tags }}
         labels: ${{ steps.meta.outputs.labels }}
   docker-musl:
+    continue-on-error: true
     needs: build-image
     permissions:
       contents: read

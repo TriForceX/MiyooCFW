@@ -35,8 +35,6 @@ _This project is not affiliated or related with any company or manufacturer_
 
 ![miyoo-consoles](https://user-images.githubusercontent.com/16083854/221029395-26b04557-dccf-40bd-a059-b9928553ee4f.png)
 
-**Note:** Support for XYC Q8 and Sup M3 is on the go, you can follow up the development in our [Discord](https://discord.gznetwork.com)
-
 </div>
 
 ---
@@ -164,7 +162,7 @@ The next list is the current skins, themes and frontends available _(click the u
 
 Download | Dev / Port by
 :------: | :------:
-[Simple Menu](https://github.com/fgl82/simplemenu/releases/latest) | [fgl82](https://github.com/fgl82/simplemenu)
+[Simple Menu](https://github.com/fgl82/simplemenu/releases) | [fgl82](https://github.com/fgl82/simplemenu)
 [Coverflow](https://github.com/peterthrees/Coverflow/raw/master/build/Coverflow/CoverflowV1.0.zip) | [peterthrees](https://github.com/peterthrees/Coverflow)
 [SimUI](https://github.com/dkodr/SimUI/releases/latest) | [dkodr](https://github.com/dkodr/SimUI)
 [TheWebWolfe Themes](https://github.com/thewebwolfe/Miyoo_Themes/tree/main/.github/workflows) | [thewebwolfe](https://github.com/thewebwolfe/Miyoo_Themes)
@@ -361,7 +359,7 @@ Main Developers | Support & Testing | Theme Developers | Misc Support
 superpuissant | WenTao | Segich | Alexai
 [scooterpsu](https://github.com/scooterpsu) | dElAvA | SimplEasy | Merisy
 CountDuckula | Jutleys | Harsh Bhardwaj | [Nikolay Minaylov](https://github.com/nminaylov)
-[vamastah](https://github.com/szymor) | ToTo | s4ilence | 
+[vamastah](https://github.com/szymor) | ToTo | s4ilence | [MiyanoOsu](https://github.com/MiyanoOsu)
 [Christian_Haitian](https://github.com/christianhaitian) | [Turtle](https://github.com/turtleletortue) | bhardwaj | 
 [BytePorter](https://github.com/byteporter) | James Dull | [dkodr](https://github.com/dkodr/SimUI) | 
 [JamesOFarrell](https://github.com/jamesofarrell) | HYJiNX187 |  | 

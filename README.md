@@ -48,11 +48,11 @@ The next list is the latest homebrews games and ports available _(click the user
 Download | Dev / Port by
 :------: | :------:
 [Just4Qix](https://github.com/szymor/just4qix/releases/latest) | [szymor](https://github.com/szymor/just4qix)
-[REminiscence](https://github.com/jamesofarrell/REminiscence/releases/latest) | [jamesofarrell](https://github.com/jamesofarrell/miyoo_xrick)
+[REminiscence](https://github.com/jamesofarrell/REminiscence/releases/latest) | [jamesofarrell](https://github.com/jamesofarrell/REminiscence/)
 [Xrick](https://github.com/jamesofarrell/miyoo_xrick/releases/latest) | [jamesofarrell](https://github.com/jamesofarrell/miyoo_xrick)
 [Evil Australians](https://drive.google.com/file/d/1c45WxVTbg_iodVCUD4ScJl5UeojGWBYp/view) | [gameblabla](https://github.com/gameblabla/evilaustralians)
 [Yatka](https://github.com/szymor/yatka/releases/latest) | [szymor](https://github.com/szymor/yatka)
-[Hocoslamfy](https://drive.google.com/file/d/1QE3VSFDhlSvDvHyJX6NDKG2tR34DMoQp/view) | [Nebuleon](https://github.com/Nebuleon/hocoslamfy)
+[Hocoslamfy](https://drive.google.com/file/d/1QE3VSFDhlSvDvHyJX6NDKG2tR34DMoQp/view) | [fgl82](https://github.com/fgl82/hocoslamfy)
 [Circuit Dude (PocketGo)](http://www.crait.net/download.php?file=CircuitDudePG.zip) | [crait](http://www.crait.net)
 [Circuit Dude (Bittboy)](http://www.crait.net/download.php?file=CircuitDudeBB.zip) | [crait](http://www.crait.net)
 [Midnight Wild (PocketGo)](http://www.crait.net/download.php?file=MidnightWildPG.zip) | [crait](http://www.crait.net)

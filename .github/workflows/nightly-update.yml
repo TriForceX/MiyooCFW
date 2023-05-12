@@ -29,7 +29,7 @@ jobs:
           git submodule update --remote --merge
           
           # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idoutputs
-          echo "::set-output name=changes::$(git status --porcelain)"
+          echo "changes=$(git status --porcelain)" >> $GITHUB_OUTPUT
       - name: Push changes
         if: ${{ steps.update.outputs.changes }}
         run: |

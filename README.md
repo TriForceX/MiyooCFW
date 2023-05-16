@@ -52,7 +52,7 @@ Download | Dev / Port by
 [Xrick](https://github.com/jamesofarrell/miyoo_xrick/releases/latest) | [jamesofarrell](https://github.com/jamesofarrell/miyoo_xrick)
 [Evil Australians](https://drive.google.com/file/d/1c45WxVTbg_iodVCUD4ScJl5UeojGWBYp/view) | [gameblabla](https://github.com/gameblabla/evilaustralians)
 [Yatka](https://github.com/szymor/yatka/releases/latest) | [szymor](https://github.com/szymor/yatka)
-[Hocoslamfy](https://drive.google.com/file/d/1QE3VSFDhlSvDvHyJX6NDKG2tR34DMoQp/view) | [fgl82](https://github.com/fgl82/hocoslamfy)
+[Hocoslamfy](https://github.com/Apaczer/hocoslamfy/releases/latest) | [Apaczer](https://github.com/Apaczer/hocoslamfy)
 [Circuit Dude](http://www.crait.net/download.php?file=CircuitDudePG.zip) | [crait](http://www.crait.net)
 [Midnight Wild](http://www.crait.net/download.php?file=MidnightWildPG.zip) | [crait](http://www.crait.net)
 [Hydra Castle Labyrinth](https://github.com/szymor/hydracastlelabyrinth/releases/latest) | [szymor](https://github.com/szymor/hydracastlelabyrinth)
@@ -101,6 +101,7 @@ Download | Dev / Port by
 [Heart of the Alien](https://github.com/MiyanoOsu/hota_redux/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/hota_redux)
 [Duke Nukem 3D](https://github.com/Apaczer/eduke32/releases/latest) | [Apaczer](https://github.com/Apaczer/eduke32)
 [Final Snake](https://github.com/szymor/finalsnake/releases/latest) | [szymor](https://github.com/szymor/finalsnake)
+[quartermaster](https://github.com/Apaczer/quartermaster/releases/latest) | [hi-ban](https://github.com/Apaczer/quartermaster)
 
 ---
 
@@ -116,6 +117,7 @@ Download | Dev / Port by
 [Gambatte-DMS](https://github.com/bardeci/dot-matrix-simulator/releases/latest) | [hi-ban](https://github.com/bardeci/dot-matrix-simulator)
 [BittBoy MSX](https://github.com/pthalin/bittboy-msx/releases/latest) | [pthalin](https://github.com/pthalin)
 [PocketSNES](https://github.com/m45t3r/pocketsnes-miyoo/releases) | [m45t3r](https://github.com/m45t3r/pocketsnes-miyoo)
+[DrPocketSNES](https://github.com/Apaczer/DrPocketSNES/releases/latest) | [bitrider](https://github.com/Apaczer/DrPocketSNES)
 [snes9x4d](https://github.com/m45t3r/snes9x4d-miyoo/releases/latest) | [m45t3r](https://github.com/m45t3r/snes9x4d-miyoo)
 [BittBoy J2ME (Experimental)](https://github.com/pthalin/bittboy-j2me/releases/latest) | [pthalin](https://github.com/pthalin)
 [Fuse, ZX Spectrum](https://github.com/salvacam/fuse-od/releases/latest) | [salvacam](https://github.com/salvacam/fuse-od)
@@ -148,6 +150,8 @@ Download | Dev / Port by
 [GnGeo, Neo Geo](https://github.com/steward-fu/archives/releases/download/trimui/bin_gngeo_20210814.zip) | [steward-fu](https://github.com/TriForceX/MiyooCFW/discussions/369)
 [Game & Watch](https://github.com/salvacam/gw_miyoo/releases/latest) | [salvacam](https://github.com/salvacam/gw_miyoo)
 [Pico 8](https://github.com/jtothebell/fake-08/releases/latest) | [jtothebell](https://github.com/jtothebell/fake-08/)
+[UAE4ALL, Amiga 500](https://github.com/Apaczer/uae4all/releases/latest) | [Apaczer](https://github.com/Apaczer/uae4all)
+[race, Neo Geo Pocket](https://github.com/Apaczer/race-od/releases/latest) | [eggs](https://github.com/Apaczer/race-od)
 
 ---
 

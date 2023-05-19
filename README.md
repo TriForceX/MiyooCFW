@@ -152,6 +152,7 @@ Download | Dev / Port by
 [Pico 8](https://github.com/jtothebell/fake-08/releases/latest) | [jtothebell](https://github.com/jtothebell/fake-08/)
 [UAE4ALL, Amiga 500](https://github.com/Apaczer/uae4all/releases/latest) | [Apaczer](https://github.com/Apaczer/uae4all)
 [race, Neo Geo Pocket](https://github.com/Apaczer/race-od/releases/latest) | [eggs](https://github.com/Apaczer/race-od)
+[PicoDrive, Sega MS/GG/MD/MD-CD/32X](https://github.com/irixxxx/picodrive/releases/latest) | [irixxxx](https://github.com/irixxxx/picodrive)
 
 ---
 

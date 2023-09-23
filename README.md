@@ -198,7 +198,7 @@ Below is the list of practical debugging programs _(click the user name for more
 
 Download | Dev / Port by
 :------: | :------:
-[QEMU](https://github.com/steward-fu/archives/releases/download/fc3000/bin_qemu_20220929.7z) | [steward-fu](https://github.com/steward-fu/kernel/tree/f1c100s_fc3000_linux-4.14.0_qemu)
+[QEMU](https://github.com/steward-fu/archives/releases/download/fc3000/qemu_20220929.7z) | [steward-fu](https://github.com/steward-fu/kernel/tree/f1c100s_fc3000_linux-4.14.0_qemu)
 [GDB](https://github.com/Apaczer/miyoo_tools/releases/download/apps/gdb.zip) | [gameblabla](https://github.com/Apaczer/miyoo_tools/tree/main/gdb)
 
 ---

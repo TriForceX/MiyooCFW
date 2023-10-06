@@ -102,6 +102,7 @@ Download | Dev / Port by
 [Duke Nukem 3D](https://github.com/Apaczer/eduke32/releases/latest) | [Apaczer](https://github.com/Apaczer/eduke32)
 [Final Snake](https://github.com/szymor/finalsnake/releases/latest) | [szymor](https://github.com/szymor/finalsnake)
 [quartermaster](https://github.com/Apaczer/quartermaster/releases/latest) | [hi-ban](https://github.com/Apaczer/quartermaster)
+[Biniax2](https://github.com/salvacam/biniax2/releases/latest) | [salvacam](https://github.com/salvacam/biniax2)
 
 ---
 

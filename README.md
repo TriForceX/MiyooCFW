@@ -154,6 +154,7 @@ Download | Dev / Port by
 [UAE4ALL, Amiga 500](https://github.com/Apaczer/uae4all/releases/latest) | [Apaczer](https://github.com/Apaczer/uae4all)
 [race, Neo Geo Pocket](https://github.com/Apaczer/race-od/releases/latest) | [eggs](https://github.com/Apaczer/race-od)
 [PicoDrive, Sega MS/GG/MD/MD-CD/32X](https://github.com/irixxxx/picodrive/releases/latest) | [irixxxx](https://github.com/irixxxx/picodrive)
+[Gnash, Flash player](https://github.com/Apaczer/gnash-miyoo/releases/latest) | [Apaczer](https://github.com/Apaczer/gnash-miyoo)
 
 ---
 
@@ -383,7 +384,6 @@ PlataformerAndroid |  |  |
 [flabbergast](https://github.com/flabbergast) |  |  | 
 [andrigamerita](https://github.com/andrigamerita) |  |  | 
 [nfriedly](https://github.com/nfriedly) |  |  | 
-[andrigamerita](https://github.com/andrigamerita) |  |  | 
 [Tiopex](https://github.com/tiopex) |  |  | 
 [Apaczer](https://github.com/Apaczer) |  |  | 
 [YeuxNoir](https://github.com/NoNamedCat) |  |  | 

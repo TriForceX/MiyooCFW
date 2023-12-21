@@ -201,7 +201,7 @@ Below is the list of practical debugging programs _(click the user name for more
 
 Download | Dev / Port by
 :------: | :------:
-[QEMU](https://github.com/steward-fu/archives/releases/download/fc3000/qemu_20220929.7z) | [steward-fu](https://github.com/steward-fu/kernel/tree/f1c100s_fc3000_linux-4.14.0_qemu)
+[QEMU](https://github.com/steward-fu/archives/releases/download/fc3000/qemu_20220929.7z) | [steward-fu](https://steward-fu.github.io/website/handheld/fc3000/qemu.htm)
 [GDB](https://github.com/Apaczer/miyoo_tools/releases/download/apps/gdb.zip) | [gameblabla](https://github.com/Apaczer/miyoo_tools/tree/main/gdb)
 
 ---
@@ -300,17 +300,6 @@ Active contributors:
 			<a href="https://github.com/nfriedly">
 				<img src="https://avatars.githubusercontent.com/u/114976?s=64&v=4" width="64" height="64">
 			</a>
-		</td>
-		<td align="center">
-			<a href="https://github.com/Rezzy-dev">
-				<img src="https://avatars.githubusercontent.com/u/4543835?s=64&v=4" width="64" height="64">
-			</a>
-		</td>
-		<td align="center">
-			<a href="https://github.com/NoNamedCat">
-				<img src="https://avatars.githubusercontent.com/u/39467683?s=64&v=4" width="64" height="64">
-			</a>
-		</td>
 		<td align="center">
 			<a href="https://github.com/TriForceX">
 				<img src="https://avatars.githubusercontent.com/u/16083854?s=64&v=4" width="64" height="64">
@@ -331,16 +320,6 @@ Active contributors:
 		<td align="center">
 			<a href="https://github.com/nfriedly">
 				@nfriedly
-			</a>
-		</td>
-		<td align="center">
-			<a href="https://github.com/Rezzy-dev">
-				@Rezzy-dev
-			</a>
-		</td>
-		<td align="center">
-			<a href="https://github.com/NoNamedCat">
-				@YeuxNoir
 			</a>
 		</td>
 		<td align="center">

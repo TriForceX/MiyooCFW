@@ -1,6 +1,6 @@
 # Miyoo Custom Firmware
 
-> This custom firmware for **BittBoy**, **PocketGo** and **PowKiddy V90-Q90-Q20** (and 3rd party consoles) allows you to play a wide variety of consoles/computers thanks to numerous emulators available to it as well some ports of games. The next resources and guides was made to help anyone to setup it to the console.
+> The definitive custom firmware for **BittBoy**, **PocketGo**, **PowKiddy V90-Q90-Q20** _(and 3rd party consoles)_ allows you unlock the potential of the hardware and use software from a wide variety of consoles and computers thanks to the availability of numerous emulators and native ports of several games!
 
 <div align="center">
 
@@ -10,11 +10,11 @@
 [![discord](https://img.shields.io/discord/202879976599453696.svg?logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gznetwork.com)
 [![threads](https://img.shields.io/github/discussions/TriForceX/MiyooCFW.svg?label=Threads&color=orange)](https://github.com/TriForceX/MiyooCFW/discussions)
 [![wiki](https://img.shields.io/badge/Wiki-Guides-blueviolet.svg)](https://github.com/TriForceX/MiyooCFW/wiki)
-[![stars](https://img.shields.io/github/stars/TriForceX/MiyooCFW.svg?label=Project%20Stars)](https://github.com/TriForceX/MiyooCFW/stargazers)
+[![stars](https://img.shields.io/github/stars/TriForceX/MiyooCFW.svg?label=Stars)](https://github.com/TriForceX/MiyooCFW/stargazers)
 [![issues](https://img.shields.io/github/issues/TriForceX/MiyooCFW.svg?label=Issues&color=red)](https://github.com/TriForceX/MiyooCFW/issues)
 [![license](https://img.shields.io/github/license/TriForceX/MiyooCFW.svg?label=License&color=yellow)](#license)
 
-_This project is not affiliated or related with any company or manufacturer_
+_This project is not affiliated or related with any company or manufacturer. We do not pay or get paid for this work._
 
 </div>
 
@@ -24,12 +24,11 @@ _This project is not affiliated or related with any company or manufacturer_
 
 - Check main guides for setup in our **wiki** [here](https://github.com/TriForceX/MiyooCFW/wiki)
 - Get the latest **apps**, **homebrews**, **emulators** and **tools** [here](#resources)
-- Give us your **feedback** or **comments** on the **forum** threads [here](https://github.com/TriForceX/MiyooCFW/discussions)
+- Give us your **feedback** or **comments** on the discussion **forums** [here](https://github.com/TriForceX/MiyooCFW/discussions)
 - Check the version details history in our **changelog** [here](https://github.com/TriForceX/MiyooCFW/blob/master/CHANGELOG.md)
 - Join our **Discord** chat server for more support [here](https://discord.gznetwork.com)
-- Check our old resources & backups [here](https://drive.google.com/drive/folders/1GEumIF7XNOAGNOtPoe4kjP97Wzk7jj1E?usp=sharing)
 
-# Setup
+<br>
 
 <div align="center">
 
@@ -209,9 +208,9 @@ Download | Dev / Port by
 
 </details>
 
-<details><summary> Old Betas</summary><br>
+<details><summary> Other Resources</summary><br>
 
-Here you have a list some of the beta or custom files, to access them go to **Beta Testing** folder [here](https://drive.google.com/drive/folders/1AT3LVlJPCZf_csTh8qdgL0Bp1MlZQONV?usp=sharing). This section is for advanced users, no guides are provided for this (please read the **.txt** files before using them).
+Here you have a list some of some **old betas* or custom files, to access them go to **Beta Testing** folder [here](https://drive.google.com/drive/folders/1AT3LVlJPCZf_csTh8qdgL0Bp1MlZQONV?usp=sharing). This section is for advanced users, no guides are provided for this (please read the **.txt** files before using them).
 
 File | Notes
 :------------: | :------------
@@ -227,7 +226,7 @@ PCSX Rearmed CFG | Custom PCSX-Rearmed Config Library
 PocketSNES Improved | Modified SNES emulator with improved performance
 Fake 08 | Alternative Pico 8 emulator under development
 
-_**Note:** If you are looking for the **BittBoy v1** and **v2** main stuff _(stock firmware, drivers, schematics, etc...)_ you can take a look [here](https://drive.google.com/drive/folders/1hcV3MmtmabOKl-PL3R7BqmDClY7Q7u7H?usp=sharing)._
+_**Note:** If you are looking for other stuff or **old resources** (stock firmware, drivers, schematics, etc...) you can take a look [here](https://drive.google.com/drive/folders/1GEumIF7XNOAGNOtPoe4kjP97Wzk7jj1E?usp=sharing)._
 
 ---
 
@@ -351,7 +350,7 @@ CountDuckula | Jutleys | Harsh Bhardwaj | [Nikolay Minaylov](https://github.com/
 dee | a64 |  | 
 [crait](http://www.crait.net) | Rich |  | 
 koroneo | [CanMurray](https://www.youtube.com/canmurray) |  | 
-Roast风格 |  |  | 
+Roast风格 | [natopwns](https://github.com/natopwns) |  | 
 [SantX27](https://github.com/SantX27) |  |  | 
 [fgl82](https://github.com/fgl82) |  |  | 
 [peterthrees](https://github.com/peterthrees) |  |  | 

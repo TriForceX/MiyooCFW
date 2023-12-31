@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![miyoo-cfw](https://user-images.githubusercontent.com/16083854/146627334-6ecc3d84-b569-4365-b01d-efdae21f79d7.png)
+![miyoo-cfw](https://github.com/TriForceX/MiyooCFW/assets/16083854/51119d94-24a5-47b7-8bbd-f93b997c36c1)
 
 [![version](https://img.shields.io/github/v/release/TriForceX/MiyooCFW?include_prereleases&label=Current%20Version&color=brightgreen)](https://github.com/TriForceX/MiyooCFW/releases)
 [![discord](https://img.shields.io/discord/202879976599453696.svg?logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gznetwork.com)

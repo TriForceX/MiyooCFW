@@ -2,6 +2,50 @@
 
 The next list is all the changes registered on the **custom firmware** version updates.
 
+## Miyoo CFW 2.0.0 Beta Pre-Release _(December 30, 2023)_
+
+- One single CFW image / install file for all the supported consoles.
+- Fully working and clean source code (this means more frecuently updates)
+- Added TV out video support
+- Added console support XYC Q8 / SUP M3
+- Added support for L2 and R2 buttons on Powkiddy V90
+- Added support for secondary button (plus sign) on Powkiddy Q20 and Q90
+- Added new first initial boot setup
+- Added console variant auto-detection on first boot setup
+- Added auto-expand storage for main partition on first boot setup
+- Added USB data transfer support from PC via MTD protocol
+- Added USB serial console support
+- Added SD card custom icons for PC drives
+- Added current CFW build version on boot screen
+- Added option to disable battery warning
+- Added support for 1bit consoles from software (no hardware mods required)
+- Added option to configure internal clock (useful for time-based games)
+- Added option to configure tearing effect fix
+- Added support for IPK packages via OPKG library
+- Added screen recording in background via ffmpeg (WIP)
+- Added audio recording in background via arecord (silent mode)
+- Added auto-start feature on main menu system GMenu2X
+- Added per-app input mapping customization on main menu system GMenu2X
+- Added new file system BTRFS that allows unsafe shutdown to prevent data corruption
+- Added Joy-Map app to emulate connected gamepad inputs to keyboard mapping
+- Added USB-Host script to connect external devices (e.g joystick)
+- Added USB-MTD script to activate mass-storage (transfer files via USB OTG)
+- Added USB-Serial Console script to communicate with you device via serial TTY
+- Added USB-HID app to transform your handheld into external gamepad for connected PC
+- Added experimental musl build CFW version
+- Updated kernel to version 5.15 with BTRFS and USB support
+- Updated u-boot to version 2020.07 with USB support
+- Updated buildroot to version 2022.02.9 with GCC 9.x
+- Updated main configuration files options (CFG files)
+- Updated custom bash scripts methods to launch custom stuff
+- Updated video backend engine to display splash screen or console logs from uboot
+- Updated the entire GMenu2X menu front-end (previously GMenuNX)
+- Updated customizable boot splash screen (BMP format)
+- Increased DRAM clock speed to 174Mhz
+- Fixed screen-tearing issue, enabled through TE-fix setting in GMenu2X (only for ST7789S displays)
+- Fixed text overflow on GMenu2X file explorer when screenshot preview is enabled
+- Fixed many other small bugs thanks to the core updates (kernel, u-boot, buildroot, etc...)
+
 ## Miyoo CFW 1.3.3 _(October 04, 2020)_
 
 - **New Apps & Games**

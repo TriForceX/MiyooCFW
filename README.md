@@ -6,13 +6,13 @@
 
 ![miyoo-cfw](https://github.com/TriForceX/MiyooCFW/assets/16083854/51119d94-24a5-47b7-8bbd-f93b997c36c1)
 
-[![version](https://img.shields.io/github/v/release/TriForceX/MiyooCFW?include_prereleases&label=Current%20Version&color=brightgreen)](https://github.com/TriForceX/MiyooCFW/releases)
-[![discord](https://img.shields.io/discord/202879976599453696.svg?logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gznetwork.com)
-[![threads](https://img.shields.io/github/discussions/TriForceX/MiyooCFW.svg?label=Threads&color=orange)](https://github.com/TriForceX/MiyooCFW/discussions)
-[![wiki](https://img.shields.io/badge/Wiki-Guides-blueviolet.svg)](https://github.com/TriForceX/MiyooCFW/wiki)
-[![stars](https://img.shields.io/github/stars/TriForceX/MiyooCFW.svg?label=Stars)](https://github.com/TriForceX/MiyooCFW/stargazers)
-[![issues](https://img.shields.io/github/issues/TriForceX/MiyooCFW.svg?label=Issues&color=red)](https://github.com/TriForceX/MiyooCFW/issues)
-[![license](https://img.shields.io/github/license/TriForceX/MiyooCFW.svg?label=License&color=yellow)](#license)
+[![version](https://img.shields.io/github/v/release/TriForceX/MiyooCFW?include_prereleases&label=Current%20Version&color=brightgreen&style=flat)](https://github.com/TriForceX/MiyooCFW/releases)
+[![discord](https://img.shields.io/discord/202879976599453696.svg?logo=discord&logoColor=white&label=Discord&color=5865F2&style=flat)](https://discord.gznetwork.com)
+[![threads](https://img.shields.io/github/discussions/TriForceX/MiyooCFW.svg?label=Threads&color=orange&style=flat)](https://github.com/TriForceX/MiyooCFW/discussions)
+[![wiki](https://img.shields.io/badge/Wiki-Guides-blueviolet.svg?style=flat)](https://github.com/TriForceX/MiyooCFW/wiki)
+[![stars](https://img.shields.io/github/stars/TriForceX/MiyooCFW.svg?label=Stars&style=flat)](https://github.com/TriForceX/MiyooCFW/stargazers)
+[![issues](https://img.shields.io/github/issues/TriForceX/MiyooCFW.svg?label=Issues&color=red&style=flat)](https://github.com/TriForceX/MiyooCFW/issues)
+[![license](https://img.shields.io/github/license/TriForceX/MiyooCFW.svg?label=License&color=yellow&style=flat)](#license)
 
 _This project is not affiliated or related with any company or manufacturer. We do not pay or get paid for this work._
 
@@ -203,6 +203,22 @@ Download | Dev / Port by
 :------: | :------:
 [QEMU](https://github.com/steward-fu/archives/releases/download/fc3000/qemu_20220929.7z) | [steward-fu](https://steward-fu.github.io/website/handheld/fc3000/qemu.htm)
 [GDB](https://github.com/Apaczer/miyoo_tools/releases/download/apps/gdb.zip) | [gameblabla](https://github.com/Apaczer/miyoo_tools/tree/main/gdb)
+
+---
+
+</details>
+
+<details><summary> Free Roms</summary><br>
+
+Below is the list of some free homebrew (legal) roms and demos websites _(click the name for more info)_.
+
+Console | Website
+:------: | :------:
+GB / GBC | [GameBoy Demospotting](http://privat.bahnhof.se/wb800787/gb/demos)
+SNES | [Snes Central](https://snescentral.com/homebrew.php)
+NES  | [NesDev](https://forums.nesdev.org/viewforum.php?f=22)
+ALL | [RomHacking](https://www.romhacking.net/homebrew)
+ALL | [Pouet](https://www.pouet.net/prodlist.php)
 
 ---
 

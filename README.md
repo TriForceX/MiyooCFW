@@ -355,13 +355,13 @@ Main Developers | Support & Testing | Theme Developers | Misc Support
 [steward](https://github.com/steward-fu) | [Augen(히힛마스터)](https://github.com/AugenKOR) | 2TMAU5 | [pingflood](https://github.com/pingflood)
 [sauce](https://github.com/gameblabla) | TakoSalad | da1writer | [Tony Jih](https://github.com/tonyjih)
 [TriForce](https://github.com/TriForceX) | Mystic_Morgan | Fontes | Vincent
-[H1BAN](https://github.com/hi-ban) | MrRobotSK | s4i | Dmm1138
+[H1BAN](https://github.com/hi-ban) | MrRobotSK | [mrwasterbr](https://github.com/mrwasterbr) | Dmm1138
 superpuissant | WenTao | Segich | Alexai
 [scooterpsu](https://github.com/scooterpsu) | dElAvA | SimplEasy | Merisy
-CountDuckula | Jutleys | Harsh Bhardwaj | [Nikolay Minaylov](https://github.com/nminaylov)
-[vamastah](https://github.com/szymor) | ToTo | s4ilence | [MiyanoOsu](https://github.com/MiyanoOsu)
-[Christian_Haitian](https://github.com/christianhaitian) | [Turtle](https://github.com/turtleletortue) | bhardwaj | 
-[BytePorter](https://github.com/byteporter) | James Dull | [dkodr](https://github.com/dkodr/SimUI) | 
+CountDuckula | Jutleys | Harsh B. (bhardwaj) | [Nikolay Minaylov](https://github.com/nminaylov)
+[vamastah](https://github.com/szymor) | ToTo | [s4ilence](https://github.com/s4ilence) | [MiyanoOsu](https://github.com/MiyanoOsu)
+[Christian_Haitian](https://github.com/christianhaitian) | [Turtle](https://github.com/turtleletortue) | [dkodr](https://github.com/dkodr) | 
+[BytePorter](https://github.com/byteporter) | James Dull | [thewebwolfe](https://github.com/thewebwolfe) | 
 [JamesOFarrell](https://github.com/jamesofarrell) | HYJiNX187 |  | 
 dee | a64 |  | 
 [crait](http://www.crait.net) | Rich |  | 

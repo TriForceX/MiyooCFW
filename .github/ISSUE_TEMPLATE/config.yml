@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: GMenu2X
+    url: https://github.com/MiyooCFW/gmenu2x/issues/new/choose
+    about: Frontend related issue/request report here ===>
+  - name: Buildroot (image output)
+    url: https://github.com/MiyooCFW/buildroot/issues/new/choose
+    about: Please report issues realated to individual PACKAGES,IMAGE creation here ===>

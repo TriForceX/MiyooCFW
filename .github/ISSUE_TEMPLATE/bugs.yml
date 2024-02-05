@@ -1,24 +1,35 @@
 name: 🐛 Bug Report
 description: File an issue present in current MiyooCFW image.
 title: "[BUG]: "
-labels: ["bug", "triage"]
+labels: ["bug"]
 
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Please take your time to fill this bug report!
   - type: dropdown
     id: version
     attributes:
       label: Version
-      description: What version of our software are you running?
+      description: What version of MiyooCFW are you running?
+      multiple: true
       options:
         - Old (NxHope)
         - 1.3.3 (Legacy)
-        - 2.0.0 (BETA)
-        - 2.0.0v2 (BETA Dev_build)
-      default: 3
+        - 2.0.0 (BETA) pre-release
+        - 2.0.0 (BETAv2 Dev_build) nigthly
+    validations:
+      required: true
+  - type: dropdown
+    id: libc
+    attributes:
+      label: Version type
+      description: What type of *.img's libC implementation are you running?
+      multiple: true
+      options:
+        - uClibc (compatible)
+        - musl (experimental)
     validations:
       required: true
   - type: input
@@ -30,12 +41,23 @@ body:
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: description
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Issue description
+      description: Tells us precisely what is happening?
+      placeholder: Describe your issue & what you expect to be!
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Write from the start all steps to reproduce this incorrect behavior.
+      placeholder: |
+        1. Turn the device ON.
+        2. ...
+        3. ...
+        4. Issue occurs!
     validations:
       required: true
   - type: dropdown
@@ -49,18 +71,22 @@ body:
         - BittBoy v2.5
         - BittBoy v3
         - BittBoy v3.5
-        - Pocket GO
+        - PocketGO v1
+        - PocketGO v2
         - PowKiddy Q90
         - PowKiddy V90
         - PowKiddy Q20 Mini
         - Sup M3 v1
         - Sup M3 v2
         - XYC Q8
+        - Unsopperted
+    validations:
+      required: true
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output if exist.
+      label: Relevant log outputs
+      description: Please copy&paste log outputs if exist in parent dir of MAIN partition (dmesg.txt; log_firstboot.txt; log.txt).
       render: shell
   - type: checkboxes
     id: terms

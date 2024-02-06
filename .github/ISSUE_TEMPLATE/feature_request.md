@@ -8,5 +8,5 @@ about: Submit a request of feature to be available in next release of MiyooCFW
 ## 💡 Feature request
 
 
-## Motivation (behind idea)
+## Motivation (behind your idea)
 

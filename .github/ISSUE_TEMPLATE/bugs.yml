@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please take your time to fill this bug report!
+        Please take your time to fill out this bug report!
   - type: dropdown
     id: version
     attributes:
@@ -33,10 +33,10 @@ body:
     validations:
       required: true
   - type: input
-    id: version-precise
+    id: version-hash
     attributes:
       label: Version hash
-      description: Provide precise CFW version hash read from /boot/boot-splash.bmp
+      description: Provide "short" git SHA of CFW version read from /boot/boot-splash.bmp (2.0.0 beta or newer)
       placeholder: ex. CFW=49fce87
     validations:
       required: false
@@ -79,7 +79,7 @@ body:
         - Sup M3 v1
         - Sup M3 v2
         - XYC Q8
-        - Unsopperted
+        - Unsupported
     validations:
       required: true
   - type: textarea

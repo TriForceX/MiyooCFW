@@ -86,7 +86,7 @@ body:
     id: logs
     attributes:
       label: Relevant log outputs
-      description: Please copy&paste log outputs if exist in parent dir of MAIN partition (dmesg.txt; log_firstboot.txt; log.txt).
+      description: Please copy&paste log outputs if exist in parent dir of BOOT (uEnv.txt) or MAIN partition (dmesg.txt; log_firstboot.txt; log.txt).
       render: shell
   - type: checkboxes
     id: terms

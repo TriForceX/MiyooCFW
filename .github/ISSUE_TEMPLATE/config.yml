@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🆘 Get HELP!
+    url: https://github.com/TriForceX/MiyooCFW/discussions/new/choose
+    about: Ask a question and get help for common problems in our discussion section.
+  - name: 💬 Chatroom
+    url: https://discord.gznetwork.com/
+    about: Enter GZNetwork's discord server for general talk & connect with people.
+  - name: 🗔 GMenu2X
+    url: https://github.com/MiyooCFW/gmenu2x/issues/new/choose
+    about: Frontend related issue/request report here ===>
+  - name: 👷 Buildroot
+    url: https://github.com/MiyooCFW/buildroot/issues/new/choose
+    about: Please report issues realated to individual PACKAGES here ===>

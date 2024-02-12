@@ -1,0 +1,98 @@
+name: 🐛 Bug Report
+description: File an issue present in current MiyooCFW image.
+title: "[BUG]: "
+labels: ["bug"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please take your time to fill out this bug report!
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of MiyooCFW are you running?
+      multiple: true
+      options:
+        - Old (NxHope)
+        - 1.3.3 (Legacy)
+        - 2.0.0 (BETA) pre-release
+        - 2.0.0 (BETAv2 Dev_build) nigthly
+    validations:
+      required: true
+  - type: dropdown
+    id: libc
+    attributes:
+      label: Version type
+      description: What type of *.img's libC implementation are you running?
+      multiple: true
+      options:
+        - uClibc (compatible)
+        - musl (experimental)
+    validations:
+      required: true
+  - type: input
+    id: version-hash
+    attributes:
+      label: Version hash
+      description: Provide "short" git SHA of CFW version read from /boot/boot-splash.bmp (2.0.0 beta or newer)
+      placeholder: ex. CFW=49fce87
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Issue description
+      description: Tells us precisely what is happening?
+      placeholder: Describe your issue & what you expect to be!
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Write from the start all steps to reproduce this incorrect behavior.
+      placeholder: |
+        1. Turn the device ON.
+        2. ...
+        3. ...
+        4. Issue occurs!
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: What device are you using?
+      multiple: true
+      options:
+        - BittBoy v1
+        - BittBoy v2
+        - BittBoy v2.5
+        - BittBoy v3
+        - BittBoy v3.5
+        - PocketGO v1
+        - PocketGO v2
+        - PowKiddy Q90
+        - PowKiddy V90
+        - PowKiddy Q20 Mini
+        - Sup M3 v1
+        - Sup M3 v2
+        - XYC Q8
+        - Unsupported
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log outputs
+      description: Please copy&paste log outputs if exist in parent dir of BOOT (uEnv.txt) or MAIN partition (dmesg.txt; log_firstboot.txt; log.txt).
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Issues' terms
+      description: By submitting this issue, I'm aware of existing issues in [issue-tracker](https://github.com/TriForceX/MiyooCFW/issues?q=is%3Aissue+)
+      options:
+        - label: I did not find any existing open/closed issue of same matter
+          required: true

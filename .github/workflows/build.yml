@@ -318,7 +318,7 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         # we are using uClibc for backward compatibility & musl for development releases
-        name: "MiyooCFW ${{ github.ref_type != 'tag' && 'Dev-build' }} ${{ steps.version.outputs.version }}"
+        name: "MiyooCFW ${{ github.ref_type != 'tag' && 'Dev-build' || '' }} ${{ steps.version.outputs.version }}"
         path: "*/*.img"
         if-no-files-found: error # 'error', 'warn', 'ignore'; defaults to `warn`
 

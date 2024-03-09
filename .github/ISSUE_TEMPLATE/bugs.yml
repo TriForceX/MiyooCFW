@@ -18,7 +18,8 @@ body:
         - Old (NxHope)
         - 1.3.3 (Legacy)
         - 2.0.0 (BETA) pre-release
-        - 2.0.0 (BETAv2 Dev_build) nigthly
+        - 2.0.0 (BETAv2) pre-release
+        - 2.0.0 (Dev_build) nigthly
     validations:
       required: true
   - type: dropdown

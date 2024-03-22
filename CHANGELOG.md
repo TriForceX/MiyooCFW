@@ -1,6 +1,38 @@
-# New Bittboy & Pocket Go CFW Changelog
+# Miyoo Custom Firmware Changelog
 
 The next list is all the changes registered on the **custom firmware** version updates.
+
+## Miyoo CFW 2.0.0 Beta 2 Pre-Release _(March 08, 2024)_
+
+- Main Modules:
+  - Use miyoo_video driver instead uEnv.txt file to get the proper settings for LCD
+  - Add target ARM specific optimizations for all modules
+  - Update with fixed folder creation name (UMTPRD)
+  - Remove obsolete uboot miyoo logo format (Board)
+  - Add `screen` program (Package)
+  - Add PYGAME along side with new pkg PYGAME_MENU (Python)
+  - Fix for linux and android devices (USB-HID)
+  - Fix brightness setting lost at low battery screen blinking (Daemon)
+- GMenu2X:
+  - Add generic gamepad input configuration
+  - Add UNICODE chars support with GNU Unifont
+  - Update code to read 3rd analog movement
+  - Refactor themes (Skins), add new skinMenu settings
+  - Updated languages translations and added new OFL fonts
+  - Fix sound level not being saved
+  - Make `about.txt` available for translation
+  - Remove skin and remove fonts voliating license restrictions
+- RetroArch:
+  - Update `retroarch` to commit [35e140a](https://github.com/libretro/RetroArch/tree/35e140ae0840b702a166ab5f1e35be32d065d6b5)
+  - Add fix patch for sdl input driver
+  - Reduce audio latency to 64ms to fix frame pacing
+  - Revert video sync option G-sync option as it disables ff function
+  - Update picodrive, gpsp cores to latest
+  - Change input driver from "sdl_dingux" to "sdl"
+  - Add generic gamepad auto configuration
+  - Optimize & disable BLARGG_APU for libretro-snes9x2005 core
+  - Optimized cores: fceumm, mame2000, snes9x2002, tyrquake, gpsp, pcsx_rearmed, prboom
+  - Use unai_old gpu for pcsx_rearmed libretro core (See [notes](https://github.com/MiyooCFW/buildroot/pull/81))
 
 ## Miyoo CFW 2.0.0 Beta Pre-Release _(December 30, 2023)_
 

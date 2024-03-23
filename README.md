@@ -190,6 +190,7 @@ Download | Dev / Port by
 [Wormhole Demo](https://github.com/szymor/wormhole/releases/latest) | [szymor](https://github.com/szymor/wormhole)
 [Lorenz Attractor Demo](https://github.com/szymor/lorenz/releases/latest) | [szymor](https://github.com/szymor/lorenz)
 [S.k.y. Demo](https://github.com/szymor/gynvael-sky/releases/latest) | [szymor](https://github.com/szymor/gynvael-sky)
+[Pixel Reader](https://github.com/Apaczer/pixel-reader/releases/latest) | [Apaczer](https://github.com/Apaczer/pixel-reader)
 
 ---
 

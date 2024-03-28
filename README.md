@@ -23,10 +23,10 @@ _This project is not affiliated or related with any company or manufacturer. We 
 # Information
 
 - Check main guides for setup in our **wiki** [here](https://github.com/TriForceX/MiyooCFW/wiki)
-- Get the latest **apps**, **homebrews**, **emulators** and **tools** [here](#resources)
 - Give us your **feedback** or **comments** on the discussion **forums** [here](https://github.com/TriForceX/MiyooCFW/discussions)
 - Check the version details history in our **changelog** [here](https://github.com/TriForceX/MiyooCFW/blob/master/CHANGELOG.md)
 - Join our **Discord** chat server for more support [here](https://discord.gznetwork.com)
+- For development chat join our **Matrix** server [here](https://matrix.to/#/#miyoocfw:matrix.org)
 
 <br>
 
@@ -357,7 +357,7 @@ Main Developers | Support & Testing | Theme Developers | Misc Support
 [sauce](https://github.com/gameblabla) | TakoSalad | da1writer | [Tony Jih](https://github.com/tonyjih)
 [TriForce](https://github.com/TriForceX) | Mystic_Morgan | Fontes | Vincent
 [H1BAN](https://github.com/hi-ban) | MrRobotSK | [mrwasterbr](https://github.com/mrwasterbr) | Dmm1138
-superpuissant | WenTao | Segich | Alexai
+superpuissant | WenTao | Segich | Alexai-MikeX
 [scooterpsu](https://github.com/scooterpsu) | dElAvA | SimplEasy | Merisy
 CountDuckula | Jutleys | Harsh B. (bhardwaj) | [Nikolay Minaylov](https://github.com/nminaylov)
 [vamastah](https://github.com/szymor) | ToTo | [s4ilence](https://github.com/s4ilence) | [MiyanoOsu](https://github.com/MiyanoOsu)
@@ -368,8 +368,8 @@ dee | a64 |  |
 [crait](http://www.crait.net) | Rich |  | 
 koroneo | [CanMurray](https://www.youtube.com/canmurray) |  | 
 Roast风格 | [natopwns](https://github.com/natopwns) |  | 
-[SantX27](https://github.com/SantX27) |  |  | 
-[fgl82](https://github.com/fgl82) |  |  | 
+[SantX27](https://github.com/SantX27) | [zargonbr](https://github.com/zargonbr) |  | 
+[fgl82](https://github.com/fgl82) | [cricri-pingouin](https://github.com/cricri-pingouin) |  | 
 [peterthrees](https://github.com/peterthrees) |  |  | 
 madjester |  |  | 
 [pthalin](https://github.com/pthalin) |  |  | 
@@ -387,6 +387,7 @@ PlataformerAndroid |  |  |
 [Rezzy](https://github.com/Rezzy-dev) |  |  | 
 [jSTE0](https://github.com/jSTE0) |  |  | 
 Nyomen |  |  | 
+[takano32](https://github.com/takano32) |  |  | 
   
 # Contributing
 > Theres many ways to contribute to this project, even if you don't know how to code. All kind of **support** or **testing** will be grateful. If you have plans to **contribute** in code, please **fork** the desired module from [here](https://github.com/MiyooCFW), create a branch with your changes and send us a **pull request** to upstream. For more info you can join our **Discord** chat [here](https://discord.gznetwork.com)

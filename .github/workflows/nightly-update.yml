@@ -13,7 +13,7 @@ jobs:
     if: github.repository == 'TriForceX/MiyooCFW'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           # Github Personal Access Token
           # needed because pushes with the deafult GITHUB_TOKEN won't trigger the build step

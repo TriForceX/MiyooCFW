@@ -27,17 +27,17 @@ jobs:
       IMAGE_NAME: miyoocfw/toolchain-shared-uclibc
       DOCKERHUB_USERNAME: miyoocfw
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     # download and extract the artifact
-    - uses: actions/download-artifact@v3
+    - uses: actions/download-artifact@v4
       with: 
         name: SDK (uClibc)
     - run: tar -xvf arm-miyoo-linux-uclibcgnueabi_sdk-buildroot.tar.gz
 
     - name: Log into docker hub
       if: github.event_name != 'pull_request'
-      uses: docker/login-action@v2
+      uses: docker/login-action@v3
       with:
         # create token at https://hub.docker.com/settings/security
         # token needs to have read, write, and delete permissions - read and write only leads to a login error (wtf?)
@@ -49,7 +49,7 @@ jobs:
     # https://github.com/docker/metadata-action
     - name: Extract Docker metadata
       id: meta
-      uses: docker/metadata-action@v4
+      uses: docker/metadata-action@v5
       with:
         images: ${{ env.IMAGE_NAME }}
         tags: |
@@ -63,7 +63,7 @@ jobs:
     # https://github.com/docker/build-push-action
     - name: Build and push Docker image
       id: build-and-push
-      uses: docker/build-push-action@v4
+      uses: docker/build-push-action@v5
       with:
         context: .
         file: Dockerfile-uclibc
@@ -86,17 +86,17 @@ jobs:
       IMAGE_NAME: miyoocfw/toolchain-shared-musl
       DOCKERHUB_USERNAME: miyoocfw
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     # download and extract the artifact
-    - uses: actions/download-artifact@v3
+    - uses: actions/download-artifact@v4
       with: 
         name: SDK (musl)
     - run: tar -xvf arm-miyoo-linux-musleabi_sdk-buildroot.tar.gz
 
     - name: Log into docker hub
       if: github.event_name != 'pull_request'
-      uses: docker/login-action@v2
+      uses: docker/login-action@v3
       with:
         # create token at https://hub.docker.com/settings/security
         # token needs to have read, write, and delete permissions - read and write only leads to a login error (wtf?)
@@ -108,7 +108,7 @@ jobs:
     # https://github.com/docker/metadata-action
     - name: Extract Docker metadata
       id: meta
-      uses: docker/metadata-action@v4
+      uses: docker/metadata-action@v5
       with:
         images: ${{ env.IMAGE_NAME }}
         tags: |
@@ -122,7 +122,7 @@ jobs:
     # https://github.com/docker/build-push-action
     - name: Build and push Docker image
       id: build-and-push
-      uses: docker/build-push-action@v4
+      uses: docker/build-push-action@v5
       with:
         context: .
         file: Dockerfile-musl
@@ -145,17 +145,17 @@ jobs:
       IMAGE_NAME: miyoocfw/toolchain-static-uclibc
       DOCKERHUB_USERNAME: miyoocfw
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     # download and extract the artifact
-    - uses: actions/download-artifact@v3
+    - uses: actions/download-artifact@v4
       with: 
         name: SDK (uClibc static)
     - run: tar -xvf arm-miyoo-linux-uclibcgnueabi_sdk-buildroot.tar.gz
 
     - name: Log into docker hub
       if: github.event_name != 'pull_request'
-      uses: docker/login-action@v2
+      uses: docker/login-action@v3
       with:
         # create token at https://hub.docker.com/settings/security
         # token needs to have read, write, and delete permissions - read and write only leads to a login error (wtf?)
@@ -167,7 +167,7 @@ jobs:
     # https://github.com/docker/metadata-action
     - name: Extract Docker metadata
       id: meta
-      uses: docker/metadata-action@v4
+      uses: docker/metadata-action@v5
       with:
         images: ${{ env.IMAGE_NAME }}
         tags: |
@@ -181,7 +181,7 @@ jobs:
     # https://github.com/docker/build-push-action
     - name: Build and push Docker image
       id: build-and-push
-      uses: docker/build-push-action@v4
+      uses: docker/build-push-action@v5
       with:
         context: .
         file: Dockerfile-uclibc
@@ -204,17 +204,17 @@ jobs:
       IMAGE_NAME: miyoocfw/toolchain-static-musl
       DOCKERHUB_USERNAME: miyoocfw
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     # download and extract the artifact
-    - uses: actions/download-artifact@v3
+    - uses: actions/download-artifact@v4
       with: 
         name: SDK (musl static)
     - run: tar -xvf arm-miyoo-linux-musleabi_sdk-buildroot.tar.gz
 
     - name: Log into docker hub
       if: github.event_name != 'pull_request'
-      uses: docker/login-action@v2
+      uses: docker/login-action@v3
       with:
         # create token at https://hub.docker.com/settings/security
         # token needs to have read, write, and delete permissions - read and write only leads to a login error (wtf?)
@@ -226,7 +226,7 @@ jobs:
     # https://github.com/docker/metadata-action
     - name: Extract Docker metadata
       id: meta
-      uses: docker/metadata-action@v4
+      uses: docker/metadata-action@v5
       with:
         images: ${{ env.IMAGE_NAME }}
         tags: |
@@ -240,7 +240,7 @@ jobs:
     # https://github.com/docker/build-push-action
     - name: Build and push Docker image
       id: build-and-push
-      uses: docker/build-push-action@v4
+      uses: docker/build-push-action@v5
       with:
         context: .
         file: Dockerfile-musl
@@ -309,13 +309,13 @@ jobs:
     - build-image
     runs-on: ubuntu-20.04
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - run: echo "version=$GITHUB_REF_NAME-$(git rev-parse --short HEAD)" | sed 's#/#-#g' >> $GITHUB_OUTPUT
       id: version
     - run: echo "Version ${{ steps.version.outputs.version }}"
-    - uses: actions/download-artifact@v3
+    - uses: actions/download-artifact@v4
     - run: find .
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         # we are using uClibc for backward compatibility & musl for development releases
         name: "MiyooCFW ${{ github.ref_type != 'tag' && 'Dev-build' || '' }} ${{ steps.version.outputs.version }}"
@@ -335,13 +335,13 @@ jobs:
     - build-image
     runs-on: ubuntu-20.04
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - run: echo "version=$GITHUB_REF_NAME-$(git rev-parse --short HEAD)" | sed 's#/#-#g' >> $GITHUB_OUTPUT
       id: version
     - run: echo "Version ${{ steps.version.outputs.version }}"
     - name: Clean main repo files
       run: rm -r *
-    - uses: actions/download-artifact@v3
+    - uses: actions/download-artifact@v4
     - name: Remove images and graphs from submodule pack
       run: rm -r *image* *graph* *log* MiyooCFW*
     - name: Move all left artifacts to "submodules" dir
@@ -350,7 +350,7 @@ jobs:
           mkdir submodules && mv !(submodules|*/) submodules/
     - name: List uploaded files
       run: find .
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: "MiyooCFW-submodules ${{ steps.version.outputs.version }}"
         path: submodules
@@ -365,6 +365,6 @@ jobs:
     - fetch-submodules
     runs-on: ubuntu-20.04
     steps:
-    - uses: geekyeggo/delete-artifact@v2
+    - uses: geekyeggo/delete-artifact@v5
       with:
         name: "!MiyooCFW*"

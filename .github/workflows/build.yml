@@ -332,7 +332,7 @@ jobs:
     - daemon
     - miyooctl
     - gmenu2x
-    - build-image
+    - fetch-images # buildroot
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v4

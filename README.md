@@ -103,7 +103,8 @@ Download | Dev / Port by
 [quartermaster](https://github.com/Apaczer/quartermaster/releases/latest) | [hi-ban](https://github.com/Apaczer/quartermaster)
 [Biniax2](https://github.com/salvacam/biniax2/releases/latest) | [salvacam](https://github.com/salvacam/biniax2)
 [Quake](https://github.com/tiopex/sdlquake/releases/latest) | [gameblabla](https://github.com/tiopex/sdlquake)
-[Promesst](https://github.com/szymor/promesst/releases) | [szymor](https://github.com/szymor/promesst)
+[Promesst](https://github.com/szymor/promesst/releases/latest) | [szymor](https://github.com/szymor/promesst)
+[NXEngine (aka CaveStory)](https://github.com/Apaczer/NXEngine/releases/latest) | [Apaczer](https://github.com/Apaczer/NXEngine)
 
 ---
 

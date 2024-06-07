@@ -20,10 +20,11 @@ ENV CROSS_COMPILE="${CROSS_TRIPLE}-"
 # todo: 1) slim these down since we're not running buildroot in this image anymore
 # todo: 2) consider splitting into a "slim" image with only the toolchain (and maybe git?) and a "full" image with more dev tools
 ARG DEBIAN_FRONTEND=noninteractive
-RUN apt-get update && apt-get install -y libncurses-dev file make gcc g++ \
+RUN apt-get update && apt-get install -y libncurses-dev file make cmake gcc g++ \
     file wget cpio zip unzip rsync bc git \
     dosfstools u-boot-tools \
-    python3-dev swig && \
+    python3-dev swig \
+    vim-tiny && \
     apt-get -y autoremove && apt-get -y clean
 RUN cd /opt/miyoo && ./relocate-sdk.sh
 # add safe directory to prevent dubious ownership error

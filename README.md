@@ -7,7 +7,7 @@
 ![miyoo-cfw](https://github.com/TriForceX/MiyooCFW/assets/16083854/51119d94-24a5-47b7-8bbd-f93b997c36c1)
 
 [![version](https://img.shields.io/github/v/release/TriForceX/MiyooCFW?include_prereleases&label=Current%20Version&color=brightgreen&style=flat)](https://github.com/TriForceX/MiyooCFW/releases)
-[![discord](https://img.shields.io/discord/202879976599453696.svg?logo=discord&logoColor=white&label=Discord&color=5865F2&style=flat)](https://discord.gznetwork.com)
+[![discord](https://discord.gznetwork.com/badge/?id=202879976599453696)](https://discord.gznetwork.com)
 [![threads](https://img.shields.io/github/discussions/TriForceX/MiyooCFW.svg?label=Threads&color=orange&style=flat)](https://github.com/TriForceX/MiyooCFW/discussions)
 [![wiki](https://img.shields.io/badge/Wiki-Guides-blueviolet.svg?style=flat)](https://github.com/TriForceX/MiyooCFW/wiki)
 [![stars](https://img.shields.io/github/stars/TriForceX/MiyooCFW.svg?label=Stars&style=flat)](https://github.com/TriForceX/MiyooCFW/stargazers)

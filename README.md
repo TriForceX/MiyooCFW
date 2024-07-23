@@ -187,7 +187,7 @@ Download | Dev / Port by
 [Simple Terminal](https://github.com/Apaczer/miyoo_st-sdl/releases/latest) | [Apaczer](https://github.com/Apaczer/miyoo_st-sdl)
 [Calculator for BittBoy](https://github.com/szymor/bittboy-calc/releases/latest) | [szymor](https://github.com/szymor/bittboy-calc)
 [I/O Tester](https://github.com/Apaczer/iotester/releases/latest) | [Apaczer](https://github.com/Apaczer/iotester)
-[PV2X Image Viewer](https://github.com/szymor/pv2x/releases/latest) | [szymor](https://github.com/szymor/pv2x)
+[PV2X Picture Viewer](https://github.com/Apaczer/pv2x/releases/latest) | [Apaczer](https://github.com/Apaczer/pv2x)
 [Wormhole Demo](https://github.com/szymor/wormhole/releases/latest) | [szymor](https://github.com/szymor/wormhole)
 [Lorenz Attractor Demo](https://github.com/szymor/lorenz/releases/latest) | [szymor](https://github.com/szymor/lorenz)
 [S.k.y. Demo](https://github.com/szymor/gynvael-sky/releases/latest) | [szymor](https://github.com/szymor/gynvael-sky)

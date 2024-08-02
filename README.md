@@ -373,7 +373,7 @@ koroneo | [CanMurray](https://www.youtube.com/canmurray) |  |
 Roast风格 | [natopwns](https://github.com/natopwns) |  | 
 [SantX27](https://github.com/SantX27) | [zargonbr](https://github.com/zargonbr) |  | 
 [fgl82](https://github.com/fgl82) | [cricri-pingouin](https://github.com/cricri-pingouin) |  | 
-[peterthrees](https://github.com/peterthrees) |  |  | 
+[peterthrees](https://github.com/peterthrees) | [MayanKoyote](https://github.com/MayanKoyote) |  | 
 madjester |  |  | 
 [pthalin](https://github.com/pthalin) |  |  | 
 [m45t3r](https://github.com/m45t3r) |  |  | 

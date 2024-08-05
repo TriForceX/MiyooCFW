@@ -22,6 +22,7 @@ _This project is not affiliated or related with any company or manufacturer. We 
 
 # Information
 
+- Get the latest release [here](https://github.com/TriForceX/MiyooCFW/releases)
 - Check main guides for setup in our **wiki** [here](https://github.com/TriForceX/MiyooCFW/wiki)
 - Give us your **feedback** or **comments** on the discussion **forums** [here](https://github.com/TriForceX/MiyooCFW/discussions)
 - Check the version details history in our **changelog** [here](https://github.com/TriForceX/MiyooCFW/blob/master/CHANGELOG.md)

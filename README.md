@@ -158,6 +158,7 @@ Download | Dev / Port by
 [race, Neo Geo Pocket](https://github.com/Apaczer/race-od/releases/latest) | [eggs](https://github.com/Apaczer/race-od)
 [PicoDrive, Sega MS/GG/MD/MD-CD/32X](https://github.com/irixxxx/picodrive/releases/latest) | [irixxxx](https://github.com/irixxxx/picodrive)
 [Gnash, Flash player](https://github.com/Apaczer/gnash-miyoo/releases/latest) | [Apaczer](https://github.com/Apaczer/gnash-miyoo)
+[FCEUX, Famicom/NES](https://github.com/Apaczer/fceux-for-miyoo/releases/latest) | [Apaczer](https://github.com/Apaczer/fceux-for-miyoo)
 
 ---
 

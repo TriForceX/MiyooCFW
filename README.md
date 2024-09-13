@@ -106,6 +106,7 @@ Download | Dev / Port by
 [Quake](https://github.com/tiopex/sdlquake/releases/latest) | [gameblabla](https://github.com/tiopex/sdlquake)
 [Promesst](https://github.com/szymor/promesst/releases/latest) | [szymor](https://github.com/szymor/promesst)
 [NXEngine (aka CaveStory)](https://github.com/Apaczer/NXEngine/releases/latest) | [Apaczer](https://github.com/Apaczer/NXEngine)
+[Chocolate Doom](https://github.com/tiopex/Chocolate-Doom-miyoo/releases/latest) | [Tiopex](https://github.com/tiopex/Chocolate-Doom-miyoo)
 
 ---
 

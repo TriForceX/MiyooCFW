@@ -107,6 +107,10 @@ Download | Dev / Port by
 [Promesst](https://github.com/szymor/promesst/releases/latest) | [szymor](https://github.com/szymor/promesst)
 [NXEngine (aka CaveStory)](https://github.com/Apaczer/NXEngine/releases/latest) | [Apaczer](https://github.com/Apaczer/NXEngine)
 [Chocolate Doom](https://github.com/tiopex/Chocolate-Doom-miyoo/releases/latest) | [Tiopex](https://github.com/tiopex/Chocolate-Doom-miyoo)
+[Another World](https://github.com/MiyanoOsu/re-aw-miyoo/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/re-aw-miyoo)
+[Zelda Navi 's Quest](https://github.com/MiyanoOsu/Zelda_NSQ/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/Zelda_NSQ)
+[Zelda Oni Link Begin](https://github.com/MiyanoOsu/Zelda_OLB/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/Zelda_OLB)
+[Zelda Time To Triumph](https://github.com/MiyanoOsu/Zelda_3T/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/Zelda_3T)
 
 ---
 

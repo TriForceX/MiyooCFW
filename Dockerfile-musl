@@ -23,7 +23,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y libncurses-dev file make cmake gcc g++ \
     file wget cpio zip unzip bzip2 rsync bc git \
     dosfstools u-boot-tools \
-    python3-dev python3-pip swig \
+    python3-dev python3-pip swig meson \
     vim-tiny && \
     apt-get -y autoremove && apt-get -y clean
 RUN cd /opt/miyoo && ./relocate-sdk.sh

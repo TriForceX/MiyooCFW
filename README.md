@@ -166,7 +166,8 @@ Download | Dev / Port by
 [PicoDrive, Sega MS/GG/MD/MD-CD/32X](https://github.com/irixxxx/picodrive/releases/latest) | [irixxxx](https://github.com/irixxxx/picodrive)
 [Gnash, Flash player](https://github.com/Apaczer/gnash-miyoo/releases/latest) | [Apaczer](https://github.com/Apaczer/gnash-miyoo)
 [FCEUX, Famicom/NES](https://github.com/Apaczer/fceux-for-miyoo/releases/latest) | [Apaczer](https://github.com/Apaczer/fceux-for-miyoo)
-[PCSX-ReARMed](https://github.com/tiopex/pcsx_rearmed/releases/latest) | [Tiopex](https://github.com/tiopex/pcsx_rearmed/)
+[PCSX-ReARMed](https://github.com/tiopex/pcsx_rearmed/releases/latest) | [Tiopex](https://github.com/tiopex/pcsx_rearmed)
+[Frodo2Go, C64](https://github.com/pthalin/Frodo2Go/releases/latest) | [pthalin](https://github.com/pthalin/Frodo2Go)
 
 ---
 

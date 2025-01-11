@@ -168,6 +168,7 @@ Download | Dev / Port by
 [FCEUX, Famicom/NES](https://github.com/Apaczer/fceux-for-miyoo/releases/latest) | [Apaczer](https://github.com/Apaczer/fceux-for-miyoo)
 [PCSX-ReARMed](https://github.com/tiopex/pcsx_rearmed/releases/latest) | [Tiopex](https://github.com/tiopex/pcsx_rearmed)
 [Frodo2Go, C64](https://github.com/pthalin/Frodo2Go/releases/latest) | [pthalin](https://github.com/pthalin/Frodo2Go)
+[MAME4all](https://github.com/Apaczer/mame4all_miyoo/releases/latest) | [Apaczer](https://github.com/Apaczer/mame4all_miyoo)
 
 ---
 

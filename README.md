@@ -113,6 +113,7 @@ Download | Dev / Port by
 [Zelda Time To Triumph](https://github.com/MiyanoOsu/Zelda_3T/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/Zelda_3T)
 [ASCIIpOrtal](https://github.com/Apaczer/ASCIIpOrtal/releases/latest) | [Apaczer](https://github.com/Apaczer/ASCIIpOrtal)
 [Liero](https://github.com/tiopex/liero/releases/latest) | [Tiopex](https://github.com/tiopex/liero)
+[Death Rally](https://github.com/tiopex/dRally/releases/tag/1.0) | [Tiopex](https://github.com/tiopex/dRally)
 
 ---
 

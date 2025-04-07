@@ -2,7 +2,16 @@
 name: Build
 
 # Run on changes (including automated ones from the update job), allow manual triggering from the Actions tab
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    paths-ignore:
+      - '*.md'
+      - '*.txt'
+  pull_request:
+    paths-ignore:
+      - '*.md'
+      - '*.txt'
+  workflow_dispatch:
 
 jobs:
  

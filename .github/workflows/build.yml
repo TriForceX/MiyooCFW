@@ -316,7 +316,7 @@ jobs:
     name: MiyooCFW
     needs: 
     - build-image
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
     - uses: actions/checkout@v4
     - run: echo "version=$GITHUB_REF_NAME-$(git rev-parse --short HEAD)" | sed 's#/#-#g' >> $GITHUB_OUTPUT
@@ -342,7 +342,7 @@ jobs:
     - miyooctl
     - gmenu2x
     - fetch-images # buildroot
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
     - uses: actions/checkout@v4
     - run: echo "version=$GITHUB_REF_NAME-$(git rev-parse --short HEAD)" | sed 's#/#-#g' >> $GITHUB_OUTPUT
@@ -372,7 +372,7 @@ jobs:
     needs: 
     - fetch-images
     - fetch-submodules
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
     - uses: geekyeggo/delete-artifact@v5
       with:

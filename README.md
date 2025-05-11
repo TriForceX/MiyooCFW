@@ -208,6 +208,7 @@ Download | Dev / Port by
 [Pixel Reader](https://github.com/Apaczer/pixel-reader/releases/latest) | [Apaczer](https://github.com/Apaczer/pixel-reader)
 [Gmu Music Player](https://github.com/Apaczer/gmu/releases/latest) | [Apaczer](https://github.com/Apaczer/gmu)
 [Bard Storyteller](https://github.com/Apaczer/bard/releases/latest) | [Apaczer](https://github.com/Apaczer/bard)
+[FFplay](https://github.com/MiyanoOsu/ffmpeg-miyoo/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/ffmpeg-miyoo)
 
 ---
 

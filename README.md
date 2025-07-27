@@ -115,6 +115,7 @@ Download | Dev / Port by
 [Liero](https://github.com/tiopex/liero/releases/latest) | [Tiopex](https://github.com/tiopex/liero)
 [Death Rally](https://github.com/tiopex/dRally/releases/tag/1.0) | [Tiopex](https://github.com/tiopex/dRally)
 [Hheretic](https://github.com/MiyanoOsu/hheretic-miyoo/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/hheretic-miyoo)
+[Opentyrian](https://github.com/MiyanoOsu/opentyrian-miyoo/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/opentyrian-miyoo)
 
 ---
 

@@ -22,6 +22,7 @@ _This project is not affiliated or related with any company or manufacturer. We 
 
 # Information
 
+
 - Get the latest release [here](https://github.com/TriForceX/MiyooCFW/releases) or nightly development builds [here](https://nightly.link/TriForceX/MiyooCFW/blob/master/.github/workflows/build.yml)
 - Check main guides for setup in our **wiki** [here](https://github.com/TriForceX/MiyooCFW/wiki)
 - Give us your **feedback** or **comments** on the discussion **forums** [here](https://github.com/TriForceX/MiyooCFW/discussions)
@@ -116,6 +117,7 @@ Download | Dev / Port by
 [Death Rally](https://github.com/tiopex/dRally/releases/tag/1.0) | [Tiopex](https://github.com/tiopex/dRally)
 [HHeretic](https://github.com/MiyanoOsu/hheretic-miyoo/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/hheretic-miyoo)
 [OpenTyrian](https://github.com/MiyanoOsu/opentyrian-miyoo/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/opentyrian-miyoo)
+[HHexen](https://github.com/MiyanoOsu/hhexen-miyoo/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/hhexen-miyoo)
 
 ---
 

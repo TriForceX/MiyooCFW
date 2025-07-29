@@ -116,6 +116,7 @@ Download | Dev / Port by
 [Death Rally](https://github.com/tiopex/dRally/releases/tag/1.0) | [Tiopex](https://github.com/tiopex/dRally)
 [HHeretic](https://github.com/MiyanoOsu/hheretic-miyoo/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/hheretic-miyoo)
 [OpenTyrian](https://github.com/MiyanoOsu/opentyrian-miyoo/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/opentyrian-miyoo)
+[HHexen](https://github.com/MiyanoOsu/hhexen-miyoo/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/hhexen-miyoo)
 
 ---
 

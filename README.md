@@ -190,6 +190,7 @@ Download | Dev / Port by
 [Coverflow](https://github.com/peterthrees/Coverflow/raw/master/build/Coverflow/CoverflowV1.0.zip) | [peterthrees](https://github.com/peterthrees/Coverflow)
 [SimUI](https://github.com/dkodr/SimUI/releases/latest) | [dkodr](https://github.com/dkodr/SimUI)
 [TheWebWolfe Themes](https://github.com/thewebwolfe/Miyoo_Themes/tree/main/.github/workflows) | [thewebwolfe](https://github.com/thewebwolfe/Miyoo_Themes)
+[MX](https://github.com/MiyanoOsu/mx_miyoo/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/mx_miyoo)
 
 ---
 

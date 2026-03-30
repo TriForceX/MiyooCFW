@@ -310,6 +310,15 @@ jobs:
     uses: MiyooCFW/gmenu2x/.github/workflows/c-cpp.yml@master
     with:
       submodule: gmenu2x
+
+  # https://github.com/MiyooCFW/gmenu2x-skins/blob/master/.github/workflows/build.yml
+  gmenu2x-skins:
+    needs: 
+    - docker-uclibc
+    - docker-musl
+    uses: MiyooCFW/gmenu2x-skins/.github/workflows/build.yml@main
+    with:
+      submodule: gmenu2x-skins
       
   # repack final images for CI build with git commit-tag
   fetch-images:
@@ -341,6 +350,7 @@ jobs:
     - daemon
     - miyooctl
     - gmenu2x
+    - gmenu2x-skins
     - fetch-images # buildroot
     runs-on: ubuntu-22.04
     steps:

@@ -19,3 +19,6 @@
 [submodule "miyooctl"]
 	path = miyooctl
 	url = https://github.com/MiyooCFW/miyooctl.git
+[submodule "gmenu2x-skins"]
+	path = gmenu2x-skins
+	url = https://github.com/MiyooCFW/gmenu2x-skins

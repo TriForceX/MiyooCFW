@@ -26,12 +26,12 @@ RUN cd /opt/miyoo/usr/bin && rm \
     automake  automake-1.16 aclocal aclocal-1.16 \
     libtool \
     libtoolize \
-    m4
+    m4 bison flex
 RUN apt-get update && apt-get install -y \
     automake autotools-dev \
     libtool-bin \
     libtool \
-    m4 \
+    m4 bison flex \
     libncurses-dev file make cmake gcc g++ \
     file wget cpio zip unzip bzip2 rsync bc git \
     dosfstools u-boot-tools \

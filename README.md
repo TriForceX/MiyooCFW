@@ -118,6 +118,7 @@ Download | Dev / Port by
 [HHeretic](https://github.com/MiyanoOsu/hheretic-miyoo/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/hheretic-miyoo)
 [OpenTyrian](https://github.com/MiyanoOsu/opentyrian-miyoo/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/opentyrian-miyoo)
 [HHexen](https://github.com/MiyanoOsu/hhexen-miyoo/releases/latest) | [MiyanoOsu](https://github.com/MiyanoOsu/hhexen-miyoo)
+[Undertale (Butterscotch)](https://github.com/kptmx/Butterscotch-MiyooCFW/releases/latest) | [kptmx](https://github.com/kptmx/Butterscotch-MiyooCFW)
 
 ---
 

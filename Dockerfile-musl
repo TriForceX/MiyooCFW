@@ -20,19 +20,7 @@ ENV CROSS_COMPILE="${CROSS_TRIPLE}-"
 # todo: 1) slim these down since we're not running buildroot in this image anymore
 # todo: 2) consider splitting into a "slim" image with only the toolchain (and maybe git?) and a "full" image with more dev tools
 ARG DEBIAN_FRONTEND=noninteractive
-# delete pre-installed by BR2 host auto-tools with broken Config paths (reinstall later via apt)
-RUN cd /opt/miyoo/usr/bin && rm \
-    autoconf  autoheader  autom4te  autoreconf  autoscan  autoupdate \
-    automake  automake-1.16 aclocal aclocal-1.16 \
-    libtool \
-    libtoolize \
-    m4 bison flex
-RUN apt-get update && apt-get install -y \
-    automake autotools-dev \
-    libtool-bin \
-    libtool \
-    m4 bison flex \
-    libncurses-dev file make cmake gcc g++ \
+RUN apt-get update && apt-get install -y libncurses-dev file make cmake gcc g++ \
     file wget cpio zip unzip bzip2 rsync bc git \
     dosfstools u-boot-tools \
     python3-dev python3-pip swig \

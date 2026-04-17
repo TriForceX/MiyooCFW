@@ -23,6 +23,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y libncurses-dev file make cmake gcc g++ \
     file wget cpio zip unzip bzip2 rsync bc git \
     dosfstools u-boot-tools \
+    kmod \
     python3-dev python3-pip swig \
     libarchive-zip-perl \
     vim-tiny && \

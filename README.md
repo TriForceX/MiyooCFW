@@ -179,6 +179,7 @@ Download | Dev / Port by
 [MAME4all](https://github.com/Apaczer/mame4all_miyoo/releases/latest) | [Apaczer](https://github.com/Apaczer/mame4all_miyoo)
 [Temper, PC-Engine](https://github.com/Apaczer/temper/releases/latest) | [Apaczer](https://github.com/Apaczer/temper)
 [EasyRPG, RPG Maker 2000/2003](https://github.com/TriForceX/MiyooCFW/files/8499432/EasyRPG_bittboy_mp3.zip) | [gameblabla](https://github.com/gameblabla/Player)
+[DOSBox](https://github.com/Apaczer/dosbox/releases/latest) | [Apaczer](https://github.com/Apaczer/dosbox)
 
 ---
 
